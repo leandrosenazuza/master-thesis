@@ -1,0 +1,2205 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2024.3.26)  27 MAR 2024 22:37
+entering extended mode
+ restricted \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**z:/Mestrado/master-thesis/thesis-leandrozuza.tex
+(z:/Mestrado/master-thesis/thesis-leandrozuza.tex
+LaTeX2e <2023-11-01> patch level 1
+L3 programming layer <2024-01-04>
+(C:\Users\leand\AppData\Roaming\MiKTeX\tex/latex/abntex2\abntex2.cls
+Document Class: abntex2 2018/11/24 v-1.9.7 abnTeX2
+(C:\Users\leand\AppData\Local\Programs\MiKTeX\tex/latex/base\ifthen.sty
+Package: ifthen 2022/04/13 v1.1d Standard LaTeX ifthen package (DPC)
+) (C:\Users\leand\AppData\Roaming\MiKTeX\tex/latex/memoir\memoir.cls
+Document Class: memoir 2022/11/17 v3.7.19 configurable book, report, article document class
+(C:\Users\leand\AppData\Local\Programs\MiKTeX\tex/latex/etoolbox\etoolbox.sty
+Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count187
+)
+\onelineskip=\skip48
+\lxvchars=\skip49
+\xlvchars=\skip50
+\@memcnta=\count188
+\c@@memmarkcntra=\count189
+ (C:\Users\leand\AppData\Local\Programs\MiKTeX\tex/generic/iftex\iftex.sty
+Package: iftex 2022/02/03 v1.0f TeX engine tests
+)
+\trimtop=\skip51
+\trimedge=\skip52
+ (C:\Users\leand\AppData\Roaming\MiKTeX\tex/latex/memoir\mem12.clo
+File: mem12.clo 2022/07/29 v0.5 memoir class 12pt size option
+)
+\binding=\skip53
+\spinemargin=\skip54
+\foremargin=\skip55
+\uppermargin=\skip56
+\lowermargin=\skip57
+\headdrop=\skip58
+\normalrulethickness=\skip59
+\mem@maxheadheight=\skip60
+\mem@maxfootheight=\skip61
+\headwidth=\skip62
+\c@storedpagenumber=\count190
+\memPD=\dimen140
+\m@mabparskip=\skip63
+\thanksmarkwidth=\skip64
+\thanksmarksep=\skip65
+\droptitle=\skip66
+\c@book=\count191
+\c@part=\count192
+\c@chapter=\count193
+\c@section=\count194
+\c@subsection=\count195
+\c@subsubsection=\count196
+\c@paragraph=\count197
+\c@subparagraph=\count198
+\beforechapskip=\skip67
+\midchapskip=\skip68
+\afterchapskip=\skip69
+\chapindent=\skip70
+\bottomsectionskip=\skip71
+\secindent=\skip72
+\beforesecskip=\skip73
+\aftersecskip=\skip74
+\subsecindent=\skip75
+\beforesubsecskip=\skip76
+\aftersubsecskip=\skip77
+\subsubsecindent=\skip78
+\beforesubsubsecskip=\skip79
+\aftersubsubsecskip=\skip80
+\paraindent=\skip81
+\beforeparaskip=\skip82
+\afterparaskip=\skip83
+\subparaindent=\skip84
+\beforesubparaskip=\skip85
+\aftersubparaskip=\skip86
+\pfbreakskip=\skip87
+\c@@ppsavesec=\count199
+\c@@ppsaveapp=\count266
+\ragrparindent=\dimen141
+\everylistparindent=\dimen142
+\parsepi=\skip88
+\topsepi=\skip89
+\itemsepi=\skip90
+\parsepii=\skip91
+\topsepii=\skip92
+\topsepiii=\skip93
+\itemsepii=\skip94
+\itemsepiii=\skip95
+\partopsepii=\skip96
+\partopsepiii=\skip97
+\m@msavetopsep=\skip98
+\m@msavepartopsep=\skip99
+\@enLab=\toks17
+\abstitleskip=\skip100
+\absleftindent=\skip101
+\abs@leftindent=\dimen143
+\absrightindent=\skip102
+\absparindent=\skip103
+\absparsep=\skip104
+\c@vslineno=\count267
+\c@poemline=\count268
+\c@modulo@vs=\count269
+\c@memfvsline=\count270
+\vleftskip=\skip105
+\vrightskip=\skip106
+\stanzaskip=\skip107
+\versewidth=\skip108
+\vgap=\skip109
+\vindent=\skip110
+\vleftmargin=\dimen144
+\c@verse=\count271
+\c@chrsinstr=\count272
+\beforepoemtitleskip=\skip111
+\afterpoemtitleskip=\skip112
+\c@poem=\count273
+\beforePoemTitleskip=\skip113
+\midPoemTitleskip=\skip114
+\afterPoemTitleskip=\skip115
+ (C:\Users\leand\AppData\Local\Programs\MiKTeX\tex/latex/tools\array.sty
+Package: array 2023/10/16 v2.5g Tabular extension package (FMi)
+\col@sep=\dimen145
+\ar@mcellbox=\box51
+\extrarowheight=\dimen146
+\NC@list=\toks18
+\extratabsurround=\skip116
+\backup@length=\skip117
+\ar@cellbox=\box52
+) (C:\Users\leand\AppData\Local\Programs\MiKTeX\tex/latex/tools\dcolumn.sty
+Package: dcolumn 2023/07/08 v1.06 decimal alignment package (DPC)
+) (C:\Users\leand\AppData\Local\Programs\MiKTeX\tex/latex/tools\delarray.sty
+Package: delarray 2014/10/28 v1.01 array delimiter package (DPC)
+) (C:\Users\leand\AppData\Local\Programs\MiKTeX\tex/latex/tools\tabularx.sty
+Package: tabularx 2023/07/08 v2.11c `tabularx' package (DPC)
+\TX@col@width=\dimen147
+\TX@old@table=\dimen148
+\TX@old@col=\dimen149
+\TX@target=\dimen150
+\TX@delta=\dimen151
+\TX@cols=\count274
+\TX@ftn=\toks19
+)
+\heavyrulewidth=\dimen152
+\lightrulewidth=\dimen153
+\cmidrulewidth=\dimen154
+\belowrulesep=\dimen155
+\belowbottomsep=\dimen156
+\aboverulesep=\dimen157
+\abovetopsep=\dimen158
+\cmidrulesep=\dimen159
+\cmidrulekern=\dimen160
+\defaultaddspace=\dimen161
+\@cmidla=\count275
+\@cmidlb=\count276
+\@aboverulesep=\dimen162
+\@belowrulesep=\dimen163
+\@thisruleclass=\count277
+\@lastruleclass=\count278
+\@thisrulewidth=\dimen164
+\ctableftskip=\skip118
+\ctabrightskip=\skip119
+\abovecolumnspenalty=\count279
+\@linestogo=\count280
+\@cellstogo=\count281
+\@cellsincolumn=\count282
+\crtok=\toks20
+\@mincolumnwidth=\dimen165
+\c@newflo@tctr=\count283
+\mem@margin@floatbox=\box53
+\@contcwidth=\skip120
+\@contindw=\skip121
+\abovecaptionskip=\skip122
+\belowcaptionskip=\skip123
+\subfloattopskip=\skip124
+\subfloatcapskip=\skip125
+\subfloatcaptopadj=\skip126
+\subfloatbottomskip=\skip127
+\subfloatlabelskip=\skip128
+\subfloatcapmargin=\dimen166
+\c@@contsubnum=\count284
+\m@mscap@capbox=\box54
+\m@mscap@fbox=\box55
+\sidecapsep=\dimen167
+\sidecapwidth=\dimen168
+\m@m@tempdima=\dimen169
+\m@mscapraise=\dimen170
+\sidecapraise=\dimen171
+\m@mscapmainwidth=\dimen172
+\m@mscaplkern=\dimen173
+\beforeepigraphskip=\skip129
+\afterepigraphskip=\skip130
+\epigraphwidth=\skip131
+\epigraphrule=\skip132
+LaTeX Info: Redefining \em on input line 7655.
+LaTeX Info: Redefining \emph on input line 7663.
+\tocentryskip=\skip133
+\tocbaseline=\skip134
+\cftparskip=\skip135
+\cftbeforebookskip=\skip136
+\cftbookindent=\dimen174
+\cftbooknumwidth=\dimen175
+\cftbeforepartskip=\skip137
+\cftpartindent=\skip138
+\cftpartnumwidth=\skip139
+\cftbeforechapterskip=\skip140
+\cftchapterindent=\skip141
+\cftchapternumwidth=\skip142
+\cftbeforesectionskip=\skip143
+\cftsectionindent=\skip144
+\cftsectionnumwidth=\skip145
+\cftbeforesubsectionskip=\skip146
+\cftsubsectionindent=\skip147
+\cftsubsectionnumwidth=\skip148
+\cftbeforesubsubsectionskip=\skip149
+\cftsubsubsectionindent=\skip150
+\cftsubsubsectionnumwidth=\skip151
+\cftbeforeparagraphskip=\skip152
+\cftparagraphindent=\skip153
+\cftparagraphnumwidth=\skip154
+\cftbeforesubparagraphskip=\skip155
+\cftsubparagraphindent=\skip156
+\cftsubparagraphnumwidth=\skip157
+\prechapterprecisshift=\dimen176
+\c@maxsecnumdepth=\count285
+\bibindent=\dimen177
+\bibitemsep=\skip158
+\indexcolsep=\skip159
+\indexrule=\skip160
+\indexmarkstyle=\toks21
+\@indexbox=\insert252
+\glossarycolsep=\dimen178
+\glossaryrule=\dimen179
+\sideparvshift=\skip161
+\sideins=\insert251
+\sidebartopsep=\skip162
+\sidebarhsep=\skip163
+\sidebarvsep=\skip164
+\sidebarwidth=\skip165
+\footmarkwidth=\skip166
+\footmarksep=\skip167
+\footparindent=\skip168
+\footinsdim=\skip169
+\footinsv@r=\insert250
+\@mpfootinsv@r=\insert249
+\m@m@k=\count286
+\m@m@h=\dimen180
+\m@mipn@skip=\skip170
+\sidefootins=\insert248
+\sidefootadjust=\skip171
+\sidefootheight=\skip172
+\sidefoothsep=\skip173
+\sidefootvsep=\skip174
+\sidefootwidth=\skip175
+\m@mdownsf=\skip176
+\c@sidefootnote=\count287
+\sidefootmarkwidth=\skip177
+\sidefootmarksep=\skip178
+\sidefootparindent=\skip179
+\c@pagenote=\count288
+\c@pagenoteshadow=\count289
+\mem@pn@lastkern=\skip180
+\every@verbatim=\toks22
+\afterevery@verbatim=\toks23
+\verbatim@line=\toks24
+\tab@position=\count290
+\verbatim@in@stream=\read2
+\verbatimindent=\skip181
+\verbatim@out=\write3
+\bvboxsep=\skip182
+\c@memfbvline=\count291
+\c@bvlinectr=\count292
+\bvnumlength=\skip183
+\fb@frw=\dimen181
+\fb@frh=\dimen182
+\FrameRule=\dimen183
+\FrameSep=\dimen184
+\c@cp@cntr=\count293
+\c@ism@mctr=\count294
+\c@xsm@mctr=\count295
+\c@csm@mctr=\count296
+\c@ksm@mctr=\count297
+\c@xksm@mctr=\count298
+\c@cksm@mctr=\count299
+\c@msm@mctr=\count300
+\c@xmsm@mctr=\count301
+\c@cmsm@mctr=\count302
+\c@bsm@mctr=\count303
+\c@workm@mctr=\count304
+\c@sheetsequence=\count305
+\c@lastsheet=\count306
+\c@lastpage=\count307
+ (C:\Users\leand\AppData\Roaming\MiKTeX\tex/latex/textcase\textcase.sty
+Package: textcase 2022/07/10 v1.03 Text only upper/lower case changing (DPC)
+Package textcase Info: Defining Legacy names on input line 20.
+)
+\c@figure=\count308
+\c@lofdepth=\count309
+\cftbeforefigureskip=\skip184
+\cftfigureindent=\skip185
+\cftfigurenumwidth=\skip186
+\c@table=\count310
+\c@lotdepth=\count311
+\cftbeforetableskip=\skip187
+\cfttableindent=\skip188
+\cfttablenumwidth=\skip189
+Package abstract [2008/07/23] emulated by memoir.
+Package appendix [2008/07/23] emulated by memoir.
+Package booktabs [2016/05/16] emulated by memoir.
+Package ccaption [2008/07/23] emulated by memoir.
+Package changepage [2008/07/23] emulated by memoir.
+Package chngcntr [2008/07/23] emulated by memoir.
+Package chngpage [2008/07/23] emulated by memoir.
+Package crop emulated by memoir.
+Package enumerate [2008/07/23] emulated by memoir.
+Package epigraph [2008/07/23] emulated by memoir.
+Package ifmtarg [2008/07/23] emulated by memoir.
+Package index [2008/07/23] emulated by memoir.
+Package makeidx [2008/07/23] emulated by memoir.
+Package moreverb [2008/07/23] emulated by memoir.
+Package needspace [2008/07/23] emulated by memoir.
+Package newfile [2008/07/23] emulated by memoir.
+Package nextpage [2008/07/23] emulated by memoir.
+Package pagenote [2008/07/23] emulated by memoir.
+Package parskip [2008/07/23] emulated by memoir.
+Package patchcmd [2008/07/23] emulated by memoir.
+Package setspace [2008/07/23] emulated by memoir.
+Package shortvrb [2008/07/23] emulated by memoir.
+Package showidx [2008/07/23] emulated by memoir.
+Package titleref [2008/07/23] emulated by memoir.
+Package titling [2008/07/23] emulated by memoir.
+Package tocbibind [2008/07/23] emulated by memoir.
+Package tocloft [2008/07/23] emulated by memoir.
+Package tocvsec2 [2008/07/23] emulated by memoir.
+Package verbatim [2008/07/23] emulated by memoir.
+Package verse [2008/07/23] emulated by memoir.
+) (C:\Users\leand\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hyperref.sty
+Package: hyperref 2023-11-26 v7.01g Hypertext links for LaTeX
+ (C:\Users\leand\AppData\Roaming\MiKTeX\tex/generic/infwarerr\infwarerr.sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+) (C:\Users\leand\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty
+Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
+\KV@toks@=\toks25
+) (C:\Users\leand\AppData\Roaming\MiKTeX\tex/latex/kvsetkeys\kvsetkeys.sty
+Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
+) (C:\Users\leand\AppData\Roaming\MiKTeX\tex/generic/kvdefinekeys\kvdefinekeys.sty
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+) (C:\Users\leand\AppData\Roaming\MiKTeX\tex/generic/pdfescape\pdfescape.sty
+Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
+ (C:\Users\leand\AppData\Roaming\MiKTeX\tex/generic/ltxcmds\ltxcmds.sty
+Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
+) (C:\Users\leand\AppData\Local\Programs\MiKTeX\tex/generic/pdftexcmds\pdftexcmds.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)) (C:\Users\leand\AppData\Roaming\MiKTeX\tex/latex/hycolor\hycolor.sty
+Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
+) (C:\Users\leand\AppData\Roaming\MiKTeX\tex/latex/letltxmacro\letltxmacro.sty
+Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
+) (C:\Users\leand\AppData\Roaming\MiKTeX\tex/latex/auxhook\auxhook.sty
+Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
+) (C:\Users\leand\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\nameref.sty
+Package: nameref 2023-11-26 v2.56 Cross-referencing by name of section
+ (C:\Users\leand\AppData\Roaming\MiKTeX\tex/latex/refcount\refcount.sty
+Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
+) (C:\Users\leand\AppData\Roaming\MiKTeX\tex/generic/gettitlestring\gettitlestring.sty
+Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
+ (C:\Users\leand\AppData\Roaming\MiKTeX\tex/latex/kvoptions\kvoptions.sty
+Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
+))
+
+Package nameref Warning: The definition of \label has changed! 
+(nameref)                Check your packages! 
+(nameref)                Replacing it with the kernel definition on input line 149.
+
+\c@section@level=\count312
+)
+\@linkdim=\dimen185
+\Hy@linkcounter=\count313
+\Hy@pagecounter=\count314
+ (C:\Users\leand\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\pd1enc.def
+File: pd1enc.def 2023-11-26 v7.01g Hyperref: PDFDocEncoding definition (HO)
+Now handling font encoding PD1 ...
+... no UTF-8 mapping file for font encoding PD1
+) (C:\Users\leand\AppData\Roaming\MiKTeX\tex/generic/intcalc\intcalc.sty
+Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
+)
+\Hy@SavedSpaceFactor=\count315
+ (C:\Users\leand\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\puenc.def
+File: puenc.def 2023-11-26 v7.01g Hyperref: PDF Unicode definition (HO)
+Now handling font encoding PU ...
+... no UTF-8 mapping file for font encoding PU
+)
+Package hyperref Info: Hyper figures OFF on input line 4181.
+Package hyperref Info: Link nesting OFF on input line 4186.
+Package hyperref Info: Hyper index ON on input line 4189.
+Package hyperref Info: Plain pages OFF on input line 4196.
+Package hyperref Info: Backreferencing OFF on input line 4201.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4448.
+\c@Hy@tempcnt=\count316
+ (C:\Users\leand\AppData\Local\Programs\MiKTeX\tex/latex/url\url.sty
+\Urlmuskip=\muskip16
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 4786.
+\XeTeXLinkMargin=\dimen186
+ (C:\Users\leand\AppData\Roaming\MiKTeX\tex/generic/bitset\bitset.sty
+Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
+ (C:\Users\leand\AppData\Roaming\MiKTeX\tex/generic/bigintcalc\bigintcalc.sty
+Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO)
+))
+\Fld@menulength=\count317
+\Field@Width=\dimen187
+\Fld@charsize=\dimen188
+Package hyperref Info: Hyper figures OFF on input line 6065.
+Package hyperref Info: Link nesting OFF on input line 6070.
+Package hyperref Info: Hyper index ON on input line 6073.
+Package hyperref Info: backreferencing OFF on input line 6080.
+Package hyperref Info: Link coloring OFF on input line 6085.
+Package hyperref Info: Link coloring with OCG OFF on input line 6090.
+Package hyperref Info: PDF/A mode OFF on input line 6095.
+ (C:\Users\leand\AppData\Local\Programs\MiKTeX\tex/latex/base\atbegshi-ltx.sty
+Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
+package with kernel methods
+)
+\Hy@abspage=\count318
+\c@Item=\count319
+\c@Hfootnote=\count320
+)
+Package hyperref Info: Driver (autodetected): hpdftex.
+ (C:\Users\leand\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hpdftex.def
+File: hpdftex.def 2023-11-26 v7.01g Hyperref driver for pdfTeX
+ (C:\Users\leand\AppData\Local\Programs\MiKTeX\tex/latex/base\atveryend-ltx.sty
+Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend package
+with kernel methods
+)
+\Fld@listcount=\count321
+\c@bookmark@seq@number=\count322
+ (C:\Users\leand\AppData\Roaming\MiKTeX\tex/latex/rerunfilecheck\rerunfilecheck.sty
+Package: rerunfilecheck 2022-07-10 v1.10 Rerun checks for auxiliary files (HO)
+ (C:\Users\leand\AppData\Roaming\MiKTeX\tex/generic/uniquecounter\uniquecounter.sty
+Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
+)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 285.
+)
+\Hy@SectionHShift=\skip190
+) (C:\Users\leand\AppData\Roaming\MiKTeX\tex/latex/memoir\memhfixc.sty
+Package: memhfixc 2022/11/17 v1.20 nameref/hyperref package fixes for memoir class
+
+Redoing nameref's sectioning
+Redoing nameref's label
+LaTeX Info: Redefining \nameref on input line 106.
+\c@memhycontfloat=\count323
+\c@Hpagenote=\count324
+) (C:\Users\leand\AppData\Roaming\MiKTeX\tex/latex/bookmark\bookmark.sty
+Package: bookmark 2020-11-06 v1.29 PDF bookmarks (HO)
+ (C:\Users\leand\AppData\Roaming\MiKTeX\tex/latex/bookmark\bkm-pdftex.def
+File: bkm-pdftex.def 2020-11-06 v1.29 bookmark driver for pdfTeX (HO)
+\BKM@id=\count325
+)) (C:\Users\leand\AppData\Local\Programs\MiKTeX\tex/generic/babel\babel.sty
+Package: babel 2024/01/07 v24.1 The Babel package
+\babel@savecnt=\count326
+\U@D=\dimen189
+\l@unhyphenated=\language79
+ (C:\Users\leand\AppData\Local\Programs\MiKTeX\tex/generic/babel\txtbabel.def)
+\bbl@readstream=\read3
+\bbl@dirlevel=\count327
+
+*************************************
+* Local config file bblopts.cfg used
+*
+(C:\Users\leand\AppData\Local\Programs\MiKTeX\tex/latex/arabi\bblopts.cfg
+File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of babel
+) (C:\Users\leand\AppData\Local\Programs\MiKTeX\tex/latex/babel-english\english.ldf
+Language: english 2017/06/06 v3.3r English support from the babel system
+Package babel Info: Hyphen rules for 'canadian' set to \l@english
+(babel)             (\language0). Reported on input line 102.
+Package babel Info: Hyphen rules for 'australian' set to \l@ukenglish
+(babel)             (\language73). Reported on input line 105.
+Package babel Info: Hyphen rules for 'newzealand' set to \l@ukenglish
+(babel)             (\language73). Reported on input line 108.
+) (C:\Users\leand\AppData\Roaming\MiKTeX\tex/generic/babel-french\french.ldf
+Language: french 2024-02-29 v3.5s French support from the babel system
+Package babel Info: Hyphen rules for 'acadian' set to \l@french
+(babel)             (\language22). Reported on input line 91.
+Package babel Info: Hyphen rules for 'canadien' set to \l@french
+(babel)             (\language22). Reported on input line 92.
+\FB@stdchar=\count328
+Package babel Info: Making : an active character on input line 420.
+Package babel Info: Making ; an active character on input line 421.
+Package babel Info: Making ! an active character on input line 422.
+Package babel Info: Making ? an active character on input line 423.
+\FBguill@level=\count329
+\FBold@everypar=\toks26
+\FB@Mht=\dimen190
+\mc@charclass=\count330
+\mc@charfam=\count331
+\mc@charslot=\count332
+\std@mcc=\count333
+\dec@mcc=\count334
+\FB@parskip=\dimen191
+\listindentFB=\dimen192
+\descindentFB=\dimen193
+\labelindentFB=\dimen194
+\labelwidthFB=\dimen195
+\leftmarginFB=\dimen196
+\parindentFFN=\dimen197
+\FBfnindent=\dimen198
+) (C:\Users\leand\AppData\Roaming\MiKTeX\tex/latex/babel-spanish\spanish.ldf
+Language: spanish.ldf 2021/05/27 v5.0q Spanish support from the babel system
+\es@quottoks=\toks27
+\es@quotdepth=\count335
+Package babel Info: Making " an active character on input line 570.
+Package babel Info: Making . an active character on input line 675.
+Package babel Info: Making < an active character on input line 722.
+Package babel Info: Making > an active character on input line 722.
+) (C:\Users\leand\AppData\Roaming\MiKTeX\tex/latex/babel-portuges\brazil.ldf
+Language: portuges 2021/07/09 v1.2t Portuguese support from the babel system
+Package babel Info: Hyphen rules for 'brazil' set to \l@portuguese
+(babel)             (\language56). Reported on input line 111.
+)) (C:\Users\leand\AppData\Local\Programs\MiKTeX\tex/generic/babel/locale/es\babel-spanish.tex
+Package babel Info: Importing font and identification data for spanish
+(babel)             from babel-es.ini. Reported on input line 11.
+) (C:\Users\leand\AppData\Local\Programs\MiKTeX\tex/generic/babel/locale/fr\babel-french.tex
+Package babel Info: Importing font and identification data for french
+(babel)             from babel-fr.ini. Reported on input line 11.
+) (C:\Users\leand\AppData\Local\Programs\MiKTeX\tex/generic/babel/locale/en\babel-english.tex
+Package babel Info: Importing font and identification data for english
+(babel)             from babel-en.ini. Reported on input line 11.
+) (C:\Users\leand\AppData\Roaming\MiKTeX\tex/latex/carlisle\scalefnt.sty) (C:\Users\leand\AppData\Roaming\MiKTeX\tex/latex/enumitem\enumitem.sty
+Package: enumitem 2019/06/20 v3.9 Customized lists
+\labelindent=\skip191
+\enit@outerparindent=\dimen199
+\enit@toks=\toks28
+\enit@inbox=\box56
+\enit@count@id=\count336
+\enitdp@description=\count337
+) (C:\Users\leand\AppData\Local\Programs\MiKTeX\tex/latex/tools\calc.sty
+Package: calc 2023/07/08 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count338
+\calc@Bcount=\count339
+\calc@Adimen=\dimen256
+\calc@Bdimen=\dimen257
+\calc@Askip=\skip192
+\calc@Bskip=\skip193
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count340
+\calc@Cskip=\skip194
+)
+
+******************************************************
+Stock height and width: 845.04684pt by 597.50787pt
+Top and edge trims: 0pt and 0pt
+Page height and width: 845.04684pt by 597.50787pt
+Text height and width: 708pt by 455pt
+Spine and edge margins: 85.35826pt and 56.9055pt
+Upper and lower margins: 85.35826pt and 51.68858pt
+Headheight and headsep: 14.5pt and 19.8738pt
+Footskip: 30pt
+Columnsep and columnseprule: 10pt and 0pt
+Marginparsep and marginparwidth: 7pt and 42.9055pt
+Sidecapsep and sidecapwidth: 7pt and 42pt
+Sidebarhsep and sidebarwidth: 7pt and 42pt
+Sidebarvsep and sidebartopsep: 14.5pt and 0pt
+Sidebarheight: 590.14995pt
+Sidefoothsep and sidefootwidth: 7pt and 42pt
+Sidefootvsep and sidefootheight: 14.5pt and 590.14995pt
+******************************************************
+
+\c@abntex@bookmarkcounter=\count341
+\cftlastnumwidth=\skip195
+\chapternamenumlength=\skip196
+\ABNTEXcitacaorecuo=\skip197
+\c@alineasi=\count342
+\c@alineasii=\count343
+\enitdp@alineas=\count344
+\c@subalineasi=\count345
+\enitdp@subalineas=\count346
+\c@incisosi=\count347
+\enitdp@incisos=\count348
+\ABNTEXsignwidth=\skip198
+\ABNTEXsignthickness=\skip199
+\ABNTEXsignskip=\skip256
+) (C:\Users\leand\AppData\Local\Programs\MiKTeX\tex/latex/lm\lmodern.sty
+Package: lmodern 2015/05/01 v1.6.1 Latin Modern Fonts
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> OT1/lmr/m/n on input line 22.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `normal'
+(Font)                  OML/cmm/m/it --> OML/lmm/m/it on input line 23.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
+(Font)                  OMS/cmsy/m/n --> OMS/lmsy/m/n on input line 24.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
+(Font)                  OMX/cmex/m/n --> OMX/lmex/m/n on input line 25.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 26.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
+(Font)                  OML/cmm/b/it --> OML/lmm/b/it on input line 27.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  OMS/cmsy/b/n --> OMS/lmsy/b/n on input line 28.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/cmex/m/n --> OMX/lmex/m/n on input line 29.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 31.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
+(Font)                  OT1/cmss/m/n --> OT1/lmss/m/n on input line 32.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> OT1/lmr/m/it on input line 33.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
+(Font)                  OT1/cmtt/m/n --> OT1/lmtt/m/n on input line 34.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 35.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/cmss/bx/n --> OT1/lmss/bx/n on input line 36.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmr/bx/it --> OT1/lmr/bx/it on input line 37.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  OT1/cmtt/m/n --> OT1/lmtt/m/n on input line 38.
+) (C:\Users\leand\AppData\Local\Programs\MiKTeX\tex/latex/base\fontenc.sty
+Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
+LaTeX Font Info:    Trying to load font information for T1+lmr on input line 112.
+ (C:\Users\leand\AppData\Local\Programs\MiKTeX\tex/latex/lm\t1lmr.fd
+File: t1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)) (C:\Users\leand\AppData\Local\Programs\MiKTeX\tex/latex/base\inputenc.sty
+Package: inputenc 2021/02/14 v1.3d Input encoding file
+\inpenc@prehook=\toks29
+\inpenc@posthook=\toks30
+) (C:\Users\leand\AppData\Local\Programs\MiKTeX\tex/latex/tools\indentfirst.sty
+Package: indentfirst 2023/07/02 v1.03 Indent first paragraph (DPC)
+) (C:\Users\leand\AppData\Local\Programs\MiKTeX\tex/latex/graphics\color.sty
+Package: color 2022/01/06 v1.3d Standard LaTeX Color (DPC)
+ (C:\Users\leand\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package color Info: Driver file: pdftex.def on input line 149.
+ (C:\Users\leand\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pdftex.def
+File: pdftex.def 2022/09/22 v1.2b Graphics/color driver for pdftex
+) (C:\Users\leand\AppData\Local\Programs\MiKTeX\tex/latex/graphics\mathcolor.ltx)) (C:\Users\leand\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.sty
+Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
+ (C:\Users\leand\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.sty
+Package: graphics 2022/03/10 v1.4e Standard LaTeX Graphics (DPC,SPQR)
+ (C:\Users\leand\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.sty
+Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
+) (C:\Users\leand\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 107.
+)
+\Gin@req@height=\dimen258
+\Gin@req@width=\dimen259
+) (C:\Users\leand\AppData\Roaming\MiKTeX\tex/latex/microtype\microtype.sty
+Package: microtype 2022/06/23 v3.0f Micro-typographical refinements (RS)
+\MT@toks=\toks31
+\MT@tempbox=\box57
+\MT@count=\count349
+LaTeX Info: Redefining \noprotrusionifhmode on input line 1045.
+LaTeX Info: Redefining \leftprotrusion on input line 1046.
+LaTeX Info: Redefining \rightprotrusion on input line 1056.
+LaTeX Info: Redefining \textls on input line 1234.
+\MT@outer@kern=\dimen260
+LaTeX Info: Redefining \textmicrotypecontext on input line 1858.
+\MT@listname@count=\count350
+ (C:\Users\leand\AppData\Roaming\MiKTeX\tex/latex/microtype\microtype-pdftex.def
+File: microtype-pdftex.def 2022/06/23 v3.0f Definitions specific to pdftex (RS)
+LaTeX Info: Redefining \lsstyle on input line 900.
+LaTeX Info: Redefining \lslig on input line 900.
+\MT@outer@space=\skip257
+)
+Package microtype Info: Loading configuration file microtype.cfg.
+ (C:\Users\leand\AppData\Roaming\MiKTeX\tex/latex/microtype\microtype.cfg
+File: microtype.cfg 2022/06/23 v3.0f microtype main configuration file (RS)
+)) (C:\Users\leand\AppData\Roaming\MiKTeX\tex/latex/caption\caption.sty
+Package: caption 2022/03/01 v3.6b Customizing captions (AR)
+ (C:\Users\leand\AppData\Roaming\MiKTeX\tex/latex/caption\caption3.sty
+Package: caption3 2022/03/17 v2.3b caption3 kernel (AR)
+\caption@tempdima=\dimen261
+\captionmargin=\dimen262
+\caption@leftmargin=\dimen263
+\caption@rightmargin=\dimen264
+\caption@width=\dimen265
+\caption@indent=\dimen266
+\caption@parindent=\dimen267
+\caption@hangindent=\dimen268
+Package caption Info: memoir document class detected.
+Package caption Info: french babel package is loaded.
+ (C:\Users\leand\AppData\Roaming\MiKTeX\tex/latex/caption\caption-memoir.sto
+File: caption-memoir.sto 2022/03/02 v2.2b Adaption of the caption package to the memoir document class (AR)
+))
+\c@caption@flags=\count351
+\c@continuedfloat=\count352
+Package caption Info: changepage package is loaded.
+\caption@adjustwidth@hsize=\dimen269
+\caption@adjustwidth@linewidth=\dimen270
+Package caption Info: hyperref package is loaded.
+) (C:\Users\leand\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsmath.sty
+Package: amsmath 2023/05/13 v2.17o AMS math features
+\@mathmargin=\skip258
+
+For additional information on amsmath, use the `?' option.
+(C:\Users\leand\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amstext.sty
+Package: amstext 2021/08/26 v2.01 AMS text
+ (C:\Users\leand\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks32
+\ex@=\dimen271
+)) (C:\Users\leand\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen272
+) (C:\Users\leand\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsopn.sty
+Package: amsopn 2022/04/08 v2.04 operator names
+)
+\inf@bad=\count353
+LaTeX Info: Redefining \frac on input line 234.
+\uproot@=\count354
+\leftroot@=\count355
+LaTeX Info: Redefining \overline on input line 399.
+LaTeX Info: Redefining \colon on input line 410.
+\classnum@=\count356
+\DOTSCASE@=\count357
+LaTeX Info: Redefining \ldots on input line 496.
+LaTeX Info: Redefining \dots on input line 499.
+LaTeX Info: Redefining \cdots on input line 620.
+\Mathstrutbox@=\box58
+\strutbox@=\box59
+LaTeX Info: Redefining \big on input line 722.
+LaTeX Info: Redefining \Big on input line 723.
+LaTeX Info: Redefining \bigg on input line 724.
+LaTeX Info: Redefining \Bigg on input line 725.
+\big@size=\dimen273
+LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
+\macc@depth=\count358
+LaTeX Info: Redefining \bmod on input line 905.
+LaTeX Info: Redefining \pmod on input line 910.
+LaTeX Info: Redefining \smash on input line 940.
+LaTeX Info: Redefining \relbar on input line 970.
+LaTeX Info: Redefining \Relbar on input line 971.
+\c@MaxMatrixCols=\count359
+\dotsspace@=\muskip17
+\c@parentequation=\count360
+\dspbrk@lvl=\count361
+\tag@help=\toks33
+\row@=\count362
+\column@=\count363
+\maxfields@=\count364
+\andhelp@=\toks34
+\eqnshift@=\dimen274
+\alignsep@=\dimen275
+\tagshift@=\dimen276
+\tagwidth@=\dimen277
+\totwidth@=\dimen278
+\lineht@=\dimen279
+\@envbody=\toks35
+\multlinegap=\skip259
+\multlinetaggap=\skip260
+\mathdisplay@stack=\toks36
+LaTeX Info: Redefining \[ on input line 2953.
+LaTeX Info: Redefining \] on input line 2954.
+) (C:\Users\leand\AppData\Roaming\MiKTeX\tex/latex/fancyvrb\fancyvrb.sty
+Package: fancyvrb 2024/01/20 4.5c verbatim text (tvz,hv)
+\FV@CodeLineNo=\count365
+\FV@InFile=\read4
+\FV@TabBox=\box60
+\c@FancyVerbLine=\count366
+\FV@StepNumber=\count367
+\FV@OutFile=\write4
+) (C:\Users\leand\AppData\Roaming\MiKTeX\tex/latex/fancyhdr\fancyhdr.sty
+Package: fancyhdr 2022/11/09 v4.1 Extensive control of page headers and footers
+\f@nch@headwidth=\skip261
+\f@nch@O@elh=\skip262
+\f@nch@O@erh=\skip263
+\f@nch@O@olh=\skip264
+\f@nch@O@orh=\skip265
+\f@nch@O@elf=\skip266
+\f@nch@O@erf=\skip267
+\f@nch@O@olf=\skip268
+\f@nch@O@orf=\skip269
+) (C:\Users\leand\AppData\Local\Programs\MiKTeX\tex/latex/base\latexsym.sty
+Package: latexsym 1998/08/17 v2.2e Standard LaTeX package (lasy symbols)
+\symlasy=\mathgroup4
+LaTeX Font Info:    Overwriting symbol font `lasy' in version `bold'
+(Font)                  U/lasy/m/n --> U/lasy/b/n on input line 52.
+) (C:\Users\leand\AppData\Local\Programs\MiKTeX\tex/latex/listings\listings.sty
+\lst@mode=\count368
+\lst@gtempboxa=\box61
+\lst@token=\toks37
+\lst@length=\count369
+\lst@currlwidth=\dimen280
+\lst@column=\count370
+\lst@pos=\count371
+\lst@lostspace=\dimen281
+\lst@width=\dimen282
+\lst@newlines=\count372
+\lst@lineno=\count373
+\lst@maxwidth=\dimen283
+ (C:\Users\leand\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstmisc.sty
+File: lstmisc.sty 2023/02/27 1.9 (Carsten Heinz)
+\c@lstnumber=\count374
+\lst@skipnumbers=\count375
+\lst@framebox=\box62
+) (C:\Users\leand\AppData\Local\Programs\MiKTeX\tex/latex/listings\listings.cfg
+File: listings.cfg 2023/02/27 1.9 listings configuration
+))
+Package: listings 2023/02/27 1.9 (Carsten Heinz)
+ (C:\Users\leand\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+ (C:\Users\leand\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup5
+\symAMSb=\mathgroup6
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+)) (C:\Users\leand\AppData\Roaming\MiKTeX\tex/latex/colortbl\colortbl.sty
+Package: colortbl 2024/02/20 v1.0g Color table columns (DPC)
+\everycr=\toks38
+\minrowclearance=\skip270
+\rownum=\count376
+) (C:\Users\leand\AppData\Roaming\MiKTeX\tex/latex/threeparttable\threeparttable.sty
+Package: threeparttable 2003/06/13  v 3.0
+\@tempboxb=\box63
+) (C:\Users\leand\AppData\Roaming\MiKTeX\tex/latex/multirow\multirow.sty
+Package: multirow 2021/03/15 v2.8 Span multiple rows of a table
+\multirow@colwidth=\skip271
+\multirow@cntb=\count377
+\multirow@dima=\skip272
+\bigstrutjot=\dimen284
+) (C:\Users\leand\AppData\Local\Programs\MiKTeX\tex/latex/tools\longtable.sty
+Package: longtable 2023-11-01 v4.19 Multi-page Table package (DPC)
+\LTleft=\skip273
+\LTright=\skip274
+\LTpre=\skip275
+\LTpost=\skip276
+\LTchunksize=\count378
+\LTcapwidth=\dimen285
+\LT@head=\box64
+\LT@firsthead=\box65
+\LT@foot=\box66
+\LT@lastfoot=\box67
+\LT@gbox=\box68
+\LT@cols=\count379
+\LT@rows=\count380
+\c@LT@tables=\count381
+\c@LT@chunks=\count382
+\LT@p@ftn=\toks39
+) (C:\Users\leand\AppData\Local\Programs\MiKTeX\tex/latex/graphics\rotating.sty
+Package: rotating 2016/08/11 v2.16d rotated objects in LaTeX
+\c@r@tfl@t=\count383
+\rotFPtop=\skip277
+\rotFPbot=\skip278
+\rot@float@box=\box69
+\rot@mess@toks=\toks40
+) (C:\Users\leand\AppData\Local\Programs\MiKTeX\tex/latex/xcolor\xcolor.sty
+Package: xcolor 2023/11/15 v3.01 LaTeX color extensions (UK)
+ (C:\Users\leand\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 274.
+LaTeX Info: Redefining \color on input line 758.
+ (C:\Users\leand\AppData\Local\Programs\MiKTeX\tex/latex/graphics\mathcolor.ltx)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1350.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1354.
+Package xcolor Info: Model `RGB' extended on input line 1366.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1368.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1370.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1371.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1372.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1373.
+) (my_hyphenation.sty) (C:\Users\leand\AppData\Roaming\MiKTeX\tex/latex/lipsum\lipsum.sty (C:\Users\leand\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/l3keys2e\l3keys2e.sty (C:\Users\leand\AppData\Local\Programs\MiKTeX\tex/latex/l3kernel\expl3.sty
+Package: expl3 2024-01-04 L3 programming layer (loader) 
+ (C:\Users\leand\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
+File: l3backend-pdftex.def 2024-01-04 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count384
+\l__pdf_internal_box=\box70
+))
+Package: l3keys2e 2023-10-10 LaTeX2e option processing using LaTeX3 keys
+)
+Package: lipsum 2021-09-20 v2.7 150 paragraphs of Lorem Ipsum dummy text
+\g__lipsum_par_int=\count385
+\l__lipsum_a_int=\count386
+\l__lipsum_b_int=\count387
+ (C:\Users\leand\AppData\Roaming\MiKTeX\tex/latex/lipsum\lipsum.ltd.tex)) (C:\Users\leand\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\backref.sty
+Package: backref 2023-11-26 v1.44 Bibliographical back referencing
+) (C:\Users\leand\AppData\Roaming\MiKTeX\tex/latex/abntex2\abntex2cite.sty
+Package: abntex2cite 2018/11/24 v-1.9.7 abnTeX2
+ (C:\Users\leand\AppData\Roaming\MiKTeX\tex/latex/abntex2\abntex2abrev.sty)
+\minimumbiblabelwidth=\skip279
+\ABCIauxlen=\skip280
+\c@ABCIaux=\count388
+\c@ABCImax=\count389
+ (C:\Users\leand\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifpdf.sty
+Package: ifpdf 2019/10/25 v3.4 ifpdf legacy package. Use iftex instead.
+) (C:\Users\leand\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifxetex.sty
+Package: ifxetex 2019/10/25 v0.7 ifxetex legacy package. Use iftex instead.
+) (C:\Users\leand\AppData\Roaming\MiKTeX\tex/latex/relsize\relsize.sty
+Package: relsize 2013/03/29 ver 4.1
+)
+\biblabelsep=\skip281
+LaTeX Info: Redefining \newblock on input line 591.
+LaTeX Info: Redefining \cite on input line 618.
+\ABCItoken=\toks41
+) (C:\Users\leand\AppData\Roaming\MiKTeX\tex/latex/nomencl\nomencl.sty
+Package: nomencl 2021/11/10 v5.6 Nomenclature package
+ (C:\Users\leand\AppData\Local\Programs\MiKTeX\tex/latex/xkeyval\xkeyval.sty
+Package: xkeyval 2022/06/16 v2.9 package option processing (HA)
+ (C:\Users\leand\AppData\Local\Programs\MiKTeX\tex/generic/xkeyval\xkeyval.tex (C:\Users\leand\AppData\Local\Programs\MiKTeX\tex/generic/xkeyval\xkvutils.tex
+\XKV@toks=\toks42
+\XKV@tempa@toks=\toks43
+)
+\XKV@depth=\count390
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+)) (C:\Users\leand\AppData\Roaming\MiKTeX\tex/latex/koma-script\tocbasic.sty
+Package: tocbasic 2022/10/12 v3.38 KOMA-Script package (handling toc-files)
+ (C:\Users\leand\AppData\Roaming\MiKTeX\tex/latex/koma-script\scrbase.sty
+Package: scrbase 2022/10/12 v3.38 KOMA-Script package (KOMA-Script-independent basics and keyval usage)
+ (C:\Users\leand\AppData\Roaming\MiKTeX\tex/latex/koma-script\scrlfile.sty
+Package: scrlfile 2022/10/12 v3.38 KOMA-Script package (file load hooks)
+ (C:\Users\leand\AppData\Roaming\MiKTeX\tex/latex/koma-script\scrlfile-hook.sty
+Package: scrlfile-hook 2022/10/12 v3.38 KOMA-Script package (using LaTeX hooks)
+ (C:\Users\leand\AppData\Roaming\MiKTeX\tex/latex/koma-script\scrlogo.sty
+Package: scrlogo 2022/10/12 v3.38 KOMA-Script package (logo)
+)))
+Applying: [2021/05/01] Usage of raw or classic option list on input line 252.
+Already applied: [0000/00/00] Usage of raw or classic option list on input line 368.
+)
+\scr@dte@tocline@numberwidth=\skip282
+\scr@dte@tocline@numbox=\box71
+)
+Package tocbasic Info: setting babel extension for `nlo' on input line 187.
+Package tocbasic Info: setting babel extension for `nls' on input line 188.
+\nomlabelwidth=\dimen286
+\nom@tempdim=\dimen287
+\nomitemsep=\skip283
+)
+\@nomenclaturefile=\write5
+\openout5 = `thesis-leandrozuza.nlo'.
+
+Package nomencl Info: Writing nomenclature file thesis-leandrozuza.nlo on input line 96.
+Package hyperref Info: Option `colorlinks' set `true' on input line 168.
+\c@quadro=\count391
+\c@loqdepth=\count392
+\cftbeforequadroskip=\skip284
+\cftquadroindent=\skip285
+\cftquadronumwidth=\skip286
+ (thesis-leandrozuza.aux)
+\openout1 = `thesis-leandrozuza.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 214.
+LaTeX Font Info:    ... okay on input line 214.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 214.
+LaTeX Font Info:    ... okay on input line 214.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 214.
+LaTeX Font Info:    ... okay on input line 214.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 214.
+LaTeX Font Info:    ... okay on input line 214.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 214.
+LaTeX Font Info:    ... okay on input line 214.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 214.
+LaTeX Font Info:    ... okay on input line 214.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 214.
+LaTeX Font Info:    ... okay on input line 214.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 214.
+LaTeX Font Info:    ... okay on input line 214.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 214.
+LaTeX Font Info:    ... okay on input line 214.
+Package hyperref Info: Link coloring ON on input line 214.
+LaTeX Info: Redefining \degres on input line 214.
+LaTeX Info: Redefining \up on input line 214.
+\myptabbox=\box72
+\myptabboxwidth=\skip287
+ (C:\Users\leand\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count393
+\scratchdimen=\dimen288
+\scratchbox=\box73
+\nofMPsegments=\count394
+\nofMParguments=\count395
+\everyMPshowfont=\toks44
+\MPscratchCnt=\count396
+\MPscratchDim=\dimen289
+\MPnumerator=\count397
+\makeMPintoPDFobject=\count398
+\everyMPtoPDFconversion=\toks45
+) (C:\Users\leand\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
+ (C:\Users\leand\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
+))
+LaTeX Info: Redefining \microtypecontext on input line 214.
+Package microtype Info: Applying patch `item' on input line 214.
+Package microtype Info: Applying patch `toc' on input line 214.
+Package microtype Info: Applying patch `eqnum' on input line 214.
+Package microtype Info: Applying patch `footnote' on input line 214.
+Package microtype Info: Generating PDF output.
+Package microtype Info: Character protrusion enabled (level 2).
+Package microtype Info: Using default protrusion set `alltext'.
+Package microtype Info: Automatic font expansion enabled (level 2),
+(microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
+Package microtype Info: Using default expansion set `alltext-nott'.
+LaTeX Info: Redefining \showhyphens on input line 214.
+Package microtype Info: No adjustment of tracking.
+Package microtype Info: No adjustment of interword spacing.
+Package microtype Info: No adjustment of character kerning.
+ (C:\Users\leand\AppData\Roaming\MiKTeX\tex/latex/microtype\mt-cmr.cfg
+File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman (RS)
+)
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: listings package is loaded.
+Package caption Info: longtable package is loaded.
+ (C:\Users\leand\AppData\Roaming\MiKTeX\tex/latex/caption\ltcaption.sty
+Package: ltcaption 2021/01/08 v1.4c longtable captions (AR)
+)
+Package caption Info: rotating package is loaded.
+Package caption Info: threeparttable package is loaded.
+Package caption Info: End \AtBeginDocument code.
+\c@lstlisting=\count399
+ (pretextual/cover.tex
+LaTeX Font Info:    Trying to load font information for T1+lmss on input line 11.
+ (C:\Users\leand\AppData\Local\Programs\MiKTeX\tex/latex/lm\t1lmss.fd
+File: t1lmss.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `lmss' (encoding: T1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+<img/logo_ufu.pdf, id=3, 177.66376pt x 176.66pt>
+File: img/logo_ufu.pdf Graphic file (type pdf)
+<use img/logo_ufu.pdf>
+Package pdftex.def Info: img/logo_ufu.pdf  used on input line 16.
+(pdftex.def)             Requested size: 142.13118pt x 141.32819pt.
+) (pretextual/folhaaprovacao.tex [1
+
+{C:/Users/leand/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map} <./img/logo_ufu.pdf>]
+LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 22.
+ (C:\Users\leand\AppData\Local\Programs\MiKTeX\tex/latex/lm\ot1lmr.fd
+File: ot1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+LaTeX Font Info:    Trying to load font information for OML+lmm on input line 22.
+ (C:\Users\leand\AppData\Local\Programs\MiKTeX\tex/latex/lm\omllmm.fd
+File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 22.
+ (C:\Users\leand\AppData\Local\Programs\MiKTeX\tex/latex/lm\omslmsy.fd
+File: omslmsy.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 22.
+ (C:\Users\leand\AppData\Local\Programs\MiKTeX\tex/latex/lm\omxlmex.fd
+File: omxlmex.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <12> on input line 22.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <8> on input line 22.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <6> on input line 22.
+LaTeX Font Info:    Trying to load font information for U+lasy on input line 22.
+ (C:\Users\leand\AppData\Local\Programs\MiKTeX\tex/latex/base\ulasy.fd
+File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
+)
+LaTeX Font Info:    Trying to load font information for U+msa on input line 22.
+ (C:\Users\leand\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+) (C:\Users\leand\AppData\Roaming\MiKTeX\tex/latex/microtype\mt-msa.cfg
+File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 22.
+ (C:\Users\leand\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+) (C:\Users\leand\AppData\Roaming\MiKTeX\tex/latex/microtype\mt-msb.cfg
+File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
+)) (pretextual/acknowledgements.tex
+Underfull \hbox (badness 10000) in paragraph at lines 34--1
+
+ []
+
+[2]) (pretextual/pensamento.tex [3
+
+]) (pretextual/abstract.tex [4]) (pretextual/resumo.tex [5
+
+] [6
+
+]) (pretextual/publicacoes.tex [7
+
+]) (thesis-leandrozuza.toc [8]) [9] (thesis-leandrozuza.lof
+
+LaTeX Warning: Citation `joystickvr2jsm' on page 10 undefined on input line 3.
+
+
+LaTeX Warning: Citation `fattouh2004' on page 10 undefined on input line 4.
+
+
+LaTeX Warning: Citation `jck-ushape2020' on page 10 undefined on input line 5.
+
+
+LaTeX Warning: Citation `jck-ywlball2020' on page 10 undefined on input line 6.
+
+
+LaTeX Warning: Citation `manring2020' on page 10 undefined on input line 7.
+
+
+LaTeX Warning: Citation `holden2007' on page 10 undefined on input line 8.
+
+
+LaTeX Warning: Citation `sun2003' on page 10 undefined on input line 9.
+
+
+LaTeX Warning: Citation `sun2003' on page 10 undefined on input line 10.
+
+
+LaTeX Warning: Citation `marwedel2018' on page 10 undefined on input line 11.
+
+
+LaTeX Warning: Citation `abdallah2019' on page 10 undefined on input line 12.
+
+
+LaTeX Warning: Citation `zolotas2018' on page 10 undefined on input line 13.
+
+
+LaTeX Warning: Citation `maule2017' on page 10 undefined on input line 14.
+
+
+LaTeX Warning: Citation `vailland2019' on page 10 undefined on input line 15.
+
+
+LaTeX Warning: Citation `vailland2019' on page 10 undefined on input line 16.
+
+
+LaTeX Warning: Citation `valentini2019' on page 10 undefined on input line 17.
+
+
+LaTeX Warning: Citation `valentini2019' on page 10 undefined on input line 18.
+
+
+LaTeX Warning: Citation `john2018' on page 10 undefined on input line 19.
+
+
+LaTeX Warning: Citation `john2018' on page 10 undefined on input line 20.
+
+
+LaTeX Warning: Citation `john2018' on page 10 undefined on input line 21.
+
+
+LaTeX Warning: Citation `martins2017' on page 10 undefined on input line 22.
+
+
+LaTeX Warning: Citation `affanni2018' on page 10 undefined on input line 23.
+
+
+LaTeX Warning: Citation `kamaraj2016' on page 10 undefined on input line 24.
+
+
+LaTeX Warning: Citation `kamaraj2016' on page 10 undefined on input line 25.
+
+
+LaTeX Warning: Citation `kamaraj2016' on page 10 undefined on input line 26.
+
+
+LaTeX Warning: Citation `borresen2019' on page 10 undefined on input line 27.
+
+
+LaTeX Warning: Citation `pani2014' on page 10 undefined on input line 28.
+
+
+LaTeX Warning: Citation `pani2014' on page 10 undefined on input line 29.
+
+
+LaTeX Warning: Citation `mitsumura2014' on page 10 undefined on input line 30.
+
+
+LaTeX Warning: Citation `mitsumura2014' on page 10 undefined on input line 31.
+
+
+LaTeX Warning: Citation `mitsumura2014' on page 10 undefined on input line 32.
+
+
+LaTeX Warning: Citation `mitsumura2014' on page 10 undefined on input line 33.
+
+
+LaTeX Warning: Citation `wei2013' on page 10 undefined on input line 34.
+
+
+LaTeX Warning: Citation `wei2013' on page 10 undefined on input line 35.
+
+
+LaTeX Warning: Citation `cooper2012' on page 10 undefined on input line 36.
+
+
+LaTeX Warning: Citation `cooper2012' on page 10 undefined on input line 37.
+
+) [10
+
+] (thesis-leandrozuza.lot) [11
+
+] [12
+
+
+] (chapters/cap1.tex
+LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 15.
+ (C:\Users\leand\AppData\Local\Programs\MiKTeX\tex/latex/lm\ts1lmr.fd
+File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.32 \item I
+            n Chapter 4 and 5 present, materials/methods, and implementation... [1
+
+
+]) (chapters/cap2.tex
+pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.1 \chapter
+            {Fundamentals} [2]
+
+LaTeX Warning: Citation `ludy1995' on page 3 undefined on input line 5.
+
+
+LaTeX Warning: Citation `barriga2016' on page 3 undefined on input line 5.
+
+
+LaTeX Warning: Citation `fattouh2004' on page 3 undefined on input line 10.
+
+<img/cap2/joystickvr2.pdf, id=232, 803.0pt x 803.0pt>
+File: img/cap2/joystickvr2.pdf Graphic file (type pdf)
+<use img/cap2/joystickvr2.pdf>
+Package pdftex.def Info: img/cap2/joystickvr2.pdf  used on input line 18.
+(pdftex.def)             Requested size: 143.3234pt x 143.32074pt.
+
+LaTeX Warning: Citation `joystickvr2jsm' on page 3 undefined on input line 19.
+
+
+LaTeX Warning: Citation `joystickvr2jsm' on page 3 undefined on input line 19.
+
+<img/cap2/joyscoord.pdf, id=233, 384.43625pt x 355.3275pt>
+File: img/cap2/joyscoord.pdf Graphic file (type pdf)
+<use img/cap2/joyscoord.pdf>
+Package pdftex.def Info: img/cap2/joyscoord.pdf  used on input line 24.
+(pdftex.def)             Requested size: 163.7995pt x 151.39984pt.
+
+LaTeX Warning: Citation `fattouh2004' on page 3 undefined on input line 25.
+
+
+LaTeX Warning: Citation `fattouh2004' on page 3 undefined on input line 25.
+
+
+LaTeX Warning: Citation `rechy2012' on page 3 undefined on input line 29.
+
+
+LaTeX Warning: Citation `american2014' on page 3 undefined on input line 29.
+
+
+LaTeX Warning: Citation `american2008' on page 3 undefined on input line 29.
+
+
+LaTeX Warning: Citation `valentini2019' on page 3 undefined on input line 31.
+
+
+LaTeX Warning: Citation `portaria2013' on page 3 undefined on input line 31.
+
+
+LaTeX Warning: Citation `anexos2013' on page 3 undefined on input line 31.
+
+
+pdfTeX warning (ext4): destination with the same identifier (name{page.3}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.32 
+      [3
+
+ <./img/cap2/joystickvr2.pdf> <./img/cap2/joyscoord.pdf>]
+<img/cap2/jck-ushape.pdf, id=246, 389.97691pt x 302.64618pt>
+File: img/cap2/jck-ushape.pdf Graphic file (type pdf)
+<use img/cap2/jck-ushape.pdf>
+Package pdftex.def Info: img/cap2/jck-ushape.pdf  used on input line 38.
+(pdftex.def)             Requested size: 174.03757pt x 135.06271pt.
+
+
+LaTeX Warning: Citation `jck-ushape2020' on page 4 undefined on input line 39.
+
+
+LaTeX Warning: Citation `jck-ushape2020' on page 4 undefined on input line 39.
+
+<img/cap2/jck-ywlball.pdf, id=247, 312.41719pt x 256.70906pt>
+File: img/cap2/jck-ywlball.pdf Graphic file (type pdf)
+<use img/cap2/jck-ywlball.pdf>
+Package pdftex.def Info: img/cap2/jck-ywlball.pdf  used on input line 44.
+(pdftex.def)             Requested size: 163.7995pt x 134.59409pt.
+
+LaTeX Warning: Citation `jck-ywlball2020' on page 4 undefined on input line 45.
+
+
+LaTeX Warning: Citation `jck-ywlball2020' on page 4 undefined on input line 45.
+
+
+LaTeX Warning: Citation `tori2006' on page 4 undefined on input line 56.
+
+
+LaTeX Warning: Citation `mitsumura2014' on page 4 undefined on input line 56.
+
+
+LaTeX Warning: Citation `wiederhold2019' on page 4 undefined on input line 56.
+
+
+LaTeX Warning: Citation `powell2014' on page 4 undefined on input line 56.
+
+
+LaTeX Warning: Citation `vailland2019' on page 4 undefined on input line 58.
+
+
+LaTeX Warning: Citation `john2018' on page 4 undefined on input line 58.
+
+
+LaTeX Warning: Citation `kamaraj2016' on page 4 undefined on input line 58.
+
+
+LaTeX Warning: Citation `mahajan2013' on page 4 undefined on input line 58.
+
+
+LaTeX Warning: Citation `wiederhold2019' on page 4 undefined on input line 60.
+
+
+LaTeX Warning: Citation `ines2011' on page 4 undefined on input line 60.
+
+
+LaTeX Warning: Citation `manring2020' on page 4 undefined on input line 62.
+
+
+pdfTeX warning (ext4): destination with the same identifier (name{page.4}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.63 
+      [4 <./img/cap2/jck-ushape.pdf> <./img/cap2/jck-ywlball.pdf
+
+pdfTeX warning: pdflatex (file ./img/cap2/jck-ywlball.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+>]
+<img/cap2/manring2020.pdf, id=265, 722.7pt x 256.5585pt>
+File: img/cap2/manring2020.pdf Graphic file (type pdf)
+<use img/cap2/manring2020.pdf>
+Package pdftex.def Info: img/cap2/manring2020.pdf  used on input line 66.
+(pdftex.def)             Requested size: 455.0pt x 161.52701pt.
+
+
+LaTeX Warning: Citation `manring2020' on page 5 undefined on input line 67.
+
+
+LaTeX Warning: Citation `manring2020' on page 5 undefined on input line 67.
+
+
+LaTeX Warning: Citation `silva2011' on page 5 undefined on input line 72.
+
+
+LaTeX Warning: Citation `macgillivray2018' on page 5 undefined on input line 78.
+
+
+LaTeX Warning: Citation `john2018' on page 5 undefined on input line 78.
+
+
+LaTeX Warning: Citation `massengale2005' on page 5 undefined on input line 78.
+
+
+LaTeX Warning: Citation `john2018' on page 5 undefined on input line 78.
+
+
+LaTeX Warning: Citation `massengale2005' on page 5 undefined on input line 78.
+
+
+LaTeX Warning: Citation `massengale2005' on page 5 undefined on input line 80.
+
+
+LaTeX Warning: Citation `massengale2005' on page 5 undefined on input line 80.
+
+
+pdfTeX warning (ext4): destination with the same identifier (name{page.5}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.82 \item
+           4 -  Completely independent: optimal performance: able to perform... [5 <./img/cap2/manring2020.pdf>]
+
+LaTeX Warning: Citation `deutsch2007' on page 6 undefined on input line 91.
+
+
+LaTeX Warning: Citation `pani2014' on page 6 undefined on input line 91.
+
+
+LaTeX Warning: Citation `postolache2011' on page 6 undefined on input line 91.
+
+
+LaTeX Warning: Citation `brennan2011' on page 6 undefined on input line 91.
+
+
+LaTeX Warning: Citation `holden2007' on page 6 undefined on input line 91.
+
+
+LaTeX Warning: Citation `dhurjaty2004' on page 6 undefined on input line 91.
+
+<img/cap2/holden2007.pdf, id=277, 578.16pt x 355.56839pt>
+File: img/cap2/holden2007.pdf Graphic file (type pdf)
+<use img/cap2/holden2007.pdf>
+Package pdftex.def Info: img/cap2/holden2007.pdf  used on input line 95.
+(pdftex.def)             Requested size: 455.0pt x 279.82169pt.
+
+LaTeX Warning: Citation `holden2007' on page 6 undefined on input line 96.
+
+
+LaTeX Warning: Citation `holden2007' on page 6 undefined on input line 96.
+
+
+LaTeX Warning: Citation `ortiz2014' on page 6 undefined on input line 101.
+
+
+LaTeX Warning: Citation `ortiz2014' on page 6 undefined on input line 101.
+
+
+LaTeX Warning: Citation `pons2014' on page 6 undefined on input line 101.
+
+
+LaTeX Warning: Citation `leung2007' on page 6 undefined on input line 101.
+
+
+pdfTeX warning (ext4): destination with the same identifier (name{page.6}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.103 \section
+              {Web server applications} [6]
+
+LaTeX Warning: Citation `attitalla2016' on page 7 undefined on input line 106.
+
+
+LaTeX Warning: Citation `zambonelli2016' on page 7 undefined on input line 106.
+
+
+LaTeX Warning: Citation `laine2011' on page 7 undefined on input line 106.
+
+
+LaTeX Warning: Citation `stroulia2001' on page 7 undefined on input line 106.
+
+
+LaTeX Warning: Citation `attitalla2016' on page 7 undefined on input line 108.
+
+
+LaTeX Warning: Citation `tilley2001' on page 7 undefined on input line 110.
+
+
+pdfTeX warning (ext4): destination with the same identifier (name{page.7}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.115 \end{itemize}
+                    [7 <./img/cap2/holden2007.pdf>]
+<img/cap2/webTierarch.pdf, id=292, 465.26205pt x 411.55864pt>
+File: img/cap2/webTierarch.pdf Graphic file (type pdf)
+<use img/cap2/webTierarch.pdf>
+Package pdftex.def Info: img/cap2/webTierarch.pdf  used on input line 122.
+(pdftex.def)             Requested size: 174.03757pt x 153.95103pt.
+
+
+LaTeX Warning: Citation `sun2003' on page 8 undefined on input line 123.
+
+
+LaTeX Warning: Citation `sun2003' on page 8 undefined on input line 123.
+
+<img/cap2/firstWebArch.pdf, id=293, 525.49014pt x 370.40277pt>
+File: img/cap2/firstWebArch.pdf Graphic file (type pdf)
+<use img/cap2/firstWebArch.pdf>
+Package pdftex.def Info: img/cap2/firstWebArch.pdf  used on input line 128.
+(pdftex.def)             Requested size: 214.98666pt x 151.5383pt.
+
+Overfull \hbox (10.23805pt too wide) in paragraph at lines 128--129
+ [] 
+ []
+
+
+LaTeX Warning: Citation `sun2003' on page 8 undefined on input line 129.
+
+
+LaTeX Warning: Citation `sun2003' on page 8 undefined on input line 129.
+
+
+LaTeX Warning: Citation `attitalla2016' on page 8 undefined on input line 143.
+
+
+LaTeX Warning: Citation `kovatsch2012' on page 8 undefined on input line 143.
+
+
+LaTeX Warning: Citation `loreto2012' on page 8 undefined on input line 143.
+
+
+LaTeX Warning: Citation `marwedel2010' on page 8 undefined on input line 149.
+
+
+pdfTeX warning (ext4): destination with the same identifier (name{page.8}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.150 
+       [8 <./img/cap2/webTierarch.pdf> <./img/cap2/firstWebArch.pdf
+
+pdfTeX warning: pdflatex (file ./img/cap2/firstWebArch.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+>]
+
+LaTeX Warning: Citation `marwedel2018' on page 9 undefined on input line 151.
+
+<img/cap2/OdroidXU3-ES.pdf, id=313, 361.35pt x 266.6763pt>
+File: img/cap2/OdroidXU3-ES.pdf Graphic file (type pdf)
+<use img/cap2/OdroidXU3-ES.pdf>
+Package pdftex.def Info: img/cap2/OdroidXU3-ES.pdf  used on input line 155.
+(pdftex.def)             Requested size: 318.49861pt x 235.05429pt.
+
+LaTeX Warning: Citation `marwedel2018' on page 9 undefined on input line 156.
+
+
+LaTeX Warning: Citation `marwedel2018' on page 9 undefined on input line 156.
+
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <10> on input line 165.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <7> on input line 165.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <5> on input line 165.
+
+pdfTeX warning (ext4): destination with the same identifier (name{page.9}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.170 
+       [9 <./img/cap2/OdroidXU3-ES.pdf>]) (chapters/cap3.tex
+pdfTeX warning (ext4): destination with the same identifier (name{page.10}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.1 user\chapter
+                {Related Work} [10]
+
+LaTeX Warning: Citation `abdallah2019' on page 11 undefined on input line 11.
+
+<img/cap3/abdallah2019.pdf, id=334, 796.51656pt x 454.72212pt>
+File: img/cap3/abdallah2019.pdf Graphic file (type pdf)
+<use img/cap3/abdallah2019.pdf>
+Package pdftex.def Info: img/cap3/abdallah2019.pdf  used on input line 17.
+(pdftex.def)             Requested size: 409.49722pt x 233.7786pt.
+
+LaTeX Warning: Citation `abdallah2019' on page 11 undefined on input line 18.
+
+
+LaTeX Warning: Citation `abdallah2019' on page 11 undefined on input line 18.
+
+
+pdfTeX warning (ext4): destination with the same identifier (name{page.11}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.25 
+      [11
+
+ <./img/cap3/abdallah2019.pdf>]
+
+LaTeX Warning: Citation `zolotas2018' on page 12 undefined on input line 34.
+
+<img/cap3/zolotas2018.pdf, id=346, 361.35pt x 357.0138pt>
+File: img/cap3/zolotas2018.pdf Graphic file (type pdf)
+<use img/cap3/zolotas2018.pdf>
+Package pdftex.def Info: img/cap3/zolotas2018.pdf  used on input line 38.
+(pdftex.def)             Requested size: 318.49861pt x 314.67972pt.
+
+LaTeX Warning: Citation `zolotas2018' on page 12 undefined on input line 39.
+
+
+LaTeX Warning: Citation `zolotas2018' on page 12 undefined on input line 39.
+
+
+pdfTeX warning (ext4): destination with the same identifier (name{page.12}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.51 \item T
+            he camera image mounted on the back of the seat which includes o... [12]
+
+LaTeX Warning: Citation `maule2017' on page 13 undefined on input line 61.
+
+[13 <./img/cap3/zolotas2018.pdf>]
+<img/cap3/maule2017-AR.pdf, id=369, 361.35pt x 211.75111pt>
+File: img/cap3/maule2017-AR.pdf Graphic file (type pdf)
+<use img/cap3/maule2017-AR.pdf>
+Package pdftex.def Info: img/cap3/maule2017-AR.pdf  used on input line 69.
+(pdftex.def)             Requested size: 427.70111pt x 250.63635pt.
+
+
+LaTeX Warning: Citation `maule2017' on page 14 undefined on input line 70.
+
+
+LaTeX Warning: Citation `maule2017' on page 14 undefined on input line 70.
+
+[14 <./img/cap3/maule2017-AR.pdf>]
+
+LaTeX Warning: Citation `vailland2019' on page 15 undefined on input line 84.
+
+
+LaTeX Warning: Citation `vailland2019' on page 15 undefined on input line 86.
+
+<img/cap3/vailland2019-3dScenes01.pdf, id=383, 448.79669pt x 343.2825pt>
+File: img/cap3/vailland2019-3dScenes01.pdf Graphic file (type pdf)
+<use img/cap3/vailland2019-3dScenes01.pdf>
+Package pdftex.def Info: img/cap3/vailland2019-3dScenes01.pdf  used on input line 95.
+(pdftex.def)             Requested size: 213.96094pt x 163.658pt.
+
+LaTeX Warning: Citation `vailland2019' on page 15 undefined on input line 96.
+
+
+LaTeX Warning: Citation `vailland2019' on page 15 undefined on input line 96.
+
+<img/cap3/vailland2019-3dScenes02.pdf, id=384, 450.2421pt x 343.2825pt>
+File: img/cap3/vailland2019-3dScenes02.pdf Graphic file (type pdf)
+<use img/cap3/vailland2019-3dScenes02.pdf>
+Package pdftex.def Info: img/cap3/vailland2019-3dScenes02.pdf  used on input line 101.
+(pdftex.def)             Requested size: 213.96094pt x 163.1342pt.
+
+LaTeX Warning: Citation `vailland2019' on page 15 undefined on input line 102.
+
+
+LaTeX Warning: Citation `vailland2019' on page 15 undefined on input line 102.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[15]
+
+LaTeX Warning: Citation `vailland2019' on page 16 undefined on input line 123.
+
+
+LaTeX Warning: Citation `john2018' on page 16 undefined on input line 123.
+
+
+LaTeX Warning: Citation `kamaraj2016' on page 16 undefined on input line 123.
+
+
+LaTeX Warning: Citation `mahajan2013' on page 16 undefined on input line 123.
+
+
+LaTeX Warning: Citation `valentini2019' on page 16 undefined on input line 123.
+
+<img/cap3/valentini2019virtual.pdf, id=391, 722.7pt x 347.61871pt>
+File: img/cap3/valentini2019virtual.pdf Graphic file (type pdf)
+<use img/cap3/valentini2019virtual.pdf>
+Package pdftex.def Info: img/cap3/valentini2019virtual.pdf  used on input line 127.
+(pdftex.def)             Requested size: 455.0pt x 218.85773pt.
+
+LaTeX Warning: Citation `valentini2019' on page 16 undefined on input line 128.
+
+
+LaTeX Warning: Citation `valentini2019' on page 16 undefined on input line 128.
+
+[16 <./img/cap3/vailland2019-3dScenes01.pdf> <./img/cap3/vailland2019-3dScenes02.pdf
+
+pdfTeX warning: pdflatex (file ./img/cap3/vailland2019-3dScenes02.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+>]
+<img/cap3/valentini2019real.pdf, id=409, 722.7pt x 529.01637pt>
+File: img/cap3/valentini2019real.pdf Graphic file (type pdf)
+<use img/cap3/valentini2019real.pdf>
+Package pdftex.def Info: img/cap3/valentini2019real.pdf  used on input line 135.
+(pdftex.def)             Requested size: 364.00139pt x 266.45291pt.
+
+
+LaTeX Warning: Citation `valentini2019' on page 17 undefined on input line 136.
+
+
+LaTeX Warning: Citation `valentini2019' on page 17 undefined on input line 136.
+
+[17 <./img/cap3/valentini2019virtual.pdf> <./img/cap3/valentini2019real.pdf
+
+pdfTeX warning: pdflatex (file ./img/cap3/valentini2019real.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+>]
+
+LaTeX Warning: Citation `rodriguez2015' on page 18 undefined on input line 156.
+
+
+LaTeX Warning: Citation `john2018' on page 18 undefined on input line 160.
+
+<img/cap3/john2018task-a.pdf, id=429, 328.8285pt x 299.19778pt>
+File: img/cap3/john2018task-a.pdf Graphic file (type pdf)
+<use img/cap3/john2018task-a.pdf>
+Package pdftex.def Info: img/cap3/john2018task-a.pdf  used on input line 170.
+(pdftex.def)             Requested size: 211.57333pt x 192.51312pt.
+
+LaTeX Warning: Citation `john2018' on page 18 undefined on input line 171.
+
+
+LaTeX Warning: Citation `john2018' on page 18 undefined on input line 171.
+
+<img/cap3/john2018task-b.pdf, id=430, 361.35pt x 317.98799pt>
+File: img/cap3/john2018task-b.pdf Graphic file (type pdf)
+<use img/cap3/john2018task-b.pdf>
+Package pdftex.def Info: img/cap3/john2018task-b.pdf  used on input line 176.
+(pdftex.def)             Requested size: 212.66821pt x 187.15033pt.
+
+LaTeX Warning: Citation `john2018' on page 18 undefined on input line 177.
+
+
+LaTeX Warning: Citation `john2018' on page 18 undefined on input line 177.
+
+[18]
+<img/cap3/john2018virtual.pdf, id=437, 361.35pt x 270.2898pt>
+File: img/cap3/john2018virtual.pdf Graphic file (type pdf)
+<use img/cap3/john2018virtual.pdf>
+Package pdftex.def Info: img/cap3/john2018virtual.pdf  used on input line 190.
+(pdftex.def)             Requested size: 432.24861pt x 323.32332pt.
+
+
+LaTeX Warning: Citation `john2018' on page 19 undefined on input line 191.
+
+
+LaTeX Warning: Citation `john2018' on page 19 undefined on input line 191.
+
+[19 <./img/cap3/john2018task-a.pdf> <./img/cap3/john2018task-b.pdf
+
+pdfTeX warning: pdflatex (file ./img/cap3/john2018task-b.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> <./img/cap3/john2018virtual.pdf
+
+pdfTeX warning: pdflatex (file ./img/cap3/john2018virtual.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+>]
+
+LaTeX Warning: Citation `kennedy1993' on page 20 undefined on input line 202.
+
+
+LaTeX Warning: Citation `valentini2019' on page 20 undefined on input line 209.
+
+
+LaTeX Warning: Citation `john2018' on page 20 undefined on input line 209.
+
+
+LaTeX Warning: Citation `martins2017' on page 20 undefined on input line 209.
+
+
+LaTeX Warning: Citation `nunnerley2017' on page 20 undefined on input line 209.
+
+
+LaTeX Warning: Citation `torkia2015' on page 20 undefined on input line 209.
+
+
+LaTeX Warning: Citation `mahajan2013' on page 20 undefined on input line 209.
+
+
+LaTeX Warning: Citation `nunnerley2017' on page 20 undefined on input line 211.
+
+
+LaTeX Warning: Citation `martins2017' on page 20 undefined on input line 211.
+
+
+LaTeX Warning: Citation `mahajan2013' on page 20 undefined on input line 211.
+
+
+LaTeX Warning: Citation `torkia2015' on page 20 undefined on input line 211.
+
+<img/cap3/martins2017.pdf, id=463, 903.50114pt x 426.15137pt>
+File: img/cap3/martins2017.pdf Graphic file (type pdf)
+<use img/cap3/martins2017.pdf>
+Package pdftex.def Info: img/cap3/martins2017.pdf  used on input line 215.
+(pdftex.def)             Requested size: 455.0pt x 214.60974pt.
+
+LaTeX Warning: Citation `martins2017' on page 20 undefined on input line 216.
+
+
+LaTeX Warning: Citation `martins2017' on page 20 undefined on input line 216.
+
+
+LaTeX Warning: Citation `dawson1994' on page 20 undefined on input line 222.
+
+
+LaTeX Warning: Citation `valentini2019' on page 20 undefined on input line 222.
+
+[20]
+
+LaTeX Warning: Citation `john2018' on page 21 undefined on input line 233.
+
+[21 <./img/cap3/martins2017.pdf>]
+
+LaTeX Warning: Citation `who2008' on page 22 undefined on input line 241.
+
+
+LaTeX Warning: Citation `pettersson2014' on page 22 undefined on input line 243.
+
+
+LaTeX Warning: Citation `gaal1997' on page 22 undefined on input line 243.
+
+
+LaTeX Warning: Citation `xiang2006' on page 22 undefined on input line 243.
+
+
+LaTeX Warning: Citation `macgillivray2018' on page 22 undefined on input line 245.
+
+
+LaTeX Warning: Citation `kirby2008' on page 22 undefined on input line 247.
+
+
+LaTeX Warning: Citation `mortenson2007' on page 22 undefined on input line 249.
+
+[22]
+
+LaTeX Warning: Citation `zheng2015' on page 23 undefined on input line 260.
+
+
+LaTeX Warning: Citation `greene2016' on page 23 undefined on input line 262.
+
+
+LaTeX Warning: Citation `affanni2018' on page 23 undefined on input line 264.
+
+<img/cap3/affani2018.pdf, id=485, 426.61568pt x 255.4675pt>
+File: img/cap3/affani2018.pdf Graphic file (type pdf)
+<use img/cap3/affani2018.pdf>
+Package pdftex.def Info: img/cap3/affani2018.pdf  used on input line 268.
+(pdftex.def)             Requested size: 455.0pt x 272.47432pt.
+
+LaTeX Warning: Citation `affanni2018' on page 23 undefined on input line 269.
+
+
+LaTeX Warning: Citation `affanni2018' on page 23 undefined on input line 269.
+
+
+LaTeX Warning: Citation `worobey2012' on page 23 undefined on input line 281.
+
+
+LaTeX Warning: Citation `kirby2015' on page 23 undefined on input line 281.
+
+
+LaTeX Warning: Citation `corfman2003' on page 23 undefined on input line 281.
+
+
+LaTeX Warning: Citation `hogan2009' on page 23 undefined on input line 281.
+
+[23]
+
+LaTeX Warning: Citation `kamaraj2016' on page 24 undefined on input line 283.
+
+
+LaTeX Warning: Citation `rubio2004' on page 24 undefined on input line 285.
+
+<img/cap3/kamaraj2016-InterfacesA.pdf, id=495, 448.1974pt x 312.6842pt>
+File: img/cap3/kamaraj2016-InterfacesA.pdf Graphic file (type pdf)
+<use img/cap3/kamaraj2016-InterfacesA.pdf>
+Package pdftex.def Info: img/cap3/kamaraj2016-InterfacesA.pdf  used on input line 292.
+(pdftex.def)             Requested size: 225.22278pt x 157.12895pt.
+
+LaTeX Warning: Citation `kamaraj2016' on page 24 undefined on input line 293.
+
+
+LaTeX Warning: Citation `kamaraj2016' on page 24 undefined on input line 293.
+
+<img/cap3/kamaraj2016-InterfacesB.pdf, id=496, 408.04536pt x 312.6842pt>
+File: img/cap3/kamaraj2016-InterfacesB.pdf Graphic file (type pdf)
+<use img/cap3/kamaraj2016-InterfacesB.pdf>
+Package pdftex.def Info: img/cap3/kamaraj2016-InterfacesB.pdf  used on input line 298.
+(pdftex.def)             Requested size: 207.20453pt x 158.78455pt.
+
+LaTeX Warning: Citation `kamaraj2016' on page 24 undefined on input line 299.
+
+
+LaTeX Warning: Citation `kamaraj2016' on page 24 undefined on input line 299.
+
+<img/cap3/kamaraj2016-VRA.pdf, id=497, 425.61188pt x 268.01503pt>
+File: img/cap3/kamaraj2016-VRA.pdf Graphic file (type pdf)
+<use img/cap3/kamaraj2016-VRA.pdf>
+Package pdftex.def Info: img/cap3/kamaraj2016-VRA.pdf  used on input line 304.
+(pdftex.def)             Requested size: 225.22278pt x 141.82645pt.
+
+LaTeX Warning: Citation `kamaraj2016' on page 24 undefined on input line 305.
+
+
+LaTeX Warning: Citation `kamaraj2016' on page 24 undefined on input line 305.
+
+[24 <./img/cap3/affani2018.pdf>] [25 <./img/cap3/kamaraj2016-InterfacesA.pdf> <./img/cap3/kamaraj2016-InterfacesB.pdf
+
+pdfTeX warning: pdflatex (file ./img/cap3/kamaraj2016-InterfacesB.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+> <./img/cap3/kamaraj2016-VRA.pdf
+
+pdfTeX warning: pdflatex (file ./img/cap3/kamaraj2016-VRA.pdf): PDF inclusion: multiple pdfs with page group included in a single page
+>]
+
+LaTeX Warning: Citation `borresen2019' on page 26 undefined on input line 327.
+
+<img/cap3/borresen2019.pdf, id=539, 361.35pt x 325.9377pt>
+File: img/cap3/borresen2019.pdf Graphic file (type pdf)
+<use img/cap3/borresen2019.pdf>
+Package pdftex.def Info: img/cap3/borresen2019.pdf  used on input line 331.
+(pdftex.def)             Requested size: 273.00278pt x 246.24806pt.
+
+LaTeX Warning: Citation `borresen2019' on page 26 undefined on input line 332.
+
+
+LaTeX Warning: Citation `borresen2019' on page 26 undefined on input line 332.
+
+
+LaTeX Warning: Citation `schutte2012' on page 26 undefined on input line 337.
+
+[26 <./img/cap3/borresen2019.pdf>]
+
+LaTeX Warning: Citation `borresen2019' on page 27 undefined on input line 343.
+
+
+LaTeX Warning: Citation `pani2014' on page 27 undefined on input line 350.
+
+<img/cap3/pani2014-device.pdf, id=552, 633.36626pt x 438.63875pt>
+File: img/cap3/pani2014-device.pdf Graphic file (type pdf)
+<use img/cap3/pani2014-device.pdf>
+Package pdftex.def Info: img/cap3/pani2014-device.pdf  used on input line 354.
+(pdftex.def)             Requested size: 318.49861pt x 220.58382pt.
+
+LaTeX Warning: Citation `pani2014' on page 27 undefined on input line 355.
+
+
+LaTeX Warning: Citation `pani2014' on page 27 undefined on input line 355.
+
+[27 <./img/cap3/pani2014-device.pdf>]
+
+LaTeX Warning: Citation `pani2014' on page 28 undefined on input line 365.
+
+<img/cap3/pani2014-components.pdf, id=562, 631.35875pt x 302.12875pt>
+File: img/cap3/pani2014-components.pdf Graphic file (type pdf)
+<use img/cap3/pani2014-components.pdf>
+Package pdftex.def Info: img/cap3/pani2014-components.pdf  used on input line 369.
+(pdftex.def)             Requested size: 318.49861pt x 152.41476pt.
+
+LaTeX Warning: Citation `pani2014' on page 28 undefined on input line 370.
+
+
+LaTeX Warning: Citation `pani2014' on page 28 undefined on input line 370.
+
+
+LaTeX Warning: Citation `mitsumura2014' on page 28 undefined on input line 383.
+
+
+LaTeX Warning: Citation `mitsumura2014' on page 28 undefined on input line 385.
+
+[28 <./img/cap3/pani2014-components.pdf>]
+<img/cap3/mitsumuraSolutions.pdf, id=573, 493.845pt x 400.49625pt>
+File: img/cap3/mitsumuraSolutions.pdf Graphic file (type pdf)
+<use img/cap3/mitsumuraSolutions.pdf>
+Package pdftex.def Info: img/cap3/mitsumuraSolutions.pdf  used on input line 392.
+(pdftex.def)             Requested size: 180.17891pt x 146.11574pt.
+
+
+LaTeX Warning: Citation `mitsumura2014' on page 29 undefined on input line 393.
+
+
+LaTeX Warning: Citation `mitsumura2014' on page 29 undefined on input line 393.
+
+<img/cap3/mitsumuraArchitecture.pdf, id=574, 531.9875pt x 279.0425pt>
+File: img/cap3/mitsumuraArchitecture.pdf Graphic file (type pdf)
+<use img/cap3/mitsumuraArchitecture.pdf>
+Package pdftex.def Info: img/cap3/mitsumuraArchitecture.pdf  used on input line 398.
+(pdftex.def)             Requested size: 225.22278pt x 118.13376pt.
+
+LaTeX Warning: Citation `mitsumura2014' on page 29 undefined on input line 399.
+
+
+LaTeX Warning: Citation `mitsumura2014' on page 29 undefined on input line 399.
+
+
+LaTeX Warning: Citation `Rsi2020' on page 29 undefined on input line 404.
+
+<img/cap3/mitsumuraExperimentsA.pdf, id=576, 220.825pt x 169.63374pt>
+File: img/cap3/mitsumuraExperimentsA.pdf Graphic file (type pdf)
+<use img/cap3/mitsumuraExperimentsA.pdf>
+Package pdftex.def Info: img/cap3/mitsumuraExperimentsA.pdf  used on input line 413.
+(pdftex.def)             Requested size: 202.69911pt x 155.71808pt.
+
+LaTeX Warning: Citation `mitsumura2014' on page 29 undefined on input line 414.
+
+
+LaTeX Warning: Citation `mitsumura2014' on page 29 undefined on input line 414.
+
+<img/cap3/mitsumuraExperimentsB.pdf, id=577, 214.8025pt x 164.615pt>
+File: img/cap3/mitsumuraExperimentsB.pdf Graphic file (type pdf)
+<use img/cap3/mitsumuraExperimentsB.pdf>
+Package pdftex.def Info: img/cap3/mitsumuraExperimentsB.pdf  used on input line 419.
+(pdftex.def)             Requested size: 193.69173pt x 148.43848pt.
+
+LaTeX Warning: Citation `mitsumura2014' on page 29 undefined on input line 420.
+
+
+LaTeX Warning: Citation `mitsumura2014' on page 29 undefined on input line 420.
+
+[29 <./img/cap3/mitsumuraSolutions.pdf> <./img/cap3/mitsumuraArchitecture.pdf> <./img/cap3/mitsumuraExperimentsA.pdf> <./img/cap3/mitsumuraExperimentsB.pdf>]
+
+LaTeX Warning: Citation `mitsumura2014' on page 30 undefined on input line 427.
+
+<img/cap3/wei2013-mobileGaitOverview.pdf, id=597, 1040.88875pt x 666.49pt>
+File: img/cap3/wei2013-mobileGaitOverview.pdf Graphic file (type pdf)
+<use img/cap3/wei2013-mobileGaitOverview.pdf>
+Package pdftex.def Info: img/cap3/wei2013-mobileGaitOverview.pdf  used on input line 437.
+(pdftex.def)             Requested size: 409.49722pt x 262.19792pt.
+
+LaTeX Warning: Citation `wei2013' on page 30 undefined on input line 438.
+
+
+LaTeX Warning: Citation `wei2013' on page 30 undefined on input line 438.
+
+[30 <./img/cap3/wei2013-mobileGaitOverview.pdf>]
+<img/cap3/wei2013-RTWiFibased.pdf, id=606, 884.30376pt x 503.8825pt>
+File: img/cap3/wei2013-RTWiFibased.pdf Graphic file (type pdf)
+<use img/cap3/wei2013-RTWiFibased.pdf>
+Package pdftex.def Info: img/cap3/wei2013-RTWiFibased.pdf  used on input line 449.
+(pdftex.def)             Requested size: 318.49861pt x 181.48213pt.
+
+
+LaTeX Warning: Citation `wei2013' on page 31 undefined on input line 450.
+
+
+LaTeX Warning: Citation `wei2013' on page 31 undefined on input line 450.
+
+
+LaTeX Warning: Citation `cooper2012' on page 31 undefined on input line 461.
+
+<img/cap3/cooper2012-robotView.pdf, id=608, 800.9925pt x 588.1975pt>
+File: img/cap3/cooper2012-robotView.pdf Graphic file (type pdf)
+<use img/cap3/cooper2012-robotView.pdf>
+Package pdftex.def Info: img/cap3/cooper2012-robotView.pdf  used on input line 468.
+(pdftex.def)             Requested size: 225.22472pt x 165.38525pt.
+
+Overfull \hbox (20.4761pt too wide) in paragraph at lines 468--469
+ [] 
+ []
+
+
+LaTeX Warning: Citation `cooper2012' on page 31 undefined on input line 469.
+
+
+LaTeX Warning: Citation `cooper2012' on page 31 undefined on input line 469.
+
+<img/cap3/cooper2012-remoteOp.pdf, id=609, 404.51125pt x 607.26875pt>
+File: img/cap3/cooper2012-remoteOp.pdf Graphic file (type pdf)
+<use img/cap3/cooper2012-remoteOp.pdf>
+Package pdftex.def Info: img/cap3/cooper2012-remoteOp.pdf  used on input line 474.
+(pdftex.def)             Requested size: 143.3234pt x 215.16031pt.
+
+LaTeX Warning: Citation `cooper2012' on page 31 undefined on input line 475.
+
+
+LaTeX Warning: Citation `cooper2012' on page 31 undefined on input line 475.
+
+[31 <./img/cap3/wei2013-RTWiFibased.pdf>]
+
+LaTeX Warning: Citation `abdallah2019' on page 32 undefined on input line 500.
+
+<img/yes.pdf, id=619, 225.4824pt x 225.4824pt>
+File: img/yes.pdf Graphic file (type pdf)
+<use img/yes.pdf>
+Package pdftex.def Info: img/yes.pdf  used on input line 500.
+(pdftex.def)             Requested size: 12.39984pt x 12.39984pt.
+
+LaTeX Warning: Citation `vailland2019' on page 32 undefined on input line 501.
+
+File: img/yes.pdf Graphic file (type pdf)
+<use img/yes.pdf>
+Package pdftex.def Info: img/yes.pdf  used on input line 501.
+(pdftex.def)             Requested size: 12.39984pt x 12.39984pt.
+
+LaTeX Warning: Citation `valentini2019' on page 32 undefined on input line 502.
+
+File: img/yes.pdf Graphic file (type pdf)
+<use img/yes.pdf>
+Package pdftex.def Info: img/yes.pdf  used on input line 502.
+(pdftex.def)             Requested size: 12.39984pt x 12.39984pt.
+File: img/yes.pdf Graphic file (type pdf)
+<use img/yes.pdf>
+Package pdftex.def Info: img/yes.pdf  used on input line 502.
+(pdftex.def)             Requested size: 12.39984pt x 12.39984pt.
+
+LaTeX Warning: Citation `borresen2019' on page 32 undefined on input line 503.
+
+File: img/yes.pdf Graphic file (type pdf)
+<use img/yes.pdf>
+Package pdftex.def Info: img/yes.pdf  used on input line 503.
+(pdftex.def)             Requested size: 12.39984pt x 12.39984pt.
+File: img/yes.pdf Graphic file (type pdf)
+<use img/yes.pdf>
+Package pdftex.def Info: img/yes.pdf  used on input line 503.
+(pdftex.def)             Requested size: 12.39984pt x 12.39984pt.
+
+LaTeX Warning: Citation `zolotas2018' on page 32 undefined on input line 504.
+
+File: img/yes.pdf Graphic file (type pdf)
+<use img/yes.pdf>
+Package pdftex.def Info: img/yes.pdf  used on input line 504.
+(pdftex.def)             Requested size: 12.39984pt x 12.39984pt.
+
+LaTeX Warning: Citation `john2018' on page 32 undefined on input line 505.
+
+File: img/yes.pdf Graphic file (type pdf)
+<use img/yes.pdf>
+Package pdftex.def Info: img/yes.pdf  used on input line 505.
+(pdftex.def)             Requested size: 12.39984pt x 12.39984pt.
+File: img/yes.pdf Graphic file (type pdf)
+<use img/yes.pdf>
+Package pdftex.def Info: img/yes.pdf  used on input line 505.
+(pdftex.def)             Requested size: 12.39984pt x 12.39984pt.
+
+LaTeX Warning: Citation `macgillivray2018' on page 32 undefined on input line 506.
+
+File: img/yes.pdf Graphic file (type pdf)
+<use img/yes.pdf>
+Package pdftex.def Info: img/yes.pdf  used on input line 506.
+(pdftex.def)             Requested size: 12.39984pt x 12.39984pt.
+File: img/yes.pdf Graphic file (type pdf)
+<use img/yes.pdf>
+Package pdftex.def Info: img/yes.pdf  used on input line 506.
+(pdftex.def)             Requested size: 12.39984pt x 12.39984pt.
+
+LaTeX Warning: Citation `affanni2018' on page 32 undefined on input line 507.
+
+File: img/yes.pdf Graphic file (type pdf)
+<use img/yes.pdf>
+Package pdftex.def Info: img/yes.pdf  used on input line 507.
+(pdftex.def)             Requested size: 12.39984pt x 12.39984pt.
+File: img/yes.pdf Graphic file (type pdf)
+<use img/yes.pdf>
+Package pdftex.def Info: img/yes.pdf  used on input line 507.
+(pdftex.def)             Requested size: 12.39984pt x 12.39984pt.
+
+LaTeX Warning: Citation `maule2017' on page 32 undefined on input line 508.
+
+File: img/yes.pdf Graphic file (type pdf)
+<use img/yes.pdf>
+Package pdftex.def Info: img/yes.pdf  used on input line 508.
+(pdftex.def)             Requested size: 12.39984pt x 12.39984pt.
+
+LaTeX Warning: Citation `kamaraj2016' on page 32 undefined on input line 509.
+
+File: img/yes.pdf Graphic file (type pdf)
+<use img/yes.pdf>
+Package pdftex.def Info: img/yes.pdf  used on input line 509.
+(pdftex.def)             Requested size: 12.39984pt x 12.39984pt.
+File: img/yes.pdf Graphic file (type pdf)
+<use img/yes.pdf>
+Package pdftex.def Info: img/yes.pdf  used on input line 509.
+(pdftex.def)             Requested size: 12.39984pt x 12.39984pt.
+
+LaTeX Warning: Citation `mitsumura2014' on page 32 undefined on input line 510.
+
+File: img/yes.pdf Graphic file (type pdf)
+<use img/yes.pdf>
+Package pdftex.def Info: img/yes.pdf  used on input line 510.
+(pdftex.def)             Requested size: 12.39984pt x 12.39984pt.
+
+LaTeX Warning: Citation `pani2014' on page 32 undefined on input line 511.
+
+File: img/yes.pdf Graphic file (type pdf)
+<use img/yes.pdf>
+Package pdftex.def Info: img/yes.pdf  used on input line 511.
+(pdftex.def)             Requested size: 12.39984pt x 12.39984pt.
+
+LaTeX Warning: Citation `wei2013' on page 32 undefined on input line 512.
+
+File: img/yes.pdf Graphic file (type pdf)
+<use img/yes.pdf>
+Package pdftex.def Info: img/yes.pdf  used on input line 512.
+(pdftex.def)             Requested size: 12.39984pt x 12.39984pt.
+
+LaTeX Warning: Citation `cooper2012' on page 32 undefined on input line 513.
+
+File: img/yes.pdf Graphic file (type pdf)
+<use img/yes.pdf>
+Package pdftex.def Info: img/yes.pdf  used on input line 513.
+(pdftex.def)             Requested size: 12.39984pt x 12.39984pt.
+[32 <./img/cap3/cooper2012-robotView.pdf> <./img/cap3/cooper2012-remoteOp.pdf>] [33 <./img/yes.pdf>]) (thesis-leandrozuza.bbl (thesis-leandrozuza.brf)
+\tf@brf=\write6
+\openout6 = `thesis-leandrozuza.brf'.
+
+ [34]
+bibitemlist
+) [35
+
+]
+\tf@toc=\write7
+\openout7 = `thesis-leandrozuza.toc'.
+
+\tf@lof=\write8
+\openout8 = `thesis-leandrozuza.lof'.
+
+\tf@lot=\write9
+\openout9 = `thesis-leandrozuza.lot'.
+
+ (thesis-leandrozuza.aux)
+ ***********
+LaTeX2e <2023-11-01> patch level 1
+L3 programming layer <2024-01-04>
+ ***********
+
+
+LaTeX Warning: There were undefined references.
+
+Package rerunfilecheck Info: File `thesis-leandrozuza.brf' has not changed.
+(rerunfilecheck)             Checksum: 10C358CF89414F37CF42B9381B5CC13F;10811.
+ ) 
+Here is how much of TeX's memory you used:
+ 26287 strings out of 474485
+ 436179 string characters out of 5743756
+ 1956542 words of memory out of 5000000
+ 47724 multiletter control sequences out of 15000+600000
+ 649373 words of font info for 205 fonts, out of 8000000 for 9000
+ 1192 hyphenation exceptions out of 8191
+ 110i,16n,107p,1348b,738s stack positions out of 10000i,1000n,20000p,200000b,200000s
+{C:/Users/leand/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc}{C:/Users/leand/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ts1.enc}<C:/Users/leand/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx10.pfb><C:/Users/leand/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx12.pfb><C:/Users/leand/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr10.pfb><C:/Users/leand/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr12.pfb><C:/Users/leand/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr7.pfb><C:/Users/leand/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr8.pfb><C:/Users/leand/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri10.pfb><C:/Users/leand/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri12.pfb><C:/Users/leand/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmss12.pfb><C:/Users/leand/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmss17.pfb><C:/Users/leand/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmssbx10.pfb>
+Output written on thesis-leandrozuza.pdf (47 pages, 12486316 bytes).
+PDF statistics:
+ 850 PDF objects out of 1000 (max. 8388607)
+ 131 named destinations out of 1000 (max. 500000)
+ 51698 words of extra memory for PDF output out of 61914 (max. 10000000)
+

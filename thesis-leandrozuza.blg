@@ -1,0 +1,142 @@
+This is BibTeX, Version 0.99d
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: thesis-leandrozuza.aux
+Reallocating 'name_of_file' (item size: 1) to 16 items.
+Reallocating 'name_of_file' (item size: 1) to 24 items.
+Reallocating 'name_of_file' (item size: 1) to 12 items.
+The style file: abntex2-alf.bst
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'wiz_functions' (item size: 4) to 6000 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'wiz_functions' (item size: 4) to 9000 items.
+Reallocating 'field_info' (item size: 4) to 10106 items.
+Database file #1: abntex2-options.bib
+Database file #2: postextual/bibliography.bib
+Warning--I didn't find a database entry for "joystickvr2jsm"
+Warning--I didn't find a database entry for "fattouh2004"
+Warning--I didn't find a database entry for "jck-ushape2020"
+Warning--I didn't find a database entry for "jck-ywlball2020"
+Warning--I didn't find a database entry for "manring2020"
+Warning--I didn't find a database entry for "holden2007"
+Warning--I didn't find a database entry for "sun2003"
+Warning--I didn't find a database entry for "marwedel2018"
+Warning--I didn't find a database entry for "abdallah2019"
+Warning--I didn't find a database entry for "zolotas2018"
+Warning--I didn't find a database entry for "maule2017"
+Warning--I didn't find a database entry for "vailland2019"
+Warning--I didn't find a database entry for "valentini2019"
+Warning--I didn't find a database entry for "john2018"
+Warning--I didn't find a database entry for "martins2017"
+Warning--I didn't find a database entry for "affanni2018"
+Warning--I didn't find a database entry for "kamaraj2016"
+Warning--I didn't find a database entry for "borresen2019"
+Warning--I didn't find a database entry for "pani2014"
+Warning--I didn't find a database entry for "mitsumura2014"
+Warning--I didn't find a database entry for "wei2013"
+Warning--I didn't find a database entry for "cooper2012"
+Warning--I didn't find a database entry for "ludy1995"
+Warning--I didn't find a database entry for "barriga2016"
+Warning--I didn't find a database entry for "rechy2012"
+Warning--I didn't find a database entry for "american2014"
+Warning--I didn't find a database entry for "american2008"
+Warning--I didn't find a database entry for "portaria2013"
+Warning--I didn't find a database entry for "anexos2013"
+Warning--I didn't find a database entry for "tori2006"
+Warning--I didn't find a database entry for "wiederhold2019"
+Warning--I didn't find a database entry for "powell2014"
+Warning--I didn't find a database entry for "mahajan2013"
+Warning--I didn't find a database entry for "ines2011"
+Warning--I didn't find a database entry for "silva2011"
+Warning--I didn't find a database entry for "macgillivray2018"
+Warning--I didn't find a database entry for "massengale2005"
+Warning--I didn't find a database entry for "deutsch2007"
+Warning--I didn't find a database entry for "postolache2011"
+Warning--I didn't find a database entry for "brennan2011"
+Warning--I didn't find a database entry for "dhurjaty2004"
+Warning--I didn't find a database entry for "ortiz2014"
+Warning--I didn't find a database entry for "pons2014"
+Warning--I didn't find a database entry for "leung2007"
+Warning--I didn't find a database entry for "attitalla2016"
+Warning--I didn't find a database entry for "zambonelli2016"
+Warning--I didn't find a database entry for "laine2011"
+Warning--I didn't find a database entry for "stroulia2001"
+Warning--I didn't find a database entry for "tilley2001"
+Warning--I didn't find a database entry for "kovatsch2012"
+Warning--I didn't find a database entry for "loreto2012"
+Warning--I didn't find a database entry for "marwedel2010"
+Warning--I didn't find a database entry for "rodriguez2015"
+Warning--I didn't find a database entry for "kennedy1993"
+Warning--I didn't find a database entry for "nunnerley2017"
+Warning--I didn't find a database entry for "torkia2015"
+Warning--I didn't find a database entry for "dawson1994"
+Warning--I didn't find a database entry for "who2008"
+Warning--I didn't find a database entry for "pettersson2014"
+Warning--I didn't find a database entry for "gaal1997"
+Warning--I didn't find a database entry for "xiang2006"
+Warning--I didn't find a database entry for "kirby2008"
+Warning--I didn't find a database entry for "mortenson2007"
+Warning--I didn't find a database entry for "zheng2015"
+Warning--I didn't find a database entry for "greene2016"
+Warning--I didn't find a database entry for "worobey2012"
+Warning--I didn't find a database entry for "kirby2015"
+Warning--I didn't find a database entry for "corfman2003"
+Warning--I didn't find a database entry for "hogan2009"
+Warning--I didn't find a database entry for "rubio2004"
+Warning--I didn't find a database entry for "schutte2012"
+Warning--I didn't find a database entry for "Rsi2020"
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'glb_str_end' (item size: 4) to 20 items.
+Reallocating 'glb_str_ptr' (item size: 4) to 20 items.
+Reallocating 'global_strs' (item size: 1) to 4000000 items.
++---------------------------------------------------------+
+| Estilo bibliográfico abntex2-alf.bst versão v-1.9.7           |
+| Em caso de dúvidas ou problemas com este estilo procure |
+| http://www.abntex.net.br/                               |
++---------------------------------------------------------+
+You've used 2 entries,
+            6714 wiz_defined-function locations,
+            1275 strings with 10299 characters,
+and the built_in function-call counts, 1401 in all, are:
+= -- 218
+> -- 15
+< -- 0
++ -- 51
+- -- 5
+* -- 67
+:= -- 254
+add.period$ -- 3
+call.type$ -- 2
+change.case$ -- 10
+chr.to.int$ -- 2
+cite$ -- 1
+duplicate$ -- 33
+empty$ -- 86
+format.name$ -- 23
+if$ -- 317
+int.to.chr$ -- 0
+int.to.str$ -- 0
+missing$ -- 26
+newline$ -- 13
+num.names$ -- 5
+pop$ -- 48
+preamble$ -- 1
+purify$ -- 6
+quote$ -- 0
+skip$ -- 110
+stack$ -- 1
+substring$ -- 66
+swap$ -- 8
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 0
+while$ -- 8
+width$ -- 0
+write$ -- 22
+(There were 72 warnings)
