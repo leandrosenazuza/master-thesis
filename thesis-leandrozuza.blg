@@ -14,7 +14,7 @@ Reallocating 'singl_function' (item size: 4) to 100 items.
 Reallocating 'singl_function' (item size: 4) to 100 items.
 Reallocating 'singl_function' (item size: 4) to 100 items.
 Reallocating 'wiz_functions' (item size: 4) to 9000 items.
-Reallocating 'field_info' (item size: 4) to 10106 items.
+Reallocating 'field_info' (item size: 4) to 10175 items.
 Database file #1: abntex2-options.bib
 Database file #2: postextual/bibliography.bib
 Warning--I didn't find a database entry for "joystickvr2jsm"
@@ -39,6 +39,7 @@ Warning--I didn't find a database entry for "pani2014"
 Warning--I didn't find a database entry for "mitsumura2014"
 Warning--I didn't find a database entry for "wei2013"
 Warning--I didn't find a database entry for "cooper2012"
+Warning--I didn't find a database entry for "gonzaga2023"
 Warning--I didn't find a database entry for "ludy1995"
 Warning--I didn't find a database entry for "barriga2016"
 Warning--I didn't find a database entry for "rechy2012"
@@ -100,43 +101,43 @@ Reallocating 'global_strs' (item size: 1) to 4000000 items.
 +---------------------------------------------------------+
 You've used 2 entries,
             6714 wiz_defined-function locations,
-            1275 strings with 10299 characters,
-and the built_in function-call counts, 1401 in all, are:
-= -- 218
-> -- 15
-< -- 0
+            1279 strings with 10291 characters,
+and the built_in function-call counts, 1636 in all, are:
+= -- 245
+> -- 16
+< -- 4
 + -- 51
 - -- 5
-* -- 67
-:= -- 254
+* -- 88
+:= -- 273
 add.period$ -- 3
 call.type$ -- 2
 change.case$ -- 10
-chr.to.int$ -- 2
+chr.to.int$ -- 5
 cite$ -- 1
-duplicate$ -- 33
-empty$ -- 86
+duplicate$ -- 48
+empty$ -- 101
 format.name$ -- 23
-if$ -- 317
+if$ -- 378
 int.to.chr$ -- 0
 int.to.str$ -- 0
-missing$ -- 26
+missing$ -- 27
 newline$ -- 13
 num.names$ -- 5
-pop$ -- 48
+pop$ -- 44
 preamble$ -- 1
 purify$ -- 6
 quote$ -- 0
-skip$ -- 110
+skip$ -- 121
 stack$ -- 1
-substring$ -- 66
-swap$ -- 8
-text.length$ -- 0
+substring$ -- 99
+swap$ -- 26
+text.length$ -- 3
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 0
-while$ -- 8
+while$ -- 11
 width$ -- 0
-write$ -- 22
-(There were 72 warnings)
+write$ -- 26
+(There were 73 warnings)

@@ -5,10 +5,9 @@
 \providecommand{\abntbstabout}[1]{}
 \abntbstabout{v-1.9.7 }
 
-\bibitem[Gonzaga 2023]{gonzaga2023}
-\abntrefinfo{Gonzaga}{GONZAGA}{2023}
-{GONZAGA, L.~G. Identifica{\c{c}}{\~a}o e medi{\c{c}}{\~a}o de defeitos em
-  produtos automotivos usando vis{\~a}o computacional.
-Serra, 2023.}
+\bibitem[Randolph 2013]{randolph2013electric}
+\abntrefinfo{Randolph}{RANDOLPH}{2013}
+{RANDOLPH, J. Electric power substations engineering [book reviews].
+\emph{IEEE Power and Energy Magazine}, IEEE, v.~11, n.~3, p. 103--105, 2013.}
 
 \end{thebibliography}
