@@ -10,6 +10,13 @@
 {RANDOLPH, J. Electric power substations engineering [book reviews].
 \emph{IEEE Power and Energy Magazine}, IEEE, v.~11, n.~3, p. 103--105, 2013.}
 
+\bibitem[Rumelhart, Hinton e Williams 1986]{rumelhart1986learning}
+\abntrefinfo{Rumelhart, Hinton e Williams}{RUMELHART; HINTON; WILLIAMS}{1986}
+{RUMELHART, D.~E.; HINTON, G.~E.; WILLIAMS, R.~J. Learning representations by
+  back-propagating errors.
+\emph{nature}, Nature Publishing Group UK London, v.~323, n.~6088, p. 533--536,
+  1986.}
+
 \bibitem[Zhou, Fu e Yang 2016]{zhou2016big}
 \abntrefinfo{Zhou, Fu e Yang}{ZHOU; FU; YANG}{2016}
 {ZHOU, K.; FU, C.; YANG, S. Big data driven smart energy management: From big

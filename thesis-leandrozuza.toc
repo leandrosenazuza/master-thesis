@@ -18,16 +18,16 @@
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
 \contentsline {chapter}{\chapternumberline {2}\MakeUppercase []{Fundamentação Teórica}}{3}{chapter.2}%
 \contentsline {section}{\numberline {2.1}Introdução}{3}{section.2.1}%
-\contentsline {section}{\numberline {2.2}Control of Powered Wheelchairs (PWs)}{3}{section.2.2}%
+\contentsline {section}{\numberline {2.2}Redes Neurais}{3}{section.2.2}%
 \contentsline {section}{\numberline {2.3}Virtual and Augmented Reality}{4}{section.2.3}%
 \contentsline {section}{\numberline {2.4}PMRT training assessments}{5}{section.2.4}%
 \contentsline {section}{\numberline {2.5}Telerehabilitation}{6}{section.2.5}%
-\contentsline {section}{\numberline {2.6}Web server applications}{7}{section.2.6}%
+\contentsline {section}{\numberline {2.6}Web server applications}{6}{section.2.6}%
 \contentsline {section}{\numberline {2.7}Embedded Systems (ES)}{8}{section.2.7}%
 \contentsline {section}{\numberline {2.8}Final remarks}{9}{section.2.8}%
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {3}\MakeUppercase []{Related Work}}{11}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Introduction}{11}{section.3.1}%
+\contentsline {chapter}{\chapternumberline {3}\MakeUppercase []{Trabalhos Relacionados}}{11}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Introdução}{11}{section.3.1}%
 \contentsline {section}{\numberline {3.2}Augmented Reality}{11}{section.3.2}%
 \contentsline {subsection}{\numberline {3.2.1}Innovative Real-time Navigation Assistance to Wheelchair Users}{11}{subsection.3.2.1}%
 \contentsline {subsection}{\numberline {3.2.2}Head-Mounted for Explainable Robotic Wheelchair Assistance}{12}{subsection.3.2.2}%

@@ -35,17 +35,15 @@
 \backcite {cooper2012}{{10}{(document)}{Doc-Start}}
 \backcite {randolph2013electric}{{1}{1.1}{section.1.1}}
 \backcite {zhou2016big}{{1}{1.1}{section.1.1}}
-\backcite {ludy1995}{{3}{2.1}{section.2.1}}
-\backcite {barriga2016}{{3}{2.1}{section.2.1}}
-\backcite {fattouh2004}{{3}{2.2}{section.2.2}}
+\backcite {rumelhart1986learning}{{3}{2.2}{section.2.2}}
 \backcite {joystickvr2jsm}{{3}{1}{figure.caption.13}}
 \backcite {fattouh2004}{{3}{2}{figure.caption.13}}
 \backcite {rechy2012}{{3}{2.2}{figure.caption.13}}
 \backcite {american2014, american2008}{{3}{2.2}{figure.caption.13}}
 \backcite {american2014, american2008}{{3}{2.2}{figure.caption.13}}
-\backcite {valentini2019,portaria2013, anexos2013}{{4}{2.2}{figure.caption.13}}
-\backcite {valentini2019,portaria2013, anexos2013}{{4}{2.2}{figure.caption.13}}
-\backcite {valentini2019,portaria2013, anexos2013}{{4}{2.2}{figure.caption.13}}
+\backcite {valentini2019,portaria2013, anexos2013}{{3}{2.2}{figure.caption.13}}
+\backcite {valentini2019,portaria2013, anexos2013}{{3}{2.2}{figure.caption.13}}
+\backcite {valentini2019,portaria2013, anexos2013}{{3}{2.2}{figure.caption.13}}
 \backcite {jck-ushape2020}{{4}{3}{figure.caption.14}}
 \backcite {jck-ywlball2020}{{4}{4}{figure.caption.14}}
 \backcite {tori2006}{{4}{2.3}{section.2.3}}
@@ -58,7 +56,7 @@
 \backcite {vailland2019,john2018, kamaraj2016, mahajan2013}{{4}{2.3}{section.2.3}}
 \backcite {wiederhold2019}{{4}{2.3}{section.2.3}}
 \backcite {ines2011}{{4}{2.3}{section.2.3}}
-\backcite {manring2020}{{5}{2.3}{section.2.3}}
+\backcite {manring2020}{{4}{2.3}{section.2.3}}
 \backcite {manring2020}{{5}{5}{figure.caption.15}}
 \backcite {silva2011}{{5}{2.3}{figure.caption.15}}
 \backcite {macgillivray2018}{{5}{2.4}{section.2.4}}
@@ -66,7 +64,7 @@
 \backcite {john2018, massengale2005}{{5}{2.4}{section.2.4}}
 \backcite {john2018}{{5}{2.4}{section.2.4}}
 \backcite {massengale2005}{{5}{2.4}{section.2.4}}
-\backcite {massengale2005}{{6}{2.4}{section.2.4}}
+\backcite {massengale2005}{{5}{2.4}{section.2.4}}
 \backcite {massengale2005}{{6}{2.4}{section.2.4}}
 \backcite {deutsch2007}{{6}{2.5}{section.2.5}}
 \backcite {pani2014,postolache2011}{{6}{2.5}{section.2.5}}
@@ -77,8 +75,8 @@
 \backcite {ortiz2014}{{6}{2.5}{figure.caption.16}}
 \backcite {ortiz2014}{{6}{2.5}{figure.caption.16}}
 \backcite {pons2014}{{6}{2.5}{figure.caption.16}}
+\backcite {leung2007}{{6}{2.5}{figure.caption.16}}
 \backcite {holden2007}{{7}{6}{figure.caption.16}}
-\backcite {leung2007}{{7}{2.5}{figure.caption.16}}
 \backcite {attitalla2016, zambonelli2016,laine2011,stroulia2001}{{7}{2.6}{section.2.6}}
 \backcite {attitalla2016, zambonelli2016,laine2011,stroulia2001}{{7}{2.6}{section.2.6}}
 \backcite {attitalla2016, zambonelli2016,laine2011,stroulia2001}{{7}{2.6}{section.2.6}}
@@ -91,7 +89,7 @@
 \backcite {attitalla2016, kovatsch2012, loreto2012}{{8}{2.6}{figure.caption.17}}
 \backcite {attitalla2016, kovatsch2012, loreto2012}{{8}{2.6}{figure.caption.17}}
 \backcite {marwedel2010}{{8}{2.7}{section.2.7}}
-\backcite {marwedel2018}{{9}{2.7}{section.2.7}}
+\backcite {marwedel2018}{{8}{2.7}{section.2.7}}
 \backcite {marwedel2018}{{9}{9}{figure.caption.18}}
 \backcite {abdallah2019}{{11}{3.2.1}{subsection.3.2.1}}
 \backcite {abdallah2019}{{11}{10}{figure.caption.19}}

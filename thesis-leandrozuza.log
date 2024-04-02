@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2024.3.26)  30 MAR 2024 23:46
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2024.3.26)  1 APR 2024 23:03
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1215,124 +1215,118 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has b
                    \relax 
 l.1 \chapter
             {Fundamentação Teórica} [2]
-
-LaTeX Warning: Citation `ludy1995' on page 3 undefined on input line 5.
-
-
-LaTeX Warning: Citation `barriga2016' on page 3 undefined on input line 5.
-
-
-LaTeX Warning: Citation `fattouh2004' on page 3 undefined on input line 10.
-
-<img/cap2/joystickvr2.pdf, id=233, 803.0pt x 803.0pt>
+<img/cap2/joystickvr2.pdf, id=232, 803.0pt x 803.0pt>
 File: img/cap2/joystickvr2.pdf Graphic file (type pdf)
 <use img/cap2/joystickvr2.pdf>
-Package pdftex.def Info: img/cap2/joystickvr2.pdf  used on input line 18.
+Package pdftex.def Info: img/cap2/joystickvr2.pdf  used on input line 17.
 (pdftex.def)             Requested size: 143.3234pt x 143.32074pt.
 
-LaTeX Warning: Citation `joystickvr2jsm' on page 3 undefined on input line 19.
+
+LaTeX Warning: Citation `joystickvr2jsm' on page 3 undefined on input line 18.
 
 
-LaTeX Warning: Citation `joystickvr2jsm' on page 3 undefined on input line 19.
+LaTeX Warning: Citation `joystickvr2jsm' on page 3 undefined on input line 18.
 
-<img/cap2/joyscoord.pdf, id=234, 384.43625pt x 355.3275pt>
+<img/cap2/joyscoord.pdf, id=233, 384.43625pt x 355.3275pt>
 File: img/cap2/joyscoord.pdf Graphic file (type pdf)
 <use img/cap2/joyscoord.pdf>
-Package pdftex.def Info: img/cap2/joyscoord.pdf  used on input line 24.
+Package pdftex.def Info: img/cap2/joyscoord.pdf  used on input line 23.
 (pdftex.def)             Requested size: 163.7995pt x 151.39984pt.
 
-LaTeX Warning: Citation `fattouh2004' on page 3 undefined on input line 25.
+LaTeX Warning: Citation `fattouh2004' on page 3 undefined on input line 24.
 
 
-LaTeX Warning: Citation `fattouh2004' on page 3 undefined on input line 25.
+LaTeX Warning: Citation `fattouh2004' on page 3 undefined on input line 24.
 
 
-LaTeX Warning: Citation `rechy2012' on page 3 undefined on input line 29.
+LaTeX Warning: Citation `rechy2012' on page 3 undefined on input line 28.
 
 
-LaTeX Warning: Citation `american2014' on page 3 undefined on input line 29.
+LaTeX Warning: Citation `american2014' on page 3 undefined on input line 28.
 
 
-LaTeX Warning: Citation `american2008' on page 3 undefined on input line 29.
+LaTeX Warning: Citation `american2008' on page 3 undefined on input line 28.
 
 
-LaTeX Warning: Citation `valentini2019' on page 3 undefined on input line 31.
+LaTeX Warning: Citation `valentini2019' on page 3 undefined on input line 30.
 
 
-LaTeX Warning: Citation `portaria2013' on page 3 undefined on input line 31.
+LaTeX Warning: Citation `portaria2013' on page 3 undefined on input line 30.
 
 
-LaTeX Warning: Citation `anexos2013' on page 3 undefined on input line 31.
+LaTeX Warning: Citation `anexos2013' on page 3 undefined on input line 30.
+
+<img/cap2/jck-ushape.pdf, id=236, 389.97691pt x 302.64618pt>
+File: img/cap2/jck-ushape.pdf Graphic file (type pdf)
+<use img/cap2/jck-ushape.pdf>
+Package pdftex.def Info: img/cap2/jck-ushape.pdf  used on input line 37.
+(pdftex.def)             Requested size: 174.03757pt x 135.06271pt.
+
+LaTeX Warning: Citation `jck-ushape2020' on page 3 undefined on input line 38.
+
+
+LaTeX Warning: Citation `jck-ushape2020' on page 3 undefined on input line 38.
+
+<img/cap2/jck-ywlball.pdf, id=237, 312.41719pt x 256.70906pt>
+File: img/cap2/jck-ywlball.pdf Graphic file (type pdf)
+<use img/cap2/jck-ywlball.pdf>
+Package pdftex.def Info: img/cap2/jck-ywlball.pdf  used on input line 43.
+(pdftex.def)             Requested size: 163.7995pt x 134.59409pt.
+
+LaTeX Warning: Citation `jck-ywlball2020' on page 3 undefined on input line 44.
+
+
+LaTeX Warning: Citation `jck-ywlball2020' on page 3 undefined on input line 44.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.3}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.32 
-      [3
+l.55 V
+      R is an advanced user interface having, as main features, the ability ... [3
 
  <./img/cap2/joystickvr2.pdf> <./img/cap2/joyscoord.pdf>]
-<img/cap2/jck-ushape.pdf, id=247, 389.97691pt x 302.64618pt>
-File: img/cap2/jck-ushape.pdf Graphic file (type pdf)
-<use img/cap2/jck-ushape.pdf>
-Package pdftex.def Info: img/cap2/jck-ushape.pdf  used on input line 38.
-(pdftex.def)             Requested size: 174.03757pt x 135.06271pt.
+
+LaTeX Warning: Citation `tori2006' on page 4 undefined on input line 55.
 
 
-LaTeX Warning: Citation `jck-ushape2020' on page 4 undefined on input line 39.
+LaTeX Warning: Citation `mitsumura2014' on page 4 undefined on input line 55.
 
 
-LaTeX Warning: Citation `jck-ushape2020' on page 4 undefined on input line 39.
-
-<img/cap2/jck-ywlball.pdf, id=248, 312.41719pt x 256.70906pt>
-File: img/cap2/jck-ywlball.pdf Graphic file (type pdf)
-<use img/cap2/jck-ywlball.pdf>
-Package pdftex.def Info: img/cap2/jck-ywlball.pdf  used on input line 44.
-(pdftex.def)             Requested size: 163.7995pt x 134.59409pt.
-
-LaTeX Warning: Citation `jck-ywlball2020' on page 4 undefined on input line 45.
+LaTeX Warning: Citation `wiederhold2019' on page 4 undefined on input line 55.
 
 
-LaTeX Warning: Citation `jck-ywlball2020' on page 4 undefined on input line 45.
+LaTeX Warning: Citation `powell2014' on page 4 undefined on input line 55.
 
 
-LaTeX Warning: Citation `tori2006' on page 4 undefined on input line 56.
+LaTeX Warning: Citation `vailland2019' on page 4 undefined on input line 57.
 
 
-LaTeX Warning: Citation `mitsumura2014' on page 4 undefined on input line 56.
+LaTeX Warning: Citation `john2018' on page 4 undefined on input line 57.
 
 
-LaTeX Warning: Citation `wiederhold2019' on page 4 undefined on input line 56.
+LaTeX Warning: Citation `kamaraj2016' on page 4 undefined on input line 57.
 
 
-LaTeX Warning: Citation `powell2014' on page 4 undefined on input line 56.
+LaTeX Warning: Citation `mahajan2013' on page 4 undefined on input line 57.
 
 
-LaTeX Warning: Citation `vailland2019' on page 4 undefined on input line 58.
+LaTeX Warning: Citation `wiederhold2019' on page 4 undefined on input line 59.
 
 
-LaTeX Warning: Citation `john2018' on page 4 undefined on input line 58.
+LaTeX Warning: Citation `ines2011' on page 4 undefined on input line 59.
 
 
-LaTeX Warning: Citation `kamaraj2016' on page 4 undefined on input line 58.
-
-
-LaTeX Warning: Citation `mahajan2013' on page 4 undefined on input line 58.
-
-
-LaTeX Warning: Citation `wiederhold2019' on page 4 undefined on input line 60.
-
-
-LaTeX Warning: Citation `ines2011' on page 4 undefined on input line 60.
-
-
-LaTeX Warning: Citation `manring2020' on page 4 undefined on input line 62.
+LaTeX Warning: Citation `manring2020' on page 4 undefined on input line 61.
 
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.4}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.63 
+l.62 
       [4 <./img/cap2/jck-ushape.pdf> <./img/cap2/jck-ywlball.pdf
 
 pdfTeX warning: pdflatex (file ./img/cap2/jck-ywlball.pdf): PDF inclusion: multiple pdfs with page group included in a single page
@@ -1340,196 +1334,198 @@ pdfTeX warning: pdflatex (file ./img/cap2/jck-ywlball.pdf): PDF inclusion: multi
 <img/cap2/manring2020.pdf, id=266, 722.7pt x 256.5585pt>
 File: img/cap2/manring2020.pdf Graphic file (type pdf)
 <use img/cap2/manring2020.pdf>
-Package pdftex.def Info: img/cap2/manring2020.pdf  used on input line 66.
+Package pdftex.def Info: img/cap2/manring2020.pdf  used on input line 65.
 (pdftex.def)             Requested size: 455.0pt x 161.52701pt.
 
 
-LaTeX Warning: Citation `manring2020' on page 5 undefined on input line 67.
+LaTeX Warning: Citation `manring2020' on page 5 undefined on input line 66.
 
 
-LaTeX Warning: Citation `manring2020' on page 5 undefined on input line 67.
+LaTeX Warning: Citation `manring2020' on page 5 undefined on input line 66.
 
 
-LaTeX Warning: Citation `silva2011' on page 5 undefined on input line 72.
+LaTeX Warning: Citation `silva2011' on page 5 undefined on input line 71.
 
 
-LaTeX Warning: Citation `macgillivray2018' on page 5 undefined on input line 78.
+LaTeX Warning: Citation `macgillivray2018' on page 5 undefined on input line 77.
 
 
-LaTeX Warning: Citation `john2018' on page 5 undefined on input line 78.
+LaTeX Warning: Citation `john2018' on page 5 undefined on input line 77.
 
 
-LaTeX Warning: Citation `massengale2005' on page 5 undefined on input line 78.
+LaTeX Warning: Citation `massengale2005' on page 5 undefined on input line 77.
 
 
-LaTeX Warning: Citation `john2018' on page 5 undefined on input line 78.
+LaTeX Warning: Citation `john2018' on page 5 undefined on input line 77.
 
 
-LaTeX Warning: Citation `massengale2005' on page 5 undefined on input line 78.
+LaTeX Warning: Citation `massengale2005' on page 5 undefined on input line 77.
 
 
-LaTeX Warning: Citation `massengale2005' on page 5 undefined on input line 80.
+LaTeX Warning: Citation `massengale2005' on page 5 undefined on input line 79.
 
 
-LaTeX Warning: Citation `massengale2005' on page 5 undefined on input line 80.
+LaTeX Warning: Citation `massengale2005' on page 5 undefined on input line 79.
 
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.5}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.82 \item
+l.81 \item
            4 -  Completely independent: optimal performance: able to perform... [5 <./img/cap2/manring2020.pdf>]
 
-LaTeX Warning: Citation `deutsch2007' on page 6 undefined on input line 91.
+LaTeX Warning: Citation `deutsch2007' on page 6 undefined on input line 90.
 
 
-LaTeX Warning: Citation `pani2014' on page 6 undefined on input line 91.
+LaTeX Warning: Citation `pani2014' on page 6 undefined on input line 90.
 
 
-LaTeX Warning: Citation `postolache2011' on page 6 undefined on input line 91.
+LaTeX Warning: Citation `postolache2011' on page 6 undefined on input line 90.
 
 
-LaTeX Warning: Citation `brennan2011' on page 6 undefined on input line 91.
+LaTeX Warning: Citation `brennan2011' on page 6 undefined on input line 90.
 
 
-LaTeX Warning: Citation `holden2007' on page 6 undefined on input line 91.
+LaTeX Warning: Citation `holden2007' on page 6 undefined on input line 90.
 
 
-LaTeX Warning: Citation `dhurjaty2004' on page 6 undefined on input line 91.
+LaTeX Warning: Citation `dhurjaty2004' on page 6 undefined on input line 90.
 
 <img/cap2/holden2007.pdf, id=278, 578.16pt x 355.56839pt>
 File: img/cap2/holden2007.pdf Graphic file (type pdf)
 <use img/cap2/holden2007.pdf>
-Package pdftex.def Info: img/cap2/holden2007.pdf  used on input line 95.
+Package pdftex.def Info: img/cap2/holden2007.pdf  used on input line 94.
 (pdftex.def)             Requested size: 455.0pt x 279.82169pt.
 
-LaTeX Warning: Citation `holden2007' on page 6 undefined on input line 96.
+LaTeX Warning: Citation `holden2007' on page 6 undefined on input line 95.
 
 
-LaTeX Warning: Citation `holden2007' on page 6 undefined on input line 96.
+LaTeX Warning: Citation `holden2007' on page 6 undefined on input line 95.
 
 
-LaTeX Warning: Citation `ortiz2014' on page 6 undefined on input line 101.
+LaTeX Warning: Citation `ortiz2014' on page 6 undefined on input line 100.
 
 
-LaTeX Warning: Citation `ortiz2014' on page 6 undefined on input line 101.
+LaTeX Warning: Citation `ortiz2014' on page 6 undefined on input line 100.
 
 
-LaTeX Warning: Citation `pons2014' on page 6 undefined on input line 101.
+LaTeX Warning: Citation `pons2014' on page 6 undefined on input line 100.
 
 
-LaTeX Warning: Citation `leung2007' on page 6 undefined on input line 101.
+LaTeX Warning: Citation `leung2007' on page 6 undefined on input line 100.
+
+
+LaTeX Warning: Citation `attitalla2016' on page 6 undefined on input line 105.
+
+
+LaTeX Warning: Citation `zambonelli2016' on page 6 undefined on input line 105.
+
+
+LaTeX Warning: Citation `laine2011' on page 6 undefined on input line 105.
+
+
+LaTeX Warning: Citation `stroulia2001' on page 6 undefined on input line 105.
 
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.6}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.103 \section
-              {Web server applications} [6]
+l.107 W
+       eb server-based approaches allow controlling devices and appliances r... [6]
 
-LaTeX Warning: Citation `attitalla2016' on page 7 undefined on input line 106.
-
-
-LaTeX Warning: Citation `zambonelli2016' on page 7 undefined on input line 106.
+LaTeX Warning: Citation `attitalla2016' on page 7 undefined on input line 107.
 
 
-LaTeX Warning: Citation `laine2011' on page 7 undefined on input line 106.
+LaTeX Warning: Citation `tilley2001' on page 7 undefined on input line 109.
+
+<img/cap2/webTierarch.pdf, id=282, 465.26205pt x 411.55864pt>
+File: img/cap2/webTierarch.pdf Graphic file (type pdf)
+<use img/cap2/webTierarch.pdf>
+Package pdftex.def Info: img/cap2/webTierarch.pdf  used on input line 121.
+(pdftex.def)             Requested size: 174.03757pt x 153.95103pt.
+
+LaTeX Warning: Citation `sun2003' on page 7 undefined on input line 122.
 
 
-LaTeX Warning: Citation `stroulia2001' on page 7 undefined on input line 106.
+LaTeX Warning: Citation `sun2003' on page 7 undefined on input line 122.
+
+<img/cap2/firstWebArch.pdf, id=283, 525.49014pt x 370.40277pt>
+File: img/cap2/firstWebArch.pdf Graphic file (type pdf)
+<use img/cap2/firstWebArch.pdf>
+Package pdftex.def Info: img/cap2/firstWebArch.pdf  used on input line 127.
+(pdftex.def)             Requested size: 214.98666pt x 151.5383pt.
+
+Overfull \hbox (10.23805pt too wide) in paragraph at lines 127--128
+ [] 
+ []
 
 
-LaTeX Warning: Citation `attitalla2016' on page 7 undefined on input line 108.
+LaTeX Warning: Citation `sun2003' on page 7 undefined on input line 128.
 
 
-LaTeX Warning: Citation `tilley2001' on page 7 undefined on input line 110.
+LaTeX Warning: Citation `sun2003' on page 7 undefined on input line 128.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.7}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.115 \end{itemize}
-                    [7 <./img/cap2/holden2007.pdf>]
-<img/cap2/webTierarch.pdf, id=293, 465.26205pt x 411.55864pt>
-File: img/cap2/webTierarch.pdf Graphic file (type pdf)
-<use img/cap2/webTierarch.pdf>
-Package pdftex.def Info: img/cap2/webTierarch.pdf  used on input line 122.
-(pdftex.def)             Requested size: 174.03757pt x 153.95103pt.
+l.137 \item S
+             ave all data generated during user experience allowing for the ... [7 <./img/cap2/holden2007.pdf>]
+
+LaTeX Warning: Citation `attitalla2016' on page 8 undefined on input line 142.
 
 
-LaTeX Warning: Citation `sun2003' on page 8 undefined on input line 123.
+LaTeX Warning: Citation `kovatsch2012' on page 8 undefined on input line 142.
 
 
-LaTeX Warning: Citation `sun2003' on page 8 undefined on input line 123.
-
-<img/cap2/firstWebArch.pdf, id=294, 525.49014pt x 370.40277pt>
-File: img/cap2/firstWebArch.pdf Graphic file (type pdf)
-<use img/cap2/firstWebArch.pdf>
-Package pdftex.def Info: img/cap2/firstWebArch.pdf  used on input line 128.
-(pdftex.def)             Requested size: 214.98666pt x 151.5383pt.
-
-Overfull \hbox (10.23805pt too wide) in paragraph at lines 128--129
- [] 
- []
+LaTeX Warning: Citation `loreto2012' on page 8 undefined on input line 142.
 
 
-LaTeX Warning: Citation `sun2003' on page 8 undefined on input line 129.
+LaTeX Warning: Citation `marwedel2010' on page 8 undefined on input line 148.
 
 
-LaTeX Warning: Citation `sun2003' on page 8 undefined on input line 129.
+LaTeX Warning: Citation `marwedel2018' on page 8 undefined on input line 150.
+
+<img/cap2/OdroidXU3-ES.pdf, id=298, 361.35pt x 266.6763pt>
+File: img/cap2/OdroidXU3-ES.pdf Graphic file (type pdf)
+<use img/cap2/OdroidXU3-ES.pdf>
+Package pdftex.def Info: img/cap2/OdroidXU3-ES.pdf  used on input line 154.
+(pdftex.def)             Requested size: 318.49861pt x 235.05429pt.
+
+LaTeX Warning: Citation `marwedel2018' on page 8 undefined on input line 155.
 
 
-LaTeX Warning: Citation `attitalla2016' on page 8 undefined on input line 143.
-
-
-LaTeX Warning: Citation `kovatsch2012' on page 8 undefined on input line 143.
-
-
-LaTeX Warning: Citation `loreto2012' on page 8 undefined on input line 143.
-
-
-LaTeX Warning: Citation `marwedel2010' on page 8 undefined on input line 149.
+LaTeX Warning: Citation `marwedel2018' on page 8 undefined on input line 155.
 
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.8}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.150 
-       [8 <./img/cap2/webTierarch.pdf> <./img/cap2/firstWebArch.pdf
+l.158 \end{figure}
+                   [8 <./img/cap2/webTierarch.pdf> <./img/cap2/firstWebArch.pdf
 
 pdfTeX warning: pdflatex (file ./img/cap2/firstWebArch.pdf): PDF inclusion: multiple pdfs with page group included in a single page
 >]
-
-LaTeX Warning: Citation `marwedel2018' on page 9 undefined on input line 151.
-
-<img/cap2/OdroidXU3-ES.pdf, id=314, 361.35pt x 266.6763pt>
-File: img/cap2/OdroidXU3-ES.pdf Graphic file (type pdf)
-<use img/cap2/OdroidXU3-ES.pdf>
-Package pdftex.def Info: img/cap2/OdroidXU3-ES.pdf  used on input line 155.
-(pdftex.def)             Requested size: 318.49861pt x 235.05429pt.
-
-LaTeX Warning: Citation `marwedel2018' on page 9 undefined on input line 156.
-
-
-LaTeX Warning: Citation `marwedel2018' on page 9 undefined on input line 156.
-
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 165.
+(Font)              <10> on input line 164.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 165.
+(Font)              <7> on input line 164.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 165.
-
+(Font)              <5> on input line 164.
+) (chapters/cap3.tex
 pdfTeX warning (ext4): destination with the same identifier (name{page.9}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.170 
-       [9 <./img/cap2/OdroidXU3-ES.pdf>]) (chapters/cap3.tex
+l.1 user\chapter
+                {Trabalhos Relacionados} [9 <./img/cap2/OdroidXU3-ES.pdf>]
 pdfTeX warning (ext4): destination with the same identifier (name{page.10}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.1 user\chapter
-                {Related Work} [10]
+                {Trabalhos Relacionados} [10]
 
 LaTeX Warning: Citation `abdallah2019' on page 11 undefined on input line 11.
 
@@ -2186,20 +2182,20 @@ L3 programming layer <2024-01-04>
 LaTeX Warning: There were undefined references.
 
 Package rerunfilecheck Info: File `thesis-leandrozuza.brf' has not changed.
-(rerunfilecheck)             Checksum: 5CC07908ACB937F131F745420CB40317;10773.
+(rerunfilecheck)             Checksum: A2A13D530298DD5F2C3B17EC132E3511;10692.
  ) 
 Here is how much of TeX's memory you used:
- 26301 strings out of 474485
- 436470 string characters out of 5743756
+ 26297 strings out of 474485
+ 436525 string characters out of 5743756
  1956542 words of memory out of 5000000
- 47734 multiletter control sequences out of 15000+600000
- 649502 words of font info for 206 fonts, out of 8000000 for 9000
+ 47729 multiletter control sequences out of 15000+600000
+ 649534 words of font info for 206 fonts, out of 8000000 for 9000
  1192 hyphenation exceptions out of 8191
- 110i,16n,107p,1348b,738s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 110i,16n,107p,1583b,741s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {C:/Users/leand/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc}{C:/Users/leand/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ts1.enc}<C:/Users/leand/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx10.pfb><C:/Users/leand/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx12.pfb><C:/Users/leand/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr10.pfb><C:/Users/leand/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr12.pfb><C:/Users/leand/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr7.pfb><C:/Users/leand/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr8.pfb><C:/Users/leand/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri10.pfb><C:/Users/leand/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri12.pfb><C:/Users/leand/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmss12.pfb><C:/Users/leand/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmss17.pfb><C:/Users/leand/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmssbx10.pfb>
-Output written on thesis-leandrozuza.pdf (47 pages, 12493557 bytes).
+Output written on thesis-leandrozuza.pdf (47 pages, 12493979 bytes).
 PDF statistics:
- 856 PDF objects out of 1000 (max. 8388607)
- 133 named destinations out of 1000 (max. 500000)
+ 857 PDF objects out of 1000 (max. 8388607)
+ 134 named destinations out of 1000 (max. 500000)
  51706 words of extra memory for PDF output out of 61914 (max. 10000000)
 
