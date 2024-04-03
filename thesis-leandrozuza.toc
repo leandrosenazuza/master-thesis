@@ -16,37 +16,13 @@
 \contentsline {section}{\numberline {1.3}Estrutura da Dissertação}{2}{section.1.3}%
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
 \contentsline {chapter}{\chapternumberline {2}\MakeUppercase []{Fundamentação Teórica}}{4}{chapter.2}%
-\contentsline {section}{\numberline {2.1}Introdução}{4}{section.2.1}%
+\contentsline {section}{\numberline {2.1}Subestações de Energia}{4}{section.2.1}%
 \contentsline {section}{\numberline {2.2}Redes Neurais}{4}{section.2.2}%
-\contentsline {section}{\numberline {2.3}You Look Only Once}{5}{section.2.3}%
-\contentsline {section}{\numberline {2.4}Realidade Virtual}{6}{section.2.4}%
-\contentsline {section}{\numberline {2.5}Telerehabilitation}{7}{section.2.5}%
-\contentsline {section}{\numberline {2.6}Web server applications}{7}{section.2.6}%
-\contentsline {section}{\numberline {2.7}Embedded Systems (ES)}{9}{section.2.7}%
-\contentsline {section}{\numberline {2.8}Considerações finais}{10}{section.2.8}%
-\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {3}\MakeUppercase []{Trabalhos Relacionados}}{11}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Introdução}{11}{section.3.1}%
-\contentsline {section}{\numberline {3.2}Augmented Reality}{11}{section.3.2}%
-\contentsline {subsection}{\numberline {3.2.1}Innovative Real-time Navigation Assistance to Wheelchair Users}{11}{subsection.3.2.1}%
-\contentsline {subsection}{\numberline {3.2.2}Head-Mounted for Explainable Robotic Wheelchair Assistance}{12}{subsection.3.2.2}%
-\contentsline {subsection}{\numberline {3.2.3}Augmented Robotics for PW to Enhance Mobility}{14}{subsection.3.2.3}%
-\contentsline {section}{\numberline {3.3}PW Training}{15}{section.3.3}%
-\contentsline {subsection}{\numberline {3.3.1}Multisensory PW Simulator for Training and Rehabilitation}{15}{subsection.3.3.1}%
-\contentsline {subsection}{\numberline {3.3.2}Protocol for driving a PW using RV}{16}{subsection.3.3.2}%
-\contentsline {subsection}{\numberline {3.3.3}Virtual Environment for Training PW Manoeuvres}{18}{subsection.3.3.3}%
-\contentsline {section}{\numberline {3.4}Training assessment}{20}{section.3.4}%
-\contentsline {subsection}{\numberline {3.4.1}Protocol for driving a PW using VR}{20}{subsection.3.4.1}%
-\contentsline {subsection}{\numberline {3.4.2}Virtual Environment for Training PW Manoeuvres}{21}{subsection.3.4.2}%
-\contentsline {subsection}{\numberline {3.4.3}Improving individualized PW skills training satisfaction}{22}{subsection.3.4.3}%
-\contentsline {subsection}{\numberline {3.4.4}Driver's stress detection using Skin Potential Response (SPR) signals}{23}{subsection.3.4.4}%
-\contentsline {subsection}{\numberline {3.4.5}Interrater Reliability of the PMRT in the VR}{24}{subsection.3.4.5}%
-\contentsline {section}{\numberline {3.5}Telerehabilitation}{26}{section.3.5}%
-\contentsline {subsection}{\numberline {3.5.1}AR Based Telerehabilitation System With Haptics (ARTESH) }{26}{subsection.3.5.1}%
-\contentsline {subsection}{\numberline {3.5.2}Kinesiotherapy Device for Hands Rehabilitation}{27}{subsection.3.5.2}%
-\contentsline {subsection}{\numberline {3.5.3}Development of Remote Controllable Visiting Robot}{28}{subsection.3.5.3}%
-\contentsline {subsection}{\numberline {3.5.4}A Mobile Gait Rehabilitation System}{30}{subsection.3.5.4}%
-\contentsline {subsection}{\numberline {3.5.5}PerMMA for wheelchair users}{31}{subsection.3.5.5}%
-\contentsline {section}{\numberline {3.6}Final Considerations}{32}{section.3.6}%
+\contentsline {section}{\numberline {2.3}You Look Only Once}{6}{section.2.3}%
+\contentsline {section}{\numberline {2.4}Batch}{6}{section.2.4}%
+\contentsline {section}{\numberline {2.5}Otimizadores}{7}{section.2.5}%
+\contentsline {section}{\numberline {2.6}Precisão e Recall}{7}{section.2.6}%
+\contentsline {section}{\numberline {2.7}Realidade Virtual}{8}{section.2.7}%
+\contentsline {section}{\numberline {2.8}Considerações finais}{9}{section.2.8}%
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
-\contentsline {chapter}{\MakeUppercase []{Bibliography}}{35}{section*.40}%
+\contentsline {chapter}{\MakeUppercase []{Bibliography}}{10}{section*.18}%

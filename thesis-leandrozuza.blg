@@ -14,79 +14,8 @@ Reallocating 'singl_function' (item size: 4) to 100 items.
 Reallocating 'singl_function' (item size: 4) to 100 items.
 Reallocating 'singl_function' (item size: 4) to 100 items.
 Reallocating 'wiz_functions' (item size: 4) to 9000 items.
-Reallocating 'field_info' (item size: 4) to 10106 items.
 Database file #1: abntex2-options.bib
 Database file #2: postextual/bibliography.bib
-Warning--I didn't find a database entry for "joystickvr2jsm"
-Warning--I didn't find a database entry for "fattouh2004"
-Warning--I didn't find a database entry for "jck-ushape2020"
-Warning--I didn't find a database entry for "jck-ywlball2020"
-Warning--I didn't find a database entry for "manring2020"
-Warning--I didn't find a database entry for "holden2007"
-Warning--I didn't find a database entry for "sun2003"
-Warning--I didn't find a database entry for "marwedel2018"
-Warning--I didn't find a database entry for "abdallah2019"
-Warning--I didn't find a database entry for "zolotas2018"
-Warning--I didn't find a database entry for "maule2017"
-Warning--I didn't find a database entry for "vailland2019"
-Warning--I didn't find a database entry for "valentini2019"
-Warning--I didn't find a database entry for "john2018"
-Warning--I didn't find a database entry for "martins2017"
-Warning--I didn't find a database entry for "affanni2018"
-Warning--I didn't find a database entry for "kamaraj2016"
-Warning--I didn't find a database entry for "borresen2019"
-Warning--I didn't find a database entry for "pani2014"
-Warning--I didn't find a database entry for "mitsumura2014"
-Warning--I didn't find a database entry for "wei2013"
-Warning--I didn't find a database entry for "cooper2012"
-Warning--I didn't find a database entry for "rechy2012"
-Warning--I didn't find a database entry for "american2014"
-Warning--I didn't find a database entry for "american2008"
-Warning--I didn't find a database entry for "portaria2013"
-Warning--I didn't find a database entry for "anexos2013"
-Warning--I didn't find a database entry for "tori2006"
-Warning--I didn't find a database entry for "wiederhold2019"
-Warning--I didn't find a database entry for "powell2014"
-Warning--I didn't find a database entry for "mahajan2013"
-Warning--I didn't find a database entry for "ines2011"
-Warning--I didn't find a database entry for "silva2011"
-Warning--I didn't find a database entry for "macgillivray2018"
-Warning--I didn't find a database entry for "massengale2005"
-Warning--I didn't find a database entry for "deutsch2007"
-Warning--I didn't find a database entry for "postolache2011"
-Warning--I didn't find a database entry for "brennan2011"
-Warning--I didn't find a database entry for "dhurjaty2004"
-Warning--I didn't find a database entry for "ortiz2014"
-Warning--I didn't find a database entry for "pons2014"
-Warning--I didn't find a database entry for "leung2007"
-Warning--I didn't find a database entry for "attitalla2016"
-Warning--I didn't find a database entry for "zambonelli2016"
-Warning--I didn't find a database entry for "laine2011"
-Warning--I didn't find a database entry for "stroulia2001"
-Warning--I didn't find a database entry for "tilley2001"
-Warning--I didn't find a database entry for "kovatsch2012"
-Warning--I didn't find a database entry for "loreto2012"
-Warning--I didn't find a database entry for "marwedel2010"
-Warning--I didn't find a database entry for "rodriguez2015"
-Warning--I didn't find a database entry for "kennedy1993"
-Warning--I didn't find a database entry for "nunnerley2017"
-Warning--I didn't find a database entry for "torkia2015"
-Warning--I didn't find a database entry for "dawson1994"
-Warning--I didn't find a database entry for "who2008"
-Warning--I didn't find a database entry for "pettersson2014"
-Warning--I didn't find a database entry for "gaal1997"
-Warning--I didn't find a database entry for "xiang2006"
-Warning--I didn't find a database entry for "kirby2008"
-Warning--I didn't find a database entry for "mortenson2007"
-Warning--I didn't find a database entry for "zheng2015"
-Warning--I didn't find a database entry for "greene2016"
-Warning--I didn't find a database entry for "worobey2012"
-Warning--I didn't find a database entry for "kirby2015"
-Warning--I didn't find a database entry for "corfman2003"
-Warning--I didn't find a database entry for "hogan2009"
-Warning--I didn't find a database entry for "rubio2004"
-Warning--I didn't find a database entry for "schutte2012"
-Warning--I didn't find a database entry for "Rsi2020"
 Reallocating 'singl_function' (item size: 4) to 100 items.
 Reallocating 'glb_str_end' (item size: 4) to 20 items.
 Reallocating 'glb_str_ptr' (item size: 4) to 20 items.
@@ -96,45 +25,44 @@ Reallocating 'global_strs' (item size: 1) to 4000000 items.
 | Em caso de dúvidas ou problemas com este estilo procure |
 | http://www.abntex.net.br/                               |
 +---------------------------------------------------------+
-You've used 4 entries,
+You've used 10 entries,
             6714 wiz_defined-function locations,
-            1293 strings with 10640 characters,
-and the built_in function-call counts, 3756 in all, are:
-= -- 400
-> -- 120
-< -- 11
-+ -- 89
-- -- 35
-* -- 267
-:= -- 536
-add.period$ -- 9
-call.type$ -- 4
-change.case$ -- 40
-chr.to.int$ -- 13
-cite$ -- 3
-duplicate$ -- 147
-empty$ -- 227
-format.name$ -- 163
-if$ -- 873
+            1252 strings with 10908 characters,
+and the built_in function-call counts, 9260 in all, are:
+= -- 820
+> -- 362
+< -- 16
++ -- 180
+- -- 107
+* -- 683
+:= -- 1245
+add.period$ -- 32
+call.type$ -- 10
+change.case$ -- 115
+chr.to.int$ -- 22
+cite$ -- 9
+duplicate$ -- 398
+empty$ -- 638
+format.name$ -- 504
+if$ -- 2202
 int.to.chr$ -- 0
 int.to.str$ -- 0
-missing$ -- 65
-newline$ -- 23
-num.names$ -- 15
-pop$ -- 95
+missing$ -- 178
+newline$ -- 48
+num.names$ -- 45
+pop$ -- 262
 preamble$ -- 1
-purify$ -- 16
+purify$ -- 43
 quote$ -- 0
-skip$ -- 222
+skip$ -- 505
 stack$ -- 1
-substring$ -- 199
-swap$ -- 84
-text.length$ -- 8
+substring$ -- 391
+swap$ -- 205
+text.length$ -- 12
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 0
+type$ -- 1
 warning$ -- 0
-while$ -- 29
+while$ -- 74
 width$ -- 0
-write$ -- 61
-(There were 70 warnings)
+write$ -- 151

@@ -1,167 +1,107 @@
 \chapter{Fundamentação Teórica}
 
-\section{Introdução}
+\section{Subestações de Energia}
+\label{sec:subestacao}
 
-Escrever Introdução
+As subestações desempenham um papel crucial na transmissão e distribuição de energia elétrica. Quando a eletricidade é gerada em uma usina, ela é produzida em uma tensão muito alta para minimizar perdas durante a transmissão por longas distâncias. As subestações recebem essa eletricidade de alta tensão e a transformam em níveis de tensão adequados para distribuição aos consumidores finais. Nesse processo, diversos equipamentos são necessários. Nele, existem os transformadores, que são os principais equipamentos responsáveis por essa transformação. Eles elevam a tensão da eletricidade recebida das usinas para tornar a transmissão mais eficiente, reduzindo as perdas de energia no processo. Em seguida, essa eletricidade passa por disjuntores, que protegem o sistema contra sobrecargas e curtos-circuitos, interrompendo o fluxo de corrente elétrica em caso de emergência. Além disso, as subestações também contam com chaves seccionadoras, que permitem isolar partes do sistema elétrico para manutenção ou reparo sem interromper o fornecimento de energia para outras áreas. Os relés de proteção monitoram constantemente o sistema elétrico em busca de falhas e anomalias, acionando os dispositivos de proteção quando necessário para evitar danos aos equipamentos ou interrupções no fornecimento de energia. Os capacitores são usados para corrigir o fator de potência e melhorar a eficiência do sistema, enquanto os reatores de núcleo de ar ajudam a controlar o fluxo de energia e estabilizar a tensão. Todos esses componentes trabalham juntos para garantir que a eletricidade seja transmitida e distribuída de forma segura, confiável e eficiente, atendendo às demandas dos consumidores finais e contribuindo para o funcionamento adequado do sistema elétrico como um todo. Existem também os reatores de núcleo de ar, eles são utilizados principalmente em sistemas de alta tensão para controlar correntes de curto-circuito e proteger equipamentos sensíveis \cite{sen2021principles}.
+%Esse livro explica os fundamentos do funcionamento dos equipamentos da geração de energia
+
 
 \section{Redes Neurais}
-\label{sec:ewheelchair}
+\label{sec:redesneurais}
 
-As redes neurais artificiais são modelos computacionais inspirados no funcionamento do cérebro humano, compostos por neurônios interconectados que processam informações. Elas são amplamente utilizadas em diversas áreas, como reconhecimento de padrões, processamento de linguagem natural, visão computacional e muitas outras aplicações de aprendizado de máquina. Em (\citeyear{rumelhart1986learning}), descreve-se pioneiramente o algoritmo de retropropagação, fundamental para o treinamento de redes neurais profundas.
+As redes neurais artificiais são modelos computacionais inspirados no funcionamento do cérebro humano, compostos por neurônios interconectados que processam informações. Elas são amplamente utilizadas em diversas áreas, como reconhecimento de padrões, processamento de linguagem natural, visão computacional e muitas outras aplicações de aprendizado de máquina. Em \citeonline{rumelhart1986learning}, descreve-se pioneiramente o algoritmo de retropropagação, fundamental para o treinamento de redes neurais profundas.
 
-\begin{figure}[!h]
-\center
-\begin{minipage}{0.45\linewidth}
-\center
-\captionsetup{justification=centering,margin=0.5cm,font=small}
-\includegraphics[width=0.7\linewidth]{img/cap2/joystickvr2}
-\caption{ JoystickVR2 - JSM  \cite{joystickvr2jsm}} \label{subfig:joystickvr2}
-\end{minipage}
-\begin{minipage}{0.45\linewidth}
-\center
-\captionsetup{justification=centering,margin=0cm,font=small}
-\includegraphics[width=0.8\linewidth]{img/cap2/joyscoord}
-\caption{ Joystick axis interpretation \cite{fattouh2004}} \label{subfig:joyscoord}
-\end{minipage}
-\end{figure}
+Sua estrutura é composta por unidades básicas chamadas de neurônios ou nós, que são organizados em camadas interconectadas. Existem três tipos principais de camadas em uma rede neural: camada de entrada, camadas ocultas e camada de saída.
 
-A joystick control interface cannot fully meet the needs of the disabled and elderly person whose autonomies are seriously affected by a decline in their motor function and cognitive performance \cite{rechy2012}. AT, like plug-in devices (Figures \ref{subfig:jck-ushape} and \ref{subfig:jck-ywlball}), have been developed over the years to facilitate joystick handling by users during the training sessions or in their Activities of Daily Living (ADL) and Instrumental Activities of Daily Life  (IADL)\cite{american2014, american2008}. 
+\begin{itemize}
+\item Camada de Entrada: Esta é a camada que recebe os dados de entrada. Cada nó nesta camada representa uma característica ou atributo dos dados que estão sendo alimentados na rede neural. Por exemplo, em uma aplicação de reconhecimento de imagens, cada nó na camada de entrada pode representar um pixel da imagem.
+\item Camadas Ocultas: Estas são as camadas intermediárias entre a camada de entrada e a camada de saída. Cada neurônio em uma camada oculta recebe entradas das camadas anteriores, realiza algum tipo de transformação não linear dessas entradas e passa o resultado para a próxima camada. A presença de múltiplas camadas ocultas permite que a rede aprenda representações complexas e abstratas dos dados.
+\item Camada de Saída: Esta é a camada final da rede neural que gera as saídas desejadas. A estrutura da camada de saída depende do tipo de problema que está sendo resolvido. Por exemplo, em um problema de classificação, cada nó na camada de saída pode representar uma classe diferente, e a saída pode ser interpretada como a probabilidade de pertencer a cada classe.
+\end{itemize}
 
-However, there is a gap in Ordinance n. 1272 defined by the Unified Health System in Brazil that describes the mandatory training, monitoring and maintenance of use, maintaining the absence of systematized protocols and standardized norms and it might expose the users to further injuries \cite{valentini2019,portaria2013, anexos2013}. 
+O funcionamento básico de uma rede neural ocorre em duas fases principais: propagação para a frente (forward propagation) e retropropagação do erro (backpropagation).
 
-\begin{figure}[!h]
-\center
-\begin{minipage}{0.45\linewidth}
-\center
-\captionsetup{justification=centering,margin=0cm,font=small}
-\includegraphics[width=0.85\linewidth]{img/cap2/jck-ushape}
-\caption{ U-shaped joystick handle \cite{jck-ushape2020}} \label{subfig:jck-ushape}
-\end{minipage}
-\begin{minipage}{0.45\linewidth}
-\center
-\captionsetup{justification=centering,margin=0cm,font=small}
-\includegraphics[width=0.8\linewidth]{img/cap2/jck-ywlball}
-\caption{ Yellow joystick knob foam ball \cite{jck-ywlball2020}} \label{subfig:jck-ywlball}
-\end{minipage}
-\end{figure}
+\begin{itemize}
+\item Propagação para a Frente: Durante esta fase, os dados são alimentados na rede neural através da camada de entrada e propagam-se através das camadas ocultas até a camada de saída. Cada neurônio em cada camada aplica uma transformação às suas entradas e passa o resultado para os neurônios na próxima camada.
+\item Retropropagação do Erro: Após a propagação para a frente, a rede compara as saídas previstas com as saídas reais desejadas e calcula a diferença entre elas, chamada de erro. Em seguida, esse erro é propagado de volta através da rede, começando pela camada de saída e indo em direção à camada de entrada. Durante essa retropropagação, os pesos das conexões entre os neurônios são ajustados de acordo com o gradiente do erro em relação aos pesos, usando um algoritmo de otimização como o gradiente descendente, a fim de minimizar o erro global da rede.
+\end{itemize}
+
+Essencialmente, as redes neurais aprendem iterativamente ajustando os pesos de suas conexões através do processo de treinamento, onde são apresentados a um conjunto de dados de entrada e as correspondentes saídas desejadas. Com o tempo, a rede neural é capaz de aprender a mapear efetivamente os padrões nos dados de entrada para as saídas desejadas, tornando-se assim capaz de realizar tarefas como reconhecimento de padrões, classificação, regressão, entre outros.
+
+
 
 %Thus, the next section will present an introduction to these technologies.  
 
 \section{You Look Only Once}
-\label{sec:vareality}
+\label{sec:yolo}
 
-VR and AR have been used in different situations to provide safe conditions to the user's training or adaptation phase, with different devices and control interfaces. 
-
-VR is an advanced user interface having, as main features, the ability for 3D visualization, spatial navigation and interaction in a 3D synthetic environment \cite{tori2006}. In many situations, access to a physical training environment can be restricted by some constraints such as time and space. The user still can not have a caregiver to take them to a therapist center or it may be expensive to move close by \cite{mitsumura2014}. When such limitations are faced, VR can be used to extend availability of training environments, also bringing the training exercises to the user. The use of technology to support rehabilitation is not a new phenomenon, improvements in hardware and cost reduction increased the interest in the use of VR \cite{wiederhold2019,powell2014}. 
-
-Many researches in cognitive rehabilitation have been investigating the use of  VR techniques \cite{vailland2019,john2018, kamaraj2016, mahajan2013}. Among the main characteristics of these environments, there is the preservation of physical integrity of the user and training assessments. However, some users notice some difficult when using these systems. They face some limitations concerning the immersion that these environments offer.
-
-AR optimizes the user experience since it creates an altered reality without losing the benefits of the physical setting \cite{wiederhold2019}. In the study conducted by Ines (2011), the use of AR techniques has proven to enhance user motivation and acceptance in many different situations \cite{ines2011}. 
-
-For instance, in work presented by Manring et al. \cite{manring2020}, an augmented training environment was created using  Microsoft Hololens for controlling an interactive robot. Robots intervention is considered a high-risk task where practiced remotely by technicians or doctors. Robots are force-feedback devices that are not easy to operate, require high control accuracy, and also require extensive training by operators. For this reason, AR techniques were implemented to reduce the amount of training and increase the user skill to control the robot. Among the control, methods are: manual and automatic. The user can move the end effector of the holographic robot, and the physical robot will respond immediately, in manual control. Otherwise,  the user can move the end effector of the holographic robot to the desired location, view a holographic preview of the motion, and select execute if the motion plan is satisfactory, using automatic control. Figure \ref{fig:manring2020} illustrates  on \textit{left} side: ``The physical robotic arm has just moved to the position of the holographic arm'' and on \textit{right} side: ``Previewing motion operation''. It is possible to customize the AR rendering using fiducial AR markers or not. 
-
-\begin{figure}[!hbt]
-\begin{center}
-\includegraphics[width=1 \textwidth]{img/cap2/manring2020}
-\caption{\textit{Left}: ``Automatic'' - \textit{Right}: ``Manual'' modes by \cite{manring2020}}
-\label{fig:manring2020}
-\end{center}
-\end{figure}
-
-Silva (2011) developed a distributed environment using AR techniques \cite{silva2011}. A shared AR environment is an exciting feature to be used in telerehabilitation situations. Thus, the user and therapist can interact at the same time with the environment making the user evolves more effectively. 
+YOLO (You Only Look Once) é um modelo de detecção de objetos em imagens e vídeos em tempo real, que se destaca por sua eficiência e precisão. Desenvolvido por Joseph Redmon, Santosh Divvala, Ross Girshick e Ali Farhadi, o YOLO aborda o problema de detecção de objetos como uma única tarefa de regressão, prevendo caixas delimitadoras e probabilidades de classe diretamente de imagens inteiras em uma única passagem pela rede neural. O funcionamento do YOLO começa com a divisão da imagem de entrada em uma grade, geralmente de dimensões como 7x7 ou 9x9. Cada célula dessa grade é responsável por prever um conjunto de caixas delimitadoras e as probabilidades das classes dos objetos contidos nessa célula. Para cada célula da grade, o modelo faz previsões sobre as caixas delimitadoras que contêm objetos, representadas por cinco valores: coordenadas (x, y) do centro da caixa, largura (w) e altura (h) da caixa, e a confiança de que a caixa contém um objeto. Além disso, são previstas as probabilidades de cada classe para cada caixa delimitadora. Após a predição das caixas delimitadoras, o YOLO utiliza um processo chamado Non-max Suppression (Supressão de Não-Máximo) para refinar as previsões e eliminar caixas sobrepostas ou redundantes, mantendo apenas as detecções mais confiáveis. Esse processo envolve a supressão de caixas que têm uma sobreposição significativa e a escolha da caixa com a maior confiança entre as caixas sobrepostas. A saída do YOLO é uma lista de caixas delimitadoras, cada uma associada a uma classe prevista e sua confiança. Essas caixas delimitadoras representam os objetos detectados na imagem, fornecendo informações sobre sua localização e classificação. Em resumo, o YOLO oferece uma abordagem eficaz e eficiente para a detecção de objetos em tempo real, consolidando-se como uma ferramenta valiosa em diversas aplicações, desde sistemas de segurança até veículos autônomos \cite{redmon2016youlookonce}.
 
 
-\section{Realidade Virtual}
-\label{sec:trainingEvaluation}
+\section{Batch}
+\label{sec:batch}
 
-In any rehabilitation/training process locally or remotely, to assess user performance is essential to be related to driver skills improvement \cite{macgillivray2018}. This evaluation process can be either carried out automatically or not \cite{john2018, massengale2005}. In the automatic method, a (statistical) calculation is performed based on the process metrics, without the intervention of the health professional\cite{john2018}. Or in non-automatic method, the health professional who holds the user's clinical information assigns a score, based on standard parameters \cite{massengale2005}.
+Um dos aspectos cruciais do funcionamento da YOLO é o conceito de "batch" (em tradução livre, "lote") durante o treinamento da rede neural. Ao agrupar várias imagens em lotes para processamento simultâneo, a YOLO aproveita a capacidade de processamento paralelo das GPUs, acelerando significativamente o treinamento. Durante a propagação direta, cada imagem no lote é processada pela rede neural para gerar previsões de detecção de objetos. Em seguida, a perda é calculada em relação às anotações verdadeiras, e os pesos da rede são atualizados para minimizar essa perda, usando algoritmos de otimização como o gradiente descendente. Esse processo é repetido para vários lotes de imagens até que a rede convirja para uma solução adequada. Assim, o uso eficiente de lotes na YOLO não apenas acelera o treinamento, mas também contribui para a robustez e eficácia dos modelos de detecção de objetos resultantes. \cite{goodfellow2016deep}
 
-Another important aspect in the evaluation process is to verify if it is performed in an interpersonal or intrapersonal way. The PMRT defined by Massengale et al. \cite{massengale2005} is a standard and reliable methodology (training and evaluation protocols) applied to each user (intrapersonal way) in a different way. The PMRT consists of 2 groups of tasks: structured and unstructured. The 12 structured tasks are predictable. The 4 unstructured / dynamic tasks are unpredictable and require the user to make decisions about interacting with the environment, such as avoiding a person walking down the corridor or avoiding a therapy ball on the way \cite{massengale2005}. The user is considered approved in a training protocol when he/she reaches a score higher than or equal to 95\%. All tasks assessed in the PMRT are based on visual perception of the professional in charge. Before attribute a task score, the health professional has to be aware of the following rules:
-\begin{itemize}
-\item 4 -  Completely independent: optimal performance: able to perform task in one attempt smoothly and safely;
-\item 3 - Completes task hesitantly, requires several tries, requires speed restriction, and/or bumps wall, objects, etc. lightly (without causing harm);
-\item 2 - Bumps objects and people in a way that causes harm or could cause harm to driver, other persons or to objects;
-\item 1 - Unable to complete task: reason:  For example, may require verbal and/or visual cues or physical assistance.
-\end{itemize} 
+%A reasonable choice of optimization algorithm is SGD with momentum with a decaying learning rate (popular decay schemes that perform better or worse on
+%different problems include decaying linearly until reaching a fixed minimum learning
+%rate, decaying exponentially, or decreasing the learning rate by a factor of 2-10
+%each time validation error plateaus). Another very reasonable alternative is Adam.
+%Batch normalization can have a dramatic effect on optimization performance,
+%especially for convolutional networks and networks with sigmoidal nonlinearities.
+%While it is reasonable to omit batch normalization from the very first baseline, it
+%should be introduced quickly if optimization appears to be problematic.
 
-\section{Telerehabilitation}
-\label{sec:telerehabilitation}
+\section{Otimizadores}
+\label{sec:otimizadores}
 
-As defined in \cite{deutsch2007}, ``telerehabilitation is the provision of rehabilitation services (evaluations and interventions) at a distance by therapists at a remote location''. Over recent years, telerehabilitation technology has been developed seeking to address some issues related to classical in-clinic treatment \cite{pani2014,postolache2011}. Among these issues, one can highlight the one presented in Figure \ref{fig:holden2007}, which is the availability of the physical environment (and equipment) and the time and expenses associated to users and therapists displacement \cite{brennan2011,holden2007,dhurjaty2004}.
+Falar sobre o Otimizadores....!!!
 
-\begin{figure}[!hbt]
-\begin{center}
-\includegraphics[width=1 \textwidth]{img/cap2/holden2007}
-\caption{Virtual telerehabilitation system \cite{holden2007}}
-\label{fig:holden2007}
-\end{center}
-\end{figure}
+\section{Precisão e Recall}
+\label{sec:precisaorecall}
 
-Telerehabilitation technology can be used to improve existing rehabilitation protocols. Since many standard treatments include a high number of repetitive exercises, users are required to perform additional exercises at home, without the supervision of a therapist \cite{ortiz2014}. In these cases, telerehabilitation software can be used to provide the therapist with valuable feedback. As stated by \cite{ortiz2014}, ``the monitoring of quality and quantity of home-based rehabilitation interventions can potentially have a large positive impact on the quality and adherence to long-term treatments and rehabilitation outcomes'' \cite{pons2014}. Finally, it is important to mention that telerehabilitation applications run over pure network (UDP or HTTP -- Hypertext Transfer Protocol) protocol sockets \cite{leung2007}.
+A fim de avaliar o desempenho de um treinamento na arquitetura YOLO, é preciso entender os resultados fornecidos pelo modelo. De acordo com [8], basicamente a YOLO utiliza uma das métricas mais comuns, chamada Average Precision (AP) (“Precisão Média”, em tradução livre). Ela se baseia no conceito de IoU (“Intersection over the Union”, Intersecção sobre a União, em tradução livre), que calcula uma razão entre a interseção da detecção feita pelo algoritmo com relação à marcação (bounding box) realizada em cima da área dividida pela união dessas duas áreas (Figura 1). Essa razão poderá ser comparada com um valor pré-estabelecido, o thresholds, que será referido por L. A partir desse valor, é possível que no processo de detecção retorne três diferentes resultados na pesquisa pela classe desejada. São eles: Verdadeiro Positivo (VP), Falso Positivo (FP) e Falso Negativo (FN). VP trata-se dos resultados considerados corretos que a rede neural retorna, que seriam todos resultados que IoU > L. FP já seriam os resultados em que IoU < L, que são tidos como incorretos.FN, por sua vez, trata dos resultados totalmente fora do esperado.
 
-\section{Web server applications}
-\label{sec:websapp}
+\begin{equation}
+    \text{Recall} = \frac{VP}{VP + FN} \tag{1}
+    \end{equation}
+    
+    \begin{equation}
+    \text{Precisão} = \frac{VP}{VP + FP} \tag{2}
+\end{equation}
 
-Currently, with the intensive use of Internet, fast development of web technologies and high-performance computer hardware, building web sites and constructing software systems on the web are dominant trends in the e-commerce industry \cite{attitalla2016, zambonelli2016,laine2011,stroulia2001}. 
-
-Web server-based approaches allow controlling devices and appliances remotely. Two methods are being used: one is to develop an embedded web server using dedicated hardware, and  the other is to use Cloud-based services and develop the application on it, without the need for hardware, latency or network failure \cite{attitalla2016}. 
-
-Researchers \cite{tilley2001}  classify web sites architectures in three categories, according to their level of complexity, interactivity and functionality:
-\begin{itemize}
-\item Static: plain HyperText Markup Language (HTML) web sites;
-\item Interactive (Front-end side): dynamic HTML plus some scripting programs (e.g., JavaScript); and
-\item Dynamic (back-end site): powerful server-side systems that can generate web contents dynamically.
-\end{itemize}
+Com esses valores, pode-se calcular os resultados da saída que o treinamento da rede YOLO fornece. Em (1), tem-se o cálculo da Recall, que calcula a capacidade da rede de detectar todos os objetos relevantes em uma imagem. Já a Precisão (2), refere-se à capacidade da rede de encontrar apenas resultados relevantes. 
 
 \begin{figure}[!h]
-\center
-\begin{minipage}{0.45\linewidth}
-\center
-\captionsetup{justification=centering,margin=0cm,font= small}
-\includegraphics[width=0.85\linewidth]{img/cap2/webTierarch}
-\caption{ A typical three-tire architecture \cite{sun2003} } \label{subfig:webTierarch}
-\end{minipage}
-\begin{minipage}{0.45\linewidth}
-\center
-\captionsetup{justification=centering,margin=0cm,font= small}
-\includegraphics[width=1.05\linewidth]{img/cap2/firstWebArch}
-\caption{ The first version architecture \cite{sun2003}} \label{subfig:firstWebArch}
-\end{minipage}
+    \center
+    \begin{minipage}{0.6\linewidth}
+    \center
+    \captionsetup{justification=centering,margin=0.5cm,font=small}
+    \includegraphics[width=0.7\linewidth]{img/cap2/iou.png}
+    \caption{ Cálculo de IoU. \cite{padilla2020survey}} \label{subfig:iou}
+    \end{minipage}
 \end{figure}
 
-The dynamic web application architectures presented in Figures \ref{subfig:webTierarch} and \ref{subfig:firstWebArch} allows one to:
+A arquitetura YOLO disponibiliza um dataset, ou seja, um banco de imagens e weights, comum em todas as versões, chamado de COCO (“Common Objects in Context”, que em tradução livre seria “Classes Comuns de Objetos”) com classes pré-treinadas e imagens para realização de treinamentos. A partir dele, verificou-se por meio de testes a eficiência das quatro últimas versões da YOLO, a fim de identificar se nas mais recentes houve melhoras significativas em termos de performance e precisão. Na Figura 1, é apresentado o comparativo das versões. Nota-se que a v8, para um menor número de parâmetros que as demais, apresentou uma mAP50-95, maior que nas versões v5, v6 e v7. Além disso, com relação a velocidade de processamento, a v8 também se sobressai, com maior rapidez no processamento, ao processar maior quantidade de imagens para um mesmo intervalo de tempo \cite{padilla2020survey}.
 
-\begin{itemize}
-\item Manage image/videos streams in order to provide a powerful visual feedback from user;
-\item Establish different channels to receive/redirect all different kinds of data coming from different user control interfaces;
-\item Save all data generated during user experience allowing for the processing of this data creating indicator measurements across the acquired evolution and;
-\item Operating system and platform independence, as long as it is supported in the
-browser.
-\end{itemize}
-
-Throughout the web server features, it's possible to develop a cross platform application which can be accessed for everyone from different places in the world. Different modules can be implemented based in Java Servlets. Each kind of data from different devices all over Internet, can be handled for different modules. For instance, video stream manager to visualize different physical places,   store different real time data to generate reports \cite{attitalla2016, kovatsch2012, loreto2012}.
-
-
-\section{Embedded Systems (ES)}
-\label{sec:esystem}
-
-Until the late eighties, information processing was associated with large mainframe computers and huge tape drives \cite{marwedel2010}. During the nineties, this shifted towards information processing being associated with personal computers. The trend towards miniaturization continues and the majority of information processing devices will be small portable computers integrated into larger products. These portable computers are called Micro-controllers.
-
-A Microcontroller is a self-contained system with peripherals (input and output devices), memory, timers, externals interrupts, digital-analog conversions and a processor that can be used as an Embedded Systems as shown in Figure \ref{fig:OdroidXU3-ES}. Thus,  Embedded Systems  are information processing systems embedded into an enclosed product \cite{marwedel2018}. Microcontrollers are present in many different products, such as, phones, peripherals, automobiles etc. 
-
-\begin{figure}[!hbt]
-\begin{center}
-\includegraphics[width=0.7 \textwidth]{img/cap2/OdroidXU3-ES}
-\caption{Odroid XU3 ES - designed to space exploration \cite{marwedel2018}}
-\label{fig:OdroidXU3-ES}
-\end{center}
+\begin{figure}[!h]
+    \center
+    \begin{minipage}{0.9\linewidth}
+    \center
+    \captionsetup{justification=centering,margin=0.5cm,font=small}
+    \includegraphics[width=0.7\linewidth]{img/cap2/precisao.png}
+    \caption{ Aumento de desempenho da precisão média, versão 5 para 8.  \cite{ultralytics2023yolo}} \label{subfig:precisao}
+    \end{minipage}
 \end{figure}
 
+\section{Realidade Virtual}
+\label{sec:precisaorecall}
 
+A realidade virtual é uma tecnologia que permite aos usuários imergirem em ambientes virtuais tridimensionais, geralmente através do uso de dispositivos como óculos de realidade virtual (VR) ou capacetes. Desde suas primeiras manifestações nas décadas de 1960 e 1970, quando ainda era experimental e limitada, a realidade virtual tem evoluído consideravelmente. No entanto, foi na década de 1990 que essa tecnologia começou a ganhar destaque comercial, com o lançamento de dispositivos como o Virtual Boy da Nintendo e os primeiros sistemas de realidade virtual para computadores pessoais. Desde então, a realidade virtual tem sido aplicada em uma variedade de campos, incluindo jogos, simulações, treinamento, educação e terapia. Sua popularidade continuou a crescer com o avanço da tecnologia, oferecendo experiências cada vez mais imersivas e acessíveis \cite{kirner2011evoluccao}.
 
-These features is strongly necessary in the AT area. For example, an important requirement is to allow for different protocols to establish communication between embedded devices and computers, such as wireless, Ethernet and Internet.
-
-Nowadays, there exist many different kinds of Microcontrollers. Each has it own specific hardware definition, libraries and models, for example, Arduino CC\footnote{Arduino website: https://www.arduino.cc/} and Microchip\footnote{Microchip website: http://www.microchip.com/}.
+%Citar trabalho alexandre
+%O artigo de kirner2011evoluccao, faz um panorama da história da realidade virtual.
 
 \section{Considerações finais}
 
