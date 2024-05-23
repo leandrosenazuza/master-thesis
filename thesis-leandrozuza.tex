@@ -75,7 +75,9 @@
 \usepackage{longtable}
 \usepackage{rotating}
 \usepackage[table]{xcolor}
-\usepackage{my_hyphenation}                                     %Personal hyphenation dictionary
+\usepackage{my_hyphenation}  
+
+%Personal hyphenation dictionary
 \newcommand{\yes}{{\includegraphics [scale=0.055]{img/yes}}}     %Definindo comandos para figuras yes and no
 %\newcommand{\no}{{\includegraphics [scale=0.055]{img/no}}}       %
 %\newcommand{\alert}{{\includegraphics [scale=0.3]{img/alert}}}
@@ -94,7 +96,7 @@
 \usepackage[alf]{abntex2cite}	% Citações padrão ABNT
 \usepackage{nomencl}                                            %Create nomenclature in English
 \makenomenclature				                    
-\renewcommand{\nomname}{List of Abbreviations}         %Rename nomenclature\usepackage{subfig}
+\renewcommand{\nomname}{Lista de Abreviaturas e Siglas}         %Rename nomenclature\usepackage{subfig}
 
 % --- 
 % CONFIGURAÇÕES DE PACOTES
@@ -119,22 +121,25 @@
 
 % ---
 % Informações de dados para CAPA e FOLHA DE ROSTO
+%Inserção Automática de Componentes em Ambientes Virtuais de Treinamento para Substações de Energia utilizando Inteligência Artificial
 % ---
-\titulo{An Augmented Reality-based \\ 
-Telerehabilitation Architecture for Supporting\\
- the Training of Powered Wheelchair Users}
-\autor{Daniel Stefany Duarte Caetano}
+\titulo{
+	Inserção Automática de Componentes \\
+em Ambientes Virtuais de Treinamento para Substações \\ 
+ de Energia utilizando Inteligência Artificial \\
+}
+\autor{Leandro Sena Zuza}
 \local{Uberlândia}
-\data{2020}
-\orientador{Edgard Afonso Lamounier}
-\coorientador{Eduardo Lázaro Naves Ramos}
+\data{2024}
+\orientador{Alexandre Cardoso}
+\coorientador{Daniel Stefany Duarte Caetano}
 \instituicao{%
   UNIVERSIDADE FEDERAL DE UBERLANDIA
   \par
   FACULDADE DE ENGENHARIA ELÉTRICA
   \par
  PÓS-GRADUAÇÃO EM ENGENHARIA ELÉTRICA}
-\tipotrabalho{Tese (Doutorado)}
+\tipotrabalho{Dissertação (Mestrado)}
 % O preambulo deve conter o tipo do trabalho, o objetivo, 
 % o nome da instituição e a área de concentração 
 \preambulo{Modelo canônico de trabalho monográfico acadêmico em conformidade com
@@ -273,65 +278,8 @@ as normas ABNT apresentado à comunidade de usuários \LaTeX.}
 % inserir lista de abreviaturas e siglas
 % ---
 \begin{siglas}
-  \item[ADL] 	Activities of Daily Living
-  \item[ALS]	Amyotrophic Lateral Sclerosis
-  \item[ANOVA]	Analysis Of Variance
-  \item[AP]	Access Point
-  \item[AR] 	Augmented Reality
-  \item[ARSAWP]	Augmented Reality System for the Assistance of Wheelchair People
-  \item[ARTESH]	Augmented Reality Based Telerehabilitation System With Haptics
-  \item[AT] 	Assistive Technology
-  \item[ATDs] 	Assistive Technology Devices
-  \item[BVP] 	Blood Volume Pulse
-  \item[CDA]	Continuous Decomposition Analysis
-  \item[EDA] 	Electrodermal Activity
-  \item[ES] 	Embedded Systems
-  \item[GLTF]	GL Transmission Format
-  \item[GPS]	Global Positioning System
-  \item[GSM]	Global System for Mobile
-  \item[GPRS]	General Packet Radio Service
-  \item[IADL] 	Instrumental Activities of Daily Life
-  \item[IBI]	Inter Beat Interval
-  \item[ISCR]	Integrated Skin Conductance Response
-  \item[ICC]	Intraclass Correlation Coefficient
-  \item[IoT] 	Internet of Things
-  \item[IP]	Internet Protocol Address
-  \item[HDMI]	High-Definition Multimedia Interface
-  \item[HMD] 	Head-Mounted Display
-  \item[HMI] 	Human Machine Interface
-  \item[HRV]	Heart Rate Variability
-  \item[HTML] 	HyperText Markup Language
-  \item[HTTP] 	Hypertext Transfer Protocol
-  \item[MVC]	Model-View-Controller
-  \item[NASA-TLX]Task Load Index developed by the National Aeronautics and Space Administration
-  \item[OT]	Occupational Therapists
-  \item[PerMMA]	Personal Mobility and Manipulation Appliance
-  \item[PCDA]	Power Mobility Community Driving Assessment
-  \item[PIDA]	Power Mobility Indoor Driving Assessment
-  \item[PMRT] 	Power Mobility Road Test
-  \item[PW] 	Powered Wheelchair
-  \item[PWS]	Powered Wheelchair Simulator
-  \item[RT] 	Real-time
-  \item[RT-WiFi]Real Time WiFi
-  \item[RSI]	Robot Service Initiative
-  \item[RSNP]	Robot Service Network Protocol
-  \item[SCR]	Skin Conductance Response
-  \item[SD]	Sequence Diagram
-  \item[SI]	Stress Index
-  \item[SPR]	Skin Potential Response 
-  \item[SSQ]	Simulator Sickness Questionnaire
-  \item[UDP] 	User Datagram Protocol
-  \item[UML]	Unified Modeling Language
-  \item[USB]	Universal Serial Bus
-  \item[URL]	Uniform Resource Locator
-  \item[VE]	Virtual Environment
-  \item[VR] 	Virtual Reality
-  \item[VRE] 	Virtual Reality Environment
-  \item[VRSIM-2]Virtual Reality-Based Simulator-2
-  \item[WebGL]	Web Graphics Library 
-  \item[WebRTC]	Web Real-Time Communication
-  \item[WLAN]	Wireless Local Area Network
-  \item[WSTP]	Wheelchair Skills Training Program
+  \item[VANT] 	Veículo Aéreo Não Tripulado
+  
 \end{siglas}
 
 % ---
@@ -364,7 +312,7 @@ as normas ABNT apresentado à comunidade de usuários \LaTeX.}
 % ---
 \setcounter{page}{1}
 \input chapters/cap1
-%\input chapters/cap2
+\input chapters/cap2
 %\input chapters/cap3
 %\input chapters/cap4
 %\input chapters/cap5

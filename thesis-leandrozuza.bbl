@@ -1,0 +1,86 @@
+\providecommand{\abntreprintinfo}[1]{%
+ \citeonline{#1}}
+\setlength{\labelsep}{0pt}\begin{thebibliography}{}
+\providecommand{\abntrefinfo}[3]{}
+\providecommand{\abntbstabout}[1]{}
+\abntbstabout{v-1.9.7 }
+
+\bibitem[Goodfellow, Bengio e Courville 2016]{goodfellow2016deep}
+\abntrefinfo{Goodfellow, Bengio e Courville}{GOODFELLOW; BENGIO;
+  COURVILLE}{2016}
+{GOODFELLOW, I.; BENGIO, Y.; COURVILLE, A. \emph{Deep learning}. [S.l.]: MIT
+  press, 2016.}
+
+\bibitem[Jocher, Chaurasia e Qiu 2023]{ultralytics2023yolo}
+\abntrefinfo{Jocher, Chaurasia e Qiu}{JOCHER; CHAURASIA; QIU}{2023}
+{JOCHER, G.; CHAURASIA, A.; QIU, J. \emph{YOLO by Ultralytics. Ultralytics}.
+  2023.}
+
+\bibitem[Kirner e Kirner 2011]{kirner2011evoluccao}
+\abntrefinfo{Kirner e Kirner}{KIRNER; KIRNER}{2011}
+{KIRNER, C.; KIRNER, T.~G. Evolu{\c{c}}{\~a}o e tend{\^e}ncias da realidade
+  virtual e da realidade aumentada.
+\emph{Realidade Virtual e Aumentada: Aplica{\c{c}}{\~o}es e Tend{\^e}ncias.
+  Cap}, v.~1, p. 10--25, 2011.}
+
+\bibitem[Lima e Oliveira 2021]{lima2021precarizaccao}
+\abntrefinfo{Lima e Oliveira}{LIMA; OLIVEIRA}{2021}
+{LIMA, M. E.~A.; OLIVEIRA, R.~C. Precariza{\c{c}}{\~a}o e acidentes de
+  trabalho: os riscos da terceiriza{\c{c}}{\~a}o no setor el{\'e}trico.
+\emph{Revista Brasileira de Sa{\'u}de Ocupacional}, SciELO Brasil, v.~46,
+  p.~e6, 2021.}
+
+\bibitem[O{\u{g}}cu, Demirel e Zaim 2012]{ougcu2012forecasting}
+\abntrefinfo{O{\u{g}}cu, Demirel e Zaim}{O{\u{G}}CU; DEMIREL; ZAIM}{2012}
+{O{\u{G}}CU, G.; DEMIREL, O.~F.; ZAIM, S. Forecasting electricity consumption
+  with neural networks and support vector regression.
+\emph{Procedia-Social and Behavioral Sciences}, Elsevier, v.~58, p. 1576--1585,
+  2012.}
+
+\bibitem[Padilla, Netto e Silva 2020]{padilla2020survey}
+\abntrefinfo{Padilla, Netto e Silva}{PADILLA; NETTO; SILVA}{2020}
+{PADILLA, R.; NETTO, S.~L.; SILVA, E.~A. D. A survey on performance metrics for
+  object-detection algorithms. In:  IEEE. \emph{2020 international conference
+  on systems, signals and image processing (IWSSIP)}. [S.l.], 2020. p.
+  237--242.}
+
+\bibitem[Palmeira et al. 2020]{palmeira2020uncanny}
+\abntrefinfo{Palmeira et al.}{PALMEIRA et al.}{2020}
+{PALMEIRA, E. G.~Q. et al. O uncanny valley das m{\~a}os virtuais em
+  aplica{\c{c}}{\~o}es de realidade virtual imersiva: uma revis{\~a}o
+  sistem{\'a}tica da literatura.
+\emph{Revista Ib{\'e}rica de Sistemas e Tecnologias de Informa{\c{c}}{\~a}o},
+  Associa{\c{c}}{\~a}o Ib{\'e}rica de Sistemas e Tecnologias de Informacao,
+  n.~E31, p. 497--512, 2020.}
+
+\bibitem[Randolph 2013]{randolph2013electric}
+\abntrefinfo{Randolph}{RANDOLPH}{2013}
+{RANDOLPH, J. Electric power substations engineering [book reviews].
+\emph{IEEE Power and Energy Magazine}, IEEE, v.~11, n.~3, p. 103--105, 2013.}
+
+\bibitem[Redmon et al. 2016]{redmon2016youlookonce}
+\abntrefinfo{Redmon et al.}{REDMON et al.}{2016}
+{REDMON, J. et al. You only look once: Unified, real-time object detection. In:
+   \emph{Proceedings of the IEEE conference on computer vision and pattern
+  recognition}. [S.l.: s.n.], 2016. p. 779--788.}
+
+\bibitem[Rumelhart, Hinton e Williams 1986]{rumelhart1986learning}
+\abntrefinfo{Rumelhart, Hinton e Williams}{RUMELHART; HINTON; WILLIAMS}{1986}
+{RUMELHART, D.~E.; HINTON, G.~E.; WILLIAMS, R.~J. Learning representations by
+  back-propagating errors.
+\emph{nature}, Nature Publishing Group UK London, v.~323, n.~6088, p. 533--536,
+  1986.}
+
+\bibitem[Sen 2021]{sen2021principles}
+\abntrefinfo{Sen}{SEN}{2021}
+{SEN, P.~C. \emph{Principles of Electric Machines and Power Electronics,
+  International Adaptation}. [S.l.]: John Wiley \& Sons, 2021.}
+
+\bibitem[Zhou, Fu e Yang 2016]{zhou2016big}
+\abntrefinfo{Zhou, Fu e Yang}{ZHOU; FU; YANG}{2016}
+{ZHOU, K.; FU, C.; YANG, S. Big data driven smart energy management: From big
+  data to big insights.
+\emph{Renewable and sustainable energy reviews}, Elsevier, v.~56, p. 215--225,
+  2016.}
+
+\end{thebibliography}
