@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2024.3.26)  3 APR 2024 14:42
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2024.3.26)  23 MAY 2024 20:20
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -938,7 +938,7 @@ Package tocbasic Info: setting babel extension for `nls' on input line 188.
 \openout5 = `thesis-leandrozuza.nlo'.
 
 Package nomencl Info: Writing nomenclature file thesis-leandrozuza.nlo on input line 98.
-Package hyperref Info: Option `colorlinks' set `true' on input line 170.
+Package hyperref Info: Option `colorlinks' set `true' on input line 172.
 \c@quadro=\count391
 \c@loqdepth=\count392
 \cftbeforequadroskip=\skip284
@@ -951,27 +951,27 @@ LaTeX Warning: Label `sec:precisaorecall' multiply defined.
 )
 \openout1 = `thesis-leandrozuza.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 216.
-LaTeX Font Info:    ... okay on input line 216.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 216.
-LaTeX Font Info:    ... okay on input line 216.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 216.
-LaTeX Font Info:    ... okay on input line 216.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 216.
-LaTeX Font Info:    ... okay on input line 216.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 216.
-LaTeX Font Info:    ... okay on input line 216.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 216.
-LaTeX Font Info:    ... okay on input line 216.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 216.
-LaTeX Font Info:    ... okay on input line 216.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 216.
-LaTeX Font Info:    ... okay on input line 216.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 216.
-LaTeX Font Info:    ... okay on input line 216.
-Package hyperref Info: Link coloring ON on input line 216.
-LaTeX Info: Redefining \degres on input line 216.
-LaTeX Info: Redefining \up on input line 216.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 218.
+LaTeX Font Info:    ... okay on input line 218.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 218.
+LaTeX Font Info:    ... okay on input line 218.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 218.
+LaTeX Font Info:    ... okay on input line 218.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 218.
+LaTeX Font Info:    ... okay on input line 218.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 218.
+LaTeX Font Info:    ... okay on input line 218.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 218.
+LaTeX Font Info:    ... okay on input line 218.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 218.
+LaTeX Font Info:    ... okay on input line 218.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 218.
+LaTeX Font Info:    ... okay on input line 218.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 218.
+LaTeX Font Info:    ... okay on input line 218.
+Package hyperref Info: Link coloring ON on input line 218.
+LaTeX Info: Redefining \degres on input line 218.
+LaTeX Info: Redefining \up on input line 218.
 \myptabbox=\box72
 \myptabboxwidth=\skip287
  (C:\Users\leand\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
@@ -993,18 +993,18 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
  (C:\Users\leand\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-LaTeX Info: Redefining \microtypecontext on input line 216.
-Package microtype Info: Applying patch `item' on input line 216.
-Package microtype Info: Applying patch `toc' on input line 216.
-Package microtype Info: Applying patch `eqnum' on input line 216.
-Package microtype Info: Applying patch `footnote' on input line 216.
+LaTeX Info: Redefining \microtypecontext on input line 218.
+Package microtype Info: Applying patch `item' on input line 218.
+Package microtype Info: Applying patch `toc' on input line 218.
+Package microtype Info: Applying patch `eqnum' on input line 218.
+Package microtype Info: Applying patch `footnote' on input line 218.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
 Package microtype Info: Automatic font expansion enabled (level 2),
 (microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
 Package microtype Info: Using default expansion set `alltext-nott'.
-LaTeX Info: Redefining \showhyphens on input line 216.
+LaTeX Info: Redefining \showhyphens on input line 218.
 Package microtype Info: No adjustment of tracking.
 Package microtype Info: No adjustment of interword spacing.
 Package microtype Info: No adjustment of character kerning.
@@ -1099,20 +1099,20 @@ Underfull \hbox (badness 10000) in paragraph at lines 34--1
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.13 
+l.11 
       [1
 
 
 ]
-LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 19.
- (C:\Users\leand\AppData\Local\Programs\MiKTeX\tex/latex/lm\ts1lmr.fd
-File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-)
 pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.34 \item P
-            or fim, no Capítulo 7, são aparesentadas as conclusões e as p... [2]) (chapters/cap2.tex
+l.21 
+      [2]
+LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 23.
+ (C:\Users\leand\AppData\Local\Programs\MiKTeX\tex/latex/lm\ts1lmr.fd
+File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)) (chapters/cap2.tex
 pdfTeX warning (ext4): destination with the same identifier (name{page.3}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
@@ -1128,17 +1128,17 @@ l.16
 pdfTeX warning (ext4): destination with the same identifier (name{page.5}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.36 \section
-             {You Look Only Once} [5]
+l.32 \subsection
+                {You Look Only Once} [5]
 pdfTeX warning (ext4): destination with the same identifier (name{page.6}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.46 
+l.42 
       [6]
-<img/cap2/iou.png, id=150, 602.25pt x 469.755pt>
+<img/cap2/iou.png, id=162, 602.25pt x 469.755pt>
 File: img/cap2/iou.png Graphic file (type png)
 <use img/cap2/iou.png>
-Package pdftex.def Info: img/cap2/iou.png  used on input line 81.
+Package pdftex.def Info: img/cap2/iou.png  used on input line 77.
 (pdftex.def)             Requested size: 191.1011pt x 149.05595pt.
 
 
@@ -1148,24 +1148,24 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 pdfTeX warning (ext4): destination with the same identifier (name{page.7}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.87 
+l.83 
       [7
-pdfTeX warning (ext4): destination with the same identifier (name{equation.2.6.1}) has been already used, duplicate ignored
+pdfTeX warning (ext4): destination with the same identifier (name{equation.2.2.1}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.87 
+l.83 
      ]
-<img/cap2/precisao.png, id=166, 703.62875pt x 525.965pt>
+<img/cap2/precisao.png, id=178, 703.62875pt x 525.965pt>
 File: img/cap2/precisao.png Graphic file (type png)
 <use img/cap2/precisao.png>
-Package pdftex.def Info: img/cap2/precisao.png  used on input line 93.
+Package pdftex.def Info: img/cap2/precisao.png  used on input line 89.
 (pdftex.def)             Requested size: 286.6468pt x 214.26663pt.
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.8}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.102 
-       [8 <./img/cap2/iou.png> <./img/cap2/precisao.png>]) (thesis-leandrozuza.bbl (thesis-leandrozuza.brf)
+l.98 
+      [8 <./img/cap2/iou.png> <./img/cap2/precisao.png>]) (thesis-leandrozuza.bbl (thesis-leandrozuza.brf)
 \tf@brf=\write6
 \openout6 = `thesis-leandrozuza.brf'.
 
@@ -1180,7 +1180,7 @@ bibitemlist
 pdfTeX warning (ext4): destination with the same identifier (name{page.10}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.339 \end{document}
+l.341 \end{document}
                      [10
 
 ]
@@ -1203,20 +1203,20 @@ L3 programming layer <2024-01-04>
 LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `thesis-leandrozuza.brf' has not changed.
-(rerunfilecheck)             Checksum: 81BBDD7FF6960B4E815590D4B5B95CBA;672.
+(rerunfilecheck)             Checksum: D8DF4D881B8018604A45F7737CFC444F;916.
  ) 
 Here is how much of TeX's memory you used:
- 25267 strings out of 474485
- 414477 string characters out of 5743756
- 1936542 words of memory out of 5000000
- 46866 multiletter control sequences out of 15000+600000
- 624921 words of font info for 149 fonts, out of 8000000 for 9000
+ 25310 strings out of 474485
+ 415410 string characters out of 5743756
+ 1937542 words of memory out of 5000000
+ 46894 multiletter control sequences out of 15000+600000
+ 625619 words of font info for 155 fonts, out of 8000000 for 9000
  1192 hyphenation exceptions out of 8191
  110i,12n,107p,2141b,675s stack positions out of 10000i,1000n,20000p,200000b,200000s
 {C:/Users/leand/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc}{C:/Users/leand/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathit.enc}{C:/Users/leand/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-rm.enc}{C:/Users/leand/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ts1.enc}<C:/Users/leand/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi12.pfb><C:/Users/leand/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr10.pfb><C:/Users/leand/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr12.pfb><C:/Users/leand/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri10.pfb><C:/Users/leand/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri12.pfb><C:/Users/leand/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmss12.pfb><C:/Users/leand/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmss17.pfb><C:/Users/leand/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmssbx10.pfb>
-Output written on thesis-leandrozuza.pdf (21 pages, 337995 bytes).
+Output written on thesis-leandrozuza.pdf (21 pages, 343485 bytes).
 PDF statistics:
- 303 PDF objects out of 1000 (max. 8388607)
- 56 named destinations out of 1000 (max. 500000)
+ 319 PDF objects out of 1000 (max. 8388607)
+ 59 named destinations out of 1000 (max. 500000)
  39056 words of extra memory for PDF output out of 42996 (max. 10000000)
 

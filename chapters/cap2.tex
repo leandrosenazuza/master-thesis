@@ -29,17 +29,13 @@ O funcionamento básico de uma rede neural ocorre em duas fases principais: prop
 
 Essencialmente, as redes neurais aprendem iterativamente ajustando os pesos de suas conexões através do processo de treinamento, onde são apresentados a um conjunto de dados de entrada e as correspondentes saídas desejadas. Com o tempo, a rede neural é capaz de aprender a mapear efetivamente os padrões nos dados de entrada para as saídas desejadas, tornando-se assim capaz de realizar tarefas como reconhecimento de padrões, classificação, regressão, entre outros.
 
-
-
-%Thus, the next section will present an introduction to these technologies.  
-
-\section{You Look Only Once}
+\subsection{You Look Only Once}
 \label{sec:yolo}
 
 YOLO (You Only Look Once) é um modelo de detecção de objetos em imagens e vídeos em tempo real, que se destaca por sua eficiência e precisão. Desenvolvido por Joseph Redmon, Santosh Divvala, Ross Girshick e Ali Farhadi, o YOLO aborda o problema de detecção de objetos como uma única tarefa de regressão, prevendo caixas delimitadoras e probabilidades de classe diretamente de imagens inteiras em uma única passagem pela rede neural. O funcionamento do YOLO começa com a divisão da imagem de entrada em uma grade, geralmente de dimensões como 7x7 ou 9x9. Cada célula dessa grade é responsável por prever um conjunto de caixas delimitadoras e as probabilidades das classes dos objetos contidos nessa célula. Para cada célula da grade, o modelo faz previsões sobre as caixas delimitadoras que contêm objetos, representadas por cinco valores: coordenadas (x, y) do centro da caixa, largura (w) e altura (h) da caixa, e a confiança de que a caixa contém um objeto. Além disso, são previstas as probabilidades de cada classe para cada caixa delimitadora. Após a predição das caixas delimitadoras, o YOLO utiliza um processo chamado Non-max Suppression (Supressão de Não-Máximo) para refinar as previsões e eliminar caixas sobrepostas ou redundantes, mantendo apenas as detecções mais confiáveis. Esse processo envolve a supressão de caixas que têm uma sobreposição significativa e a escolha da caixa com a maior confiança entre as caixas sobrepostas. A saída do YOLO é uma lista de caixas delimitadoras, cada uma associada a uma classe prevista e sua confiança. Essas caixas delimitadoras representam os objetos detectados na imagem, fornecendo informações sobre sua localização e classificação. Em resumo, o YOLO oferece uma abordagem eficaz e eficiente para a detecção de objetos em tempo real, consolidando-se como uma ferramenta valiosa em diversas aplicações, desde sistemas de segurança até veículos autônomos \cite{redmon2016youlookonce}.
 
 
-\section{Batch}
+\subsection{Batch}
 \label{sec:batch}
 
 Um dos aspectos cruciais do funcionamento da YOLO é o conceito de "batch" (em tradução livre, "lote") durante o treinamento da rede neural. Ao agrupar várias imagens em lotes para processamento simultâneo, a YOLO aproveita a capacidade de processamento paralelo das GPUs, acelerando significativamente o treinamento. Durante a propagação direta, cada imagem no lote é processada pela rede neural para gerar previsões de detecção de objetos. Em seguida, a perda é calculada em relação às anotações verdadeiras, e os pesos da rede são atualizados para minimizar essa perda, usando algoritmos de otimização como o gradiente descendente. Esse processo é repetido para vários lotes de imagens até que a rede convirja para uma solução adequada. Assim, o uso eficiente de lotes na YOLO não apenas acelera o treinamento, mas também contribui para a robustez e eficácia dos modelos de detecção de objetos resultantes. \cite{goodfellow2016deep}
@@ -53,21 +49,21 @@ Um dos aspectos cruciais do funcionamento da YOLO é o conceito de "batch" (em t
 %While it is reasonable to omit batch normalization from the very first baseline, it
 %should be introduced quickly if optimization appears to be problematic.
 
-\section{Otimizadores}
+\subsection{Otimizadores}
 \label{sec:otimizadores}
 
 Falar sobre o Otimizadores....!!!
 
-\section{Precisão e Recall}
+\subsection{Precisão e Recall}
 \label{sec:precisaorecall}
 
-A fim de avaliar o desempenho de um treinamento na arquitetura YOLO, é preciso entender os resultados fornecidos pelo modelo. De acordo com [8], basicamente a YOLO utiliza uma das métricas mais comuns, chamada Average Precision (AP) (“Precisão Média”, em tradução livre). Ela se baseia no conceito de IoU (“Intersection over the Union”, Intersecção sobre a União, em tradução livre), que calcula uma razão entre a interseção da detecção feita pelo algoritmo com relação à marcação (bounding box) realizada em cima da área dividida pela união dessas duas áreas (Figura 1). Essa razão poderá ser comparada com um valor pré-estabelecido, o thresholds, que será referido por L. A partir desse valor, é possível que no processo de detecção retorne três diferentes resultados na pesquisa pela classe desejada. São eles: Verdadeiro Positivo (VP), Falso Positivo (FP) e Falso Negativo (FN). VP trata-se dos resultados considerados corretos que a rede neural retorna, que seriam todos resultados que IoU > L. FP já seriam os resultados em que IoU < L, que são tidos como incorretos.FN, por sua vez, trata dos resultados totalmente fora do esperado.
+A fim de avaliar o desempenho de um treinamento na arquitetura YOLO, é preciso entender os resultados fornecidos pelo modelo. De acordo com \cite{padilla2020survey}, basicamente a YOLO utiliza a métrica chamada Average Precision (AP) (“Precisão Média”, em tradução livre). Ela se baseia no conceito de IoU (“Intersection over the Union”, Intersecção sobre a União, em tradução livre), que calcula uma razão entre a interseção da detecção feita pelo algoritmo com relação à marcação (bounding box) realizada em cima da área dividida pela união dessas duas áreas (Figura 1). Essa razão poderá ser comparada com um valor pré-estabelecido, o thresholds, que será referido por L. A partir desse valor, é possível que no processo de detecção retorne três diferentes resultados na pesquisa pela classe desejada. São eles: Verdadeiro Positivo (VP), Falso Positivo (FP) e Falso Negativo (FN). VP trata-se dos resultados considerados corretos que a rede neural retorna, que seriam todos resultados que IoU > L. FP já seriam os resultados em que IoU < L, que são tidos como incorretos.FN, por sua vez, trata dos resultados totalmente fora do esperado.
 
 \begin{equation}
     \text{Recall} = \frac{VP}{VP + FN} \tag{1}
-    \end{equation}
+\end{equation}
     
-    \begin{equation}
+\begin{equation}
     \text{Precisão} = \frac{VP}{VP + FP} \tag{2}
 \end{equation}
 

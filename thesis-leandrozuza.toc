@@ -12,17 +12,17 @@
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
 \contentsline {chapter}{\chapternumberline {1}\MakeUppercase []{Introdução}}{1}{chapter.1}%
 \contentsline {section}{\numberline {1.1}Motivação}{1}{section.1.1}%
-\contentsline {section}{\numberline {1.2}Objetivos e Metas}{2}{section.1.2}%
-\contentsline {section}{\numberline {1.3}Estrutura da Dissertação}{2}{section.1.3}%
+\contentsline {section}{\numberline {1.2}Objetivos e Metas}{3}{section.1.2}%
+\contentsline {section}{\numberline {1.3}Estrutura da Dissertação}{3}{section.1.3}%
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
 \contentsline {chapter}{\chapternumberline {2}\MakeUppercase []{Fundamentação Teórica}}{4}{chapter.2}%
 \contentsline {section}{\numberline {2.1}Subestações de Energia}{4}{section.2.1}%
 \contentsline {section}{\numberline {2.2}Redes Neurais}{4}{section.2.2}%
-\contentsline {section}{\numberline {2.3}You Look Only Once}{6}{section.2.3}%
-\contentsline {section}{\numberline {2.4}Batch}{6}{section.2.4}%
-\contentsline {section}{\numberline {2.5}Otimizadores}{7}{section.2.5}%
-\contentsline {section}{\numberline {2.6}Precisão e Recall}{7}{section.2.6}%
-\contentsline {section}{\numberline {2.7}Realidade Virtual}{8}{section.2.7}%
-\contentsline {section}{\numberline {2.8}Considerações finais}{9}{section.2.8}%
+\contentsline {subsection}{\numberline {2.2.1}You Look Only Once}{6}{subsection.2.2.1}%
+\contentsline {subsection}{\numberline {2.2.2}Batch}{6}{subsection.2.2.2}%
+\contentsline {subsection}{\numberline {2.2.3}Otimizadores}{7}{subsection.2.2.3}%
+\contentsline {subsection}{\numberline {2.2.4}Precisão e Recall}{7}{subsection.2.2.4}%
+\contentsline {section}{\numberline {2.3}Realidade Virtual}{8}{section.2.3}%
+\contentsline {section}{\numberline {2.4}Considerações finais}{9}{section.2.4}%
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
 \contentsline {chapter}{\MakeUppercase []{Bibliography}}{10}{section*.18}%
