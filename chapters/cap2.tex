@@ -3,16 +3,31 @@
 \section{Subestações de Energia}
 \label{sec:subestacao}
 
-As subestações desempenham um papel crucial na transmissão e distribuição de energia elétrica. Quando a eletricidade é gerada em uma usina, ela é produzida em uma tensão muito alta para minimizar perdas durante a transmissão por longas distâncias. As subestações recebem essa eletricidade de alta tensão e a transformam em níveis de tensão adequados para distribuição aos consumidores finais. Nesse processo, diversos equipamentos são necessários. Nele, existem os transformadores, que são os principais equipamentos responsáveis por essa transformação. Eles elevam a tensão da eletricidade recebida das usinas para tornar a transmissão mais eficiente, reduzindo as perdas de energia no processo. Em seguida, essa eletricidade passa por disjuntores, que protegem o sistema contra sobrecargas e curtos-circuitos, interrompendo o fluxo de corrente elétrica em caso de emergência. Além disso, as subestações também contam com chaves seccionadoras, que permitem isolar partes do sistema elétrico para manutenção ou reparo sem interromper o fornecimento de energia para outras áreas. Os relés de proteção monitoram constantemente o sistema elétrico em busca de falhas e anomalias, acionando os dispositivos de proteção quando necessário para evitar danos aos equipamentos ou interrupções no fornecimento de energia. Os capacitores são usados para corrigir o fator de potência e melhorar a eficiência do sistema, enquanto os reatores de núcleo de ar ajudam a controlar o fluxo de energia e estabilizar a tensão. Todos esses componentes trabalham juntos para garantir que a eletricidade seja transmitida e distribuída de forma segura, confiável e eficiente, atendendo às demandas dos consumidores finais e contribuindo para o funcionamento adequado do sistema elétrico como um todo. Existem também os reatores de núcleo de ar, eles são utilizados principalmente em sistemas de alta tensão para controlar correntes de curto-circuito e proteger equipamentos sensíveis \cite{sen2021principles}.
-%Esse livro explica os fundamentos do funcionamento dos equipamentos da geração de energia
+A energia elétrica no Brasil é oriunda majoritariamente de fontes renováveis, em especial da geração hidroelétrica, correspondendo a 69\% de toda malha produtora. Esta forma de gerar energia é limpa, de baixo custo e possui reduzidaemissão de gases de efeito estufa \cite{de2015hydroelectric}. 
 
+Após a geração, a energia passa pelo processo de transmissão, que será responsável por aplicar as devidas transformações, para que a eletricidade chegue em níveis seguros e desejados para o consumidor final. É nesta etapa que são usadas as subestações de energia. Trata-se, basicamente, de um sítio industrial, equipado com diversas máquinas, cujo objetivo é alterar e redirecionar a tensões elétricas, assim como manter íntegro e seguro todo esse processo de transferência. Para que isso ocorra, o processo inicial é realizado em altíssimas tensões, para que seja reduzida a perda durante o processo; assim como próximo aos consumidores finais, a tensão é reduzida para valores apropriados para uso doméstico \cite {muzysubestaccoes}.
 
-\section{Redes Neurais}
+De maneira mais aprofundada, a energia é, portanto, obtida por geradores e transmitida para subestações primárias. Há aí a primeira aferição de qualidade dos níveis de transmissão. Após isso, a energia transformada é enviada para subestações de distribuição, alterada para níveis mais baixos para serem transmitidas para setores industriais e urbanos \cite{barreto2022proposta}.
+
+\section{Redes Neurais Artificiais}
 \label{sec:redesneurais}
 
-As redes neurais artificiais são modelos computacionais inspirados no funcionamento do cérebro humano, compostos por neurônios interconectados que processam informações. Elas são amplamente utilizadas em diversas áreas, como reconhecimento de padrões, processamento de linguagem natural, visão computacional e muitas outras aplicações de aprendizado de máquina. Em \citeonline{rumelhart1986learning}, descreve-se pioneiramente o algoritmo de retropropagação, fundamental para o treinamento de redes neurais profundas.
+A RNA trata-se de um conjunto de técnicas que buscam simular o funcionamento do cérebro humano, a partir de algoritmos computacionais, a fim de resolver problemas específicos. Sua eficiência está relacionada com a quantidade de interações que as unidades de processamento que o compõem realizam entre si. Comparam-se as RNA à mente humana devido a sua capacidade de aprendizado, podendo generalizar funções a partir de alguns exemplos informados, e delas prever o comportamento de valores para os quais não foi fornecido a resposta esperada. A base do funcionamento da RNA está no conceito do neurônio artificial (NA), que se traduz como uma pequena unidade de processamento, capaz de receber um sinal simples, e a partir dele gerar uma resposta.  De acordo com  \cite{fleck2016redes}, a primeira noção de NA surge em 1943, no trabalho Warren McCulloch e Walter Pitts, no artigo: “A Logical Calculus of the Ideas Immanent in Nervous Activity”.
 
-Sua estrutura é composta por unidades básicas chamadas de neurônios ou nós, que são organizados em camadas interconectadas. Existem três tipos principais de camadas em uma rede neural: camada de entrada, camadas ocultas e camada de saída.
+Matematicamente, o NA recebe um valor de entrada, realizando com ele o produto desse valor a um outro denominado peso. O resultado é comparado com um diferenciador: se for maior, será dada a saída verdadeira; se menor, falso. Na figura \ref{fig:na}, esse processo é demonstrado de maneira esquemática. A operação descrita, chamada também de threshold logic, i.e., lógica limiar, em tradução livre, mimetiza o funcionamento de um componente eletrônico chamado transistor, base do funcionamento dos processadores computacionais modernos, em que a passagem de corrente elétrica por ele é interrompida ou permitida com base no sinal de entrada \cite {mcculloch1943logical}.
+
+\begin{figure}[!h]
+    \centering
+    \begin{minipage}{0.9\linewidth}
+    \centering
+    \captionsetup{justification=centering,margin=0.5cm,font=small}
+    \includegraphics[width=0.7\linewidth]{img/cap2/na.jpeg}
+    \caption{Representação de um NA, em que Inputs são os valores de entrada. Weights são os pesos. Sum seria o produto dos pesos com as respectivas entradas. Threshold T seria o diferenciador, entendido como a ativação ou não do neurônio. Por fim, Output é a resposta em relação a entrada dada INSERIR REFERENCIA}.
+    \label{fig:na}
+    \end{minipage}
+\end{figure}
+
+Em suma, a RNA, enquanto um conjunto de NA, pode ser entendido como um processador robusto, distribuído de maneira paralela, com pequenas unidades de processamento. Sua semelhança ao cérebro humano, deve-se, portanto, à capacidade de aprendizado e aos sinais sinápticos, existentes entre os neurônios, responsáveis pelo processo de armazenamento de conhecimento \cite{haykin2001redes}.
 
 \begin{itemize}
 \item Camada de Entrada: Esta é a camada que recebe os dados de entrada. Cada nó nesta camada representa uma característica ou atributo dos dados que estão sendo alimentados na rede neural. Por exemplo, em uma aplicação de reconhecimento de imagens, cada nó na camada de entrada pode representar um pixel da imagem.
@@ -40,15 +55,6 @@ YOLO (You Only Look Once) é um modelo de detecção de objetos em imagens e ví
 
 Um dos aspectos cruciais do funcionamento da YOLO é o conceito de "batch" (em tradução livre, "lote") durante o treinamento da rede neural. Ao agrupar várias imagens em lotes para processamento simultâneo, a YOLO aproveita a capacidade de processamento paralelo das GPUs, acelerando significativamente o treinamento. Durante a propagação direta, cada imagem no lote é processada pela rede neural para gerar previsões de detecção de objetos. Em seguida, a perda é calculada em relação às anotações verdadeiras, e os pesos da rede são atualizados para minimizar essa perda, usando algoritmos de otimização como o gradiente descendente. Esse processo é repetido para vários lotes de imagens até que a rede convirja para uma solução adequada. Assim, o uso eficiente de lotes na YOLO não apenas acelera o treinamento, mas também contribui para a robustez e eficácia dos modelos de detecção de objetos resultantes. \cite{goodfellow2016deep}
 
-%A reasonable choice of optimization algorithm is SGD with momentum with a decaying learning rate (popular decay schemes that perform better or worse on
-%different problems include decaying linearly until reaching a fixed minimum learning
-%rate, decaying exponentially, or decreasing the learning rate by a factor of 2-10
-%each time validation error plateaus). Another very reasonable alternative is Adam.
-%Batch normalization can have a dramatic effect on optimization performance,
-%especially for convolutional networks and networks with sigmoidal nonlinearities.
-%While it is reasonable to omit batch normalization from the very first baseline, it
-%should be introduced quickly if optimization appears to be problematic.
-
 \subsection{Otimizadores}
 \label{sec:otimizadores}
 
@@ -69,6 +75,7 @@ A fim de avaliar o desempenho de um treinamento na arquitetura YOLO, é preciso 
 
 Com esses valores, pode-se calcular os resultados da saída que o treinamento da rede YOLO fornece. Em (1), tem-se o cálculo da Recall, que calcula a capacidade da rede de detectar todos os objetos relevantes em uma imagem. Já a Precisão (2), refere-se à capacidade da rede de encontrar apenas resultados relevantes. 
 
+%https://medium.com/@augusto_Pinheiro/redes-neurais-artificiais-133de77c7240
 \begin{figure}[!h]
     \center
     \begin{minipage}{0.6\linewidth}
@@ -94,7 +101,10 @@ A arquitetura YOLO disponibiliza um dataset, ou seja, um banco de imagens e weig
 \section{Realidade Virtual}
 \label{sec:precisaorecall}
 
-A realidade virtual é uma tecnologia que permite aos usuários imergirem em ambientes virtuais tridimensionais, geralmente através do uso de dispositivos como óculos de realidade virtual (VR) ou capacetes. Desde suas primeiras manifestações nas décadas de 1960 e 1970, quando ainda era experimental e limitada, a realidade virtual tem evoluído consideravelmente. No entanto, foi na década de 1990 que essa tecnologia começou a ganhar destaque comercial, com o lançamento de dispositivos como o Virtual Boy da Nintendo e os primeiros sistemas de realidade virtual para computadores pessoais. Desde então, a realidade virtual tem sido aplicada em uma variedade de campos, incluindo jogos, simulações, treinamento, educação e terapia. Sua popularidade continuou a crescer com o avanço da tecnologia, oferecendo experiências cada vez mais imersivas e acessíveis \cite{kirner2011evoluccao}.
+RV pode ser definida como um ambiente gerado a partir de um sistema computacional em que o usuário não apenas se sente dentro do contexto artificial, como também possibilita ao usuário a consciência de que pode navegar e interagir neste ambiente virtual. Trata-se, por isso, de uma interessante interface em um ser humano, um computador, capaz de gerar navegabilidade, interações e, principalmente, imersão em um ambiente sintético, gerado computacionalmente por meio de canais multisensoriais. Além disso, a RV pode ser classificada de duas formas diferentes: Imersiva e Não-imersiva. Na primeira, cria-se uma RV que isole o usuário do mundo real. Seus sentidos são bloqueados para recepção dos estímulos do seu entorno, para se direcionarem àqueles oriundos do mundo fictício. Para tanto, uma ampla variedade de equipamentos, como fones de ouvidos, luvas de dados, óculos de RV, entre outros, são empregados para os resultados esperados. Já a RV Não-Imersiva não se isola do mundo real. Ou seja, o usuário tem consciência de que está em um ambiente artificial. Da mesma forma, uma ampla variedade de equipamentos é empregada para gerar essa interação, incluindo dispositivos do cotidiano, como mouses, monitores de computador. Uma grande variedade de dispositivos convencionais e não-convencionais pode compor  essa interação \cite{cardoso2007tecnologias}.
+
+O surgimento da RV data de 1963, em que foi apresentado uma aplicação de manipulação de objetos tridimensionais em um computador, denominada Sketchpad \cite{sutherland1963sketchpad}. A aplicação conseguia reproduzir interatividade por meio de uma caneta óptica, que era utilizada para seleção de objetos projetados em uma tela. Neste trabalho, surgiram alguns dos principais termos da RV, como representação visual, dispositivos especiais, e interações em tempo real. Em 1968, o mesmo autor do trabalho anterior, Sutherland, publicou outro trabalho marcante para a história: A Head-Mounted Three Dimensional Display \cite{sutherland1968head}. Nele, foi introduzido o conceito de imersividade para uma RV; no caso, um capacete capaz de projetar fotos diretamente aos olhos do usuário, assim como rastrear o movimento da cabeça, afim de que este movimento fosse responsivo no ambiente virtual. Seguido a isso, uma série de outros equipamentos foram desenvolvidos a fim de sofisticar as soluções do ramo e propor novos modelos. A tendência sempre prevaleceu de surgir ferramentas mais simples e acessíveis ao usuário final \cite{kirner2011evoluccao}.
+
 
 %Citar trabalho alexandre
 %O artigo de kirner2011evoluccao, faz um panorama da história da realidade virtual.
