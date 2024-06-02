@@ -5,16 +5,52 @@
 \providecommand{\abntbstabout}[1]{}
 \abntbstabout{v-1.9.7 }
 
+\bibitem[Andrade e Santos 2015]{de2015hydroelectric}
+\abntrefinfo{Andrade e Santos}{ANDRADE; SANTOS}{2015}
+{ANDRADE, A. de L.; SANTOS, M.~A. D. Hydroelectric plants environmental
+  viability: Strategic environmental assessment application in brazil.
+\emph{Renewable and Sustainable Energy Reviews}, Elsevier, v.~52, p.
+  1413--1423, 2015.}
+
+\bibitem[Cardoso et al. 2007]{cardoso2007tecnologias}
+\abntrefinfo{Cardoso et al.}{CARDOSO et al.}{2007}
+{CARDOSO, A. et al. Tecnologias e ferramentas para o desenvolvimento de
+  sistemas de realidade virtual e aumentada.
+\emph{Editora Universit{\'a}ria UFPE}, p. 1--19, 2007.}
+
+\bibitem[Fleck et al. 2016]{fleck2016redes}
+\abntrefinfo{Fleck et al.}{FLECK et al.}{2016}
+{FLECK, L. et al. Redes neurais artificiais: Princ{\'\i}pios b{\'a}sicos.
+\emph{Revista Eletr{\^o}nica Cient{\'\i}fica Inova{\c{c}}{\~a}o e Tecnologia},
+  v.~1, n.~13, p. 47--57, 2016.}
+
 \bibitem[Goodfellow, Bengio e Courville 2016]{goodfellow2016deep}
 \abntrefinfo{Goodfellow, Bengio e Courville}{GOODFELLOW; BENGIO;
   COURVILLE}{2016}
 {GOODFELLOW, I.; BENGIO, Y.; COURVILLE, A. \emph{Deep learning}. [S.l.]: MIT
   press, 2016.}
 
+\bibitem[Haykin 2001]{haykin2001redes}
+\abntrefinfo{Haykin}{HAYKIN}{2001}
+{HAYKIN, S. \emph{Redes neurais: princ{\'\i}pios e pr{\'a}tica}. [S.l.]:
+  Bookman Editora, 2001.}
+
 \bibitem[Jocher, Chaurasia e Qiu 2023]{ultralytics2023yolo}
 \abntrefinfo{Jocher, Chaurasia e Qiu}{JOCHER; CHAURASIA; QIU}{2023}
 {JOCHER, G.; CHAURASIA, A.; QIU, J. \emph{YOLO by Ultralytics. Ultralytics}.
   2023.}
+
+\bibitem[Junior et al. 2022]{barreto2022proposta}
+\abntrefinfo{Junior et al.}{JUNIOR et al.}{2022}
+{JUNIOR, C. d.~L. B. et al. Uma proposta de sistema de autoria baseado em
+  plantas baixas para projetar ambientes de realidade virtual: metodologia e
+  estudo de caso aplicados a subesta{\c{c}}{\~o}es de energia el{\'e}trica.
+Universidade Federal de Uberl{\^a}ndia, 2022.}
+
+\bibitem[Kalawsky 1993]{kalawsky1993science}
+\abntrefinfo{Kalawsky}{KALAWSKY}{1993}
+{KALAWSKY, R. \emph{The science of virtual reality and virtual environments}.
+  [S.l.]: Addison-Wesley Longman Publishing Co., Inc., 1993.}
 
 \bibitem[Kirner e Kirner 2011]{kirner2011evoluccao}
 \abntrefinfo{Kirner e Kirner}{KIRNER; KIRNER}{2011}
@@ -29,6 +65,19 @@
   trabalho: os riscos da terceiriza{\c{c}}{\~a}o no setor el{\'e}trico.
 \emph{Revista Brasileira de Sa{\'u}de Ocupacional}, SciELO Brasil, v.~46,
   p.~e6, 2021.}
+
+\bibitem[McCulloch e Pitts 1943]{mcculloch1943logical}
+\abntrefinfo{McCulloch e Pitts}{MCCULLOCH; PITTS}{1943}
+{MCCULLOCH, W.~S.; PITTS, W. A logical calculus of the ideas immanent in
+  nervous activity.
+\emph{The bulletin of mathematical biophysics}, Springer, v.~5, p. 115--133,
+  1943.}
+
+\bibitem[MUZY 2012]{muzysubestaccoes}
+\abntrefinfo{MUZY}{MUZY}{2012}
+{MUZY, G. L. C. d.~O. Subesta{\c{c}}{\~o}es el{\'e}tricas.
+\emph{Projeto Final (Gradua{\c{c}}{\~a}o em Engenharia El{\'e}trica)-UFRJ. Rio
+  de Janeiro}, 2012.}
 
 \bibitem[O{\u{g}}cu, Demirel e Zaim 2012]{ougcu2012forecasting}
 \abntrefinfo{O{\u{g}}cu, Demirel e Zaim}{O{\u{G}}CU; DEMIREL; ZAIM}{2012}
@@ -58,11 +107,23 @@
 {RANDOLPH, J. Electric power substations engineering [book reviews].
 \emph{IEEE Power and Energy Magazine}, IEEE, v.~11, n.~3, p. 103--105, 2013.}
 
+\bibitem[Rauber 2005]{rauber2005redes}
+\abntrefinfo{Rauber}{RAUBER}{2005}
+{RAUBER, T.~W. Redes neurais artificiais.
+\emph{Universidade Federal do Esp{\'\i}rito Santo}, v.~29, 2005.}
+
 \bibitem[Redmon et al. 2016]{redmon2016youlookonce}
 \abntrefinfo{Redmon et al.}{REDMON et al.}{2016}
 {REDMON, J. et al. You only look once: Unified, real-time object detection. In:
    \emph{Proceedings of the IEEE conference on computer vision and pattern
   recognition}. [S.l.: s.n.], 2016. p. 779--788.}
+
+\bibitem[Rosenblatt 1958]{rosenblatt1958perceptron}
+\abntrefinfo{Rosenblatt}{ROSENBLATT}{1958}
+{ROSENBLATT, F. The perceptron: a probabilistic model for information storage
+  and organization in the brain.
+\emph{Psychological review}, American Psychological Association, v.~65, n.~6,
+  p.~386, 1958.}
 
 \bibitem[Rumelhart, Hinton e Williams 1986]{rumelhart1986learning}
 \abntrefinfo{Rumelhart, Hinton e Williams}{RUMELHART; HINTON; WILLIAMS}{1986}
@@ -71,10 +132,26 @@
 \emph{nature}, Nature Publishing Group UK London, v.~323, n.~6088, p. 533--536,
   1986.}
 
-\bibitem[Sen 2021]{sen2021principles}
-\abntrefinfo{Sen}{SEN}{2021}
-{SEN, P.~C. \emph{Principles of Electric Machines and Power Electronics,
-  International Adaptation}. [S.l.]: John Wiley \& Sons, 2021.}
+\bibitem[Silva et al. 2012]{silva2012virtual}
+\abntrefinfo{Silva et al.}{SILVA et al.}{2012}
+{SILVA, R.~C. et al. Virtual substation um sistema de realidade virtual para
+  treinamento de operadores de subesta{\c{c}}{\~o}es el{\'e}tricas.
+Universidade Federal de Uberl{\^a}ndia, 2012.}
+
+\bibitem[Sutherland 1963]{sutherland1963sketchpad}
+\abntrefinfo{Sutherland}{SUTHERLAND}{1963}
+{SUTHERLAND, I.~E. Sketchpad: A man-machine graphical communication system.
+p. 329--346, 1963.}
+
+\bibitem[Sutherland 1968]{sutherland1968head}
+\abntrefinfo{Sutherland}{SUTHERLAND}{1968}
+{SUTHERLAND, I.~E. A head-mounted three dimensional display.
+p. 757--764, 1968.}
+
+\bibitem[Widrow, Hoff et al. 1960]{widrow1960adaptive}
+\abntrefinfo{Widrow, Hoff et al.}{WIDROW; HOFF et al.}{1960}
+{WIDROW, B.; HOFF, M.~E. et al. Adaptive switching circuits.
+v.~4, n.~1, p. 96--104, 1960.}
 
 \bibitem[Zhou, Fu e Yang 2016]{zhou2016big}
 \abntrefinfo{Zhou, Fu e Yang}{ZHOU; FU; YANG}{2016}
