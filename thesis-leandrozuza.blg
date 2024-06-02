@@ -1,0 +1,68 @@
+This is BibTeX, Version 0.99d
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: thesis-leandrozuza.aux
+Reallocating 'name_of_file' (item size: 1) to 16 items.
+Reallocating 'name_of_file' (item size: 1) to 24 items.
+Reallocating 'name_of_file' (item size: 1) to 12 items.
+The style file: abntex2-alf.bst
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'wiz_functions' (item size: 4) to 6000 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'wiz_functions' (item size: 4) to 9000 items.
+Database file #1: abntex2-options.bib
+Database file #2: postextual/bibliography.bib
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'glb_str_end' (item size: 4) to 20 items.
+Reallocating 'glb_str_ptr' (item size: 4) to 20 items.
+Reallocating 'global_strs' (item size: 1) to 4000000 items.
++---------------------------------------------------------+
+| Estilo bibliográfico abntex2-alf.bst versão v-1.9.7           |
+| Em caso de dúvidas ou problemas com este estilo procure |
+| http://www.abntex.net.br/                               |
++---------------------------------------------------------+
+You've used 26 entries,
+            6714 wiz_defined-function locations,
+            1349 strings with 14270 characters,
+and the built_in function-call counts, 21877 in all, are:
+= -- 1683
+> -- 845
+< -- 47
++ -- 360
+- -- 253
+* -- 1619
+:= -- 2936
+add.period$ -- 80
+call.type$ -- 26
+change.case$ -- 283
+chr.to.int$ -- 62
+cite$ -- 25
+duplicate$ -- 1055
+empty$ -- 1538
+format.name$ -- 1200
+if$ -- 5132
+int.to.chr$ -- 0
+int.to.str$ -- 0
+missing$ -- 460
+newline$ -- 127
+num.names$ -- 125
+pop$ -- 624
+preamble$ -- 1
+purify$ -- 106
+quote$ -- 0
+skip$ -- 1170
+stack$ -- 1
+substring$ -- 963
+swap$ -- 520
+text.length$ -- 35
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 1
+warning$ -- 0
+while$ -- 199
+width$ -- 0
+write$ -- 401

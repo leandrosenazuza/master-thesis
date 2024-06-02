@@ -382,3 +382,28 @@ https://dl.acm.org/doi/abs/10.5555/529278
   year={2016},
   organization={sn}
 }
+
+https://www.researchgate.net/profile/Alcilene-Dalilia/publication/325961536_Deep_Learning_Uma_Introducao_as_Redes_Neurais_Convolucionais/links/659d44922468df72d3060894/Deep-Learning-Uma-Introducao-as-Redes-Neurais-Convolucionais.pdf
+@article{cunha2020redes,
+  title={Redes neurais convolucionais e segmenta{\c{c}}{\~a}o de imagens: uma revis{\~a}o bibliogr{\'a}fica.},
+  author={Cunha, Leonardo Cardoso da},
+  year={2020}
+}
+
+https://medium.com/@avinicius.adorno/redes-neurais-artificiais-418a34ea1a39
+@misc{adorno2017,
+  author       = {Adorno, Vinícius},
+  title        = {Redes Neurais Artificiais},
+  year         = {2017},
+  url          = {https://medium.com/@avinicius.adorno/redes-neurais-artificiais-418a34ea1a39},
+  note         = {Medium}
+}
+
+https://www.deeplearningbook.com.br/o-neuronio-biologico-e-matematico/#:~:text=Limiar%20de%20ativa%C3%A7%C3%A3o%20%7B%20%CE%98%20%7D%3A,e%20o%20limiar%20de%20ativa%C3%A7%C3%A3o.
+@misc{deeplearningbook2023,
+  author       = {Deep Learning Book Brasil},
+  title        = {O Neurônio Biológico e Matemático},
+  year         = {2023},
+  url          = {https://www.deeplearningbook.com.br/o-neuronio-biologico-e-matematico/#:~:text=Limiar%20de%20ativa%C3%A7%C3%A3o%20%7B%20%CE%98%20%7D%3A,e%20o%20limiar%20de%20ativa%C3%A7%C3%A3o.},
+  note         = {Acessado em: 2 de junho de 2024}
+}
