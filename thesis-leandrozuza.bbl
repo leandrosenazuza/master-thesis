@@ -5,12 +5,26 @@
 \providecommand{\abntbstabout}[1]{}
 \abntbstabout{v-1.9.7 }
 
+\bibitem[Adorno 2017]{adorno2017}
+\abntrefinfo{Adorno}{ADORNO}{2017}
+{ADORNO, V. \emph{Redes Neurais Artificiais}. 2017.
+Medium.
+Dispon{\'\i}vel em:
+  \url{https://medium.com/@avinicius.adorno/redes-neurais-artificiais-418a34ea1a39}.}
+
 \bibitem[Andrade e Santos 2015]{de2015hydroelectric}
 \abntrefinfo{Andrade e Santos}{ANDRADE; SANTOS}{2015}
 {ANDRADE, A. de L.; SANTOS, M.~A. D. Hydroelectric plants environmental
   viability: Strategic environmental assessment application in brazil.
 \emph{Renewable and Sustainable Energy Reviews}, Elsevier, v.~52, p.
   1413--1423, 2015.}
+
+\bibitem[Brasil 2023]{deeplearningbook2023}
+\abntrefinfo{Brasil}{BRASIL}{2023}
+{BRASIL, D. L.~B. \emph{O Neurônio Biológico e Matemático}. 2023.
+Acessado em: 2 de junho de 2024.
+Dispon{\'\i}vel em:
+  \url{https://www.deeplearningbook.com.br/o-neuronio-biologico-e-matematico/\#:~:text=Limiar\%20de\%20ativa\%C3\%A7\%C3\%A3o\%20\%7B\%20\%CE\%98\%20\%7D\%3A,e\%20o\%20limiar\%20de\%20ativa\%C3\%A7\%C3\%A3o.}}
 
 \bibitem[Cardoso et al. 2007]{cardoso2007tecnologias}
 \abntrefinfo{Cardoso et al.}{CARDOSO et al.}{2007}
@@ -73,6 +87,13 @@ Universidade Federal de Uberl{\^a}ndia, 2022.}
 \emph{The bulletin of mathematical biophysics}, Springer, v.~5, p. 115--133,
   1943.}
 
+\bibitem[Music 2024]{shorthistory}
+\abntrefinfo{Music}{MUSIC}{2024}
+{MUSIC, R. N.~C. of. \emph{A Short History of Neural Synthesis}. 2024.
+Acessado em: 2 de junho de 2024.
+Dispon{\'\i}vel em:
+  \url{https://www.rncm.ac.uk/research/research-activity/research-centres-rncm/prism/prism-blog/a-short-history-of-neural-synthesis/}.}
+
 \bibitem[MUZY 2012]{muzysubestaccoes}
 \abntrefinfo{MUZY}{MUZY}{2012}
 {MUZY, G. L. C. d.~O. Subesta{\c{c}}{\~o}es el{\'e}tricas.
@@ -118,6 +139,14 @@ Universidade Federal de Uberl{\^a}ndia, 2022.}
    \emph{Proceedings of the IEEE conference on computer vision and pattern
   recognition}. [S.l.: s.n.], 2016. p. 779--788.}
 
+\bibitem[Rodrigues 2023]{rodrigues2023visao}
+\abntrefinfo{Rodrigues}{RODRIGUES}{2023}
+{RODRIGUES, V.~B. \emph{Conhecendo a Visão do Computador: Redes Neurais
+  Convolucionais}. 2023.
+Acessado em: 2 de junho de 2024.
+Dispon{\'\i}vel em:
+  \url{https://vitorborbarodrigues.medium.com/conhecendo-a-vis\%C3\%A3o-do-computador-redes-neurais-convolucionais-e1c2b14bf426}.}
+
 \bibitem[Rosenblatt 1958]{rosenblatt1958perceptron}
 \abntrefinfo{Rosenblatt}{ROSENBLATT}{1958}
 {ROSENBLATT, F. The perceptron: a probabilistic model for information storage
@@ -147,6 +176,13 @@ p. 329--346, 1963.}
 \abntrefinfo{Sutherland}{SUTHERLAND}{1968}
 {SUTHERLAND, I.~E. A head-mounted three dimensional display.
 p. 757--764, 1968.}
+
+\bibitem[Vargas, Paes e Vasconcelos 2016]{vargas2016estudo}
+\abntrefinfo{Vargas, Paes e Vasconcelos}{VARGAS; PAES; VASCONCELOS}{2016}
+{VARGAS, A. C.~G.; PAES, A.; VASCONCELOS, C.~N. Um estudo sobre redes neurais
+  convolucionais e sua aplica{\c{c}}{\~a}o em detec{\c{c}}{\~a}o de pedestres.
+  In:  SN. \emph{Proceedings of the xxix conference on graphics, patterns and
+  images}. [S.l.], 2016. v.~1, n.~4.}
 
 \bibitem[Widrow, Hoff et al. 1960]{widrow1960adaptive}
 \abntrefinfo{Widrow, Hoff et al.}{WIDROW; HOFF et al.}{1960}

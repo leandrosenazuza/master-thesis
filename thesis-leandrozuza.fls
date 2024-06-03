@@ -378,14 +378,18 @@ INPUT C:\Program Files\MiKTeX\tex\latex\lm\ts1lmr.fd
 INPUT C:\Program Files\MiKTeX\fonts\tfm\public\lm\ts1-lmr12.tfm
 INPUT chapters\cap2.tex
 INPUT C:\Program Files\MiKTeX\fonts\enc\dvips\lm\lm-ts1.enc
-INPUT .\img\cap2\na.jpeg
-INPUT .\img\cap2\na.jpeg
-INPUT .\img\cap2\na.jpeg
-INPUT .\img\cap2\na.jpeg
-INPUT .\img\cap2\na.jpeg
-INPUT .\img\cap2\na.jpeg
-INPUT .\img\cap2\na.jpeg
+INPUT .\img\cap2\na-completo.png
+INPUT .\img\cap2\na-completo.png
+INPUT .\img\cap2\na-completo.png
+INPUT .\img\cap2\na-completo.png
+INPUT .\img\cap2\na-completo.png
+INPUT .\img\cap2\na-completo.png
+INPUT .\img\cap2\na-completo.png
 INPUT C:\Program Files\MiKTeX\fonts\tfm\public\lm\ec-lmr10.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\lm\ec-lmbx12.tfm
+INPUT C:\Program Files\MiKTeX\fonts\enc\dvips\lm\lm-mathit.enc
+INPUT C:\Program Files\MiKTeX\fonts\enc\dvips\lm\lm-mathsy.enc
+INPUT C:\Program Files\MiKTeX\fonts\enc\dvips\lm\lm-rm.enc
 INPUT .\img\cap2\topologia-rede.jpeg
 INPUT .\img\cap2\topologia-rede.jpeg
 INPUT .\img\cap2\topologia-rede.jpeg
@@ -393,6 +397,20 @@ INPUT .\img\cap2\topologia-rede.jpeg
 INPUT .\img\cap2\topologia-rede.jpeg
 INPUT .\img\cap2\topologia-rede.jpeg
 INPUT .\img\cap2\topologia-rede.jpeg
+INPUT .\img\cap2\filtro.png
+INPUT .\img\cap2\filtro.png
+INPUT .\img\cap2\filtro.png
+INPUT .\img\cap2\filtro.png
+INPUT .\img\cap2\filtro.png
+INPUT .\img\cap2\filtro.png
+INPUT .\img\cap2\filtro.png
+INPUT .\img\cap2\cnn.jpeg
+INPUT .\img\cap2\cnn.jpeg
+INPUT .\img\cap2\cnn.jpeg
+INPUT .\img\cap2\cnn.jpeg
+INPUT .\img\cap2\cnn.jpeg
+INPUT .\img\cap2\cnn.jpeg
+INPUT .\img\cap2\cnn.jpeg
 INPUT C:\Program Files\MiKTeX\fonts\tfm\public\lm\ec-lmr8.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\public\lm\ec-lmr6.tfm
 INPUT .\img\cap2\iou.png
@@ -402,8 +420,6 @@ INPUT .\img\cap2\iou.png
 INPUT .\img\cap2\iou.png
 INPUT .\img\cap2\iou.png
 INPUT .\img\cap2\iou.png
-INPUT C:\Program Files\MiKTeX\fonts\enc\dvips\lm\lm-rm.enc
-INPUT C:\Program Files\MiKTeX\fonts\enc\dvips\lm\lm-mathit.enc
 INPUT .\img\cap2\precisao.png
 INPUT .\img\cap2\precisao.png
 INPUT .\img\cap2\precisao.png
@@ -427,6 +443,8 @@ OUTPUT thesis-leandrozuza.lot
 INPUT thesis-leandrozuza.aux
 INPUT .\thesis-leandrozuza.brf
 INPUT .\thesis-leandrozuza.brf
+INPUT C:\Program Files\MiKTeX\fonts\type1\public\lm\lmbx12.pfb
+INPUT C:\Program Files\MiKTeX\fonts\type1\public\lm\lmbx12.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\lm\lmmi12.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\lm\lmmi12.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\lm\lmr10.pfb
@@ -443,3 +461,5 @@ INPUT C:\Program Files\MiKTeX\fonts\type1\public\lm\lmss17.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\lm\lmss17.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\lm\lmssbx10.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\lm\lmssbx10.pfb
+INPUT C:\Program Files\MiKTeX\fonts\type1\public\lm\lmsy10.pfb
+INPUT C:\Program Files\MiKTeX\fonts\type1\public\lm\lmsy10.pfb

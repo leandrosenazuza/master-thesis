@@ -407,3 +407,8 @@ https://www.deeplearningbook.com.br/o-neuronio-biologico-e-matematico/#:~:text=L
   url          = {https://www.deeplearningbook.com.br/o-neuronio-biologico-e-matematico/#:~:text=Limiar%20de%20ativa%C3%A7%C3%A3o%20%7B%20%CE%98%20%7D%3A,e%20o%20limiar%20de%20ativa%C3%A7%C3%A3o.},
   note         = {Acessado em: 2 de junho de 2024}
 }
+
+@article{dosdeep,
+  title={Deep Learning: Uma Introdu{\c{c}}{\~a}o {\`a}s Redes Neurais Convolucionais},
+  author={dos Santos Ferreira, Marcos Vin{\'\i}cius and da Silva Oliveira, Kelly Maria and de Carvalho Filho, Antonio Oseas and de Sousa, Alcilene}
+}
