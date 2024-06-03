@@ -3,11 +3,37 @@
 \section{Subestações de Energia}
 \label{sec:subestacao}
 
-A energia elétrica no Brasil é oriunda majoritariamente de fontes renováveis, em especial da geração hidroelétrica, correspondendo a 69\% de toda malha produtora. Esta forma de gerar energia é limpa, de baixo custo e possui reduzidaemissão de gases de efeito estufa \cite{de2015hydroelectric}. 
+Atualmente, o sistema elétrico do Brasil é formado por um conjunto de usinas, subestações, linhas de transmissão e demais equipamentos, que viabilizam a produção, transmissão e distribuição de energia elétrica. A energia é gerada em usinas que variam conforme os recursos utilizados, como hidroelétricas, termoelétricas, eólicas, nucleares, entre outras, e é então transportada por linhas de transmissão até subestações de energia de empresas distribuidoras. Nestas subestações, a tensão é ajustada para os níveis adequados de consumo. Esse processo elétrico é composto por três etapas principais: geração, transmissão e distribuição (figura \ref{fig:substation}). O sistema elétrico é composto por diversos elementos, sendo os mais destacados os geradores, responsáveis pela transformação de energia mecânica em elétrica, e os sistemas de transmissão e distribuição, que conduzem a energia até os consumidores. As subestações têm um papel fundamental ao ajustar a tensão na transmissão e distribuição, assegurando a confiabilidade e a qualidade do serviço elétrico fornecido aos clientes  \cite{lopes2012smart}.
 
-Após a geração, a energia passa pelo processo de transmissão, que será responsável por aplicar as devidas transformações, para que a eletricidade chegue em níveis seguros e desejados para o consumidor final. É nesta etapa que são usadas as subestações de energia. Trata-se, basicamente, de um sítio industrial, equipado com diversas máquinas, cujo objetivo é alterar e redirecionar a tensões elétricas, assim como manter íntegro e seguro todo esse processo de transferência. Para que isso ocorra, o processo inicial é realizado em altíssimas tensões, para que seja reduzida a perda durante o processo; assim como próximo aos consumidores finais, a tensão é reduzida para valores apropriados para uso doméstico \cite {muzysubestaccoes}.
+\begin{figure}[!h]
+    \centering
+    \begin{minipage}{0.9\linewidth}
+    \centering
+    \captionsetup{justification=centering,margin=0.5cm,font=small}
+    \includegraphics[width=0.7\linewidth]{img/cap2/substation.jpeg}
+    \caption{Representação dos componentes do sistema de geração e transmissão de energia \cite{lopes2012smart}}.
+    \label{fig:substation}
+    \end{minipage}
+\end{figure}
 
-De maneira mais aprofundada, a energia é, portanto, obtida por geradores e transmitida para subestações primárias. Há aí a primeira aferição de qualidade dos níveis de transmissão. Após isso, a energia transformada é enviada para subestações de distribuição, alterada para níveis mais baixos para serem transmitidas para setores industriais e urbanos \cite{barreto2022proposta}.
+De modo geral, portanto, a energia é, portanto, obtida por geradores e transmitida para subestações primárias. Há aí a primeira aferição de qualidade dos níveis de transmissão. Após isso, a energia transformada é enviada para subestações de distribuição, alterada para níveis mais baixos para serem transmitidas para setores industriais e urbanos \cite {barreto2022proposta}.
+
+É importante destacar que a energia produzida no Brasil é oriunda majoritariamente de fontes renováveis, em especial da geração hidroelétrica, correspondendo a 69\% de toda malha produtora. Ela é considerada uma energia limpa, de baixo custo e possui reduzida emissão de gases de efeito estufa. \cite {de2015hydroelectric}. 
+
+Analisando mais detalhadamente as subestações, podemos afirmar que elas são encarregadas de regular a tensão tanto na transmissão quanto na distribuição de energia. Elas operam de forma autônoma, contando com sistemas supervisórios para o controle e supervisão remotos. Dentro das subestações, funções como comutação, proteção e controle também são desempenhadas. Um dos problemas que as subestações resolvem é a interrupção de curtos-circuitos, utilizando para isso disjuntores. Existem diversos tipos de subestações: as de transmissão, que conectam linhas de transmissão com diferentes voltagens; as de distribuição, que ligam linhas de transmissão a linhas de distribuição e regulam a tensão; e as subestações coletoras, que são utilizadas na geração de energia eólica para conectar a geração às linhas de transmissão. Portanto, as subestações são fundamentais para garantir a confiabilidade e a qualidade do fornecimento de energia  \cite{lopes2012smart}.
+
+\begin{figure}[!h]
+    \centering
+    \begin{minipage}{0.5\linewidth}
+    \centering
+    \captionsetup{justification=centering,margin=0.5cm,font=small}
+    \includegraphics[width=0.7\linewidth]{img/cap2/reator-ar.jpeg}
+    \caption{Reatores de Núcleo de ar em uma subestação de energia \cite{reatorNucleoDeAr}}.
+    \label{fig:reator}
+    \end{minipage}
+\end{figure}
+
+Dentre os diversos equipamentos que compõem a subestação de energia, um em particular será objeto de estudo neste trabalho: os reatores de núcleo de ar (Figura \ref{fig:reator}). Contudo, o interesse reside em seu formato geométrico, que será tratado posteriomente. Nota-se que possui um corpo cilíndrico. Em seu topo, pode possuir ou não uma proteção circular contras as intempéries. Estes dispositivos são essenciais para a regulação da reatividade e controle de correntes indutivas em sistemas de transmissão e distribuição de energia. Diferentemente dos reatores de núcleo de ferro, os reatores de núcleo de ar oferecem vantagens como uma resposta mais linear e a capacidade de operar sem saturação magnética, o que os torna ideais para aplicações onde é necessário um comportamento previsível e estável \cite{de2012reatores}. 
 
 \section{Redes Neurais Artificiais}
 \label{sec:redesneurais}
@@ -97,6 +123,8 @@ A camada de convolução, portanto, é responsável pela feature extractor, i.e.
 \end{figure}
 
 A camada de pooling é aplicada após cada camada convolucional, com o objetivo de reduzir as dimensões das imagens enquanto mantém a profundidade do volume. Esse processo promove a invariância da Rede Neural Convolucional (RNC) às transformações geométricas, permitindo à rede reconhecer objetos na imagem independentemente de sua posição. Além disso, o uso da camada de pooling contribui para diminuir significativamente o custo computacional da rede. Existem diferentes tipos de pooling, como o max pooling, que seleciona o valor máximo em uma região específica da imagem, e o average pooling, que calcula a média dos valores nesta região. O max pooling é o mais comum, pois preserva as características mais salientes das imagens, enquanto reduz o ruído. A camada de pooling, ao reduzir o tamanho espacial dos mapas de características, também ajuda a evitar um problema comum no aprendizado de máquina, em que um modelo aprende não apenas os padrões relevantes dos dados de treinamento, mas também o ruído e as particularidades específicas desses dados. Chama-se este problema de overfitting. Evitando-o, a rede consegue construir um treinamento mais generalizável e que possa gerar resultados relevantes para dados diferentes do modelo treinado \cite{lima2020captcha}.
+
+As RNC representam por si só uma revolução no campo da visão computacional, tornando-se a base para uma variedade de aplicações, desde reconhecimento de imagens até análise de vídeos. Entre as arquiteturas mais notáveis estão a LeNet, AlexNet, VGGNet, GoogLeNet e ResNet, cada uma contribuindo com avanços significativos em profundidade, eficiência e precisão. Além dessas, uma destaca-se em especial: a YOLO (“You Only Look Once”, em tradução livre, “você olha apenas uma vez”), uma abordagem inovadora para treinamento e detecção de objetos \cite{carboni2021sistema}.
 
 \subsection{You Look Only Once}
 \label{sec:yolo}

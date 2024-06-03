@@ -26,11 +26,25 @@ Acessado em: 2 de junho de 2024.
 Dispon{\'\i}vel em:
   \url{https://www.deeplearningbook.com.br/o-neuronio-biologico-e-matematico/\#:~:text=Limiar\%20de\%20ativa\%C3\%A7\%C3\%A3o\%20\%7B\%20\%CE\%98\%20\%7D\%3A,e\%20o\%20limiar\%20de\%20ativa\%C3\%A7\%C3\%A3o.}}
 
+\bibitem[Carboni 2021]{carboni2021sistema}
+\abntrefinfo{Carboni}{CARBONI}{2021}
+{CARBONI, D.~F. Sistema para identifica{\c{c}}{\~a}o de plantas invasoras em
+  lavouras com detectores de objetos aplicados a imagens e v{\'\i}deos.
+2021.}
+
 \bibitem[Cardoso et al. 2007]{cardoso2007tecnologias}
 \abntrefinfo{Cardoso et al.}{CARDOSO et al.}{2007}
 {CARDOSO, A. et al. Tecnologias e ferramentas para o desenvolvimento de
   sistemas de realidade virtual e aumentada.
 \emph{Editora Universit{\'a}ria UFPE}, p. 1--19, 2007.}
+
+\bibitem[Eletrônica 2024]{reatorNucleoDeAr}
+\abntrefinfo{Eletrônica}{ELETRôNICA}{2024}
+{ELETRôNICA, A.~E. \emph{Reator Núcleo de Ar – Jauru Eletronorte 230kV}.
+  2024.
+Accessed: 2024-06-03.
+Dispon{\'\i}vel em:
+  \url{https://adseletrica.com.br/reator-nucleo-de-ar-jauru-eletronorte-230kv/}.}
 
 \bibitem[Fleck et al. 2016]{fleck2016redes}
 \abntrefinfo{Fleck et al.}{FLECK et al.}{2016}
@@ -61,6 +75,12 @@ Dispon{\'\i}vel em:
   estudo de caso aplicados a subesta{\c{c}}{\~o}es de energia el{\'e}trica.
 Universidade Federal de Uberl{\^a}ndia, 2022.}
 
+\bibitem[Junior 2012]{de2012reatores}
+\abntrefinfo{Junior}{JUNIOR}{2012}
+{JUNIOR, J.~V. de O. Reatores para controle do fluxo de pot{\^e}ncia e suas
+  consequ{\^e}ncias para a qualidade de energia.
+Universidade Federal de Minas Gerais, 2012.}
+
 \bibitem[Kalawsky 1993]{kalawsky1993science}
 \abntrefinfo{Kalawsky}{KALAWSKY}{1993}
 {KALAWSKY, R. \emph{The science of virtual reality and virtual environments}.
@@ -88,6 +108,12 @@ Dispon{\'\i}vel em:
 \emph{Revista Brasileira de Sa{\'u}de Ocupacional}, SciELO Brasil, v.~46,
   p.~e6, 2021.}
 
+\bibitem[Lopes et al. 2012]{lopes2012smart}
+\abntrefinfo{Lopes et al.}{LOPES et al.}{2012}
+{LOPES, Y. et al. Smart grid e iec 61850: Novos desafios em redes e
+  telecomunica{\c{c}}oes para o sistema el{\'e}trico.
+\emph{XXX Simp{\'o}sio Brasileiro de Telecomunica{\c{c}}{\~o}es}, 2012.}
+
 \bibitem[McCulloch e Pitts 1943]{mcculloch1943logical}
 \abntrefinfo{McCulloch e Pitts}{MCCULLOCH; PITTS}{1943}
 {MCCULLOCH, W.~S.; PITTS, W. A logical calculus of the ideas immanent in
@@ -101,12 +127,6 @@ Dispon{\'\i}vel em:
 Acessado em: 2 de junho de 2024.
 Dispon{\'\i}vel em:
   \url{https://www.rncm.ac.uk/research/research-activity/research-centres-rncm/prism/prism-blog/a-short-history-of-neural-synthesis/}.}
-
-\bibitem[MUZY 2012]{muzysubestaccoes}
-\abntrefinfo{MUZY}{MUZY}{2012}
-{MUZY, G. L. C. d.~O. Subesta{\c{c}}{\~o}es el{\'e}tricas.
-\emph{Projeto Final (Gradua{\c{c}}{\~a}o em Engenharia El{\'e}trica)-UFRJ. Rio
-  de Janeiro}, 2012.}
 
 \bibitem[O{\u{g}}cu, Demirel e Zaim 2012]{ougcu2012forecasting}
 \abntrefinfo{O{\u{g}}cu, Demirel e Zaim}{O{\u{G}}CU; DEMIREL; ZAIM}{2012}
