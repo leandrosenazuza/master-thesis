@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.5.31)  2 JUN 2024 22:26
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.5.31)  3 JUN 2024 15:26
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1131,7 +1131,7 @@ l.18
       [4
 
 ]
-<img/cap2/na-completo.png, id=180, 603.25375pt x 355.3275pt>
+<img/cap2/na-completo.png, id=188, 603.25375pt x 355.3275pt>
 File: img/cap2/na-completo.png Graphic file (type png)
 <use img/cap2/na-completo.png>
 Package pdftex.def Info: img/cap2/na-completo.png  used on input line 24.
@@ -1147,65 +1147,84 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.6}) has b
                    \relax 
 l.48 
       [6{C:/Program Files/MiKTeX/fonts/enc/dvips/lm/lm-mathit.enc}{C:/Program Files/MiKTeX/fonts/enc/dvips/lm/lm-mathsy.enc}{C:/Program Files/MiKTeX/fonts/enc/dvips/lm/lm-rm.enc}]
-<img/cap2/topologia-rede.jpeg, id=218, 739.76375pt x 363.3575pt>
+<img/cap2/topologia-rede.jpeg, id=226, 739.76375pt x 363.3575pt>
 File: img/cap2/topologia-rede.jpeg Graphic file (type jpg)
 <use img/cap2/topologia-rede.jpeg>
 Package pdftex.def Info: img/cap2/topologia-rede.jpeg  used on input line 54.
 (pdftex.def)             Requested size: 286.6468pt x 140.79402pt.
+<img/cap2/gato.png, id=233, 542.025pt x 378.41376pt>
+File: img/cap2/gato.png Graphic file (type png)
+<use img/cap2/gato.png>
+Package pdftex.def Info: img/cap2/gato.png  used on input line 67.
+(pdftex.def)             Requested size: 286.6468pt x 200.12527pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<img/cap2/cnn.jpeg, id=242, 657.45625pt x 258.9675pt>
+File: img/cap2/cnn.jpeg Graphic file (type jpg)
+<use img/cap2/cnn.jpeg>
+Package pdftex.def Info: img/cap2/cnn.jpeg  used on input line 80.
+(pdftex.def)             Requested size: 286.6468pt x 112.91074pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.7}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.65 
+l.87 
       [7 <./img/cap2/topologia-rede.jpeg>]
-<img/cap2/filtro.png, id=233, 258.63292pt x 153.23917pt>
+<img/cap2/filtro.png, id=253, 258.63292pt x 153.23917pt>
 File: img/cap2/filtro.png Graphic file (type png)
 <use img/cap2/filtro.png>
-Package pdftex.def Info: img/cap2/filtro.png  used on input line 71.
+Package pdftex.def Info: img/cap2/filtro.png  used on input line 93.
 (pdftex.def)             Requested size: 286.6468pt x 169.84027pt.
-<img/cap2/cnn.jpeg, id=239, 657.45625pt x 258.9675pt>
-File: img/cap2/cnn.jpeg Graphic file (type jpg)
-<use img/cap2/cnn.jpeg>
-Package pdftex.def Info: img/cap2/cnn.jpeg  used on input line 84.
-(pdftex.def)             Requested size: 286.6468pt x 112.91074pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.8}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.94 
-      [8 <./img/cap2/filtro.png> <./img/cap2/cnn.jpeg>]
+l.100 
+       [8 <./img/cap2/gato.png> <./img/cap2/cnn.jpeg>]
 pdfTeX warning (ext4): destination with the same identifier (name{page.9}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.106 \subsection
-                 {Precisão e Recall} [9]
-<img/cap2/iou.png, id=262, 602.25pt x 469.755pt>
-File: img/cap2/iou.png Graphic file (type png)
-<use img/cap2/iou.png>
-Package pdftex.def Info: img/cap2/iou.png  used on input line 127.
-(pdftex.def)             Requested size: 191.1011pt x 149.05595pt.
-
+l.105 
+       [9 <./img/cap2/filtro.png>]
 pdfTeX warning (ext4): destination with the same identifier (name{page.10}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.133 
-       [10
-pdfTeX warning (ext4): destination with the same identifier (name{equation.2.2.1}) has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.133 
-       <./img/cap2/iou.png>]
-<img/cap2/precisao.png, id=276, 703.62875pt x 525.965pt>
+l.121 
+       [10]
+<img/cap2/iou.png, id=282, 602.25pt x 469.755pt>
+File: img/cap2/iou.png Graphic file (type png)
+<use img/cap2/iou.png>
+Package pdftex.def Info: img/cap2/iou.png  used on input line 138.
+(pdftex.def)             Requested size: 191.1011pt x 149.05595pt.
+<img/cap2/precisao.png, id=289, 703.62875pt x 525.965pt>
 File: img/cap2/precisao.png Graphic file (type png)
 <use img/cap2/precisao.png>
-Package pdftex.def Info: img/cap2/precisao.png  used on input line 139.
+Package pdftex.def Info: img/cap2/precisao.png  used on input line 150.
 (pdftex.def)             Requested size: 286.6468pt x 214.26663pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.11}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.148 
-       [11 <./img/cap2/precisao.png>]) [12] (thesis-leandrozuza.bbl (thesis-leandrozuza.brf)
+l.159 
+       [11
+pdfTeX warning (ext4): destination with the same identifier (name{equation.2.2.1}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.159 
+       <./img/cap2/iou.png>] [12 <./img/cap2/precisao.png>]) (thesis-leandrozuza.bbl (thesis-leandrozuza.brf)
 \tf@brf=\write6
 \openout6 = `thesis-leandrozuza.brf'.
 
@@ -1233,20 +1252,20 @@ L3 programming layer <2020/03/25>
 LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `thesis-leandrozuza.brf' has not changed.
-(rerunfilecheck)             Checksum: 9F9822FC7A1D1928A3F3C6BACEAFB9E9;2387.
+(rerunfilecheck)             Checksum: 31F9CCF7CB0571282E66EA22E3942B5B;2557.
  ) 
 Here is how much of TeX's memory you used:
- 26243 strings out of 474313
- 432968 string characters out of 5749121
+ 26266 strings out of 474313
+ 433406 string characters out of 5749121
  1942907 words of memory out of 5000000
- 47933 multiletter control sequences out of 15000+600000
- 629671 words of font info for 166 fonts, out of 8000000 for 9000
+ 47950 multiletter control sequences out of 15000+600000
+ 629837 words of font info for 168 fonts, out of 8000000 for 9000
  1192 hyphenation exceptions out of 8191
  110i,12n,107p,2098b,715s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Program Files/MiKTeX/fonts/type1/public/lm/lmbx12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmmi12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmr10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmr12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmri10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmri12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmss12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmss17.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmssbx10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmsy10.pfb>
-Output written on thesis-leandrozuza.pdf (27 pages, 826239 bytes).
+Output written on thesis-leandrozuza.pdf (27 pages, 1137634 bytes).
 PDF statistics:
- 496 PDF objects out of 1000 (max. 8388607)
- 86 named destinations out of 1000 (max. 500000)
- 41124 words of extra memory for PDF output out of 42996 (max. 10000000)
+ 516 PDF objects out of 1000 (max. 8388607)
+ 88 named destinations out of 1000 (max. 500000)
+ 41129 words of extra memory for PDF output out of 42996 (max. 10000000)
 

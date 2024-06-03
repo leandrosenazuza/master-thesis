@@ -1,14 +1,14 @@
 # Fdb version 4
-["bibtex thesis-leandrozuza"] 1717378017.06648 "thesis-leandrozuza.aux" "thesis-leandrozuza.bbl" "thesis-leandrozuza" 1717378021.29923 0
-  "./postextual/bibliography.bib" 1717377649 14458 244ccb0a345e289c4a224bce991fdde4 ""
+["bibtex thesis-leandrozuza"] 1717439182.50006 "thesis-leandrozuza.aux" "thesis-leandrozuza.bbl" "thesis-leandrozuza" 1717439186.77343 0
+  "./postextual/bibliography.bib" 1717419169 14735 4c55f9e97e6f6f366a6d8219685d95ab ""
   "C:/Users/leand/AppData/Roaming/MiKTeX/bibtex/bib/abntex2/abntex2-options.bib" 1543103229 5396 4eb260dac60f150ae608d45252853090 ""
   "C:/Users/leand/AppData/Roaming/MiKTeX/bibtex/bst/abntex2/abntex2-alf.bst" 1543103230 60064 0819ac8568f9a482510a46e3a8a6f605 ""
-  "thesis-leandrozuza.aux" 1717378019 20327 2034ccf86e7fcd7bb025d535d72e4286 "pdflatex"
+  "thesis-leandrozuza.aux" 1717439185 21455 406bf14b8314a0f74ad911f2d3109a4e "pdflatex"
   (generated)
   "thesis-leandrozuza.bbl"
   "thesis-leandrozuza.blg"
   (rewritten before read)
-["pdflatex"] 1717378017.50451 "z:/Mestrado/master-thesis/thesis-leandrozuza.tex" "thesis-leandrozuza.pdf" "thesis-leandrozuza" 1717378021.29975 0
+["pdflatex"] 1717439182.98336 "z:/Mestrado/master-thesis/thesis-leandrozuza.tex" "thesis-leandrozuza.pdf" "thesis-leandrozuza" 1717439186.77394 0
   "C:/Program Files/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc" 1256929440 2375 baa924870cfb487815765f9094cf3728 ""
   "C:/Program Files/MiKTeX/fonts/enc/dvips/lm/lm-mathit.enc" 1256929440 2405 5dcf2c1b967ee25cc46c58cd52244aed ""
   "C:/Program Files/MiKTeX/fonts/enc/dvips/lm/lm-mathsy.enc" 1256929440 2840 216e6e45ad352e2456e1149f28885bee ""
@@ -195,9 +195,10 @@
   "C:/Users/leand/AppData/Roaming/MiKTeX/tex/latex/threeparttable/threeparttable.sty" 1059520917 13506 a4e71a27db1a69b6fabada5beebf0844 ""
   "C:/Users/leand/AppData/Roaming/MiKTeX/tex/latex/xpatch/xpatch.sty" 1585221260 8510 7803f78066c4f9d008405191a4b43073 ""
   "chapters/cap1.tex" 1716778170 7667 178f99e8646c46bb7915dbd265ad84e3 ""
-  "chapters/cap2.tex" 1717378011 23980 aec8f4bf39c57d38b95f88aab7de75fc ""
+  "chapters/cap2.tex" 1717439177 25191 81deb3afbef8ea58468ae10c055344d1 ""
   "img/cap2/cnn.jpeg" 1717369430 43827 892871ba069958f1a4d2386553e1b440 ""
   "img/cap2/filtro.png" 1717377272 221488 84dd2464aaf3f5743c3c4addc378686f ""
+  "img/cap2/gato.png" 1717415616 273575 1525685e6f163a5b93dcc2454b67641e ""
   "img/cap2/iou.png" 1712164929 21145 83deee325617de6f525c9fed5a64f582 ""
   "img/cap2/na-completo.png" 1717354521 93003 6342e694c81ac3c80e34e4de94ae2629 ""
   "img/cap2/precisao.png" 1712165682 49477 20eec5a897c4f9b6a4357918b7910b95 ""
@@ -211,13 +212,13 @@
   "pretextual/pensamento.tex" 1711589647 316 a65ac089220eace272981a7e90cc6518 ""
   "pretextual/publicacoes.tex" 1711589826 231 0eebb60552adfdb9f2c71d57e71a9aab ""
   "pretextual/resumo.tex" 1712023406 1690 b5f237d76d08881243efbae4220f62eb ""
-  "thesis-leandrozuza.aux" 1717378019 20327 2034ccf86e7fcd7bb025d535d72e4286 "pdflatex"
-  "thesis-leandrozuza.bbl" 1717378017 9193 1e924c33007b2fd9823feb25d5fd3542 "bibtex thesis-leandrozuza"
-  "thesis-leandrozuza.brf" 1717378019 2387 9f9822fc7a1d1928a3f3c6baceafb9e9 "pdflatex"
-  "thesis-leandrozuza.lof" 1717378019 894 2e6f7f5fbe4bf3575abcfb63d4dd9a53 "pdflatex"
-  "thesis-leandrozuza.lot" 1717378019 58 29d9d42ff4957e64b6fbf83bd5f476ea "pdflatex"
+  "thesis-leandrozuza.aux" 1717439185 21455 406bf14b8314a0f74ad911f2d3109a4e "pdflatex"
+  "thesis-leandrozuza.bbl" 1717439182 9525 e60d942c2e99a767c4d96175df532f2e "bibtex thesis-leandrozuza"
+  "thesis-leandrozuza.brf" 1717439185 2557 31f9ccf7cb0571282e66ea22e3942b5b "pdflatex"
+  "thesis-leandrozuza.lof" 1717439185 1188 2ea71c52f1863d4153a779809210a21b "pdflatex"
+  "thesis-leandrozuza.lot" 1717439185 58 29d9d42ff4957e64b6fbf83bd5f476ea "pdflatex"
   "thesis-leandrozuza.tex" 1717369576 10477 03eed611f0c46bf2b5b48a1ab0cf72d2 ""
-  "thesis-leandrozuza.toc" 1717378019 2255 87bbc64df10a085f915ca608de8d0eb0 "pdflatex"
+  "thesis-leandrozuza.toc" 1717439185 2256 92315b7b3d21e2dee471b1e02243f927 "pdflatex"
   "z:/Mestrado/master-thesis/thesis-leandrozuza.tex" 1717369576 10477 03eed611f0c46bf2b5b48a1ab0cf72d2 ""
   (generated)
   "thesis-leandrozuza.aux"

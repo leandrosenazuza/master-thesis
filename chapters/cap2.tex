@@ -40,41 +40,37 @@ Aprofundando-se na álgebra relacionada do NA, pode-se visualizar o esquema do s
     \item \textbf{Sinal de saída}: Resultado final da saída, que pode ser utilizado como entrada para outros neurônios interligados sequencialmente.
   \end{itemize}  
 
-Em suma, a RNA, enquanto um conjunto de NA, pode ser entendido como um processador robusto, distribuído de maneira paralela, com pequenas unidades de processamento. Sua semelhança ao cérebro humano, deve-se, portanto, à capacidade de aprendizado e aos sinais sinápticos, existentes entre os neurônios, responsáveis pelo processo de armazenamento de conhecimento \cite{haykin2001redes}.
+  Em suma, a RNA, enquanto um conjunto de NA, pode ser entendido como um processador robusto, distribuído de maneira paralela, com pequenas unidades de processamento. Sua semelhança ao cérebro humano, deve-se, portanto, à capacidade de aprendizado e aos sinais sinápticos, existentes entre os neurônios, responsáveis pelo processo de armazenamento de conhecimento \cite{haykin2001redes}.
 	
-De acordo com  \cite{rauber2005redes}, em 1958, após à concepção do NA, a primeira RNA a se notabilizar e a continuar sendo utilizada até o presente momento trata-se da Perceptron \cite{rosenblatt1958perceptron}. Este algoritmo possuía a capacidade de alterar os pesos dos neurônios, conforme o avanço do processamento da rede, de modo a resolver problemas resolvendo classificação linear. Seguido a ela, em 1960, houve a concepção da rede Adaline \cite{widrow1960adaptive}. Diferentemente da perceptron, esta rede já se mostrava capaz de produzir resultados que iam além dos valores binários, sendo capaz de gerar respostas de valores presentes em todo o conjunto dos números reais. O cálculo da rede Adaline era baseado na regra Delta, que era capaz de aproximar os valores dos pesos gerados para aqueles valores com menor erro possível. Ambas as redes, contudo, apresentavam uma limitação quanto à modificação dos pesos em todas suas multicamadas. Para esse cenário, foi proposto o conceito de backpropagation, ou, em tradução livre, retropropagação do erro \cite{rumelhart1986learning}. A ideia da retropropagação se inicia com o feedforward, em que todos os dados de entrada de uma RNA são transmitidos do início à camada de saída, sem nenhuma alteração de peso. Desta forma, calcula-se o erro total dessa primeira passagem, comparando o valor resultante com o esperado. Essa métrica de erro torna-se o guia para o ajuste dos pesos entre as conexões de cada neurônio. Com ela, é feito o caminho de volta, e calculado um gradiente de erro, que será o fator decisivo para a atualização dos pesos durante todo o treinamento.
-
-A topologia básica de uma rede neural é dividida em três níveis de camada: a camada de entrada, a camada oculta e a camada de saída, conforme mostrado na figura \ref{fig:topologia}. A camada de entrada é, naturalmente, aquela que recebe os dados de entrada. Nela, cada nó representa uma característica ou atributo dos dados que estão sendo alimentados na rede neural. Por exemplo, em uma aplicação de reconhecimento de imagens, cada nó na camada de entrada pode representar um pixel da imagem. A camada oculta, que não se restringe a apenas uma, podendo ser várias, representa um processo intermediário entre a camada de entrada e a camada de saída. Cada neurônio em uma camada oculta recebe entradas das camadas anteriores, realiza algum tipo de transformação não linear dessas entradas e passa o resultado para a próxima camada. A presença de múltiplas camadas ocultas permite que a rede aprenda representações complexas e abstratas dos dados. Por bim, a camada de saída representa a camada final, e ela é responsável por gerar as saídas desejadas. A estrutura da camada de saída depende do tipo de problema que está sendo resolvido. Por exemplo, em um problema de classificação, cada nó na camada de saída pode representar uma classe diferente, e a saída pode ser interpretada como a probabilidade de pertencer a cada classe \cite{rauber2005redes}.
-
-\begin{figure}[!h]
-    \centering
-    \begin{minipage}{0.9\linewidth}
-    \centering
-    \captionsetup{justification=centering,margin=0.5cm,font=small}
-    \includegraphics[width=0.7\linewidth]{img/cap2/topologia-rede.jpeg}
-    \caption{Topologia básica de uma rede neural \cite{fleck2016redes}}.
-    \label{fig:topologia}
-    \end{minipage}
-\end{figure}
+  De acordo com  \cite{rauber2005redes}, em 1958, após à concepção do NA, a primeira RNA a se notabilizar e a continuar sendo utilizada até o presente momento trata-se da Perceptron \cite{rosenblatt1958perceptron}. Este algoritmo possuía a capacidade de alterar os pesos dos neurônios, conforme o avanço do processamento da rede, de modo a resolver problemas resolvendo classificação linear. Seguido a ela, em 1960, houve a concepção da rede Adaline \cite{widrow1960adaptive}. Diferentemente da perceptron, esta rede já se mostrava capaz de produzir resultados que iam além dos valores binários, sendo capaz de gerar respostas de valores presentes em todo o conjunto dos números reais. O cálculo da rede Adaline era baseado na regra Delta, que era capaz de aproximar os valores dos pesos gerados para aqueles valores com menor erro possível. Ambas as redes, contudo, apresentavam uma limitação quanto à modificação dos pesos em todas suas multicamadas. Para esse cenário, foi proposto o conceito de backpropagation, ou, em tradução livre, retropropagação do erro \cite{rumelhart1986learning}. A ideia da retropropagação se inicia com o feedforward, em que todos os dados de entrada de uma RNA são transmitidos do início à camada de saída, sem nenhuma alteração de peso. Desta forma, calcula-se o erro total dessa primeira passagem, comparando o valor resultante com o esperado. Essa métrica de erro torna-se o guia para o ajuste dos pesos entre as conexões de cada neurônio. Com ela, é feito o caminho de volta, e calculado um gradiente de erro, que será o fator decisivo para a atualização dos pesos durante todo o treinamento.
+  
+  A topologia básica de uma rede neural é dividida em três níveis de camada: a camada de entrada, a camada oculta e a camada de saída, conforme mostrado na figura \ref{fig:topologia}. A camada de entrada é, naturalmente, aquela que recebe os dados de entrada. Nela, cada nó representa uma característica ou atributo dos dados que estão sendo alimentados na rede neural. Por exemplo, em uma aplicação de reconhecimento de imagens, cada nó na camada de entrada pode representar um pixel da imagem. A camada oculta, que não se restringe a apenas uma, podendo ser várias, representa um processo intermediário entre a camada de entrada e a camada de saída. Cada neurônio em uma camada oculta recebe entradas das camadas anteriores, realiza algum tipo de transformação não linear dessas entradas e passa o resultado para a próxima camada. A presença de múltiplas camadas ocultas permite que a rede aprenda representações complexas e abstratas dos dados. Por bim, a camada de saída representa a camada final, e ela é responsável por gerar as saídas desejadas. A estrutura da camada de saída depende do tipo de problema que está sendo resolvido. Por exemplo, em um problema de classificação, cada nó na camada de saída pode representar uma classe diferente, e a saída pode ser interpretada como a probabilidade de pertencer a cada classe \cite{rauber2005redes}.
+  
+  \begin{figure}[!h]
+      \centering
+      \begin{minipage}{0.9\linewidth}
+      \centering
+      \captionsetup{justification=centering,margin=0.5cm,font=small}
+      \includegraphics[width=0.7\linewidth]{img/cap2/topologia-rede.jpeg}
+      \caption{Topologia básica de uma rede neural \cite{fleck2016redes}}.
+      \label{fig:topologia}
+      \end{minipage}
+  \end{figure}  
 
 Essencialmente, as redes neurais aprendem iterativamente ajustando os pesos de suas conexões através do processo de treinamento, onde são apresentados a um conjunto de dados de entrada e as correspondentes saídas desejadas. Com o tempo, a rede neural é capaz de aprender a mapear efetivamente os padrões nos dados de entrada para as saídas desejadas, tornando-se assim capaz de realizar tarefas como reconhecimento de padrões, classificação, regressão, entre outros \cite{haykin2001redes}.
 
-Contudo, para problemas envolvendo aprendizado por meio de imagens, a forma de lidar com as informações é diferente. De fato, imagens são dados, organizados em formato de matrizes de duas dimensões ou três dimensões (se for considerada a camada de cores), em que cada unidade de informação se chama pixel. Para processar esses dados, um tipo de RNA destaca-se: a Rede Neural Convolucional (RNC). Comparando ambas, nota-se que a RNA é composta por camadas intrinsecamente conectadas, em que cada neurônio de uma camada se conecta a todos os neurônios da camada seguinte. Isso faz com que ela seja adequada para dados vetorizados e para problemas de classificação e regressão sem uma estrutura espacial ou temporal específica. Por sua vez, a RNC recorre a dois tipos de camadas: a convolucional, cujo objetivo é extrair características locais, e a de pooling, responsável por manter a estrutura espacial essencial \cite{vargas2016estudo}. 
-
-A camada de convolução, portanto, é responsável pela feature extractor, i.e., pela extração de características de interesse em uma imagem. Basicamente, são aplicados filtros, também chamados de kernel, a imagem a fim de buscar padrões. São comumente empregados filtros de detecção de bordas (edge detection), desfoque (blur), nitidez (sharpen). Conforme na figura \ref{fig:filtro}, cada elemento do filtro é multiplicado pelo elemento de mesma posição na região em que o filtro está sendo aplicado naquele instante. Ao final dessas operações matriciais, adiciona-se os resultados dessas multiplicações para ter um único valor como saída, que será o pixel correspondente na imagem filtrada. A camada pooling é utilizada após camadas convolucionais. Ela reduz as dimensões das imagens, mantendo a profundidade do volume (número de canais). Após as camadas convolucionais, é comum empregar a camada de pooling, que reduz as dimensões das imagens, mantendo a profundidade do volume. A técnica mais comum é o Max-pooling, onde, aplicando conceitos de stride e campo receptivo, seleciona-se o valor máximo dentro de uma região específica. Esse processo promove a invariância da RNC a transformações geométricas, permitindo à rede identificar objetos na imagem independentemente de sua posição. Além disso, contribui para diminuir significativamente o custo computacional da rede \cite{rodrigues2023visao}.
-
 \begin{figure}[!h]
     \center
     \begin{minipage}{0.9\linewidth}
     \center
     \captionsetup{justification=centering,margin=0.5cm,font=small}
-    \includegraphics[width=0.7\linewidth]{img/cap2/filtro.png}
-    \caption{ Operação de filtragem na camada convolucional \cite{shorthistory}} 
-    \label{fig:filtro}
+    \includegraphics[width=0.7\linewidth]{img/cap2/gato.png}
+    \caption{ Exemplificação de como uma imagem nada mais é que uma matriz, e como a filtragem busca padrões pré-estabelecidos dentro da imagem \cite{lima2020captcha}} 
+    \label{fig:gato}
     \end{minipage}
 \end{figure}
 
-
+Contudo, para problemas envolvendo aprendizado por meio de imagens, a forma de lidar com as informações é diferente. De fato, imagens são dados, organizados em formato de matrizes de duas dimensões ou três dimensões (se for considerada a camada de cores), em que cada unidade de informação se chama pixel, conforme se nota no exemplo da figura \ref{fig:gato}. Para processar esses dados, um tipo de RNA destaca-se: a Rede Neural Convolucional (RNC). Comparando ambas, nota-se que a RNA é composta por camadas intrinsecamente conectadas, em que cada neurônio de uma camada se conecta a todos os neurônios da camada seguinte. Isso faz com que ela seja adequada para dados vetorizados e para problemas de classificação e regressão sem uma estrutura espacial ou temporal específica. Por sua vez, a RNC recorre a dois tipos de camadas (figura \ref{fig:rnc}): a convolucional, cujo objetivo é extrair características locais, e a de pooling, responsável por manter a estrutura espacial essencial \cite{vargas2016estudo}. 
 
 \begin{figure}[!h]
     \centering
@@ -86,6 +82,21 @@ A camada de convolução, portanto, é responsável pela feature extractor, i.e.
     \label{fig:rnc}
     \end{minipage}
 \end{figure}
+
+A camada de convolução, portanto, é responsável pela feature extractor, i.e., pela extração de características de interesse em uma imagem. Basicamente, são aplicados filtros, também chamados de kernel, à imagem a fim de buscar padrões. São comumente empregados filtros de detecção de bordas (edge detection), desfoque (blur), nitidez (sharpen). Conforme na figura \ref{fig:kernel}, cada elemento do filtro é multiplicado pelo elemento de mesma posição na região em que o filtro está sendo aplicado naquele instante. Ao final dessas operações matriciais, adiciona-se os resultados dessas multiplicações para ter um único valor como saída, que será o pixel correspondente na imagem filtrada \cite{rodrigues2023visao} . 
+
+\begin{figure}[!h]
+    \center
+    \begin{minipage}{0.9\linewidth}
+    \center
+    \captionsetup{justification=centering,margin=0.5cm,font=small}
+    \includegraphics[width=0.7\linewidth]{img/cap2/filtro.png}
+    \caption{ Operação de filtragem na camada convolucional. Nota-se que o filtro é uma multiplicação de matrizes \cite{shorthistory}} 
+    \label{fig:kernel}
+    \end{minipage}
+\end{figure}
+
+A camada de pooling é aplicada após cada camada convolucional, com o objetivo de reduzir as dimensões das imagens enquanto mantém a profundidade do volume. Esse processo promove a invariância da Rede Neural Convolucional (RNC) às transformações geométricas, permitindo à rede reconhecer objetos na imagem independentemente de sua posição. Além disso, o uso da camada de pooling contribui para diminuir significativamente o custo computacional da rede. Existem diferentes tipos de pooling, como o max pooling, que seleciona o valor máximo em uma região específica da imagem, e o average pooling, que calcula a média dos valores nesta região. O max pooling é o mais comum, pois preserva as características mais salientes das imagens, enquanto reduz o ruído. A camada de pooling, ao reduzir o tamanho espacial dos mapas de características, também ajuda a evitar um problema comum no aprendizado de máquina, em que um modelo aprende não apenas os padrões relevantes dos dados de treinamento, mas também o ruído e as particularidades específicas desses dados. Chama-se este problema de overfitting. Evitando-o, a rede consegue construir um treinamento mais generalizável e que possa gerar resultados relevantes para dados diferentes do modelo treinado \cite{lima2020captcha}.
 
 \subsection{You Look Only Once}
 \label{sec:yolo}
