@@ -63,6 +63,17 @@ Dispon{\'\i}vel em:
 {HAYKIN, S. \emph{Redes neurais: princ{\'\i}pios e pr{\'a}tica}. [S.l.]:
   Bookman Editora, 2001.}
 
+\bibitem[Hussain 2023]{hussain2023yolo}
+\abntrefinfo{Hussain}{HUSSAIN}{2023}
+{HUSSAIN, M. Yolo-v1 to yolo-v8, the rise of yolo and its complementary nature
+  toward digital manufacturing and industrial defect detection.
+\emph{Machines}, MDPI, v.~11, n.~7, p.~677, 2023.}
+
+\bibitem[Jiang et al. 2022]{jiang2022review}
+\abntrefinfo{Jiang et al.}{JIANG et al.}{2022}
+{JIANG, P. et al. A review of yolo algorithm developments.
+\emph{Procedia computer science}, Elsevier, v.~199, p. 1066--1073, 2022.}
+
 \bibitem[Jocher, Chaurasia e Qiu 2023]{ultralytics2023yolo}
 \abntrefinfo{Jocher, Chaurasia e Qiu}{JOCHER; CHAURASIA; QIU}{2023}
 {JOCHER, G.; CHAURASIA, A.; QIU, J. \emph{YOLO by Ultralytics. Ultralytics}.
@@ -85,6 +96,11 @@ Universidade Federal de Minas Gerais, 2012.}
 \abntrefinfo{Kalawsky}{KALAWSKY}{1993}
 {KALAWSKY, R. \emph{The science of virtual reality and virtual environments}.
   [S.l.]: Addison-Wesley Longman Publishing Co., Inc., 1993.}
+
+\bibitem[Kingma e Ba 2014]{kingma2014adam}
+\abntrefinfo{Kingma e Ba}{KINGMA; BA}{2014}
+{KINGMA, D.~P.; BA, J. Adam: A method for stochastic optimization.
+\emph{arXiv preprint arXiv:1412.6980}, 2014.}
 
 \bibitem[Kirner e Kirner 2011]{kirner2011evoluccao}
 \abntrefinfo{Kirner e Kirner}{KIRNER; KIRNER}{2011}
@@ -195,6 +211,12 @@ Dispon{\'\i}vel em:
   treinamento de operadores de subesta{\c{c}}{\~o}es el{\'e}tricas.
 Universidade Federal de Uberl{\^a}ndia, 2012.}
 
+\bibitem[Silva 2018]{silva2018estudo}
+\abntrefinfo{Silva}{SILVA}{2018}
+{SILVA, R. E. V.~d. Um estudo comparativo entre redes neurais convolucionais
+  para a classifica{\c{c}}{\~a}o de imagens.
+2018.}
+
 \bibitem[Sutherland 1963]{sutherland1963sketchpad}
 \abntrefinfo{Sutherland}{SUTHERLAND}{1963}
 {SUTHERLAND, I.~E. Sketchpad: A man-machine graphical communication system.
@@ -205,12 +227,30 @@ p. 329--346, 1963.}
 {SUTHERLAND, I.~E. A head-mounted three dimensional display.
 p. 757--764, 1968.}
 
+\bibitem[Terven e Cordova-Esparza 2023]{terven2023comprehensive}
+\abntrefinfo{Terven e Cordova-Esparza}{TERVEN; CORDOVA-ESPARZA}{2023}
+{TERVEN, J.; CORDOVA-ESPARZA, D. A comprehensive review of yolo: From yolov1 to
+  yolov8 and beyond.
+\emph{arXiv preprint arXiv:2304.00501}, 2023.}
+
+\bibitem[Ultralytics 2024]{ultralytics2024}
+\abntrefinfo{Ultralytics}{ULTRALYTICS}{2024}
+{ULTRALYTICS. \emph{Ultralytics Repository}. 2024.
+Acessado em: 4 de junho de 2024.
+Dispon{\'\i}vel em: \url{https://github.com/ultralytics/ultralytics}.}
+
 \bibitem[Vargas, Paes e Vasconcelos 2016]{vargas2016estudo}
 \abntrefinfo{Vargas, Paes e Vasconcelos}{VARGAS; PAES; VASCONCELOS}{2016}
 {VARGAS, A. C.~G.; PAES, A.; VASCONCELOS, C.~N. Um estudo sobre redes neurais
   convolucionais e sua aplica{\c{c}}{\~a}o em detec{\c{c}}{\~a}o de pedestres.
   In:  SN. \emph{Proceedings of the xxix conference on graphics, patterns and
   images}. [S.l.], 2016. v.~1, n.~4.}
+
+\bibitem[Venkataramani 2018]{sgdMedium}
+\abntrefinfo{Venkataramani}{VENKATARAMANI}{2018}
+{VENKATARAMANI, D. Stochastic vs batch gradient descent.
+\emph{Medium}, 2018.
+Acesso em: 4 de junho de 2024.}
 
 \bibitem[Widrow, Hoff et al. 1960]{widrow1960adaptive}
 \abntrefinfo{Widrow, Hoff et al.}{WIDROW; HOFF et al.}{1960}
@@ -223,5 +263,11 @@ v.~4, n.~1, p. 96--104, 1960.}
   data to big insights.
 \emph{Renewable and sustainable energy reviews}, Elsevier, v.~56, p. 215--225,
   2016.}
+
+\bibitem[Zhou et al. 2024]{zhou2024towards}
+\abntrefinfo{Zhou et al.}{ZHOU et al.}{2024}
+{ZHOU, P. et al. Towards understanding convergence and generalization of adamw.
+\emph{IEEE Transactions on Pattern Analysis and Machine Intelligence}, IEEE,
+  2024.}
 
 \end{thebibliography}

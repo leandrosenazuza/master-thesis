@@ -16,7 +16,7 @@ Atualmente, o sistema elétrico do Brasil é formado por um conjunto de usinas, 
     \end{minipage}
 \end{figure}
 
-De modo geral, portanto, a energia é, portanto, obtida por geradores e transmitida para subestações primárias. Há aí a primeira aferição de qualidade dos níveis de transmissão. Após isso, a energia transformada é enviada para subestações de distribuição, alterada para níveis mais baixos para serem transmitidas para setores industriais e urbanos \cite {barreto2022proposta}.
+De modo geral, portanto, a energia é obtida por geradores e transmitida para subestações primárias. Há aí a primeira aferição de qualidade dos níveis de transmissão. Após isso, a energia transformada é enviada para subestações de distribuição, alterada para níveis mais baixos para serem transmitidas para setores industriais e urbanos \cite {barreto2022proposta}.
 
 É importante destacar que a energia produzida no Brasil é oriunda majoritariamente de fontes renováveis, em especial da geração hidroelétrica, correspondendo a 69\% de toda malha produtora. Ela é considerada uma energia limpa, de baixo custo e possui reduzida emissão de gases de efeito estufa. \cite {de2015hydroelectric}. 
 
@@ -124,12 +124,40 @@ A camada de convolução, portanto, é responsável pela feature extractor, i.e.
 
 A camada de pooling é aplicada após cada camada convolucional, com o objetivo de reduzir as dimensões das imagens enquanto mantém a profundidade do volume. Esse processo promove a invariância da Rede Neural Convolucional (RNC) às transformações geométricas, permitindo à rede reconhecer objetos na imagem independentemente de sua posição. Além disso, o uso da camada de pooling contribui para diminuir significativamente o custo computacional da rede. Existem diferentes tipos de pooling, como o max pooling, que seleciona o valor máximo em uma região específica da imagem, e o average pooling, que calcula a média dos valores nesta região. O max pooling é o mais comum, pois preserva as características mais salientes das imagens, enquanto reduz o ruído. A camada de pooling, ao reduzir o tamanho espacial dos mapas de características, também ajuda a evitar um problema comum no aprendizado de máquina, em que um modelo aprende não apenas os padrões relevantes dos dados de treinamento, mas também o ruído e as particularidades específicas desses dados. Chama-se este problema de overfitting. Evitando-o, a rede consegue construir um treinamento mais generalizável e que possa gerar resultados relevantes para dados diferentes do modelo treinado \cite{lima2020captcha}.
 
+Por último, a camada totalmente conectada emprega uma função de ativação na sua camada de saída para realizar a classificação. Ser "totalmente conectada" significa que todos os neurônios da camada anterior estão ligados a todos os neurônios da camada subsequente. Ela recebe as saídas da camada de convolução e da camada de pooling e, em seguida, utiliza essas informações para determinar a classe à qual a imagem de entrada pertence \cite{silva2018estudo}.
+
 As RNC representam por si só uma revolução no campo da visão computacional, tornando-se a base para uma variedade de aplicações, desde reconhecimento de imagens até análise de vídeos. Entre as arquiteturas mais notáveis estão a LeNet, AlexNet, VGGNet, GoogLeNet e ResNet, cada uma contribuindo com avanços significativos em profundidade, eficiência e precisão. Além dessas, uma destaca-se em especial: a YOLO (“You Only Look Once”, em tradução livre, “você olha apenas uma vez”), uma abordagem inovadora para treinamento e detecção de objetos \cite{carboni2021sistema}.
 
 \subsection{You Look Only Once}
 \label{sec:yolo}
 
-YOLO (You Only Look Once) é um modelo de detecção de objetos em imagens e vídeos em tempo real, que se destaca por sua eficiência e precisão. Desenvolvido por Joseph Redmon, Santosh Divvala, Ross Girshick e Ali Farhadi, o YOLO aborda o problema de detecção de objetos como uma única tarefa de regressão, prevendo caixas delimitadoras e probabilidades de classe diretamente de imagens inteiras em uma única passagem pela rede neural. O funcionamento do YOLO começa com a divisão da imagem de entrada em uma grade, geralmente de dimensões como 7x7 ou 9x9. Cada célula dessa grade é responsável por prever um conjunto de caixas delimitadoras e as probabilidades das classes dos objetos contidos nessa célula. Para cada célula da grade, o modelo faz previsões sobre as caixas delimitadoras que contêm objetos, representadas por cinco valores: coordenadas (x, y) do centro da caixa, largura (w) e altura (h) da caixa, e a confiança de que a caixa contém um objeto. Além disso, são previstas as probabilidades de cada classe para cada caixa delimitadora. Após a predição das caixas delimitadoras, o YOLO utiliza um processo chamado Non-max Suppression (Supressão de Não-Máximo) para refinar as previsões e eliminar caixas sobrepostas ou redundantes, mantendo apenas as detecções mais confiáveis. Esse processo envolve a supressão de caixas que têm uma sobreposição significativa e a escolha da caixa com a maior confiança entre as caixas sobrepostas. A saída do YOLO é uma lista de caixas delimitadoras, cada uma associada a uma classe prevista e sua confiança. Essas caixas delimitadoras representam os objetos detectados na imagem, fornecendo informações sobre sua localização e classificação. Em resumo, o YOLO oferece uma abordagem eficaz e eficiente para a detecção de objetos em tempo real, consolidando-se como uma ferramenta valiosa em diversas aplicações, desde sistemas de segurança até veículos autônomos \cite{redmon2016youlookonce}.
+YOLO, uma Rede Neural Convolutiva (RNC), é conhecida por sua eficácia e precisão na detecção de objetos em imagens e vídeos. Desenvolvida por Joseph Redmon, Santosh Divvala, Ross Girshick e Ali Farhadi em 2015, a arquitetura do YOLO foi apresentada em sua primeira versão no artigo "You Only Look Once: Unified, Real-Time Object Detection" \cite{redmon2016youlookonce}.
+\begin{figure}[!h]
+    \center
+    \begin{minipage}{0.9\linewidth}
+    \center
+    \captionsetup{justification=centering,margin=0.5cm,font=small}
+    \includegraphics[width=0.7\linewidth]{img/cap2/RNC-YOLO.jpeg}
+    \caption{ Disposição das 24 camadas convolucionais e das 2 camadas totalmente conectadas \cite{redmon2016youlookonce}} \label{fig:rnc-yolo}
+    \end{minipage}
+\end{figure}
+
+A arquitetura do YOLO é singular: ao contrário de outras RNCs que fazem múltiplas passagens pela imagem em busca de objetos, o YOLO analisa a imagem inteira de uma vez, justificando seu nome, que em tradução livre significa “você olha apenas uma vez”. Essa abordagem permite ao YOLO aplicar uma única rede neural à imagem completa. Durante o processamento, a imagem é dividida em regiões menores, e a rede prevê caixas delimitadoras, as probabilidades de existência de objetos nessas caixas, e a classe provável de cada objeto. Sua classificação, enquanto rede neural, vai além da RNC, pois ela utiliza uma arquitetura conhecida como Darknet, um tipo de rede neural profunda (variação da RNC) e sua implementação original foi desenvolvida em C, embora agora esteja disponível em várias outras linguagens de programação, graças ao apoio da comunidade e de empresas. Quando utilizada para treinamento sua estrutura básica, estabelecida em sua primeira versão, segue, evidentemente, o padrão de uma RNC. As camadas convolucionais iniciais da rede extraem características da imagem, enquanto as camadas totalmente conectadas preveem as probabilidades de saída e as coordenadas (Figura \ref{ig:rnc-yolo}). Em sua primeira versão, a rede possuia 24 camadas convolucionais seguidas por 2 camadas totalmente conectadas. cite{yoloVisaoComputacional}.
+Embora existam várias versões do YOLO, há um funcionamento geral da arquitetura. O primeiro passo do YOLO é dividir a imagem em uma grade de células S por S. Nas versões iniciais, essa grade era de 13x13, totalizando 169 células, enquanto nas versões mais recentes é de 19x19. Cada célula é responsável por prever/detectar 5 caixas delimitadoras, pois pode haver múltiplos objetos em uma única célula. Portanto, na versão de exemplo do YOLO, há um total de 845 caixas delimitadoras (13x13x5). Na figura \ref{fig:yolo}, esse processo é representado. Notam-se diversas caixas, aquelas com bordas mais grossas indicam que a probabilidade de a demarcação estar representando o objeto que se propõe é alta. \cite{jiang2022review}.
+
+\begin{figure}[!h]
+    \center
+    \begin{minipage}{0.9\linewidth}
+    \center
+    \captionsetup{justification=centering,margin=0.5cm,font=small}
+    \includegraphics[width=0.7\linewidth]{img/cap2/processo-predicao-YOLO.jpeg}
+    \caption{ Processo de predição da Yolo \cite{redmon2016youlookonce}} \label{fig:yolo}
+    \end{minipage}
+\end{figure}
+
+A partir da YOLOv3, foram introduzidos conceitos para definir algumas partes de sua arquitetura. Primeiramente, define-se a camada de backbone, ou espinha dorsal. Basicamente, é nesta etapa que ocorre a extração de características significativas para o processo de classificação. Ela captura características hierárquicas em diferentes escalas, com características de nível inferior (como bordas e texturas) nas camadas iniciais e características de nível superior (como partes de objetos e informações semânticas) nas camadas mais profundas. O neck, ou pescoço, conecta a camada backbone à head, ou cabeça, agregando e refinando as características extraídas, muitas vezes focando em melhorar a informação espacial e semântica em diferentes escalas. A head processa as características fornecidas pelo neck, gerando previsões para cada candidato a objeto. Resumindo, a partir da YOLOv3, a arquitetura foi dividida em três partes: backbone para extração de características; neck para agregar e refinar características; e head para fazer previsões. A espinha dorsal usa uma CNN para capturar características hierárquicas, o pescoço melhora a informação espacial e semântica, e a head gera as previsões finais, que são refinadas por pós-processamento para eliminar sobreposições \cite{terven2023comprehensive}.
+
+Atualmente, a oitava versão da YOLO, ou, YOLOv8 , é considerada estado da arte em se tratando de análise e treinamento de imagens \cite{ultralytics2024}. YOLOv8 traz uma série de avanços significativos em relação às versões anteriores, destacando-se pela melhoria no desempenho e precisão das detecções. A arquitetura foi otimizada para equilibrar velocidade e precisão, utilizando backbones modernos como CSPDarknet para uma extração de características mais eficiente. O processo de treinamento foi acelerado e aprimorado com melhores métodos de regularização e otimização, enquanto a facilidade de uso e integração foi aprimorada, atendendo às demandas tanto de dispositivos de alta performance quanto de dispositivos móveis com menor capacidade de processamento \cite{hussain2023yolo}.
 
 
 \subsection{Batch}
@@ -140,7 +168,22 @@ Um dos aspectos cruciais do funcionamento da YOLO é o conceito de "batch" (em t
 \subsection{Otimizadores}
 \label{sec:otimizadores}
 
-Falar sobre o Otimizadores....!!!
+O objetivo dos algoritmos de aprendizado de máquina supervisionados é otimizar a redução de uma função objetivo, geralmente chamada de função de custo J. Reduzir essa função é crucial, pois a rede precisa aprender os pesos que melhor representam o relacionamento entre os dados, formando um modelo preditivo para fazer previsões em novos conjuntos de dados. O algoritmo de otimização mais simples para encontrar esses pesos é o Gradiente Descendente (GD), onde se realiza pequenos passos em direção ao mínimo global da função de custo. No entanto, o GD enfrenta dificuldades com conjuntos de dados muito grandes devido à sua abordagem em lote, tornando o treinamento computacionalmente caro. Uma alternativa popular é o Gradiente Descendente Estocástico (SGD, sigla para a expressão em inglês “Stochastic Gradient Descent”), que aplica atualizações de peso com base em amostras aleatórias de dados de treinamento, resultando em convergência mais rápida. O  SGD possui três parâmetros importantes que podem influenciar no treinamento da rede neural: a taxa de aprendizagem, que determina quão rápido o otimizador tentará treinar a rede neural, com uma taxa muito alta podendo levar a falhas no treinamento e uma taxa muito baixa resultando em treinamento lento; o momentum, que indica quanto a direção da mudança de peso anterior deve influenciar na etapa atual, acelerando o treinamento ao permitir que o otimizador "persista" em direções com histórico de melhoria; e o decay, utilizado para diminuir a taxa de aprendizagem conforme os erros diminuem durante o treinamento, evitando oscilações excessivas e permitindo uma convergência mais suave do modelo \cite{silva2018estudo}.
+
+\begin{figure}[!h]
+    \center
+    \begin{minipage}{0.9\linewidth}
+    \center
+    \captionsetup{justification=centering,margin=0.5cm,font=small}
+    \includegraphics[width=0.7\linewidth]{img/cap2/sgd.jpeg}
+    \caption{ Demonstração visual do SGD buscando o valor de custo mínimo, representado no eixo vertial \cite{sgdMedium}} \label{fig:sgd}
+    \end{minipage}
+\end{figure}
+
+Além do SGD, outro algoritmo de otimização recorrente é o Adam (“Adaptive Moment Estimation”, em tradução livre, “Estimação Adaptativa de Momento”). O otimizador Adam é um algoritmo popular de otimização de gradientes utilizado em treinamento de redes neurais e outras tarefas de aprendizado de máquina. Ele calcula e mantém estimativas adaptativas dos momentos do gradiente, incluindo o primeiro momento (média) e o segundo momento (variância). Essas estimativas são utilizadas para calcular uma correção de gradiente, chamada de momento Adam, que ajusta adaptativamente a taxa de aprendizagem para cada parâmetro. Além disso, o Adam inclui termos de regularização L2 para evitar que os pesos cresçam excessivamente durante o treinamento. Essa abordagem combinada de momentos adaptativos e ajuste de taxa de aprendizagem torna o Adam eficiente, fácil de implementar e eficaz em uma variedade de problemas de otimização \cite{kingma2014adam}.
+
+Há também uma variação do Adam, que seria o AdamW. Esta variante do otimizador Adam que inclui regularização de peso ponderada diretamente no processo de atualização dos parâmetros, ao contrário do Adam tradicional, onde a regularização é aplicada separadamente após a atualização. Isso ajuda a corrigir problemas de "decaimento de pesos" em modelos de aprendizado profundo, resultando em melhor desempenho e capacidade de generalização \cite{zhou2024towards}.
+
 
 \subsection{Precisão e Recall}
 \label{sec:precisaorecall}
@@ -157,7 +200,6 @@ A fim de avaliar o desempenho de um treinamento na arquitetura YOLO, é preciso 
 
 Com esses valores, pode-se calcular os resultados da saída que o treinamento da rede YOLO fornece. Em (1), tem-se o cálculo da Recall, que calcula a capacidade da rede de detectar todos os objetos relevantes em uma imagem. Já a Precisão (2), refere-se à capacidade da rede de encontrar apenas resultados relevantes. 
 
-%https://medium.com/@augusto_Pinheiro/redes-neurais-artificiais-133de77c7240
 \begin{figure}[!h]
     \center
     \begin{minipage}{0.6\linewidth}
@@ -190,10 +232,6 @@ RV pode ser definida como um ambiente gerado a partir de um sistema computaciona
 O surgimento da RV data de 1963, em que foi apresentado uma aplicação de manipulação de objetos tridimensionais em um computador, denominada Sketchpad \cite {sutherland1963sketchpad}. A aplicação conseguia reproduzir interatividade por meio de uma caneta óptica, que era utilizada para seleção de objetos projetados em uma tela. Neste trabalho, surgiram alguns dos principais termos da RV, como representação visual, dispositivos especiais, e interações em tempo real. Em 1968, o mesmo autor do trabalho anterior, Sutherland, publicou outro trabalho marcante para a história: A Head-Mounted Three Dimensional Display \cite{sutherland1968head}. Nele, foi introduzido o conceito de imersividade para uma RV; no caso, um capacete capaz de projetar fotos diretamente aos olhos do usuário, assim como rastrear o movimento da cabeça, afim de que este movimento fosse responsivo no ambiente virtual. Seguido a isso, uma série de outros equipamentos foram desenvolvidos a fim de sofisticar as soluções do ramo e propor novos modelos. A tendência sempre prevaleceu de surgir ferramentas mais simples e acessíveis ao usuário final \cite{kirner2011evoluccao}.
 
 Além das aplicações lúdicas, a RV atua de maneira séria e efetiva em diversas áreas técnicas. Como ferramenta para treinamento de operadores em ambientes de risco e de difícil simulação, torna-se uma alternativa viável para capacitação.  O trabalho de \cite{silva2012virtual} demonstra bem essa ideia ao investigar técnicas de RV para que uma pessoa comum, sem treinamento anterior, possa, de maneira segura à uma subestação em funcionamento e à própria pessoa e todos ao seu redor, interagir com um transformador de energia, executando todos procedimentos que teria em um ambiente real, contudo de maneira virtual. Este treinamento já seria uma base interessante para que um profissional pudesse agilizar seu treinamento no mundo real ou mesmo absorvê-los. Em trabalhos de alta periculosidade tudo é crítico; então, qualquer intervenção que possa atenuar os riscos inerentes à natureza do trabalho, traz grandes avanços ao processo de profissionalização de técnicos e pessoas interessadas. 
-
-
-%Citar trabalho alexandre
-%O artigo de kirner2011evoluccao, faz um panorama da história da realidade virtual.
 
 \section{Considerações finais}
 
