@@ -16,6 +16,8 @@ Reallocating 'singl_function' (item size: 4) to 100 items.
 Reallocating 'wiz_functions' (item size: 4) to 9000 items.
 Database file #1: abntex2-options.bib
 Database file #2: postextual/bibliography.bib
+Warning--entry type for "reatorNucleoDeAr" isn't style-file defined
+--line 845 of file postextual/bibliography.bib
 Reallocating 'singl_function' (item size: 4) to 100 items.
 Reallocating 'glb_str_end' (item size: 4) to 20 items.
 Reallocating 'glb_str_ptr' (item size: 4) to 20 items.
@@ -25,44 +27,45 @@ Reallocating 'global_strs' (item size: 1) to 4000000 items.
 | Em caso de dúvidas ou problemas com este estilo procure |
 | http://www.abntex.net.br/                               |
 +---------------------------------------------------------+
-You've used 13 entries,
+You've used 43 entries,
             6714 wiz_defined-function locations,
-            1273 strings with 11855 characters,
-and the built_in function-call counts, 12110 in all, are:
-= -- 1026
-> -- 488
-< -- 24
-+ -- 227
-- -- 144
-* -- 912
-:= -- 1611
-add.period$ -- 41
-call.type$ -- 13
-change.case$ -- 155
-chr.to.int$ -- 31
-cite$ -- 12
-duplicate$ -- 538
-empty$ -- 818
-format.name$ -- 682
-if$ -- 2869
+            1431 strings with 17594 characters,
+and the built_in function-call counts, 46272 in all, are:
+= -- 4489
+> -- 1287
+< -- 725
++ -- 1191
+- -- 389
+* -- 3114
+:= -- 5934
+add.period$ -- 149
+call.type$ -- 43
+change.case$ -- 449
+chr.to.int$ -- 88
+cite$ -- 42
+duplicate$ -- 3610
+empty$ -- 2462
+format.name$ -- 1847
+if$ -- 9886
 int.to.chr$ -- 0
 int.to.str$ -- 0
-missing$ -- 233
-newline$ -- 63
-num.names$ -- 60
-pop$ -- 332
+missing$ -- 752
+newline$ -- 219
+num.names$ -- 210
+pop$ -- 1044
 preamble$ -- 1
-purify$ -- 57
+purify$ -- 169
 quote$ -- 0
-skip$ -- 650
+skip$ -- 3750
 stack$ -- 1
-substring$ -- 520
-swap$ -- 282
-text.length$ -- 18
+substring$ -- 1995
+swap$ -- 1407
+text.length$ -- 49
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 1
 warning$ -- 0
-while$ -- 99
+while$ -- 312
 width$ -- 0
-write$ -- 202
+write$ -- 657
+(There was 1 warning)

@@ -3,36 +3,161 @@
 \section{Subestações de Energia}
 \label{sec:subestacao}
 
-As subestações desempenham um papel crucial na transmissão e distribuição de energia elétrica. Quando a eletricidade é gerada em uma usina, ela é produzida em uma tensão muito alta para minimizar perdas durante a transmissão por longas distâncias. As subestações recebem essa eletricidade de alta tensão e a transformam em níveis de tensão adequados para distribuição aos consumidores finais. Nesse processo, diversos equipamentos são necessários. Nele, existem os transformadores, que são os principais equipamentos responsáveis por essa transformação. Eles elevam a tensão da eletricidade recebida das usinas para tornar a transmissão mais eficiente, reduzindo as perdas de energia no processo. Em seguida, essa eletricidade passa por disjuntores, que protegem o sistema contra sobrecargas e curtos-circuitos, interrompendo o fluxo de corrente elétrica em caso de emergência. Além disso, as subestações também contam com chaves seccionadoras, que permitem isolar partes do sistema elétrico para manutenção ou reparo sem interromper o fornecimento de energia para outras áreas. Os relés de proteção monitoram constantemente o sistema elétrico em busca de falhas e anomalias, acionando os dispositivos de proteção quando necessário para evitar danos aos equipamentos ou interrupções no fornecimento de energia. Os capacitores são usados para corrigir o fator de potência e melhorar a eficiência do sistema, enquanto os reatores de núcleo de ar ajudam a controlar o fluxo de energia e estabilizar a tensão. Todos esses componentes trabalham juntos para garantir que a eletricidade seja transmitida e distribuída de forma segura, confiável e eficiente, atendendo às demandas dos consumidores finais e contribuindo para o funcionamento adequado do sistema elétrico como um todo. Existem também os reatores de núcleo de ar, eles são utilizados principalmente em sistemas de alta tensão para controlar correntes de curto-circuito e proteger equipamentos sensíveis \cite{sen2021principles}.
-%Esse livro explica os fundamentos do funcionamento dos equipamentos da geração de energia
+Atualmente, o sistema elétrico do Brasil é formado por um conjunto de usinas, subestações, linhas de transmissão e demais equipamentos, que viabilizam a produção, transmissão e distribuição de energia elétrica. A energia é gerada em usinas que variam conforme os recursos utilizados, como hidroelétricas, termoelétricas, eólicas, nucleares, entre outras, e é então transportada por linhas de transmissão até subestações de energia de empresas distribuidoras. Nestas subestações, a tensão é ajustada para os níveis adequados de consumo. Esse processo elétrico é composto por três etapas principais: geração, transmissão e distribuição (figura \ref{fig:substation}). O sistema elétrico é composto por diversos elementos, sendo os mais destacados os geradores, responsáveis pela transformação de energia mecânica em elétrica, e os sistemas de transmissão e distribuição, que conduzem a energia até os consumidores. As subestações têm um papel fundamental ao ajustar a tensão na transmissão e distribuição, assegurando a confiabilidade e a qualidade do serviço elétrico fornecido aos clientes  \cite{lopes2012smart}.
 
+\begin{figure}[!h]
+    \centering
+    \begin{minipage}{0.9\linewidth}
+    \centering
+    \captionsetup{justification=centering,margin=0.5cm,font=small}
+    \includegraphics[width=0.7\linewidth]{img/cap2/substation.jpeg}
+    \caption{Representação dos componentes do sistema de geração e transmissão de energia \cite{lopes2012smart}}.
+    \label{fig:substation}
+    \end{minipage}
+\end{figure}
 
-\section{Redes Neurais}
+De modo geral, portanto, a energia é obtida por geradores e transmitida para subestações primárias. Há aí a primeira aferição de qualidade dos níveis de transmissão. Após isso, a energia transformada é enviada para subestações de distribuição, alterada para níveis mais baixos para serem transmitidas para setores industriais e urbanos \cite {barreto2022proposta}.
+
+É importante destacar que a energia produzida no Brasil é oriunda majoritariamente de fontes renováveis, em especial da geração hidroelétrica, correspondendo a 69\% de toda malha produtora. Ela é considerada uma energia limpa, de baixo custo e possui reduzida emissão de gases de efeito estufa. \cite {de2015hydroelectric}. 
+
+Analisando mais detalhadamente as subestações, podemos afirmar que elas são encarregadas de regular a tensão tanto na transmissão quanto na distribuição de energia. Elas operam de forma autônoma, contando com sistemas supervisórios para o controle e supervisão remotos. Dentro das subestações, funções como comutação, proteção e controle também são desempenhadas. Um dos problemas que as subestações resolvem é a interrupção de curtos-circuitos, utilizando para isso disjuntores. Existem diversos tipos de subestações: as de transmissão, que conectam linhas de transmissão com diferentes voltagens; as de distribuição, que ligam linhas de transmissão a linhas de distribuição e regulam a tensão; e as subestações coletoras, que são utilizadas na geração de energia eólica para conectar a geração às linhas de transmissão. Portanto, as subestações são fundamentais para garantir a confiabilidade e a qualidade do fornecimento de energia  \cite{lopes2012smart}.
+
+\begin{figure}[!h]
+    \centering
+    \begin{minipage}{0.5\linewidth}
+    \centering
+    \captionsetup{justification=centering,margin=0.5cm,font=small}
+    \includegraphics[width=0.7\linewidth]{img/cap2/reator-ar.jpeg}
+    \caption{Reatores de Núcleo de ar em uma subestação de energia \cite{reatorNucleoDeAr}}.
+    \label{fig:reator}
+    \end{minipage}
+\end{figure}
+
+Dentre os diversos equipamentos que compõem a subestação de energia, um em particular será objeto de estudo neste trabalho: os reatores de núcleo de ar (Figura \ref{fig:reator}). Contudo, o interesse reside em seu formato geométrico, que será tratado posteriomente. Nota-se que possui um corpo cilíndrico. Em seu topo, pode possuir ou não uma proteção circular contras as intempéries. Estes dispositivos são essenciais para a regulação da reatividade e controle de correntes indutivas em sistemas de transmissão e distribuição de energia. Diferentemente dos reatores de núcleo de ferro, os reatores de núcleo de ar oferecem vantagens como uma resposta mais linear e a capacidade de operar sem saturação magnética, o que os torna ideais para aplicações onde é necessário um comportamento previsível e estável \cite{de2012reatores}. 
+
+\section{Redes Neurais Artificiais}
 \label{sec:redesneurais}
 
-As redes neurais artificiais são modelos computacionais inspirados no funcionamento do cérebro humano, compostos por neurônios interconectados que processam informações. Elas são amplamente utilizadas em diversas áreas, como reconhecimento de padrões, processamento de linguagem natural, visão computacional e muitas outras aplicações de aprendizado de máquina. Em \citeonline{rumelhart1986learning}, descreve-se pioneiramente o algoritmo de retropropagação, fundamental para o treinamento de redes neurais profundas.
+A RNA trata-se de um conjunto de técnicas que buscam simular o funcionamento do cérebro humano, a partir de algoritmos computacionais, a fim de resolver problemas específicos. Sua eficiência está relacionada com a quantidade de interações que as unidades de processamento que o compõem realizam entre si. Comparam-se as RNA à mente humana devido a sua capacidade de aprendizado, podendo generalizar funções a partir de alguns exemplos informados, e delas prever o comportamento de valores para os quais não foi fornecido a resposta esperada. A base do funcionamento da RNA está no conceito do neurônio artificial (NA), que se traduz como uma pequena unidade de processamento, capaz de receber um sinal simples, e a partir dele gerar uma resposta.  De acordo com  \cite{fleck2016redes}, a primeira noção de NA surge em 1943, no trabalho Warren McCulloch e Walter Pitts, no artigo: “A Logical Calculus of the Ideas Immanent in Nervous Activity”.
 
-Sua estrutura é composta por unidades básicas chamadas de neurônios ou nós, que são organizados em camadas interconectadas. Existem três tipos principais de camadas em uma rede neural: camada de entrada, camadas ocultas e camada de saída.
+Matematicamente, o NA recebe um valor de entrada, realizando com ele o produto desse valor a um outro denominado peso. O resultado é comparado com um diferenciador: se for maior, será dada a saída verdadeira; se menor, falso. Na figura \ref{fig:na}, esse processo é demonstrado de maneira esquemática. A operação descrita, chamada também de threshold logic, i.e., lógica limiar, em tradução livre, mimetiza o funcionamento de um componente eletrônico chamado transistor, base do funcionamento dos processadores computacionais modernos, em que a passagem de corrente elétrica por ele é interrompida ou permitida com base no sinal de entrada \cite {mcculloch1943logical}. 
+
+\begin{figure}[!h]
+    \centering
+    \begin{minipage}{0.9\linewidth}
+    \centering
+    \captionsetup{justification=centering,margin=0.5cm,font=small}
+    \includegraphics[width=0.7\linewidth]{img/cap2/na-completo.png}
+    \caption{Representação de um NA \cite{adorno2017}}.
+    \label{fig:na}
+    \end{minipage}
+\end{figure}
+
+Aprofundando-se na álgebra relacionada do NA, pode-se visualizar o esquema do seu funcionamento na figura \ref{fig:na}, e também acompanhar a definição de cada envolvido nesta operação \cite{deeplearningbook2023}:
 
 \begin{itemize}
-\item Camada de Entrada: Esta é a camada que recebe os dados de entrada. Cada nó nesta camada representa uma característica ou atributo dos dados que estão sendo alimentados na rede neural. Por exemplo, em uma aplicação de reconhecimento de imagens, cada nó na camada de entrada pode representar um pixel da imagem.
-\item Camadas Ocultas: Estas são as camadas intermediárias entre a camada de entrada e a camada de saída. Cada neurônio em uma camada oculta recebe entradas das camadas anteriores, realiza algum tipo de transformação não linear dessas entradas e passa o resultado para a próxima camada. A presença de múltiplas camadas ocultas permite que a rede aprenda representações complexas e abstratas dos dados.
-\item Camada de Saída: Esta é a camada final da rede neural que gera as saídas desejadas. A estrutura da camada de saída depende do tipo de problema que está sendo resolvido. Por exemplo, em um problema de classificação, cada nó na camada de saída pode representar uma classe diferente, e a saída pode ser interpretada como a probabilidade de pertencer a cada classe.
-\end{itemize}
+    \item \textbf{Sinais de entrada}: Constituem-se os sinais, ou valores, externos ao modelo, muitas vezes submetidos a algum tratamento prévio, responsáveis por alimentar a rede.
+    \item \textbf{Pesos sinápticos}: Também chamados apenas de pesos, ponderam os sinais de cada entrada da rede.
+    \item \textbf{Combinador linear}: Operação aritmética envolvendo os sinais de entrada a fim de gerar um potencial de ativação.
+    \item \textbf{Bias}: O bias é um valor adicional que é somado à combinação linear das entradas antes de passar pela função de ativação, visando ajustá-la para que os dados melhor se adaptem à rede.
+    \item \textbf{Limiar de ativação}: Também denominado threshold, determina o nível adequado em que o resultado obtido pelo combinador linear pode acionar a ativação.
+    \item \textbf{Potencial de ativação}: É o resultado decorrente da discrepância entre o valor gerado pelo combinador linear e o limiar de ativação. Se esse resultado for positivo, indicando \(u \geq 0\), o neurônio gera um potencial de excitação; caso contrário, o potencial será inibitório.
+    \item \textbf{Função de ativação}: Sua função é restringir a saída de um neurônio dentro de um determinado intervalo de valores.
+    \item \textbf{Sinal de saída}: Resultado final da saída, que pode ser utilizado como entrada para outros neurônios interligados sequencialmente.
+  \end{itemize}  
 
-O funcionamento básico de uma rede neural ocorre em duas fases principais: propagação para a frente (forward propagation) e retropropagação do erro (backpropagation).
+  Em suma, a RNA, enquanto um conjunto de NA, pode ser entendido como um processador robusto, distribuído de maneira paralela, com pequenas unidades de processamento. Sua semelhança ao cérebro humano, deve-se, portanto, à capacidade de aprendizado e aos sinais sinápticos, existentes entre os neurônios, responsáveis pelo processo de armazenamento de conhecimento \cite{haykin2001redes}.
+	
+  De acordo com  \cite{rauber2005redes}, em 1958, após à concepção do NA, a primeira RNA a se notabilizar e a continuar sendo utilizada até o presente momento trata-se da Perceptron \cite{rosenblatt1958perceptron}. Este algoritmo possuía a capacidade de alterar os pesos dos neurônios, conforme o avanço do processamento da rede, de modo a resolver problemas resolvendo classificação linear. Seguido a ela, em 1960, houve a concepção da rede Adaline \cite{widrow1960adaptive}. Diferentemente da perceptron, esta rede já se mostrava capaz de produzir resultados que iam além dos valores binários, sendo capaz de gerar respostas de valores presentes em todo o conjunto dos números reais. O cálculo da rede Adaline era baseado na regra Delta, que era capaz de aproximar os valores dos pesos gerados para aqueles valores com menor erro possível. Ambas as redes, contudo, apresentavam uma limitação quanto à modificação dos pesos em todas suas multicamadas. Para esse cenário, foi proposto o conceito de backpropagation, ou, em tradução livre, retropropagação do erro \cite{rumelhart1986learning}. A ideia da retropropagação se inicia com o feedforward, em que todos os dados de entrada de uma RNA são transmitidos do início à camada de saída, sem nenhuma alteração de peso. Desta forma, calcula-se o erro total dessa primeira passagem, comparando o valor resultante com o esperado. Essa métrica de erro torna-se o guia para o ajuste dos pesos entre as conexões de cada neurônio. Com ela, é feito o caminho de volta, e calculado um gradiente de erro, que será o fator decisivo para a atualização dos pesos durante todo o treinamento.
+  
+  A topologia básica de uma rede neural é dividida em três níveis de camada: a camada de entrada, a camada oculta e a camada de saída, conforme mostrado na figura \ref{fig:topologia}. A camada de entrada é, naturalmente, aquela que recebe os dados de entrada. Nela, cada nó representa uma característica ou atributo dos dados que estão sendo alimentados na rede neural. Por exemplo, em uma aplicação de reconhecimento de imagens, cada nó na camada de entrada pode representar um pixel da imagem. A camada oculta, que não se restringe a apenas uma, podendo ser várias, representa um processo intermediário entre a camada de entrada e a camada de saída. Cada neurônio em uma camada oculta recebe entradas das camadas anteriores, realiza algum tipo de transformação não linear dessas entradas e passa o resultado para a próxima camada. A presença de múltiplas camadas ocultas permite que a rede aprenda representações complexas e abstratas dos dados. Por bim, a camada de saída representa a camada final, e ela é responsável por gerar as saídas desejadas. A estrutura da camada de saída depende do tipo de problema que está sendo resolvido. Por exemplo, em um problema de classificação, cada nó na camada de saída pode representar uma classe diferente, e a saída pode ser interpretada como a probabilidade de pertencer a cada classe \cite{rauber2005redes}.
+  
+  \begin{figure}[!h]
+      \centering
+      \begin{minipage}{0.9\linewidth}
+      \centering
+      \captionsetup{justification=centering,margin=0.5cm,font=small}
+      \includegraphics[width=0.7\linewidth]{img/cap2/topologia-rede.jpeg}
+      \caption{Topologia básica de uma rede neural \cite{fleck2016redes}}.
+      \label{fig:topologia}
+      \end{minipage}
+  \end{figure}  
 
-\begin{itemize}
-\item Propagação para a Frente: Durante esta fase, os dados são alimentados na rede neural através da camada de entrada e propagam-se através das camadas ocultas até a camada de saída. Cada neurônio em cada camada aplica uma transformação às suas entradas e passa o resultado para os neurônios na próxima camada.
-\item Retropropagação do Erro: Após a propagação para a frente, a rede compara as saídas previstas com as saídas reais desejadas e calcula a diferença entre elas, chamada de erro. Em seguida, esse erro é propagado de volta através da rede, começando pela camada de saída e indo em direção à camada de entrada. Durante essa retropropagação, os pesos das conexões entre os neurônios são ajustados de acordo com o gradiente do erro em relação aos pesos, usando um algoritmo de otimização como o gradiente descendente, a fim de minimizar o erro global da rede.
-\end{itemize}
+Essencialmente, as redes neurais aprendem iterativamente ajustando os pesos de suas conexões através do processo de treinamento, onde são apresentados a um conjunto de dados de entrada e as correspondentes saídas desejadas. Com o tempo, a rede neural é capaz de aprender a mapear efetivamente os padrões nos dados de entrada para as saídas desejadas, tornando-se assim capaz de realizar tarefas como reconhecimento de padrões, classificação, regressão, entre outros \cite{haykin2001redes}.
 
-Essencialmente, as redes neurais aprendem iterativamente ajustando os pesos de suas conexões através do processo de treinamento, onde são apresentados a um conjunto de dados de entrada e as correspondentes saídas desejadas. Com o tempo, a rede neural é capaz de aprender a mapear efetivamente os padrões nos dados de entrada para as saídas desejadas, tornando-se assim capaz de realizar tarefas como reconhecimento de padrões, classificação, regressão, entre outros.
+\begin{figure}[!h]
+    \center
+    \begin{minipage}{0.9\linewidth}
+    \center
+    \captionsetup{justification=centering,margin=0.5cm,font=small}
+    \includegraphics[width=0.7\linewidth]{img/cap2/gato.png}
+    \caption{ Exemplificação de como uma imagem nada mais é que uma matriz, e como a filtragem busca padrões pré-estabelecidos dentro da imagem \cite{lima2020captcha}} 
+    \label{fig:gato}
+    \end{minipage}
+\end{figure}
+
+Contudo, para problemas envolvendo aprendizado por meio de imagens, a forma de lidar com as informações é diferente. De fato, imagens são dados, organizados em formato de matrizes de duas dimensões ou três dimensões (se for considerada a camada de cores), em que cada unidade de informação se chama pixel, conforme se nota no exemplo da figura \ref{fig:gato}. Para processar esses dados, um tipo de RNA destaca-se: a Rede Neural Convolucional (RNC). Comparando ambas, nota-se que a RNA é composta por camadas intrinsecamente conectadas, em que cada neurônio de uma camada se conecta a todos os neurônios da camada seguinte. Isso faz com que ela seja adequada para dados vetorizados e para problemas de classificação e regressão sem uma estrutura espacial ou temporal específica. Por sua vez, a RNC recorre a dois tipos de camadas (figura \ref{fig:rnc}): a convolucional, cujo objetivo é extrair características locais, e a de pooling, responsável por manter a estrutura espacial essencial \cite{vargas2016estudo}. 
+
+\begin{figure}[!h]
+    \centering
+    \begin{minipage}{0.9\linewidth}
+    \centering
+    \captionsetup{justification=centering,margin=0.5cm,font=small}
+    \includegraphics[width=0.7\linewidth]{img/cap2/cnn.jpeg}
+    \caption{Esquema de funcionamento de uma RNC \cite{vargas2016estudo}}.
+    \label{fig:rnc}
+    \end{minipage}
+\end{figure}
+
+A camada de convolução, portanto, é responsável pela feature extractor, i.e., pela extração de características de interesse em uma imagem. Basicamente, são aplicados filtros, também chamados de kernel, à imagem a fim de buscar padrões. São comumente empregados filtros de detecção de bordas (edge detection), desfoque (blur), nitidez (sharpen). Conforme na figura \ref{fig:kernel}, cada elemento do filtro é multiplicado pelo elemento de mesma posição na região em que o filtro está sendo aplicado naquele instante. Ao final dessas operações matriciais, adiciona-se os resultados dessas multiplicações para ter um único valor como saída, que será o pixel correspondente na imagem filtrada \cite{rodrigues2023visao} . 
+
+\begin{figure}[!h]
+    \center
+    \begin{minipage}{0.9\linewidth}
+    \center
+    \captionsetup{justification=centering,margin=0.5cm,font=small}
+    \includegraphics[width=0.7\linewidth]{img/cap2/filtro.png}
+    \caption{ Operação de filtragem na camada convolucional. Nota-se que o filtro é uma multiplicação de matrizes \cite{shorthistory}} 
+    \label{fig:kernel}
+    \end{minipage}
+\end{figure}
+
+A camada de pooling é aplicada após cada camada convolucional, com o objetivo de reduzir as dimensões das imagens enquanto mantém a profundidade do volume. Esse processo promove a invariância da Rede Neural Convolucional (RNC) às transformações geométricas, permitindo à rede reconhecer objetos na imagem independentemente de sua posição. Além disso, o uso da camada de pooling contribui para diminuir significativamente o custo computacional da rede. Existem diferentes tipos de pooling, como o max pooling, que seleciona o valor máximo em uma região específica da imagem, e o average pooling, que calcula a média dos valores nesta região. O max pooling é o mais comum, pois preserva as características mais salientes das imagens, enquanto reduz o ruído. A camada de pooling, ao reduzir o tamanho espacial dos mapas de características, também ajuda a evitar um problema comum no aprendizado de máquina, em que um modelo aprende não apenas os padrões relevantes dos dados de treinamento, mas também o ruído e as particularidades específicas desses dados. Chama-se este problema de overfitting. Evitando-o, a rede consegue construir um treinamento mais generalizável e que possa gerar resultados relevantes para dados diferentes do modelo treinado \cite{lima2020captcha}.
+
+Por último, a camada totalmente conectada emprega uma função de ativação na sua camada de saída para realizar a classificação. Ser "totalmente conectada" significa que todos os neurônios da camada anterior estão ligados a todos os neurônios da camada subsequente. Ela recebe as saídas da camada de convolução e da camada de pooling e, em seguida, utiliza essas informações para determinar a classe à qual a imagem de entrada pertence \cite{silva2018estudo}.
+
+As RNC representam por si só uma revolução no campo da visão computacional, tornando-se a base para uma variedade de aplicações, desde reconhecimento de imagens até análise de vídeos. Entre as arquiteturas mais notáveis estão a LeNet, AlexNet, VGGNet, GoogLeNet e ResNet, cada uma contribuindo com avanços significativos em profundidade, eficiência e precisão. Além dessas, uma destaca-se em especial: a YOLO (“You Only Look Once”, em tradução livre, “você olha apenas uma vez”), uma abordagem inovadora para treinamento e detecção de objetos \cite{carboni2021sistema}.
 
 \subsection{You Look Only Once}
 \label{sec:yolo}
 
-YOLO (You Only Look Once) é um modelo de detecção de objetos em imagens e vídeos em tempo real, que se destaca por sua eficiência e precisão. Desenvolvido por Joseph Redmon, Santosh Divvala, Ross Girshick e Ali Farhadi, o YOLO aborda o problema de detecção de objetos como uma única tarefa de regressão, prevendo caixas delimitadoras e probabilidades de classe diretamente de imagens inteiras em uma única passagem pela rede neural. O funcionamento do YOLO começa com a divisão da imagem de entrada em uma grade, geralmente de dimensões como 7x7 ou 9x9. Cada célula dessa grade é responsável por prever um conjunto de caixas delimitadoras e as probabilidades das classes dos objetos contidos nessa célula. Para cada célula da grade, o modelo faz previsões sobre as caixas delimitadoras que contêm objetos, representadas por cinco valores: coordenadas (x, y) do centro da caixa, largura (w) e altura (h) da caixa, e a confiança de que a caixa contém um objeto. Além disso, são previstas as probabilidades de cada classe para cada caixa delimitadora. Após a predição das caixas delimitadoras, o YOLO utiliza um processo chamado Non-max Suppression (Supressão de Não-Máximo) para refinar as previsões e eliminar caixas sobrepostas ou redundantes, mantendo apenas as detecções mais confiáveis. Esse processo envolve a supressão de caixas que têm uma sobreposição significativa e a escolha da caixa com a maior confiança entre as caixas sobrepostas. A saída do YOLO é uma lista de caixas delimitadoras, cada uma associada a uma classe prevista e sua confiança. Essas caixas delimitadoras representam os objetos detectados na imagem, fornecendo informações sobre sua localização e classificação. Em resumo, o YOLO oferece uma abordagem eficaz e eficiente para a detecção de objetos em tempo real, consolidando-se como uma ferramenta valiosa em diversas aplicações, desde sistemas de segurança até veículos autônomos \cite{redmon2016youlookonce}.
+YOLO, uma Rede Neural Convolutiva (RNC), é conhecida por sua eficácia e precisão na detecção de objetos em imagens e vídeos. Desenvolvida por Joseph Redmon, Santosh Divvala, Ross Girshick e Ali Farhadi em 2015, a arquitetura do YOLO foi apresentada em sua primeira versão no artigo "You Only Look Once: Unified, Real-Time Object Detection" \cite{redmon2016youlookonce}.
+\begin{figure}[!h]
+    \center
+    \begin{minipage}{0.9\linewidth}
+    \center
+    \captionsetup{justification=centering,margin=0.5cm,font=small}
+    \includegraphics[width=0.7\linewidth]{img/cap2/RNC-YOLO.jpeg}
+    \caption{ Disposição das 24 camadas convolucionais e das 2 camadas totalmente conectadas \cite{redmon2016youlookonce}} \label{fig:rnc-yolo}
+    \end{minipage}
+\end{figure}
+
+A arquitetura do YOLO é singular: ao contrário de outras RNCs que fazem múltiplas passagens pela imagem em busca de objetos, o YOLO analisa a imagem inteira de uma vez, justificando seu nome, que em tradução livre significa “você olha apenas uma vez”. Essa abordagem permite ao YOLO aplicar uma única rede neural à imagem completa. Durante o processamento, a imagem é dividida em regiões menores, e a rede prevê caixas delimitadoras, as probabilidades de existência de objetos nessas caixas, e a classe provável de cada objeto. Sua classificação, enquanto rede neural, vai além da RNC, pois ela utiliza uma arquitetura conhecida como Darknet, um tipo de rede neural profunda (variação da RNC) e sua implementação original foi desenvolvida em C, embora agora esteja disponível em várias outras linguagens de programação, graças ao apoio da comunidade e de empresas. Quando utilizada para treinamento sua estrutura básica, estabelecida em sua primeira versão, segue, evidentemente, o padrão de uma RNC. As camadas convolucionais iniciais da rede extraem características da imagem, enquanto as camadas totalmente conectadas preveem as probabilidades de saída e as coordenadas (Figura \ref{ig:rnc-yolo}). Em sua primeira versão, a rede possuia 24 camadas convolucionais seguidas por 2 camadas totalmente conectadas. cite{yoloVisaoComputacional}.
+Embora existam várias versões do YOLO, há um funcionamento geral da arquitetura. O primeiro passo do YOLO é dividir a imagem em uma grade de células S por S. Nas versões iniciais, essa grade era de 13x13, totalizando 169 células, enquanto nas versões mais recentes é de 19x19. Cada célula é responsável por prever/detectar 5 caixas delimitadoras, pois pode haver múltiplos objetos em uma única célula. Portanto, na versão de exemplo do YOLO, há um total de 845 caixas delimitadoras (13x13x5). Na figura \ref{fig:yolo}, esse processo é representado. Notam-se diversas caixas, aquelas com bordas mais grossas indicam que a probabilidade de a demarcação estar representando o objeto que se propõe é alta. \cite{jiang2022review}.
+
+\begin{figure}[!h]
+    \center
+    \begin{minipage}{0.9\linewidth}
+    \center
+    \captionsetup{justification=centering,margin=0.5cm,font=small}
+    \includegraphics[width=0.7\linewidth]{img/cap2/processo-predicao-YOLO.jpeg}
+    \caption{ Processo de predição da Yolo \cite{redmon2016youlookonce}} \label{fig:yolo}
+    \end{minipage}
+\end{figure}
+
+A partir da YOLOv3, foram introduzidos conceitos para definir algumas partes de sua arquitetura. Primeiramente, define-se a camada de backbone, ou espinha dorsal. Basicamente, é nesta etapa que ocorre a extração de características significativas para o processo de classificação. Ela captura características hierárquicas em diferentes escalas, com características de nível inferior (como bordas e texturas) nas camadas iniciais e características de nível superior (como partes de objetos e informações semânticas) nas camadas mais profundas. O neck, ou pescoço, conecta a camada backbone à head, ou cabeça, agregando e refinando as características extraídas, muitas vezes focando em melhorar a informação espacial e semântica em diferentes escalas. A head processa as características fornecidas pelo neck, gerando previsões para cada candidato a objeto. Resumindo, a partir da YOLOv3, a arquitetura foi dividida em três partes: backbone para extração de características; neck para agregar e refinar características; e head para fazer previsões. A espinha dorsal usa uma CNN para capturar características hierárquicas, o pescoço melhora a informação espacial e semântica, e a head gera as previsões finais, que são refinadas por pós-processamento para eliminar sobreposições \cite{terven2023comprehensive}.
+
+Atualmente, a oitava versão da YOLO, ou, YOLOv8 , é considerada estado da arte em se tratando de análise e treinamento de imagens \cite{ultralytics2024}. YOLOv8 traz uma série de avanços significativos em relação às versões anteriores, destacando-se pela melhoria no desempenho e precisão das detecções. A arquitetura foi otimizada para equilibrar velocidade e precisão, utilizando backbones modernos como CSPDarknet para uma extração de características mais eficiente. O processo de treinamento foi acelerado e aprimorado com melhores métodos de regularização e otimização, enquanto a facilidade de uso e integração foi aprimorada, atendendo às demandas tanto de dispositivos de alta performance quanto de dispositivos móveis com menor capacidade de processamento \cite{hussain2023yolo}.
 
 
 \subsection{Batch}
@@ -40,19 +165,25 @@ YOLO (You Only Look Once) é um modelo de detecção de objetos em imagens e ví
 
 Um dos aspectos cruciais do funcionamento da YOLO é o conceito de "batch" (em tradução livre, "lote") durante o treinamento da rede neural. Ao agrupar várias imagens em lotes para processamento simultâneo, a YOLO aproveita a capacidade de processamento paralelo das GPUs, acelerando significativamente o treinamento. Durante a propagação direta, cada imagem no lote é processada pela rede neural para gerar previsões de detecção de objetos. Em seguida, a perda é calculada em relação às anotações verdadeiras, e os pesos da rede são atualizados para minimizar essa perda, usando algoritmos de otimização como o gradiente descendente. Esse processo é repetido para vários lotes de imagens até que a rede convirja para uma solução adequada. Assim, o uso eficiente de lotes na YOLO não apenas acelera o treinamento, mas também contribui para a robustez e eficácia dos modelos de detecção de objetos resultantes. \cite{goodfellow2016deep}
 
-%A reasonable choice of optimization algorithm is SGD with momentum with a decaying learning rate (popular decay schemes that perform better or worse on
-%different problems include decaying linearly until reaching a fixed minimum learning
-%rate, decaying exponentially, or decreasing the learning rate by a factor of 2-10
-%each time validation error plateaus). Another very reasonable alternative is Adam.
-%Batch normalization can have a dramatic effect on optimization performance,
-%especially for convolutional networks and networks with sigmoidal nonlinearities.
-%While it is reasonable to omit batch normalization from the very first baseline, it
-%should be introduced quickly if optimization appears to be problematic.
-
 \subsection{Otimizadores}
 \label{sec:otimizadores}
 
-Falar sobre o Otimizadores....!!!
+O objetivo dos algoritmos de aprendizado de máquina supervisionados é otimizar a redução de uma função objetivo, geralmente chamada de função de custo J. Reduzir essa função é crucial, pois a rede precisa aprender os pesos que melhor representam o relacionamento entre os dados, formando um modelo preditivo para fazer previsões em novos conjuntos de dados. O algoritmo de otimização mais simples para encontrar esses pesos é o Gradiente Descendente (GD), onde se realiza pequenos passos em direção ao mínimo global da função de custo. No entanto, o GD enfrenta dificuldades com conjuntos de dados muito grandes devido à sua abordagem em lote, tornando o treinamento computacionalmente caro. Uma alternativa popular é o Gradiente Descendente Estocástico (SGD, sigla para a expressão em inglês “Stochastic Gradient Descent”), que aplica atualizações de peso com base em amostras aleatórias de dados de treinamento, resultando em convergência mais rápida. O  SGD possui três parâmetros importantes que podem influenciar no treinamento da rede neural: a taxa de aprendizagem, que determina quão rápido o otimizador tentará treinar a rede neural, com uma taxa muito alta podendo levar a falhas no treinamento e uma taxa muito baixa resultando em treinamento lento; o momentum, que indica quanto a direção da mudança de peso anterior deve influenciar na etapa atual, acelerando o treinamento ao permitir que o otimizador "persista" em direções com histórico de melhoria; e o decay, utilizado para diminuir a taxa de aprendizagem conforme os erros diminuem durante o treinamento, evitando oscilações excessivas e permitindo uma convergência mais suave do modelo \cite{silva2018estudo}.
+
+\begin{figure}[!h]
+    \center
+    \begin{minipage}{0.9\linewidth}
+    \center
+    \captionsetup{justification=centering,margin=0.5cm,font=small}
+    \includegraphics[width=0.7\linewidth]{img/cap2/sgd.jpeg}
+    \caption{ Demonstração visual do SGD buscando o valor de custo mínimo, representado no eixo vertial \cite{sgdMedium}} \label{fig:sgd}
+    \end{minipage}
+\end{figure}
+
+Além do SGD, outro algoritmo de otimização recorrente é o Adam (“Adaptive Moment Estimation”, em tradução livre, “Estimação Adaptativa de Momento”). O otimizador Adam é um algoritmo popular de otimização de gradientes utilizado em treinamento de redes neurais e outras tarefas de aprendizado de máquina. Ele calcula e mantém estimativas adaptativas dos momentos do gradiente, incluindo o primeiro momento (média) e o segundo momento (variância). Essas estimativas são utilizadas para calcular uma correção de gradiente, chamada de momento Adam, que ajusta adaptativamente a taxa de aprendizagem para cada parâmetro. Além disso, o Adam inclui termos de regularização L2 para evitar que os pesos cresçam excessivamente durante o treinamento. Essa abordagem combinada de momentos adaptativos e ajuste de taxa de aprendizagem torna o Adam eficiente, fácil de implementar e eficaz em uma variedade de problemas de otimização \cite{kingma2014adam}.
+
+Há também uma variação do Adam, que seria o AdamW. Esta variante do otimizador Adam que inclui regularização de peso ponderada diretamente no processo de atualização dos parâmetros, ao contrário do Adam tradicional, onde a regularização é aplicada separadamente após a atualização. Isso ajuda a corrigir problemas de "decaimento de pesos" em modelos de aprendizado profundo, resultando em melhor desempenho e capacidade de generalização \cite{zhou2024towards}.
+
 
 \subsection{Precisão e Recall}
 \label{sec:precisaorecall}
@@ -94,10 +225,13 @@ A arquitetura YOLO disponibiliza um dataset, ou seja, um banco de imagens e weig
 \section{Realidade Virtual}
 \label{sec:precisaorecall}
 
-A realidade virtual é uma tecnologia que permite aos usuários imergirem em ambientes virtuais tridimensionais, geralmente através do uso de dispositivos como óculos de realidade virtual (VR) ou capacetes. Desde suas primeiras manifestações nas décadas de 1960 e 1970, quando ainda era experimental e limitada, a realidade virtual tem evoluído consideravelmente. No entanto, foi na década de 1990 que essa tecnologia começou a ganhar destaque comercial, com o lançamento de dispositivos como o Virtual Boy da Nintendo e os primeiros sistemas de realidade virtual para computadores pessoais. Desde então, a realidade virtual tem sido aplicada em uma variedade de campos, incluindo jogos, simulações, treinamento, educação e terapia. Sua popularidade continuou a crescer com o avanço da tecnologia, oferecendo experiências cada vez mais imersivas e acessíveis \cite{kirner2011evoluccao}.
+RV pode ser definida como um ambiente gerado a partir de um sistema computacional em que o usuário não apenas se sente dentro do contexto artificial, como também possibilita ao usuário a consciência de que pode navegar e interagir neste ambiente virtual. Trata-se, por isso, de uma interessante interface em um ser humano, um computador, capaz de gerar navegabilidade, interações e, principalmente, imersão em um ambiente sintético, gerado computacionalmente por meio de canais multisensoriais. Além disso, a RV pode ser classificada de duas formas diferentes: Imersiva e Não-imersiva. Na primeira, cria-se uma RV que isole o usuário do mundo real. Seus sentidos são bloqueados para recepção dos estímulos do seu entorno, para se direcionarem àqueles oriundos do mundo fictício. Para tanto, uma ampla variedade de equipamentos, como fones de ouvidos, luvas de dados, óculos de RV, entre outros, são empregados para os resultados esperados. Já a RV Não-Imersiva não se isola do mundo real. Ou seja, o usuário tem consciência de que está em um ambiente artificial. Da mesma forma, uma ampla variedade de equipamentos é empregada para gerar essa interação, incluindo dispositivos do cotidiano, como mouses, monitores de computador. Uma grande variedade de dispositivos convencionais e não-convencionais pode compor  essa interação \cite {cardoso2007tecnologias}.
 
-%Citar trabalho alexandre
-%O artigo de kirner2011evoluccao, faz um panorama da história da realidade virtual.
+É importante que os três conceitos da RV sempre sejam presentes em uma aplicação do tipo, sendo eles: interação, imersão e navegação \cite{kalawsky1993science}.
+
+O surgimento da RV data de 1963, em que foi apresentado uma aplicação de manipulação de objetos tridimensionais em um computador, denominada Sketchpad \cite {sutherland1963sketchpad}. A aplicação conseguia reproduzir interatividade por meio de uma caneta óptica, que era utilizada para seleção de objetos projetados em uma tela. Neste trabalho, surgiram alguns dos principais termos da RV, como representação visual, dispositivos especiais, e interações em tempo real. Em 1968, o mesmo autor do trabalho anterior, Sutherland, publicou outro trabalho marcante para a história: A Head-Mounted Three Dimensional Display \cite{sutherland1968head}. Nele, foi introduzido o conceito de imersividade para uma RV; no caso, um capacete capaz de projetar fotos diretamente aos olhos do usuário, assim como rastrear o movimento da cabeça, afim de que este movimento fosse responsivo no ambiente virtual. Seguido a isso, uma série de outros equipamentos foram desenvolvidos a fim de sofisticar as soluções do ramo e propor novos modelos. A tendência sempre prevaleceu de surgir ferramentas mais simples e acessíveis ao usuário final \cite{kirner2011evoluccao}.
+
+Além das aplicações lúdicas, a RV atua de maneira séria e efetiva em diversas áreas técnicas. Como ferramenta para treinamento de operadores em ambientes de risco e de difícil simulação, torna-se uma alternativa viável para capacitação.  O trabalho de \cite{silva2012virtual} demonstra bem essa ideia ao investigar técnicas de RV para que uma pessoa comum, sem treinamento anterior, possa, de maneira segura à uma subestação em funcionamento e à própria pessoa e todos ao seu redor, interagir com um transformador de energia, executando todos procedimentos que teria em um ambiente real, contudo de maneira virtual. Este treinamento já seria uma base interessante para que um profissional pudesse agilizar seu treinamento no mundo real ou mesmo absorvê-los. Em trabalhos de alta periculosidade tudo é crítico; então, qualquer intervenção que possa atenuar os riscos inerentes à natureza do trabalho, traz grandes avanços ao processo de profissionalização de técnicos e pessoas interessadas. 
 
 \section{Considerações finais}
 

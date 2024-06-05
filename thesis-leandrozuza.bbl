@@ -5,16 +5,102 @@
 \providecommand{\abntbstabout}[1]{}
 \abntbstabout{v-1.9.7 }
 
+\bibitem[Adorno 2017]{adorno2017}
+\abntrefinfo{Adorno}{ADORNO}{2017}
+{ADORNO, V. \emph{Redes Neurais Artificiais}. 2017.
+Medium.
+Dispon{\'\i}vel em:
+  \url{https://medium.com/@avinicius.adorno/redes-neurais-artificiais-418a34ea1a39}.}
+
+\bibitem[Andrade e Santos 2015]{de2015hydroelectric}
+\abntrefinfo{Andrade e Santos}{ANDRADE; SANTOS}{2015}
+{ANDRADE, A. de L.; SANTOS, M.~A. D. Hydroelectric plants environmental
+  viability: Strategic environmental assessment application in brazil.
+\emph{Renewable and Sustainable Energy Reviews}, Elsevier, v.~52, p.
+  1413--1423, 2015.}
+
+\bibitem[Brasil 2023]{deeplearningbook2023}
+\abntrefinfo{Brasil}{BRASIL}{2023}
+{BRASIL, D. L.~B. \emph{O Neurônio Biológico e Matemático}. 2023.
+Acessado em: 2 de junho de 2024.
+Dispon{\'\i}vel em:
+  \url{https://www.deeplearningbook.com.br/o-neuronio-biologico-e-matematico/\#:~:text=Limiar\%20de\%20ativa\%C3\%A7\%C3\%A3o\%20\%7B\%20\%CE\%98\%20\%7D\%3A,e\%20o\%20limiar\%20de\%20ativa\%C3\%A7\%C3\%A3o.}}
+
+\bibitem[Carboni 2021]{carboni2021sistema}
+\abntrefinfo{Carboni}{CARBONI}{2021}
+{CARBONI, D.~F. Sistema para identifica{\c{c}}{\~a}o de plantas invasoras em
+  lavouras com detectores de objetos aplicados a imagens e v{\'\i}deos.
+2021.}
+
+\bibitem[Cardoso et al. 2007]{cardoso2007tecnologias}
+\abntrefinfo{Cardoso et al.}{CARDOSO et al.}{2007}
+{CARDOSO, A. et al. Tecnologias e ferramentas para o desenvolvimento de
+  sistemas de realidade virtual e aumentada.
+\emph{Editora Universit{\'a}ria UFPE}, p. 1--19, 2007.}
+
+\bibitem[Eletrônica 2024]{reatorNucleoDeAr}
+\abntrefinfo{Eletrônica}{ELETRôNICA}{2024}
+{ELETRôNICA, A.~E. \emph{Reator Núcleo de Ar – Jauru Eletronorte 230kV}.
+  2024.
+Accessed: 2024-06-03.
+Dispon{\'\i}vel em:
+  \url{https://adseletrica.com.br/reator-nucleo-de-ar-jauru-eletronorte-230kv/}.}
+
+\bibitem[Fleck et al. 2016]{fleck2016redes}
+\abntrefinfo{Fleck et al.}{FLECK et al.}{2016}
+{FLECK, L. et al. Redes neurais artificiais: Princ{\'\i}pios b{\'a}sicos.
+\emph{Revista Eletr{\^o}nica Cient{\'\i}fica Inova{\c{c}}{\~a}o e Tecnologia},
+  v.~1, n.~13, p. 47--57, 2016.}
+
 \bibitem[Goodfellow, Bengio e Courville 2016]{goodfellow2016deep}
 \abntrefinfo{Goodfellow, Bengio e Courville}{GOODFELLOW; BENGIO;
   COURVILLE}{2016}
 {GOODFELLOW, I.; BENGIO, Y.; COURVILLE, A. \emph{Deep learning}. [S.l.]: MIT
   press, 2016.}
 
+\bibitem[Haykin 2001]{haykin2001redes}
+\abntrefinfo{Haykin}{HAYKIN}{2001}
+{HAYKIN, S. \emph{Redes neurais: princ{\'\i}pios e pr{\'a}tica}. [S.l.]:
+  Bookman Editora, 2001.}
+
+\bibitem[Hussain 2023]{hussain2023yolo}
+\abntrefinfo{Hussain}{HUSSAIN}{2023}
+{HUSSAIN, M. Yolo-v1 to yolo-v8, the rise of yolo and its complementary nature
+  toward digital manufacturing and industrial defect detection.
+\emph{Machines}, MDPI, v.~11, n.~7, p.~677, 2023.}
+
+\bibitem[Jiang et al. 2022]{jiang2022review}
+\abntrefinfo{Jiang et al.}{JIANG et al.}{2022}
+{JIANG, P. et al. A review of yolo algorithm developments.
+\emph{Procedia computer science}, Elsevier, v.~199, p. 1066--1073, 2022.}
+
 \bibitem[Jocher, Chaurasia e Qiu 2023]{ultralytics2023yolo}
 \abntrefinfo{Jocher, Chaurasia e Qiu}{JOCHER; CHAURASIA; QIU}{2023}
 {JOCHER, G.; CHAURASIA, A.; QIU, J. \emph{YOLO by Ultralytics. Ultralytics}.
   2023.}
+
+\bibitem[Junior et al. 2022]{barreto2022proposta}
+\abntrefinfo{Junior et al.}{JUNIOR et al.}{2022}
+{JUNIOR, C. d.~L. B. et al. Uma proposta de sistema de autoria baseado em
+  plantas baixas para projetar ambientes de realidade virtual: metodologia e
+  estudo de caso aplicados a subesta{\c{c}}{\~o}es de energia el{\'e}trica.
+Universidade Federal de Uberl{\^a}ndia, 2022.}
+
+\bibitem[Junior 2012]{de2012reatores}
+\abntrefinfo{Junior}{JUNIOR}{2012}
+{JUNIOR, J.~V. de O. Reatores para controle do fluxo de pot{\^e}ncia e suas
+  consequ{\^e}ncias para a qualidade de energia.
+Universidade Federal de Minas Gerais, 2012.}
+
+\bibitem[Kalawsky 1993]{kalawsky1993science}
+\abntrefinfo{Kalawsky}{KALAWSKY}{1993}
+{KALAWSKY, R. \emph{The science of virtual reality and virtual environments}.
+  [S.l.]: Addison-Wesley Longman Publishing Co., Inc., 1993.}
+
+\bibitem[Kingma e Ba 2014]{kingma2014adam}
+\abntrefinfo{Kingma e Ba}{KINGMA; BA}{2014}
+{KINGMA, D.~P.; BA, J. Adam: A method for stochastic optimization.
+\emph{arXiv preprint arXiv:1412.6980}, 2014.}
 
 \bibitem[Kirner e Kirner 2011]{kirner2011evoluccao}
 \abntrefinfo{Kirner e Kirner}{KIRNER; KIRNER}{2011}
@@ -23,12 +109,40 @@
 \emph{Realidade Virtual e Aumentada: Aplica{\c{c}}{\~o}es e Tend{\^e}ncias.
   Cap}, v.~1, p. 10--25, 2011.}
 
+\bibitem[Lima, Rubik e Morais 2020]{lima2020captcha}
+\abntrefinfo{Lima, Rubik e Morais}{LIMA; RUBIK; MORAIS}{2020}
+{LIMA, M.; RUBIK, E.; MORAIS, R. \emph{Introdução ao reconhecimento de
+  imagens}. 2020.
+Acessado em: 2 de junho de 2024.
+Dispon{\'\i}vel em:
+  \url{https://lamfo-unb.github.io/2020/12/05/Captcha-Break/}.}
+
 \bibitem[Lima e Oliveira 2021]{lima2021precarizaccao}
 \abntrefinfo{Lima e Oliveira}{LIMA; OLIVEIRA}{2021}
 {LIMA, M. E.~A.; OLIVEIRA, R.~C. Precariza{\c{c}}{\~a}o e acidentes de
   trabalho: os riscos da terceiriza{\c{c}}{\~a}o no setor el{\'e}trico.
 \emph{Revista Brasileira de Sa{\'u}de Ocupacional}, SciELO Brasil, v.~46,
   p.~e6, 2021.}
+
+\bibitem[Lopes et al. 2012]{lopes2012smart}
+\abntrefinfo{Lopes et al.}{LOPES et al.}{2012}
+{LOPES, Y. et al. Smart grid e iec 61850: Novos desafios em redes e
+  telecomunica{\c{c}}oes para o sistema el{\'e}trico.
+\emph{XXX Simp{\'o}sio Brasileiro de Telecomunica{\c{c}}{\~o}es}, 2012.}
+
+\bibitem[McCulloch e Pitts 1943]{mcculloch1943logical}
+\abntrefinfo{McCulloch e Pitts}{MCCULLOCH; PITTS}{1943}
+{MCCULLOCH, W.~S.; PITTS, W. A logical calculus of the ideas immanent in
+  nervous activity.
+\emph{The bulletin of mathematical biophysics}, Springer, v.~5, p. 115--133,
+  1943.}
+
+\bibitem[Music 2024]{shorthistory}
+\abntrefinfo{Music}{MUSIC}{2024}
+{MUSIC, R. N.~C. of. \emph{A Short History of Neural Synthesis}. 2024.
+Acessado em: 2 de junho de 2024.
+Dispon{\'\i}vel em:
+  \url{https://www.rncm.ac.uk/research/research-activity/research-centres-rncm/prism/prism-blog/a-short-history-of-neural-synthesis/}.}
 
 \bibitem[O{\u{g}}cu, Demirel e Zaim 2012]{ougcu2012forecasting}
 \abntrefinfo{O{\u{g}}cu, Demirel e Zaim}{O{\u{G}}CU; DEMIREL; ZAIM}{2012}
@@ -58,11 +172,31 @@
 {RANDOLPH, J. Electric power substations engineering [book reviews].
 \emph{IEEE Power and Energy Magazine}, IEEE, v.~11, n.~3, p. 103--105, 2013.}
 
+\bibitem[Rauber 2005]{rauber2005redes}
+\abntrefinfo{Rauber}{RAUBER}{2005}
+{RAUBER, T.~W. Redes neurais artificiais.
+\emph{Universidade Federal do Esp{\'\i}rito Santo}, v.~29, 2005.}
+
 \bibitem[Redmon et al. 2016]{redmon2016youlookonce}
 \abntrefinfo{Redmon et al.}{REDMON et al.}{2016}
 {REDMON, J. et al. You only look once: Unified, real-time object detection. In:
    \emph{Proceedings of the IEEE conference on computer vision and pattern
   recognition}. [S.l.: s.n.], 2016. p. 779--788.}
+
+\bibitem[Rodrigues 2023]{rodrigues2023visao}
+\abntrefinfo{Rodrigues}{RODRIGUES}{2023}
+{RODRIGUES, V.~B. \emph{Conhecendo a Visão do Computador: Redes Neurais
+  Convolucionais}. 2023.
+Acessado em: 2 de junho de 2024.
+Dispon{\'\i}vel em:
+  \url{https://vitorborbarodrigues.medium.com/conhecendo-a-vis\%C3\%A3o-do-computador-redes-neurais-convolucionais-e1c2b14bf426}.}
+
+\bibitem[Rosenblatt 1958]{rosenblatt1958perceptron}
+\abntrefinfo{Rosenblatt}{ROSENBLATT}{1958}
+{ROSENBLATT, F. The perceptron: a probabilistic model for information storage
+  and organization in the brain.
+\emph{Psychological review}, American Psychological Association, v.~65, n.~6,
+  p.~386, 1958.}
 
 \bibitem[Rumelhart, Hinton e Williams 1986]{rumelhart1986learning}
 \abntrefinfo{Rumelhart, Hinton e Williams}{RUMELHART; HINTON; WILLIAMS}{1986}
@@ -71,10 +205,57 @@
 \emph{nature}, Nature Publishing Group UK London, v.~323, n.~6088, p. 533--536,
   1986.}
 
-\bibitem[Sen 2021]{sen2021principles}
-\abntrefinfo{Sen}{SEN}{2021}
-{SEN, P.~C. \emph{Principles of Electric Machines and Power Electronics,
-  International Adaptation}. [S.l.]: John Wiley \& Sons, 2021.}
+\bibitem[Silva et al. 2012]{silva2012virtual}
+\abntrefinfo{Silva et al.}{SILVA et al.}{2012}
+{SILVA, R.~C. et al. Virtual substation um sistema de realidade virtual para
+  treinamento de operadores de subesta{\c{c}}{\~o}es el{\'e}tricas.
+Universidade Federal de Uberl{\^a}ndia, 2012.}
+
+\bibitem[Silva 2018]{silva2018estudo}
+\abntrefinfo{Silva}{SILVA}{2018}
+{SILVA, R. E. V.~d. Um estudo comparativo entre redes neurais convolucionais
+  para a classifica{\c{c}}{\~a}o de imagens.
+2018.}
+
+\bibitem[Sutherland 1963]{sutherland1963sketchpad}
+\abntrefinfo{Sutherland}{SUTHERLAND}{1963}
+{SUTHERLAND, I.~E. Sketchpad: A man-machine graphical communication system.
+p. 329--346, 1963.}
+
+\bibitem[Sutherland 1968]{sutherland1968head}
+\abntrefinfo{Sutherland}{SUTHERLAND}{1968}
+{SUTHERLAND, I.~E. A head-mounted three dimensional display.
+p. 757--764, 1968.}
+
+\bibitem[Terven e Cordova-Esparza 2023]{terven2023comprehensive}
+\abntrefinfo{Terven e Cordova-Esparza}{TERVEN; CORDOVA-ESPARZA}{2023}
+{TERVEN, J.; CORDOVA-ESPARZA, D. A comprehensive review of yolo: From yolov1 to
+  yolov8 and beyond.
+\emph{arXiv preprint arXiv:2304.00501}, 2023.}
+
+\bibitem[Ultralytics 2024]{ultralytics2024}
+\abntrefinfo{Ultralytics}{ULTRALYTICS}{2024}
+{ULTRALYTICS. \emph{Ultralytics Repository}. 2024.
+Acessado em: 4 de junho de 2024.
+Dispon{\'\i}vel em: \url{https://github.com/ultralytics/ultralytics}.}
+
+\bibitem[Vargas, Paes e Vasconcelos 2016]{vargas2016estudo}
+\abntrefinfo{Vargas, Paes e Vasconcelos}{VARGAS; PAES; VASCONCELOS}{2016}
+{VARGAS, A. C.~G.; PAES, A.; VASCONCELOS, C.~N. Um estudo sobre redes neurais
+  convolucionais e sua aplica{\c{c}}{\~a}o em detec{\c{c}}{\~a}o de pedestres.
+  In:  SN. \emph{Proceedings of the xxix conference on graphics, patterns and
+  images}. [S.l.], 2016. v.~1, n.~4.}
+
+\bibitem[Venkataramani 2018]{sgdMedium}
+\abntrefinfo{Venkataramani}{VENKATARAMANI}{2018}
+{VENKATARAMANI, D. Stochastic vs batch gradient descent.
+\emph{Medium}, 2018.
+Acesso em: 4 de junho de 2024.}
+
+\bibitem[Widrow, Hoff et al. 1960]{widrow1960adaptive}
+\abntrefinfo{Widrow, Hoff et al.}{WIDROW; HOFF et al.}{1960}
+{WIDROW, B.; HOFF, M.~E. et al. Adaptive switching circuits.
+v.~4, n.~1, p. 96--104, 1960.}
 
 \bibitem[Zhou, Fu e Yang 2016]{zhou2016big}
 \abntrefinfo{Zhou, Fu e Yang}{ZHOU; FU; YANG}{2016}
@@ -82,5 +263,11 @@
   data to big insights.
 \emph{Renewable and sustainable energy reviews}, Elsevier, v.~56, p. 215--225,
   2016.}
+
+\bibitem[Zhou et al. 2024]{zhou2024towards}
+\abntrefinfo{Zhou et al.}{ZHOU et al.}{2024}
+{ZHOU, P. et al. Towards understanding convergence and generalization of adamw.
+\emph{IEEE Transactions on Pattern Analysis and Machine Intelligence}, IEEE,
+  2024.}
 
 \end{thebibliography}
