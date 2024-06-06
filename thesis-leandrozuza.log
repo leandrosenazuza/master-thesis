@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.5.31)  5 JUN 2024 09:06
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.5.31)  5 JUN 2024 22:29
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -950,7 +950,7 @@ Package hyperref Info: Option `colorlinks' set `true' on input line 172.
 \cftquadronumwidth=\skip286
  (thesis-leandrozuza.aux
 
-LaTeX Warning: Label `sec:precisaorecall' multiply defined.
+LaTeX Warning: Label `fig:mancha' multiply defined.
 
 )
 \openout1 = `thesis-leandrozuza.aux'.
@@ -1103,163 +1103,55 @@ File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 ] [11
 
 
-] (chapters/cap1.tex
+] (chapters/cap3.tex
+<img/cap3/mancha-marcacao.jpeg, id=107, 645.41125pt x 400.49625pt>
+File: img/cap3/mancha-marcacao.jpeg Graphic file (type jpg)
+<use img/cap3/mancha-marcacao.jpeg>
+Package pdftex.def Info: img/cap3/mancha-marcacao.jpeg  used on input line 21.
+(pdftex.def)             Requested size: 191.1011pt x 118.57925pt.
+
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.11 
+l.28 
       [1
 
 
-]
+ <./img/cap3/mancha-marcacao.jpeg>]
+<img/cap3/tabela-mancha.jpeg, id=116, 762.85pt x 250.9375pt>
+File: img/cap3/tabela-mancha.jpeg Graphic file (type jpg)
+<use img/cap3/tabela-mancha.jpeg>
+Package pdftex.def Info: img/cap3/tabela-mancha.jpeg  used on input line 34.
+(pdftex.def)             Requested size: 286.6468pt x 94.28894pt.
+
+Overfull \hbox (72.41762pt too wide) in paragraph at lines 55--69
+ [][] 
+ []
+
+
 pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.21 
-      [2]) (chapters/cap2.tex
-pdfTeX warning (ext4): destination with the same identifier (name{page.3}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.1 \chapter
-            {Fundamentação Teórica} [3]
-<img/cap2/substation.jpeg, id=203, 783.92876pt x 583.17876pt>
-File: img/cap2/substation.jpeg Graphic file (type jpg)
-<use img/cap2/substation.jpeg>
-Package pdftex.def Info: img/cap2/substation.jpeg  used on input line 13.
-(pdftex.def)             Requested size: 286.6468pt x 213.24556pt.
-
-pdfTeX warning (ext4): destination with the same identifier (name{page.4}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.22 
-      [4
-
- <./img/cap2/substation.jpeg>]
-<img/cap2/reator-ar.jpeg, id=219, 347.79938pt x 423.83344pt>
-File: img/cap2/reator-ar.jpeg Graphic file (type jpg)
-<use img/cap2/reator-ar.jpeg>
-Package pdftex.def Info: img/cap2/reator-ar.jpeg  used on input line 30.
-(pdftex.def)             Requested size: 159.2493pt x 194.06033pt.
-
-pdfTeX warning (ext4): destination with the same identifier (name{page.5}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.38 \section
-             {Redes Neurais Artificiais} [5 <./img/cap2/reator-ar.jpeg>]
-<img/cap2/na-completo.png, id=236, 603.25375pt x 355.3275pt>
-File: img/cap2/na-completo.png Graphic file (type png)
-<use img/cap2/na-completo.png>
-Package pdftex.def Info: img/cap2/na-completo.png  used on input line 50.
-(pdftex.def)             Requested size: 286.6468pt x 168.83652pt.
-
-pdfTeX warning (ext4): destination with the same identifier (name{page.6}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.60     \item \textbf
-                      {Pesos sinápticos}: Também chamados apenas de pesos,... [6 <./img/cap2/na-completo.png (PNG copy)>]
-pdfTeX warning (ext4): destination with the same identifier (name{page.7}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.72 
-      [7{C:/Program Files/MiKTeX/fonts/enc/dvips/lm/lm-mathit.enc}{C:/Program Files/MiKTeX/fonts/enc/dvips/lm/lm-mathsy.enc}{C:/Program Files/MiKTeX/fonts/enc/dvips/lm/lm-rm.enc}]
-<img/cap2/topologia-rede.jpeg, id=275, 393.72093pt x 258.21469pt>
-File: img/cap2/topologia-rede.jpeg Graphic file (type jpg)
-<use img/cap2/topologia-rede.jpeg>
-Package pdftex.def Info: img/cap2/topologia-rede.jpeg  used on input line 80.
-(pdftex.def)             Requested size: 286.6468pt x 187.99081pt.
-
-pdfTeX warning (ext4): destination with the same identifier (name{page.8}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.87 
-      [8 <./img/cap2/topologia-rede.jpeg>]
-<img/cap2/gato.png, id=287, 542.025pt x 378.41376pt>
-File: img/cap2/gato.png Graphic file (type png)
-<use img/cap2/gato.png>
-Package pdftex.def Info: img/cap2/gato.png  used on input line 93.
-(pdftex.def)             Requested size: 286.6468pt x 200.12527pt.
-<img/cap2/cnn.jpeg, id=296, 657.45625pt x 258.9675pt>
-File: img/cap2/cnn.jpeg Graphic file (type jpg)
-<use img/cap2/cnn.jpeg>
-Package pdftex.def Info: img/cap2/cnn.jpeg  used on input line 106.
-(pdftex.def)             Requested size: 286.6468pt x 112.91074pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
-pdfTeX warning (ext4): destination with the same identifier (name{page.9}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.113 
-       [9 <./img/cap2/gato.png>]
-<img/cap2/filtro.png, id=307, 258.63292pt x 153.23917pt>
-File: img/cap2/filtro.png Graphic file (type png)
-<use img/cap2/filtro.png>
-Package pdftex.def Info: img/cap2/filtro.png  used on input line 119.
-(pdftex.def)             Requested size: 286.6468pt x 169.84027pt.
-
-pdfTeX warning (ext4): destination with the same identifier (name{page.10}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.127 P
-       or último, a camada totalmente conectada emprega uma função de ati... [10 <./img/cap2/cnn.jpeg> <./img/cap2/filtro.png>]
-<img/cap2/RNC-YOLO.jpeg, id=327, 1098.1025pt x 469.755pt>
-File: img/cap2/RNC-YOLO.jpeg Graphic file (type jpg)
-<use img/cap2/RNC-YOLO.jpeg>
-Package pdftex.def Info: img/cap2/RNC-YOLO.jpeg  used on input line 140.
-(pdftex.def)             Requested size: 286.6468pt x 122.62083pt.
-
-
-LaTeX Warning: Reference `ig:rnc-yolo' on page 11 undefined on input line 145.
-
-
-pdfTeX warning (ext4): destination with the same identifier (name{page.11}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.147 
-       [11 <./img/cap2/RNC-YOLO.jpeg>]
-<img/cap2/processo-predicao-YOLO.jpeg, id=340, 645.41125pt x 430.60875pt>
-File: img/cap2/processo-predicao-YOLO.jpeg Graphic file (type jpg)
-<use img/cap2/processo-predicao-YOLO.jpeg>
-Package pdftex.def Info: img/cap2/processo-predicao-YOLO.jpeg  used on input line 153.
-(pdftex.def)             Requested size: 286.6468pt x 191.24248pt.
- [12 <./img/cap2/processo-predicao-YOLO.jpeg>] [13]
-<img/cap2/sgd.jpeg, id=368, 831.105pt x 515.9275pt>
-File: img/cap2/sgd.jpeg Graphic file (type jpg)
-<use img/cap2/sgd.jpeg>
-Package pdftex.def Info: img/cap2/sgd.jpeg  used on input line 178.
-(pdftex.def)             Requested size: 286.6468pt x 177.94006pt.
- [14 <./img/cap2/sgd.jpeg>]
-<img/cap2/iou.png, id=384, 602.25pt x 469.755pt>
-File: img/cap2/iou.png Graphic file (type png)
-<use img/cap2/iou.png>
-Package pdftex.def Info: img/cap2/iou.png  used on input line 208.
-(pdftex.def)             Requested size: 191.1011pt x 149.05595pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[15
-pdfTeX warning (ext4): destination with the same identifier (name{equation.2.2.1}) has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.214 
-      ]
-<img/cap2/precisao.png, id=400, 703.62875pt x 525.965pt>
-File: img/cap2/precisao.png Graphic file (type png)
-<use img/cap2/precisao.png>
-Package pdftex.def Info: img/cap2/precisao.png  used on input line 220.
-(pdftex.def)             Requested size: 286.6468pt x 214.26663pt.
- [16 <./img/cap2/iou.png> <./img/cap2/precisao.png>]) [17] (thesis-leandrozuza.bbl (thesis-leandrozuza.brf)
+l.78 \item \textit
+                  {Subestações de Energia}: realizar toda coleta, treiname... [2 <./img/cap3/tabela-mancha.jpeg>]) (thesis-leandrozuza.bbl (thesis-leandrozuza.brf)
 \tf@brf=\write6
 \openout6 = `thesis-leandrozuza.brf'.
 
- [18]
-bibitemlist
-[19
 
-] [20]) [21]
+pdfTeX warning (ext4): destination with the same identifier (name{page.3}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.3 ...th{\labelsep}{0pt}\begin{thebibliography}{}
+                                                   [3{C:/Program Files/MiKTeX/fonts/enc/dvips/lm/lm-mathsy.enc}]
+bibitemlist
+)
+pdfTeX warning (ext4): destination with the same identifier (name{page.4}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.348 \end{document}
+                     [4
+
+]
 \tf@toc=\write7
 \openout7 = `thesis-leandrozuza.toc'.
 
@@ -1276,26 +1168,23 @@ L3 programming layer <2020/03/25>
  ***********
 
 
-LaTeX Warning: There were undefined references.
-
-
 LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `thesis-leandrozuza.brf' has not changed.
-(rerunfilecheck)             Checksum: 2DD9AC9C564AD893C92F7D2434EAF36A;3801.
+(rerunfilecheck)             Checksum: 7EF47741AFFA0FBFE058CAA5DAEE17EE;394.
  ) 
 Here is how much of TeX's memory you used:
- 26454 strings out of 474313
- 437335 string characters out of 5749121
- 1943907 words of memory out of 5000000
- 48102 multiletter control sequences out of 15000+600000
- 631026 words of font info for 176 fonts, out of 8000000 for 9000
+ 25864 strings out of 474313
+ 425080 string characters out of 5749121
+ 1938907 words of memory out of 5000000
+ 47637 multiletter control sequences out of 15000+600000
+ 632053 words of font info for 153 fonts, out of 8000000 for 9000
  1192 hyphenation exceptions out of 8191
- 110i,13n,107p,1823b,715s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<C:/Program Files/MiKTeX/fonts/type1/public/lm/lmbx12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmmi12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmr10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmr12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmri10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmri12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmss12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmss17.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmssbx10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmsy10.pfb>
-Output written on thesis-leandrozuza.pdf (32 pages, 1491990 bytes).
+ 110i,18n,107p,1583b,700s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<C:/Program Files/MiKTeX/fonts/type1/public/lm/lmbx12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmr10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmr12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmri10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmri12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmss12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmss17.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmssbx10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmsy10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/symbols/msam10.pfb>
+Output written on thesis-leandrozuza.pdf (15 pages, 394040 bytes).
 PDF statistics:
- 652 PDF objects out of 1000 (max. 8388607)
- 109 named destinations out of 1000 (max. 500000)
- 43202 words of extra memory for PDF output out of 51595 (max. 10000000)
+ 239 PDF objects out of 1000 (max. 8388607)
+ 41 named destinations out of 1000 (max. 500000)
+ 45160 words of extra memory for PDF output out of 51595 (max. 10000000)
 

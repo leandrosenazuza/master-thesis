@@ -16,8 +16,6 @@ Reallocating 'singl_function' (item size: 4) to 100 items.
 Reallocating 'wiz_functions' (item size: 4) to 9000 items.
 Database file #1: abntex2-options.bib
 Database file #2: postextual/bibliography.bib
-Warning--entry type for "reatorNucleoDeAr" isn't style-file defined
---line 845 of file postextual/bibliography.bib
 Reallocating 'singl_function' (item size: 4) to 100 items.
 Reallocating 'glb_str_end' (item size: 4) to 20 items.
 Reallocating 'glb_str_ptr' (item size: 4) to 20 items.
@@ -27,45 +25,44 @@ Reallocating 'global_strs' (item size: 1) to 4000000 items.
 | Em caso de dúvidas ou problemas com este estilo procure |
 | http://www.abntex.net.br/                               |
 +---------------------------------------------------------+
-You've used 43 entries,
+You've used 2 entries,
             6714 wiz_defined-function locations,
-            1431 strings with 17594 characters,
-and the built_in function-call counts, 46272 in all, are:
-= -- 4489
-> -- 1287
-< -- 725
-+ -- 1191
-- -- 389
-* -- 3114
-:= -- 5934
-add.period$ -- 149
-call.type$ -- 43
-change.case$ -- 449
-chr.to.int$ -- 88
-cite$ -- 42
-duplicate$ -- 3610
-empty$ -- 2462
-format.name$ -- 1847
-if$ -- 9886
+            1202 strings with 9531 characters,
+and the built_in function-call counts, 1401 in all, are:
+= -- 218
+> -- 15
+< -- 0
++ -- 51
+- -- 5
+* -- 67
+:= -- 254
+add.period$ -- 3
+call.type$ -- 2
+change.case$ -- 10
+chr.to.int$ -- 2
+cite$ -- 1
+duplicate$ -- 33
+empty$ -- 86
+format.name$ -- 23
+if$ -- 317
 int.to.chr$ -- 0
 int.to.str$ -- 0
-missing$ -- 752
-newline$ -- 219
-num.names$ -- 210
-pop$ -- 1044
+missing$ -- 26
+newline$ -- 13
+num.names$ -- 5
+pop$ -- 48
 preamble$ -- 1
-purify$ -- 169
+purify$ -- 6
 quote$ -- 0
-skip$ -- 3750
+skip$ -- 110
 stack$ -- 1
-substring$ -- 1995
-swap$ -- 1407
-text.length$ -- 49
+substring$ -- 66
+swap$ -- 8
+text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 1
+type$ -- 0
 warning$ -- 0
-while$ -- 312
+while$ -- 8
 width$ -- 0
-write$ -- 657
-(There was 1 warning)
+write$ -- 22
