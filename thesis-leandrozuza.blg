@@ -16,6 +16,8 @@ Reallocating 'singl_function' (item size: 4) to 100 items.
 Reallocating 'wiz_functions' (item size: 4) to 9000 items.
 Database file #1: abntex2-options.bib
 Database file #2: postextual/bibliography.bib
+Warning--entry type for "reatorNucleoDeAr" isn't style-file defined
+--line 845 of file postextual/bibliography.bib
 Reallocating 'singl_function' (item size: 4) to 100 items.
 Reallocating 'glb_str_end' (item size: 4) to 20 items.
 Reallocating 'glb_str_ptr' (item size: 4) to 20 items.
@@ -25,44 +27,45 @@ Reallocating 'global_strs' (item size: 1) to 4000000 items.
 | Em caso de dúvidas ou problemas com este estilo procure |
 | http://www.abntex.net.br/                               |
 +---------------------------------------------------------+
-You've used 2 entries,
+You've used 45 entries,
             6714 wiz_defined-function locations,
-            1202 strings with 9531 characters,
-and the built_in function-call counts, 1401 in all, are:
-= -- 218
-> -- 15
-< -- 0
-+ -- 51
-- -- 5
-* -- 67
-:= -- 254
-add.period$ -- 3
-call.type$ -- 2
-change.case$ -- 10
-chr.to.int$ -- 2
-cite$ -- 1
-duplicate$ -- 33
-empty$ -- 86
-format.name$ -- 23
-if$ -- 317
+            1440 strings with 18053 characters,
+and the built_in function-call counts, 47773 in all, are:
+= -- 4586
+> -- 1344
+< -- 729
++ -- 1212
+- -- 406
+* -- 3226
+:= -- 6142
+add.period$ -- 155
+call.type$ -- 45
+change.case$ -- 470
+chr.to.int$ -- 93
+cite$ -- 44
+duplicate$ -- 3687
+empty$ -- 2569
+format.name$ -- 1931
+if$ -- 10232
 int.to.chr$ -- 0
 int.to.str$ -- 0
-missing$ -- 26
-newline$ -- 13
-num.names$ -- 5
-pop$ -- 48
+missing$ -- 786
+newline$ -- 229
+num.names$ -- 220
+pop$ -- 1086
 preamble$ -- 1
-purify$ -- 6
+purify$ -- 177
 quote$ -- 0
-skip$ -- 110
+skip$ -- 3830
 stack$ -- 1
-substring$ -- 66
-swap$ -- 8
-text.length$ -- 0
+substring$ -- 2062
+swap$ -- 1442
+text.length$ -- 52
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 0
+type$ -- 1
 warning$ -- 0
-while$ -- 8
+while$ -- 327
 width$ -- 0
-write$ -- 22
+write$ -- 688
+(There was 1 warning)

@@ -1,4 +1,17 @@
 \babel@toc {brazil}{}\relax 
 \babel@toc {brazil}{}\relax 
-\contentsline {figure}{\numberline {1}{\ignorespaces Exemplo de marcação de foto, utilizando labelImg, de um defeito em um vidro \cite {gonzaga2023identificaccao}}}{1}{figure.caption.13}%
-\contentsline {figure}{\numberline {2}{\ignorespaces Resultado do trabalho de \cite {gonzaga2023identificaccao}, variando os tipos de rede Yolo na versão 5, assim como o otimizador e o batch}}{2}{figure.caption.14}%
+\contentsline {figure}{\numberline {1}{\ignorespaces Representação dos componentes do sistema de geração e transmissão de energia \cite {lopes2012smart}}}{4}{figure.caption.13}%
+\contentsline {figure}{\numberline {2}{\ignorespaces Reatores de Núcleo de ar em uma subestação de energia \cite {reatorNucleoDeAr}}}{5}{figure.caption.14}%
+\contentsline {figure}{\numberline {3}{\ignorespaces Representação de um NA \cite {adorno2017}}}{6}{figure.caption.15}%
+\contentsline {figure}{\numberline {4}{\ignorespaces Topologia básica de uma rede neural \cite {fleck2016redes}}}{8}{figure.caption.16}%
+\contentsline {figure}{\numberline {5}{\ignorespaces Exemplificação de como uma imagem nada mais é que uma matriz, e como a filtragem busca padrões pré-estabelecidos dentro da imagem \cite {lima2020captcha}}}{9}{figure.caption.17}%
+\contentsline {figure}{\numberline {6}{\ignorespaces Esquema de funcionamento de uma RNC \cite {vargas2016estudo}}}{10}{figure.caption.18}%
+\contentsline {figure}{\numberline {7}{\ignorespaces Operação de filtragem na camada convolucional. Nota-se que o filtro é uma multiplicação de matrizes \cite {shorthistory}}}{10}{figure.caption.19}%
+\contentsline {figure}{\numberline {8}{\ignorespaces Disposição das 24 camadas convolucionais e das 2 camadas totalmente conectadas \cite {redmon2016youlookonce}}}{11}{figure.caption.20}%
+\contentsline {figure}{\numberline {9}{\ignorespaces Processo de predição da Yolo \cite {redmon2016youlookonce}}}{12}{figure.caption.21}%
+\contentsline {figure}{\numberline {10}{\ignorespaces Demonstração visual do SGD buscando o valor de custo mínimo, representado no eixo vertial \cite {sgdMedium}}}{14}{figure.caption.22}%
+\contentsline {figure}{\numberline {11}{\ignorespaces Cálculo de IoU. \cite {padilla2020survey}}}{16}{figure.caption.25}%
+\contentsline {figure}{\numberline {12}{\ignorespaces Aumento de desempenho da precisão média, versão 5 para 8. \cite {ultralytics2023yolo}}}{16}{figure.caption.26}%
+\contentsline {figure}{\numberline {13}{\ignorespaces Exemplo de marcação de foto, utilizando labelImg, de um defeito em um vidro \cite {gonzaga2023identificaccao}}}{19}{figure.caption.27}%
+\contentsline {figure}{\numberline {14}{\ignorespaces Resultado do trabalho de \cite {gonzaga2023identificaccao}, variando os tipos de rede Yolo na versão 5, assim como o otimizador e o batch}}{20}{figure.caption.28}%
+\contentsline {figure}{\numberline {15}{\ignorespaces Captura de foto em Porto Velho (à esquerda) e Araraquara (à direita), onde se notam quatro reatores de núcleo de ar na parte inferior.}}{23}{figure.caption.30}%
