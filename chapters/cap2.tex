@@ -35,6 +35,17 @@ Analisando mais detalhadamente as subestações, podemos afirmar que elas são e
 
 Dentre os diversos equipamentos que compõem a subestação de energia, um em particular será objeto de estudo neste trabalho: os reatores de núcleo de ar (Figura \ref{fig:reator}). Contudo, o interesse reside em seu formato geométrico, que será tratado posteriomente. Nota-se que possui um corpo cilíndrico. Em seu topo, pode possuir ou não uma proteção circular contras as intempéries. Estes dispositivos são essenciais para a regulação da reatividade e controle de correntes indutivas em sistemas de transmissão e distribuição de energia. Diferentemente dos reatores de núcleo de ferro, os reatores de núcleo de ar oferecem vantagens como uma resposta mais linear e a capacidade de operar sem saturação magnética, o que os torna ideais para aplicações onde é necessário um comportamento previsível e estável \cite{de2012reatores}. 
 
+\section{Realidade Virtual}
+\label{sec:precisaorecall}
+
+RV pode ser definida como um ambiente gerado a partir de um sistema computacional em que o usuário não apenas se sente dentro do contexto artificial, como também possibilita ao usuário a consciência de que pode navegar e interagir neste ambiente virtual. Trata-se, por isso, de uma interessante interface em um ser humano, um computador, capaz de gerar navegabilidade, interações e, principalmente, imersão em um ambiente sintético, gerado computacionalmente por meio de canais multisensoriais. Além disso, a RV pode ser classificada de duas formas diferentes: Imersiva e Não-imersiva. Na primeira, cria-se uma RV que isole o usuário do mundo real. Seus sentidos são bloqueados para recepção dos estímulos do seu entorno, para se direcionarem àqueles oriundos do mundo fictício. Para tanto, uma ampla variedade de equipamentos, como fones de ouvidos, luvas de dados, óculos de RV, entre outros, são empregados para os resultados esperados. Já a RV Não-Imersiva não se isola do mundo real. Ou seja, o usuário tem consciência de que está em um ambiente artificial. Da mesma forma, uma ampla variedade de equipamentos é empregada para gerar essa interação, incluindo dispositivos do cotidiano, como mouses, monitores de computador. Uma grande variedade de dispositivos convencionais e não-convencionais pode compor  essa interação \cite {cardoso2007tecnologias}.
+
+É importante que os três conceitos da RV sempre sejam presentes em uma aplicação do tipo, sendo eles: interação, imersão e navegação \cite{kalawsky1993science}.
+
+O surgimento da RV data de 1963, em que foi apresentado uma aplicação de manipulação de objetos tridimensionais em um computador, denominada Sketchpad \cite {sutherland1963sketchpad}. A aplicação conseguia reproduzir interatividade por meio de uma caneta óptica, que era utilizada para seleção de objetos projetados em uma tela. Neste trabalho, surgiram alguns dos principais termos da RV, como representação visual, dispositivos especiais, e interações em tempo real. Em 1968, o mesmo autor do trabalho anterior, Sutherland, publicou outro trabalho marcante para a história: A Head-Mounted Three Dimensional Display \cite{sutherland1968head}. Nele, foi introduzido o conceito de imersividade para uma RV; no caso, um capacete capaz de projetar fotos diretamente aos olhos do usuário, assim como rastrear o movimento da cabeça, afim de que este movimento fosse responsivo no ambiente virtual. Seguido a isso, uma série de outros equipamentos foram desenvolvidos a fim de sofisticar as soluções do ramo e propor novos modelos. A tendência sempre prevaleceu de surgir ferramentas mais simples e acessíveis ao usuário final \cite{kirner2011evoluccao}.
+
+Além das aplicações lúdicas, a RV atua de maneira séria e efetiva em diversas áreas técnicas. Como ferramenta para treinamento de operadores em ambientes de risco e de difícil simulação, torna-se uma alternativa viável para capacitação.  O trabalho de \cite{silva2012virtual} demonstra bem essa ideia ao investigar técnicas de RV para que uma pessoa comum, sem treinamento anterior, possa, de maneira segura à uma subestação em funcionamento e à própria pessoa e todos ao seu redor, interagir com um transformador de energia, executando todos procedimentos que teria em um ambiente real, contudo de maneira virtual. Este treinamento já seria uma base interessante para que um profissional pudesse agilizar seu treinamento no mundo real ou mesmo absorvê-los. Em trabalhos de alta periculosidade tudo é crítico; então, qualquer intervenção que possa atenuar os riscos inerentes à natureza do trabalho, traz grandes avanços ao processo de profissionalização de técnicos e pessoas interessadas. 
+
 \section{Redes Neurais Artificiais}
 \label{sec:redesneurais}
 
@@ -135,7 +146,7 @@ As RNC representam por si só uma revolução no campo da visão computacional, 
 YOLO, uma Rede Neural Convolutiva (RNC), é conhecida por sua eficácia e precisão na detecção de objetos em imagens e vídeos. Desenvolvida por Joseph Redmon, Santosh Divvala, Ross Girshick e Ali Farhadi em 2015, a arquitetura do YOLO foi apresentada em sua primeira versão no artigo "You Only Look Once: Unified, Real-Time Object Detection" \cite{redmon2016youlookonce}.
 \begin{figure}[!h]
     \center
-    \begin{minipage}{0.6\linewidth}
+    \begin{minipage}{0.9\linewidth}
     \center
     \captionsetup{justification=centering,margin=0.5cm,font=small}
     \includegraphics[width=0.7\linewidth]{img/cap2/RNC-YOLO.jpeg}
@@ -148,7 +159,7 @@ Embora existam várias versões do YOLO, há um funcionamento geral da arquitetu
 
 \begin{figure}[!h]
     \center
-    \begin{minipage}{0.6\linewidth}
+    \begin{minipage}{0.9\linewidth}
     \center
     \captionsetup{justification=centering,margin=0.5cm,font=small}
     \includegraphics[width=0.7\linewidth]{img/cap2/processo-predicao-YOLO.jpeg}
@@ -187,7 +198,6 @@ A fim de avaliar o desempenho de um treinamento na arquitetura YOLO, é preciso 
 
 Com esses valores, pode-se calcular os resultados da saída que o treinamento da rede YOLO fornece. Em (1), tem-se o cálculo da Recall, que calcula a capacidade da rede de detectar todos os objetos relevantes em uma imagem. Já a Precisão (2), refere-se à capacidade da rede de encontrar apenas resultados relevantes. 
 
-%https://medium.com/@augusto_Pinheiro/redes-neurais-artificiais-133de77c7240
 \begin{figure}[!h]
     \center
     \begin{minipage}{0.6\linewidth}
@@ -209,21 +219,6 @@ A arquitetura YOLO disponibiliza um dataset, ou seja, um banco de imagens e weig
     \caption{ Aumento de desempenho da precisão média, versão 5 para 8.  \cite{ultralytics2023yolo}} \label{subfig:precisao}
     \end{minipage}
 \end{figure}
-
-\section{Realidade Virtual}
-\label{sec:precisaorecall}
-
-RV pode ser definida como um ambiente gerado a partir de um sistema computacional em que o usuário não apenas se sente dentro do contexto artificial, como também possibilita ao usuário a consciência de que pode navegar e interagir neste ambiente virtual. Trata-se, por isso, de uma interessante interface em um ser humano, um computador, capaz de gerar navegabilidade, interações e, principalmente, imersão em um ambiente sintético, gerado computacionalmente por meio de canais multisensoriais. Além disso, a RV pode ser classificada de duas formas diferentes: Imersiva e Não-imersiva. Na primeira, cria-se uma RV que isole o usuário do mundo real. Seus sentidos são bloqueados para recepção dos estímulos do seu entorno, para se direcionarem àqueles oriundos do mundo fictício. Para tanto, uma ampla variedade de equipamentos, como fones de ouvidos, luvas de dados, óculos de RV, entre outros, são empregados para os resultados esperados. Já a RV Não-Imersiva não se isola do mundo real. Ou seja, o usuário tem consciência de que está em um ambiente artificial. Da mesma forma, uma ampla variedade de equipamentos é empregada para gerar essa interação, incluindo dispositivos do cotidiano, como mouses, monitores de computador. Uma grande variedade de dispositivos convencionais e não-convencionais pode compor  essa interação \cite {cardoso2007tecnologias}.
-
-É importante que os três conceitos da RV sempre sejam presentes em uma aplicação do tipo, sendo eles: interação, imersão e navegação \cite{kalawsky1993science}.
-
-O surgimento da RV data de 1963, em que foi apresentado uma aplicação de manipulação de objetos tridimensionais em um computador, denominada Sketchpad \cite {sutherland1963sketchpad}. A aplicação conseguia reproduzir interatividade por meio de uma caneta óptica, que era utilizada para seleção de objetos projetados em uma tela. Neste trabalho, surgiram alguns dos principais termos da RV, como representação visual, dispositivos especiais, e interações em tempo real. Em 1968, o mesmo autor do trabalho anterior, Sutherland, publicou outro trabalho marcante para a história: A Head-Mounted Three Dimensional Display \cite{sutherland1968head}. Nele, foi introduzido o conceito de imersividade para uma RV; no caso, um capacete capaz de projetar fotos diretamente aos olhos do usuário, assim como rastrear o movimento da cabeça, afim de que este movimento fosse responsivo no ambiente virtual. Seguido a isso, uma série de outros equipamentos foram desenvolvidos a fim de sofisticar as soluções do ramo e propor novos modelos. A tendência sempre prevaleceu de surgir ferramentas mais simples e acessíveis ao usuário final \cite{kirner2011evoluccao}.
-
-Além das aplicações lúdicas, a RV atua de maneira séria e efetiva em diversas áreas técnicas. Como ferramenta para treinamento de operadores em ambientes de risco e de difícil simulação, torna-se uma alternativa viável para capacitação.  O trabalho de \cite{silva2012virtual} demonstra bem essa ideia ao investigar técnicas de RV para que uma pessoa comum, sem treinamento anterior, possa, de maneira segura à uma subestação em funcionamento e à própria pessoa e todos ao seu redor, interagir com um transformador de energia, executando todos procedimentos que teria em um ambiente real, contudo de maneira virtual. Este treinamento já seria uma base interessante para que um profissional pudesse agilizar seu treinamento no mundo real ou mesmo absorvê-los. Em trabalhos de alta periculosidade tudo é crítico; então, qualquer intervenção que possa atenuar os riscos inerentes à natureza do trabalho, traz grandes avanços ao processo de profissionalização de técnicos e pessoas interessadas. 
-
-
-%Citar trabalho alexandre
-%O artigo de kirner2011evoluccao, faz um panorama da história da realidade virtual.
 
 \section{Considerações finais}
 

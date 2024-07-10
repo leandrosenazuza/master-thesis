@@ -16,41 +16,45 @@
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
 \contentsline {chapter}{\chapternumberline {2}\MakeTextUppercase []{Fundamentação Teórica}}{4}{chapter.2}%
 \contentsline {section}{\numberline {2.1}Subestações de Energia}{4}{section.2.1}%
-\contentsline {section}{\numberline {2.2}Redes Neurais Artificiais}{6}{section.2.2}%
-\contentsline {subsection}{\numberline {2.2.1}You Look Only Once}{11}{subsection.2.2.1}%
-\contentsline {subsection}{\numberline {2.2.2}Batch}{13}{subsection.2.2.2}%
-\contentsline {subsection}{\numberline {2.2.3}Otimizadores}{13}{subsection.2.2.3}%
-\contentsline {subsection}{\numberline {2.2.4}Precisão e Recall}{14}{subsection.2.2.4}%
-\contentsline {section}{\numberline {2.3}Realidade Virtual}{16}{section.2.3}%
+\contentsline {section}{\numberline {2.2}Realidade Virtual}{6}{section.2.2}%
+\contentsline {section}{\numberline {2.3}Redes Neurais Artificiais}{7}{section.2.3}%
+\contentsline {subsection}{\numberline {2.3.1}You Look Only Once}{12}{subsection.2.3.1}%
+\contentsline {subsection}{\numberline {2.3.2}Batch}{14}{subsection.2.3.2}%
+\contentsline {subsection}{\numberline {2.3.3}Otimizadores}{15}{subsection.2.3.3}%
+\contentsline {subsection}{\numberline {2.3.4}Precisão e Recall}{16}{subsection.2.3.4}%
 \contentsline {section}{\numberline {2.4}Considerações finais}{17}{section.2.4}%
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
 \contentsline {chapter}{\chapternumberline {3}\MakeTextUppercase []{Trabalhos Relacionados}}{18}{chapter.3}%
 \contentsline {section}{\numberline {3.1}Introdução}{18}{section.3.1}%
-\contentsline {section}{\numberline {3.2}Treinamento utilizando RNC e Alteração de Parâmetros da RNC}{18}{section.3.2}%
+\contentsline {section}{\numberline {3.2}Alteração de Parâmetros da RNC}{18}{section.3.2}%
 \contentsline {subsection}{\numberline {3.2.1}Identificação e Medição de Defeitos em Produtos Automotivos Usando Visão Computacional}{18}{subsection.3.2.1}%
-\contentsline {section}{\numberline {3.3}Aplicação YOLOv8 e Utilização de VANT}{19}{section.3.3}%
-\contentsline {subsection}{\numberline {3.3.1}Subseção 3}{19}{subsection.3.3.1}%
-\contentsline {subsection}{\numberline {3.3.2}Subseção 4}{19}{subsection.3.3.2}%
-\contentsline {section}{\numberline {3.4}Considerações Finais}{19}{section.3.4}%
+\contentsline {subsection}{\numberline {3.2.2}Um sistema de prevenção de vazamento de dados de imagens baseado em aprendizado de máquina}{20}{subsection.3.2.2}%
+\contentsline {section}{\numberline {3.3}Aplicação YOLOv8}{20}{section.3.3}%
+\contentsline {subsection}{\numberline {3.3.1}Comparação de Modelos YOLOv5 e YOLOv8 para Detecção de Objetos em Áreas Rurais Usando Transferência de Aprendizado}{20}{subsection.3.3.1}%
+\contentsline {subsection}{\numberline {3.3.2}UAV-YOLOv8: A Small-Object-Detection Model Based on Improved YOLOv8 for UAV Aerial Photography Scenarios}{21}{subsection.3.3.2}%
+\contentsline {section}{\numberline {3.4}Inserção automática em Ambientes de Realidade Virtual}{22}{section.3.4}%
+\contentsline {subsection}{\numberline {3.4.1}Artigo sobre inserção automática...}{22}{subsection.3.4.1}%
+\contentsline {subsection}{\numberline {3.4.2}Subseção 4}{22}{subsection.3.4.2}%
+\contentsline {section}{\numberline {3.5}Considerações Finais}{22}{section.3.5}%
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {4}\MakeTextUppercase []{Materiais e Métodos}}{21}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Introdução}{21}{section.4.1}%
-\contentsline {section}{\numberline {4.2}Treinamento}{21}{section.4.2}%
-\contentsline {subsection}{\numberline {4.2.1}Dataset}{21}{subsection.4.2.1}%
-\contentsline {section}{\numberline {4.3}Considerações Finais}{22}{section.4.3}%
+\contentsline {chapter}{\chapternumberline {4}\MakeTextUppercase []{Materiais e Métodos}}{24}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Introdução}{24}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Treinamento}{24}{section.4.2}%
+\contentsline {subsection}{\numberline {4.2.1}Dataset}{24}{subsection.4.2.1}%
+\contentsline {section}{\numberline {4.3}Considerações Finais}{25}{section.4.3}%
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {5}\MakeTextUppercase []{Detalhes da Implementação}}{23}{chapter.5}%
-\contentsline {section}{\numberline {5.1}Introdução}{23}{section.5.1}%
-\contentsline {section}{\numberline {5.2}Sistema de Inserção}{23}{section.5.2}%
+\contentsline {chapter}{\chapternumberline {5}\MakeTextUppercase []{Detalhes da Implementação}}{26}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Introdução}{26}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Sistema de Inserção}{26}{section.5.2}%
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {6}\MakeTextUppercase []{Resultados e Discussão}}{24}{chapter.6}%
-\contentsline {section}{\numberline {6.1}Introdução}{24}{section.6.1}%
-\contentsline {section}{\numberline {6.2}Treinamento}{24}{section.6.2}%
-\contentsline {subsection}{\numberline {6.2.1}Variação de Parâmetros}{24}{subsection.6.2.1}%
+\contentsline {chapter}{\chapternumberline {6}\MakeTextUppercase []{Resultados e Discussão}}{27}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Introdução}{27}{section.6.1}%
+\contentsline {section}{\numberline {6.2}Treinamento}{27}{section.6.2}%
+\contentsline {subsection}{\numberline {6.2.1}Variação de Parâmetros}{27}{subsection.6.2.1}%
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {7}\MakeTextUppercase []{Conclusão e Trabalhos Futuros}}{25}{chapter.7}%
-\contentsline {section}{\numberline {7.1}Introdução}{25}{section.7.1}%
-\contentsline {section}{\numberline {7.2}Conclusão}{25}{section.7.2}%
-\contentsline {section}{\numberline {7.3}Trabalhos Futuros}{25}{section.7.3}%
+\contentsline {chapter}{\chapternumberline {7}\MakeTextUppercase []{Conclusão e Trabalhos Futuros}}{28}{chapter.7}%
+\contentsline {section}{\numberline {7.1}Introdução}{28}{section.7.1}%
+\contentsline {section}{\numberline {7.2}Conclusão}{28}{section.7.2}%
+\contentsline {section}{\numberline {7.3}Trabalhos Futuros}{28}{section.7.3}%
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
-\contentsline {chapter}{\MakeTextUppercase []{Refer\^encias}}{26}{section*.31}%
+\contentsline {chapter}{\MakeTextUppercase []{Refer\^encias}}{29}{section*.32}%

@@ -38,6 +38,13 @@ Dispon{\'\i}vel em:
   sistemas de realidade virtual e aumentada.
 \emph{Editora Universit{\'a}ria UFPE}, p. 1--19, 2007.}
 
+\bibitem[Dias, Figueiredo e Mafra 2021]{diascomparaccao}
+\abntrefinfo{Dias, Figueiredo e Mafra}{DIAS; FIGUEIREDO; MAFRA}{2021}
+{DIAS, R.~L.; FIGUEIREDO, F.~A. de; MAFRA, S.~B. Compara{\c{c}}{\~a}o de
+  modelos yolov5 e yolov8 para detec{\c{c}}{\~a}o de objetos em {\'a}reas
+  rurais usando transfer{\^e}ncia de aprendizado.
+2021.}
+
 \bibitem[Eletrônica 2024]{reatorNucleoDeAr}
 \abntrefinfo{Eletrônica}{ELETRôNICA}{2024}
 {ELETRôNICA, A.~E. \emph{Reator Núcleo de Ar – Jauru Eletronorte 230kV}.
@@ -68,6 +75,12 @@ Serra, 2023.}
 \abntrefinfo{Haykin}{HAYKIN}{2001}
 {HAYKIN, S. \emph{Redes neurais: princ{\'\i}pios e pr{\'a}tica}. [S.l.]:
   Bookman Editora, 2001.}
+
+\bibitem[He et al. 2016]{he2016deep}
+\abntrefinfo{He et al.}{HE et al.}{2016}
+{HE, K. et al. Deep residual learning for image recognition. In:
+  \emph{Proceedings of the IEEE conference on computer vision and pattern
+  recognition}. [S.l.: s.n.], 2016. p. 770--778.}
 
 \bibitem[Hussain 2023]{hussain2023yolo}
 \abntrefinfo{Hussain}{HUSSAIN}{2023}
@@ -258,6 +271,12 @@ Dispon{\'\i}vel em: \url{https://github.com/ultralytics/ultralytics}.}
   convolucionais e sua aplica{\c{c}}{\~a}o em detec{\c{c}}{\~a}o de pedestres.
   In:  SN. \emph{Proceedings of the xxix conference on graphics, patterns and
   images}. [S.l.], 2016. v.~1, n.~4.}
+
+\bibitem[Wang et al. 2023]{wang2023uav}
+\abntrefinfo{Wang et al.}{WANG et al.}{2023}
+{WANG, G. et al. Uav-yolov8: a small-object-detection model based on improved
+  yolov8 for uav aerial photography scenarios.
+\emph{Sensors}, MDPI, v.~23, n.~16, p.~7190, 2023.}
 
 \bibitem[Widrow, Hoff et al. 1960]{widrow1960adaptive}
 \abntrefinfo{Widrow, Hoff et al.}{WIDROW; HOFF et al.}{1960}
