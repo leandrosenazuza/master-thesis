@@ -12,6 +12,13 @@ Medium.
 Dispon{\'\i}vel em:
   \url{https://medium.com/@avinicius.adorno/redes-neurais-artificiais-418a34ea1a39}.}
 
+\bibitem[Afonso et al. 2023]{afonso2023vehicle}
+\abntrefinfo{Afonso et al.}{AFONSO et al.}{2023}
+{AFONSO, M.~H. et al. Vehicle and plate detection for intelligent transport
+  systems: Performance evaluation of models yolov5 and yolov8. In:  IEEE.
+  \emph{2023 IEEE International Conference on Computing (ICOCO)}. [S.l.], 2023.
+  p. 328--333.}
+
 \bibitem[Andrade e Santos 2015]{de2015hydroelectric}
 \abntrefinfo{Andrade e Santos}{ANDRADE; SANTOS}{2015}
 {ANDRADE, A. de L.; SANTOS, M.~A. D. Hydroelectric plants environmental
@@ -58,6 +65,11 @@ Dispon{\'\i}vel em:
 {FLECK, L. et al. Redes neurais artificiais: Princ{\'\i}pios b{\'a}sicos.
 \emph{Revista Eletr{\^o}nica Cient{\'\i}fica Inova{\c{c}}{\~a}o e Tecnologia},
   v.~1, n.~13, p. 47--57, 2016.}
+
+\bibitem[Gomes 2022]{gomes2022detecccao}
+\abntrefinfo{Gomes}{GOMES}{2022}
+{GOMES, J. V.~E. Detec{\c{c}}{\~a}o de objetos com a arquitetura yolo.
+2022.}
 
 \bibitem[Gonzaga 2023]{gonzaga2023identificaccao}
 \abntrefinfo{Gonzaga}{GONZAGA}{2023}
@@ -149,6 +161,12 @@ Dispon{\'\i}vel em:
   telecomunica{\c{c}}oes para o sistema el{\'e}trico.
 \emph{XXX Simp{\'o}sio Brasileiro de Telecomunica{\c{c}}{\~o}es}, 2012.}
 
+\bibitem[Luo, Wu e Wang 2022]{luo2022target}
+\abntrefinfo{Luo, Wu e Wang}{LUO; WU; WANG}{2022}
+{LUO, X.; WU, Y.; WANG, F. Target detection method of uav aerial imagery based
+  on improved yolov5.
+\emph{Remote Sensing}, MDPI, v.~14, n.~19, p.~5063, 2022.}
+
 \bibitem[McCulloch e Pitts 1943]{mcculloch1943logical}
 \abntrefinfo{McCulloch e Pitts}{MCCULLOCH; PITTS}{1943}
 {MCCULLOCH, W.~S.; PITTS, W. A logical calculus of the ideas immanent in
@@ -231,6 +249,13 @@ Dispon{\'\i}vel em:
 \emph{Revista de Engenharia e Pesquisa Aplicada}, v.~9, n.~1, p. 115--122,
   2024.}
 
+\bibitem[Silva et al. 2018]{silva2018detecccao}
+\abntrefinfo{Silva et al.}{SILVA et al.}{2018}
+{SILVA, G.~d. et al. Detec{\c{c}}{\~a}o e contagem de plantas utilizando
+  t{\'e}cnicas de intelig{\^e}ncia artificial e machine learning.
+\emph{Gradua{\c{c}}{\~a}o em Engenharia Eletr{\^o}nica, Centro Tecnol{\'o}gico,
+  Universidade Federal de Santa Catarina}, 2018.}
+
 \bibitem[Silva et al. 2012]{silva2012virtual}
 \abntrefinfo{Silva et al.}{SILVA et al.}{2012}
 {SILVA, R.~C. et al. Virtual substation um sistema de realidade virtual para
@@ -258,6 +283,12 @@ p. 757--764, 1968.}
 {TERVEN, J.; CORDOVA-ESPARZA, D. A comprehensive review of yolo: From yolov1 to
   yolov8 and beyond.
 \emph{arXiv preprint arXiv:2304.00501}, 2023.}
+
+\bibitem[Tong et al. 2023]{tong2023wise}
+\abntrefinfo{Tong et al.}{TONG et al.}{2023}
+{TONG, Z. et al. Wise-iou: bounding box regression loss with dynamic focusing
+  mechanism.
+\emph{arXiv preprint arXiv:2301.10051}, 2023.}
 
 \bibitem[Ultralytics 2024]{ultralytics2024}
 \abntrefinfo{Ultralytics}{ULTRALYTICS}{2024}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.5.31)  10 JUL 2024 18:08
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.5.31)  17 JUL 2024 09:37
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1122,7 +1122,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.3}) has b
                    \relax 
 l.1 \chapter
             {Fundamentação Teórica} [3]
-<img/cap2/substation.jpeg, id=279, 783.92876pt x 583.17876pt>
+<img/cap2/substation.jpeg, id=283, 783.92876pt x 583.17876pt>
 File: img/cap2/substation.jpeg Graphic file (type jpg)
 <use img/cap2/substation.jpeg>
 Package pdftex.def Info: img/cap2/substation.jpeg  used on input line 13.
@@ -1135,7 +1135,7 @@ l.22
       [4
 
  <./img/cap2/substation.jpeg>]
-<img/cap2/reator-ar.jpeg, id=295, 347.79938pt x 423.83344pt>
+<img/cap2/reator-ar.jpeg, id=299, 347.79938pt x 423.83344pt>
 File: img/cap2/reator-ar.jpeg Graphic file (type jpg)
 <use img/cap2/reator-ar.jpeg>
 Package pdftex.def Info: img/cap2/reator-ar.jpeg  used on input line 30.
@@ -1151,7 +1151,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.6}) has b
                    \relax 
 l.48 
       [6]
-<img/cap2/na-completo.png, id=333, 603.25375pt x 355.3275pt>
+<img/cap2/na-completo.png, id=337, 603.25375pt x 355.3275pt>
 File: img/cap2/na-completo.png Graphic file (type png)
 <use img/cap2/na-completo.png>
 Package pdftex.def Info: img/cap2/na-completo.png  used on input line 61.
@@ -1171,7 +1171,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.8}) has b
                    \relax 
 l.83 
       [8{C:/Program Files/MiKTeX/fonts/enc/dvips/lm/lm-mathit.enc}{C:/Program Files/MiKTeX/fonts/enc/dvips/lm/lm-mathsy.enc}{C:/Program Files/MiKTeX/fonts/enc/dvips/lm/lm-rm.enc} <./img/cap2/na-completo.png (PNG copy)>]
-<img/cap2/topologia-rede.jpeg, id=370, 393.72093pt x 258.21469pt>
+<img/cap2/topologia-rede.jpeg, id=374, 393.72093pt x 258.21469pt>
 File: img/cap2/topologia-rede.jpeg Graphic file (type jpg)
 <use img/cap2/topologia-rede.jpeg>
 Package pdftex.def Info: img/cap2/topologia-rede.jpeg  used on input line 91.
@@ -1186,7 +1186,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.9}) has b
                    \relax 
 l.98 
       [9]
-<img/cap2/gato.png, id=384, 542.025pt x 378.41376pt>
+<img/cap2/gato.png, id=388, 542.025pt x 378.41376pt>
 File: img/cap2/gato.png Graphic file (type png)
 <use img/cap2/gato.png>
 Package pdftex.def Info: img/cap2/gato.png  used on input line 104.
@@ -1197,12 +1197,12 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.10}) has 
                    \relax 
 l.111 
        [10 <./img/cap2/topologia-rede.jpeg> <./img/cap2/gato.png>]
-<img/cap2/cnn.jpeg, id=396, 657.45625pt x 258.9675pt>
+<img/cap2/cnn.jpeg, id=400, 657.45625pt x 258.9675pt>
 File: img/cap2/cnn.jpeg Graphic file (type jpg)
 <use img/cap2/cnn.jpeg>
 Package pdftex.def Info: img/cap2/cnn.jpeg  used on input line 117.
 (pdftex.def)             Requested size: 286.6468pt x 112.91074pt.
-<img/cap2/filtro.png, id=404, 258.63292pt x 153.23917pt>
+<img/cap2/filtro.png, id=408, 258.63292pt x 153.23917pt>
 File: img/cap2/filtro.png Graphic file (type png)
 <use img/cap2/filtro.png>
 Package pdftex.def Info: img/cap2/filtro.png  used on input line 130.
@@ -1213,7 +1213,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.11}) has 
                    \relax 
 l.137 
        [11 <./img/cap2/cnn.jpeg> <./img/cap2/filtro.png>]
-<img/cap2/RNC-YOLO.jpeg, id=424, 1098.1025pt x 469.755pt>
+<img/cap2/RNC-YOLO.jpeg, id=428, 1098.1025pt x 469.755pt>
 File: img/cap2/RNC-YOLO.jpeg Graphic file (type jpg)
 <use img/cap2/RNC-YOLO.jpeg>
 Package pdftex.def Info: img/cap2/RNC-YOLO.jpeg  used on input line 152.
@@ -1228,34 +1228,38 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.12}) has 
                    \relax 
 l.159 
        [12]
-<img/cap2/processo-predicao-YOLO.jpeg, id=438, 645.41125pt x 430.60875pt>
+<img/cap2/processo-predicao-YOLO.jpeg, id=442, 645.41125pt x 430.60875pt>
 File: img/cap2/processo-predicao-YOLO.jpeg Graphic file (type jpg)
 <use img/cap2/processo-predicao-YOLO.jpeg>
 Package pdftex.def Info: img/cap2/processo-predicao-YOLO.jpeg  used on input line 165.
 (pdftex.def)             Requested size: 286.6468pt x 191.24248pt.
+ [13 <./img/cap2/RNC-YOLO.jpeg> <./img/cap2/processo-predicao-YOLO.jpeg>] [14]
 
+LaTeX Warning: Reference `fig:iou' on page 15 undefined on input line 189.
 
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[13 <./img/cap2/RNC-YOLO.jpeg>] [14 <./img/cap2/processo-predicao-YOLO.jpeg>] [15]
-<img/cap2/iou.png, id=478, 602.25pt x 469.755pt>
+[15]
+<img/cap2/iou.png, id=483, 602.25pt x 469.755pt>
 File: img/cap2/iou.png Graphic file (type png)
 <use img/cap2/iou.png>
 Package pdftex.def Info: img/cap2/iou.png  used on input line 206.
 (pdftex.def)             Requested size: 191.1011pt x 149.05595pt.
- [16
+
+
+LaTeX Warning: Reference `iou' on page 16 undefined on input line 211.
+
+[16
 pdfTeX warning (ext4): destination with the same identifier (name{equation.2.3.1}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
 l.212 
        <./img/cap2/iou.png>]
-<img/cap2/precisao.png, id=494, 703.62875pt x 525.965pt>
+<img/cap2/precisao.png, id=498, 703.62875pt x 525.965pt>
 File: img/cap2/precisao.png Graphic file (type png)
 <use img/cap2/precisao.png>
 Package pdftex.def Info: img/cap2/precisao.png  used on input line 218.
 (pdftex.def)             Requested size: 286.6468pt x 214.26663pt.
 ) (chapters/cap3.tex [17 <./img/cap2/precisao.png>]
-<img/cap3/mancha-marcacao.jpeg, id=506, 645.41125pt x 400.49625pt>
+<img/cap3/mancha-marcacao.jpeg, id=510, 645.41125pt x 400.49625pt>
 File: img/cap3/mancha-marcacao.jpeg Graphic file (type jpg)
 <use img/cap3/mancha-marcacao.jpeg>
 Package pdftex.def Info: img/cap3/mancha-marcacao.jpeg  used on input line 21.
@@ -1267,33 +1271,52 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 [18
 
 ]
-<img/cap3/salto.png, id=518, 281.55188pt x 134.75343pt>
+<img/cap3/salto.png, id=522, 281.55188pt x 134.75343pt>
 File: img/cap3/salto.png Graphic file (type png)
 <use img/cap3/salto.png>
 Package pdftex.def Info: img/cap3/salto.png  used on input line 34.
 (pdftex.def)             Requested size: 286.6468pt x 137.19994pt.
  [19 <./img/cap3/mancha-marcacao.jpeg> <./img/cap3/salto.png>]
-<img/cap3/tabela-mancha.jpeg, id=530, 762.85pt x 250.9375pt>
+<img/cap3/tabela-mancha.jpeg, id=534, 762.85pt x 250.9375pt>
 File: img/cap3/tabela-mancha.jpeg Graphic file (type jpg)
 <use img/cap3/tabela-mancha.jpeg>
 Package pdftex.def Info: img/cap3/tabela-mancha.jpeg  used on input line 53.
 (pdftex.def)             Requested size: 286.6468pt x 94.28894pt.
- [20 <./img/cap3/tabela-mancha.jpeg>] [21]
+ [20 <./img/cap3/tabela-mancha.jpeg>]
+<img/cap3/yolov5artigo.jpeg, id=551, 644.4075pt x 333.245pt>
+File: img/cap3/yolov5artigo.jpeg Graphic file (type jpg)
+<use img/cap3/yolov5artigo.jpeg>
+Package pdftex.def Info: img/cap3/yolov5artigo.jpeg  used on input line 86.
+(pdftex.def)             Requested size: 286.6468pt x 148.24016pt.
+ [21]
+<img/cap3/yolov8artigo.jpeg, id=563, 412.54124pt x 203.76125pt>
+File: img/cap3/yolov8artigo.jpeg Graphic file (type jpg)
+<use img/cap3/yolov8artigo.jpeg>
+Package pdftex.def Info: img/cap3/yolov8artigo.jpeg  used on input line 97.
+(pdftex.def)             Requested size: 286.6468pt x 141.581pt.
+ [22 <./img/cap3/yolov5artigo.jpeg> <./img/cap3/yolov8artigo.jpeg>] [23]
+<img/cap3/chines.jpeg, id=587, 843.15pt x 241.90375pt>
+File: img/cap3/chines.jpeg Graphic file (type jpg)
+<use img/cap3/chines.jpeg>
+Package pdftex.def Info: img/cap3/chines.jpeg  used on input line 127.
+(pdftex.def)             Requested size: 286.6468pt x 82.2425pt.
+<img/cap3/chines-tabela.jpeg, id=588, 1067.99pt x 324.21124pt>
+File: img/cap3/chines-tabela.jpeg Graphic file (type jpg)
+<use img/cap3/chines-tabela.jpeg>
+Package pdftex.def Info: img/cap3/chines-tabela.jpeg  used on input line 138.
+(pdftex.def)             Requested size: 286.6468pt x 87.01875pt.
 
-LaTeX Warning: Citation `bazame2022detection' on page 22 undefined on input line 112.
-
-
-Overfull \hbox (45.79126pt too wide) in paragraph at lines 99--115
+Overfull \hbox (45.79126pt too wide) in paragraph at lines 151--169
  [][] 
  []
 
-[22]) (chapters/cap4.tex [23]
-<img/cap4/reator-porto-velho.jpeg, id=562, 962.59625pt x 641.39626pt>
+[24 <./img/cap3/chines.jpeg> <./img/cap3/chines-tabela.jpeg>]) (chapters/cap4.tex [25]
+<img/cap4/reator-porto-velho.jpeg, id=610, 962.59625pt x 641.39626pt>
 File: img/cap4/reator-porto-velho.jpeg Graphic file (type jpg)
 <use img/cap4/reator-porto-velho.jpeg>
 Package pdftex.def Info: img/cap4/reator-porto-velho.jpeg  used on input line 23.
 (pdftex.def)             Requested size: 204.74861pt x 136.41968pt.
-<img/cap4/reator-araraquara.jpg, id=563, 8030.0pt x 6022.5pt>
+<img/cap4/reator-araraquara.jpg, id=611, 8030.0pt x 6022.5pt>
 File: img/cap4/reator-araraquara.jpg Graphic file (type jpg)
 <use img/cap4/reator-araraquara.jpg>
 Package pdftex.def Info: img/cap4/reator-araraquara.jpg  used on input line 28.
@@ -1302,23 +1325,23 @@ Package pdftex.def Info: img/cap4/reator-araraquara.jpg  used on input line 28.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[24
+[26
 
-]) (chapters/cap5.tex [25 <./img/cap4/reator-porto-velho.jpeg> <./img/cap4/reator-araraquara.jpg>]) (chapters/cap6.tex [26
+]) (chapters/cap5.tex [27 <./img/cap4/reator-porto-velho.jpeg> <./img/cap4/reator-araraquara.jpg>]) (chapters/cap6.tex [28
 
-]) (chapters/cap7.tex [27
+]) (chapters/cap7.tex [29
 
 ]) (thesis-leandrozuza.bbl (thesis-leandrozuza.brf)
 \tf@brf=\write6
 \openout6 = `thesis-leandrozuza.brf'.
 
- [28
+ [30
 
 ]
 bibitemlist
-[29
+[31
 
-] [30] [31]) [32]
+] [32] [33]) [34]
 \tf@toc=\write7
 \openout7 = `thesis-leandrozuza.toc'.
 
@@ -1341,20 +1364,20 @@ LaTeX Warning: There were undefined references.
 LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `thesis-leandrozuza.brf' has not changed.
-(rerunfilecheck)             Checksum: C5728303CCD6F9A85731C31E70C2037A;4415.
+(rerunfilecheck)             Checksum: 97F99A046D586C3B232288C38C72F49C;4998.
  ) 
 Here is how much of TeX's memory you used:
- 26673 strings out of 474313
- 441199 string characters out of 5749121
- 1944907 words of memory out of 5000000
- 48229 multiletter control sequences out of 15000+600000
- 636389 words of font info for 194 fonts, out of 8000000 for 9000
+ 26742 strings out of 474313
+ 442954 string characters out of 5749121
+ 1943907 words of memory out of 5000000
+ 48297 multiletter control sequences out of 15000+600000
+ 636092 words of font info for 191 fonts, out of 8000000 for 9000
  1192 hyphenation exceptions out of 8191
  110i,18n,107p,1823b,715s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Program Files/MiKTeX/fonts/type1/public/lm/lmbx12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmmi12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmr10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmr12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmri10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmri12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmss12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmss17.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmssbx10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmsy10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on thesis-leandrozuza.pdf (44 pages, 19121514 bytes).
+Output written on thesis-leandrozuza.pdf (46 pages, 19285791 bytes).
 PDF statistics:
- 914 PDF objects out of 1000 (max. 8388607)
- 156 named destinations out of 1000 (max. 500000)
- 45494 words of extra memory for PDF output out of 51595 (max. 10000000)
+ 958 PDF objects out of 1000 (max. 8388607)
+ 163 named destinations out of 1000 (max. 500000)
+ 45482 words of extra memory for PDF output out of 51595 (max. 10000000)
 

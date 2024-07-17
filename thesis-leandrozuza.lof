@@ -8,10 +8,14 @@
 \contentsline {figure}{\numberline {6}{\ignorespaces Esquema de funcionamento de uma RNC \cite {vargas2016estudo}}}{11}{figure.caption.18}%
 \contentsline {figure}{\numberline {7}{\ignorespaces Operação de filtragem na camada convolucional. Nota-se que o filtro é uma multiplicação de matrizes \cite {shorthistory}}}{11}{figure.caption.19}%
 \contentsline {figure}{\numberline {8}{\ignorespaces Disposição das 24 camadas convolucionais e das 2 camadas totalmente conectadas \cite {redmon2016youlookonce}}}{13}{figure.caption.20}%
-\contentsline {figure}{\numberline {9}{\ignorespaces Processo de predição da Yolo \cite {redmon2016youlookonce}}}{14}{figure.caption.21}%
+\contentsline {figure}{\numberline {9}{\ignorespaces Processo de predição da Yolo \cite {redmon2016youlookonce}}}{13}{figure.caption.21}%
 \contentsline {figure}{\numberline {10}{\ignorespaces Cálculo de IoU. \cite {padilla2020survey}}}{16}{figure.caption.24}%
 \contentsline {figure}{\numberline {11}{\ignorespaces Aumento de desempenho da precisão média, versão 5 para 8. \cite {ultralytics2023yolo}}}{17}{figure.caption.25}%
 \contentsline {figure}{\numberline {12}{\ignorespaces Exemplo de marcação de foto utilizando labelImg, de um defeito em um vidro \cite {gonzaga2023identificaccao}}}{19}{figure.caption.26}%
 \contentsline {figure}{\numberline {13}{\ignorespaces Bloco de aprendizado da ResNet \cite {he2016deep}}}{19}{figure.caption.27}%
 \contentsline {figure}{\numberline {14}{\ignorespaces Resultado do treinamento variando parâmetros}}{20}{figure.caption.28}%
-\contentsline {figure}{\numberline {15}{\ignorespaces Captura de foto em Porto Velho (à esquerda) e Araraquara (à direita), onde se notam quatro reatores de núcleo de ar na parte inferior.}}{25}{figure.caption.30}%
+\contentsline {figure}{\numberline {15}{\ignorespaces YOLOv5 \cite {diascomparaccao}}}{22}{figure.caption.29}%
+\contentsline {figure}{\numberline {16}{\ignorespaces YOLOv8 \cite {diascomparaccao}}}{22}{figure.caption.30}%
+\contentsline {figure}{\numberline {17}{\ignorespaces Comparação da YOLOv8 com a rede modificada}}{24}{figure.caption.31}%
+\contentsline {figure}{\numberline {18}{\ignorespaces Comparação da YOLOv8 com a rede modificada}}{24}{figure.caption.32}%
+\contentsline {figure}{\numberline {19}{\ignorespaces Captura de foto em Porto Velho (à esquerda) e Araraquara (à direita), onde se notam quatro reatores de núcleo de ar na parte inferior.}}{27}{figure.caption.34}%
