@@ -119,7 +119,7 @@ Neste artigo, então, para melhorar sua eficácia nesses cenários, o foi propos
 
 A experimentação do novo modelo foi proposta de forma a avaliar a precisão de detecção de objetos pequenos e a eficiência de recursos do modelo proposto, UAV-YOLOv8s. Como dataset, o estudo fez uso do dataset VisDrone2019, que inclui fotografias aéreas obtidas por UAVs em várias cidades da China, capturando diferentes cenários e condições de iluminação. Escolheu-se o VisDrone2019 devido à sua riqueza de informações e diversidade. Foi desenvolvido pela Universidade de Tianjin e inclui uma variedade de categorias de objetos de detecção e distribuições variadas de objetos, abrangendo tanto cenários com alta quanto baixa densidade de objetos, e fotos tiradas durante o dia e a noite.
 
-Assim, para a detecção de objetos em fotos capturadas por VANTs, em se tratando de objetos muitos, fundos complexos e recursos de hardware limitados, há um desafio em manter a alta a precisão dos modelos. O UAV-YOLOv8, baseado no YOLOv8, é proposto para otimizar a detecção, introduzindo a função de perda WIoU v3 e o mecanismo de atenção BiFormer, melhorando o foco do modelo e reduzindo a perda de detecção de objetos pequenos. O modelo alcança um aumento de 7,7\% (Figura\ref{fig:chines}) na precisão sem aumentar seu tamanho, mas a adição de duas camadas de detecção aumenta a complexidade e o tempo de computação. Comparado com outros modelos mainstream, o UAV-YOLOv8 demonstrou desempenho superior, de modo geral (Figura \ref{fig:chines-tabela}). A precisão ainda é baixa para objetos muito pequenos, como bicicletas, e futuras pesquisas seriam necessárias na otimização dessa precisão, podendo elas ficarem na confecção do dataset para melhores resultados, alteração da arquitetura, entre outras abordagens.
+Assim, para a detecção de objetos em fotos capturadas por VANTs, em se tratando de objetos muitos, fundos complexos e recursos de hardware limitados, há um desafio em manter a alta a precisão dos modelos. O UAV-YOLOv8, baseado no YOLOv8, é proposto para otimizar a detecção, introduzindo a função de perda WIoU v3 e o mecanismo de atenção BiFormer, melhorando o foco do modelo e reduzindo a perda de detecção de objetos pequenos. O modelo aprimorado alcança um aumento médio de 7,7\% (Figura\ref{fig:chines}) na precisão sem aumentar seu tamanho, mas a adição de duas camadas de detecção aumenta a complexidade e o tempo de computação. Comparado com outros modelos mainstream, o UAV-YOLOv8 demonstrou desempenho superior, de modo geral (Figura \ref{fig:chines-tabela}). A precisão ainda é baixa para objetos muito pequenos, como bicicletas, e futuras pesquisas seriam necessárias na otimização dessa precisão, podendo elas ficarem na confecção do dataset para melhores resultados, alteração da arquitetura, entre outras abordagens.
 
 \begin{figure}[!h]
     \center
@@ -147,6 +147,14 @@ Assim, para a detecção de objetos em fotos capturadas por VANTs, em se tratand
 
 A Tabela \ref{tab:relacionado1} apresenta um resumo de todos os trabalhos relacionados descritos neste capítulo, considerando os seguintes temas:
 
+\begin{itemize}
+    \item \textit{Treinamento utilizando YOLOv8}: Utilização de RNC para realizar treinamento em conjuntos de imagens;
+    \item \textit{Alteração de Parâmetros da RNC para treinamento}: Variação de parâmetros como batch size e otimizadores para treinamento;
+    \item \textit{Utilização de VANT}: Coleta de fotos utilizando VANTs;
+    \item \textit{Subestações de Energia}: Coleta, treinamento e inserção voltada para subestações de energia;
+    \item \textit{Automação de Inserção de RV}: Construção de sistema de inserção automática de objetos em um sistema de RV.
+\end{itemize}
+
 \begin{table}[!hbt]
     \centering
     \caption{Resumo comparativo dos trabalhos relacionados}
@@ -163,22 +171,12 @@ A Tabela \ref{tab:relacionado1} apresenta um resumo de todos os trabalhos relaci
     \hline
     \cite{diascomparaccao} & \textcolor{green}{\(\checkmark\)} & \textcolor{green}{\(\checkmark\)} & \textcolor{red}{\(\times\)} & \textcolor{red}{\(\times\)} & \textcolor{red}{\(\times\)} \\
     \hline
-    \cite{wang2023uav} & \textcolor{green}{\(\checkmark\)} & \textcolor{green}{\(\checkmark\)} & \textcolor{red}{\(\checkmark\)} & \textcolor{red}{\(\times\)} & \textcolor{red}{\(\times\)} \\
+    \cite{wang2023uav} & \textcolor{green}{\(\checkmark\)} & \textcolor{green}{\(\checkmark\)} & \textcolor{green}{\(\checkmark\)} & \textcolor{red}{\(\times\)} & \textcolor{red}{\(\times\)} \\
     \hline
     (ZUZA, 2024) & \textcolor{green}{\(\checkmark\)} & \textcolor{green}{\(\checkmark\)} & \textcolor{green}{\(\checkmark\)} & \textcolor{green}{\(\checkmark\)} & \textcolor{green}{\(\checkmark\)} \\
     \end{tabular}
     \label{tab:relacionado1}
 \end{table}
-
-
-
-\begin{itemize}
-    \item \textit{Treinamento utilizando YOLOv8}: Utilização de RNC para realizar treinamento em conjuntos de imagens;
-    \item \textit{Alteração de Parâmetros da RNC para treinamento}: Variação de parâmetros como batch size e otimizadores para treinamento;
-    \item \textit{Utilização de VANT}: Coleta de fotos utilizando VANTs;
-    \item \textit{Subestações de Energia}: Coleta, treinamento e inserção voltada para subestações de energia;
-    \item \textit{Automação de Inserção de RV}: Construção de sistema de inserção automática de objetos em um sistema de RV.
-\end{itemize}
 
 Pela análise da Tabela \ref{tab:relacionado1}, entende-se que não há ainda um trabalho que reúna todos os tópicos apresentados. É fato que há diversos trabalhos que exploram a detecção de objetos em diversos cenários, utilizando diversas versões da YOLO, inclusive utilizando VANT, para obtenção de imagens. Contudo, no contexto de subestações de energia e identificação de seus equipamentos, há uma lacuna de contribuições. Naturalmente, isso mostra o quão prolífico esta dissertação se mostra, ao unir todas essas áreas de estudo num propósito ainda não explorado.
 
