@@ -271,9 +271,6 @@ INPUT C:\Users\leand\AppData\Roaming\MiKTeX\tex\latex\koma-script\scrlfile-hook.
 INPUT C:\Users\leand\AppData\Roaming\MiKTeX\tex\latex\koma-script\scrlogo.sty
 INPUT C:\Users\leand\AppData\Roaming\MiKTeX\tex\latex\koma-script\scrlogo.sty
 OUTPUT thesis-leandrozuza.nlo
-INPUT .\thesis-leandrozuza.aux
-INPUT .\thesis-leandrozuza.aux
-INPUT thesis-leandrozuza.aux
 OUTPUT thesis-leandrozuza.aux
 OUTPUT thesis-leandrozuza.pdf
 INPUT C:\Program Files\MiKTeX\tex\context\base\mkii\supp-pdf.mkii
@@ -365,17 +362,8 @@ INPUT C:\Program Files\MiKTeX\tex\latex\lm\ts1lmr.fd
 INPUT C:\Program Files\MiKTeX\tex\latex\lm\ts1lmr.fd
 INPUT C:\Program Files\MiKTeX\fonts\tfm\public\lm\ts1-lmri12.tfm
 INPUT C:\Program Files\MiKTeX\fonts\enc\dvips\lm\lm-ts1.enc
-INPUT .\thesis-leandrozuza.toc
-INPUT .\thesis-leandrozuza.toc
-INPUT thesis-leandrozuza.toc
-INPUT C:\Program Files\MiKTeX\fonts\tfm\public\lm\ec-lmssbx10.tfm
-INPUT .\thesis-leandrozuza.lof
-INPUT .\thesis-leandrozuza.lof
-INPUT thesis-leandrozuza.lof
-INPUT .\thesis-leandrozuza.lot
-INPUT .\thesis-leandrozuza.lot
-INPUT thesis-leandrozuza.lot
 INPUT chapters\cap1.tex
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\lm\ec-lmbx12.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\public\lm\ec-lmr10.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\public\lm\ec-lmri10.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\public\lm\ts1-lmr12.tfm
@@ -388,6 +376,7 @@ INPUT .\img\cap2\substation.jpeg
 INPUT .\img\cap2\substation.jpeg
 INPUT .\img\cap2\substation.jpeg
 INPUT C:\Program Files\MiKTeX\fonts\tfm\public\lm\ec-lmr10.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\lm\ec-lmbx10.tfm
 INPUT .\img\cap2\reator-ar.jpeg
 INPUT .\img\cap2\reator-ar.jpeg
 INPUT .\img\cap2\reator-ar.jpeg
@@ -402,7 +391,6 @@ INPUT .\img\cap2\na-completo.png
 INPUT .\img\cap2\na-completo.png
 INPUT .\img\cap2\na-completo.png
 INPUT .\img\cap2\na-completo.png
-INPUT C:\Program Files\MiKTeX\fonts\tfm\public\lm\ec-lmbx12.tfm
 INPUT C:\Program Files\MiKTeX\fonts\enc\dvips\lm\lm-mathit.enc
 INPUT C:\Program Files\MiKTeX\fonts\enc\dvips\lm\lm-mathsy.enc
 INPUT C:\Program Files\MiKTeX\fonts\enc\dvips\lm\lm-rm.enc
@@ -545,18 +533,12 @@ INPUT chapters\cap7.tex
 INPUT .\thesis-leandrozuza.bbl
 INPUT .\thesis-leandrozuza.bbl
 INPUT thesis-leandrozuza.bbl
-INPUT .\thesis-leandrozuza.brf
-INPUT .\thesis-leandrozuza.brf
-INPUT thesis-leandrozuza.brf
-INPUT .\thesis-leandrozuza.brf
-INPUT .\thesis-leandrozuza.brf
-OUTPUT thesis-leandrozuza.brf
 OUTPUT thesis-leandrozuza.toc
 OUTPUT thesis-leandrozuza.lof
 OUTPUT thesis-leandrozuza.lot
 INPUT thesis-leandrozuza.aux
-INPUT .\thesis-leandrozuza.brf
-INPUT .\thesis-leandrozuza.brf
+INPUT C:\Program Files\MiKTeX\fonts\type1\public\lm\lmbx10.pfb
+INPUT C:\Program Files\MiKTeX\fonts\type1\public\lm\lmbx10.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\lm\lmbx12.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\lm\lmbx12.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\lm\lmmi12.pfb
