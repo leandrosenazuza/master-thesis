@@ -66,6 +66,11 @@ Dispon{\'\i}vel em:
 \emph{Revista Eletr{\^o}nica Cient{\'\i}fica Inova{\c{c}}{\~a}o e Tecnologia},
   v.~1, n.~13, p. 47--57, 2016.}
 
+\bibitem[Girshick 2015]{girshick2015fast}
+\abntrefinfo{Girshick}{GIRSHICK}{2015}
+{GIRSHICK, R. Fast r-cnn. In:  \emph{Proceedings of the IEEE international
+  conference on computer vision}. [S.l.: s.n.], 2015. p. 1440--1448.}
+
 \bibitem[Gomes 2022]{gomes2022detecccao}
 \abntrefinfo{Gomes}{GOMES}{2022}
 {GOMES, J. V.~E. Detec{\c{c}}{\~a}o de objetos com a arquitetura yolo.
@@ -155,17 +160,16 @@ Dispon{\'\i}vel em:
 \emph{Revista Brasileira de Sa{\'u}de Ocupacional}, SciELO Brasil, v.~46,
   p.~e6, 2021.}
 
+\bibitem[Lin 2017]{labelimg}
+\abntrefinfo{Lin}{LIN}{2017}
+{LIN, T. \emph{{labelImg}}. 2017. \url{https://pypi.org/project/labelImg/1}.
+Acesso em: 07 de mar. de 2024.}
+
 \bibitem[Lopes et al. 2012]{lopes2012smart}
 \abntrefinfo{Lopes et al.}{LOPES et al.}{2012}
 {LOPES, Y. et al. Smart grid e iec 61850: Novos desafios em redes e
   telecomunica{\c{c}}oes para o sistema el{\'e}trico.
 \emph{XXX Simp{\'o}sio Brasileiro de Telecomunica{\c{c}}{\~o}es}, 2012.}
-
-\bibitem[Luo, Wu e Wang 2022]{luo2022target}
-\abntrefinfo{Luo, Wu e Wang}{LUO; WU; WANG}{2022}
-{LUO, X.; WU, Y.; WANG, F. Target detection method of uav aerial imagery based
-  on improved yolov5.
-\emph{Remote Sensing}, MDPI, v.~14, n.~19, p.~5063, 2022.}
 
 \bibitem[McCulloch e Pitts 1943]{mcculloch1943logical}
 \abntrefinfo{McCulloch e Pitts}{MCCULLOCH; PITTS}{1943}
@@ -219,6 +223,11 @@ Dispon{\'\i}vel em:
 {REDMON, J. et al. You only look once: Unified, real-time object detection. In:
    \emph{Proceedings of the IEEE conference on computer vision and pattern
   recognition}. [S.l.: s.n.], 2016. p. 779--788.}
+
+\bibitem[Redmon e Farhadi 2018]{redmon2018yolov3}
+\abntrefinfo{Redmon e Farhadi}{REDMON; FARHADI}{2018}
+{REDMON, J.; FARHADI, A. Yolov3: An incremental improvement.
+\emph{arXiv preprint arXiv:1804.02767}, 2018.}
 
 \bibitem[Rodrigues 2023]{rodrigues2023visao}
 \abntrefinfo{Rodrigues}{RODRIGUES}{2023}
@@ -283,12 +292,6 @@ p. 757--764, 1968.}
 {TERVEN, J.; CORDOVA-ESPARZA, D. A comprehensive review of yolo: From yolov1 to
   yolov8 and beyond.
 \emph{arXiv preprint arXiv:2304.00501}, 2023.}
-
-\bibitem[Tong et al. 2023]{tong2023wise}
-\abntrefinfo{Tong et al.}{TONG et al.}{2023}
-{TONG, Z. et al. Wise-iou: bounding box regression loss with dynamic focusing
-  mechanism.
-\emph{arXiv preprint arXiv:2301.10051}, 2023.}
 
 \bibitem[Ultralytics 2024]{ultralytics2024}
 \abntrefinfo{Ultralytics}{ULTRALYTICS}{2024}

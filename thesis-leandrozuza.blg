@@ -18,6 +18,11 @@ Database file #1: abntex2-options.bib
 Database file #2: postextual/bibliography.bib
 Warning--entry type for "reatorNucleoDeAr" isn't style-file defined
 --line 845 of file postextual/bibliography.bib
+Repeated entry---line 1037 of file postextual/bibliography.bib
+ : @misc{labelimg
+ :               ,
+I'm skipping whatever remains of this entry
+Warning--I didn't find a database entry for "fig:reator-marcado"
 Reallocating 'singl_function' (item size: 4) to 100 items.
 Reallocating 'glb_str_end' (item size: 4) to 20 items.
 Reallocating 'glb_str_ptr' (item size: 4) to 20 items.
@@ -27,45 +32,45 @@ Reallocating 'global_strs' (item size: 1) to 4000000 items.
 | Em caso de dúvidas ou problemas com este estilo procure |
 | http://www.abntex.net.br/                               |
 +---------------------------------------------------------+
-You've used 52 entries,
+You've used 53 entries,
             6714 wiz_defined-function locations,
-            1471 strings with 19414 characters,
-and the built_in function-call counts, 54039 in all, are:
-= -- 5019
-> -- 1644
-< -- 739
-+ -- 1326
-- -- 494
-* -- 3723
-:= -- 6975
-add.period$ -- 180
-call.type$ -- 52
-change.case$ -- 567
-chr.to.int$ -- 106
-cite$ -- 51
-duplicate$ -- 3973
-empty$ -- 2982
-format.name$ -- 2362
-if$ -- 11717
+            1475 strings with 19444 characters,
+and the built_in function-call counts, 54412 in all, are:
+= -- 5066
+> -- 1613
+< -- 736
++ -- 1313
+- -- 487
+* -- 3716
+:= -- 7027
+add.period$ -- 187
+call.type$ -- 53
+change.case$ -- 564
+chr.to.int$ -- 104
+cite$ -- 52
+duplicate$ -- 4000
+empty$ -- 3067
+format.name$ -- 2324
+if$ -- 11819
 int.to.chr$ -- 0
 int.to.str$ -- 0
-missing$ -- 910
-newline$ -- 261
-num.names$ -- 255
-pop$ -- 1263
+missing$ -- 926
+newline$ -- 265
+num.names$ -- 260
+pop$ -- 1279
 preamble$ -- 1
 purify$ -- 211
 quote$ -- 0
-skip$ -- 4153
+skip$ -- 4186
 stack$ -- 1
-substring$ -- 2261
-swap$ -- 1578
-text.length$ -- 60
+substring$ -- 2313
+swap$ -- 1587
+text.length$ -- 58
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 2
+type$ -- 3
 warning$ -- 0
-while$ -- 377
+while$ -- 385
 width$ -- 0
-write$ -- 796
-(There was 1 warning)
+write$ -- 809
+(There was 1 error message)
