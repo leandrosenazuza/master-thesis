@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.5.31)  28 JUL 2024 16:36
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.5.31)  31 JUL 2024 00:50
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -948,8 +948,11 @@ Package hyperref Info: Option `colorlinks' set `true' on input line 172.
 \cftbeforequadroskip=\skip284
 \cftquadroindent=\skip285
 \cftquadronumwidth=\skip286
+ (thesis-leandrozuza.aux
 
-No file thesis-leandrozuza.aux.
+LaTeX Warning: Label `sec:precisaorecall' multiply defined.
+
+)
 \openout1 = `thesis-leandrozuza.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 218.
@@ -975,7 +978,7 @@ LaTeX Info: Redefining \degres on input line 218.
 LaTeX Info: Redefining \up on input line 218.
 \myptabbox=\box72
 \myptabboxwidth=\skip287
-(C:\Program Files\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
+ (C:\Program Files\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count394
 \scratchdimen=\dimen288
@@ -1093,30 +1096,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 34--1
 LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 8.
  (C:\Program Files\MiKTeX\tex/latex/lm\ts1lmr.fd
 File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-) [7{C:/Program Files/MiKTeX/fonts/enc/dvips/lm/lm-ts1.enc}])
-No file thesis-leandrozuza.toc.
-[8]
-No file thesis-leandrozuza.lof.
-[9
+) [7{C:/Program Files/MiKTeX/fonts/enc/dvips/lm/lm-ts1.enc}]) (thesis-leandrozuza.toc [8]) [9] (thesis-leandrozuza.lof) [10
 
-]
-No file thesis-leandrozuza.lot.
-[10
+] (thesis-leandrozuza.lot) [11
 
-] [11
+] [12
 
 
 ] (chapters/cap1.tex
-
-LaTeX Warning: Citation `randolph2013electric' on page 1 undefined on input line 6.
-
-
-LaTeX Warning: Citation `lima2021precarizaccao' on page 1 undefined on input line 8.
-
-
-LaTeX Warning: Citation `zhou2016big' on page 1 undefined on input line 10.
-
-
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
@@ -1125,13 +1112,6 @@ l.11
 
 
 ]
-
-LaTeX Warning: Citation `palmeira2020uncanny' on page 2 undefined on input line 12.
-
-
-LaTeX Warning: Citation `ougcu2012forecasting' on page 2 undefined on input line 14.
-
-
 pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
@@ -1142,29 +1122,11 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.3}) has b
                    \relax 
 l.1 \chapter
             {Fundamentação Teórica} [3]
-
-LaTeX Warning: Reference `fig:substation' on page 4 undefined on input line 6.
-
-
-LaTeX Warning: Citation `lopes2012smart' on page 4 undefined on input line 6.
-
-<img/cap2/substation.jpeg, id=91, 783.92876pt x 583.17876pt>
+<img/cap2/substation.jpeg, id=296, 783.92876pt x 583.17876pt>
 File: img/cap2/substation.jpeg Graphic file (type jpg)
 <use img/cap2/substation.jpeg>
 Package pdftex.def Info: img/cap2/substation.jpeg  used on input line 13.
 (pdftex.def)             Requested size: 286.6468pt x 213.24556pt.
-
-LaTeX Warning: Citation `lopes2012smart' on page 4 undefined on input line 14.
-
-
-LaTeX Warning: Citation `lopes2012smart' on page 4 undefined on input line 14.
-
-
-LaTeX Warning: Citation `barreto2022proposta' on page 4 undefined on input line 19.
-
-
-LaTeX Warning: Citation `de2015hydroelectric' on page 4 undefined on input line 21.
-
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.4}) has been already used, duplicate ignored
 <to be read again> 
@@ -1173,84 +1135,30 @@ l.22
       [4
 
  <./img/cap2/substation.jpeg>]
-
-LaTeX Warning: Citation `lopes2012smart' on page 5 undefined on input line 23.
-
-<img/cap2/reator-ar.jpeg, id=99, 347.79938pt x 423.83344pt>
+<img/cap2/reator-ar.jpeg, id=312, 347.79938pt x 423.83344pt>
 File: img/cap2/reator-ar.jpeg Graphic file (type jpg)
 <use img/cap2/reator-ar.jpeg>
 Package pdftex.def Info: img/cap2/reator-ar.jpeg  used on input line 30.
 (pdftex.def)             Requested size: 159.2493pt x 194.06033pt.
-
-LaTeX Warning: Citation `reatorNucleoDeAr' on page 5 undefined on input line 31.
-
-
-LaTeX Warning: Citation `reatorNucleoDeAr' on page 5 undefined on input line 31.
-
-
-LaTeX Warning: Reference `fig:reator' on page 5 undefined on input line 36.
-
-
-LaTeX Warning: Citation `de2012reatores' on page 5 undefined on input line 36.
-
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.5}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.38 \section
              {Realidade Virtual} [5 <./img/cap2/reator-ar.jpeg>]
-
-LaTeX Warning: Citation `cardoso2007tecnologias' on page 6 undefined on input line 41.
-
-
-LaTeX Warning: Citation `kalawsky1993science' on page 6 undefined on input line 43.
-
-
-LaTeX Warning: Citation `sutherland1963sketchpad' on page 6 undefined on input line 45.
-
-
-LaTeX Warning: Citation `sutherland1968head' on page 6 undefined on input line 45.
-
-
-LaTeX Warning: Citation `kirner2011evoluccao' on page 6 undefined on input line 45.
-
-
-LaTeX Warning: Citation `silva2012virtual' on page 6 undefined on input line 47.
-
-
 pdfTeX warning (ext4): destination with the same identifier (name{page.6}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.48 
       [6]
-
-LaTeX Warning: Citation `fleck2016redes' on page 7 undefined on input line 52.
-
-
-LaTeX Warning: Reference `fig:na' on page 7 undefined on input line 54.
-
-
-LaTeX Warning: Citation `mcculloch1943logical' on page 7 undefined on input line 54.
-
-<img/cap2/na-completo.png, id=108, 603.25375pt x 355.3275pt>
+<img/cap2/na-completo.png, id=350, 603.25375pt x 355.3275pt>
 File: img/cap2/na-completo.png Graphic file (type png)
 <use img/cap2/na-completo.png>
 Package pdftex.def Info: img/cap2/na-completo.png  used on input line 61.
 (pdftex.def)             Requested size: 286.6468pt x 168.83652pt.
 
-LaTeX Warning: Citation `adorno2017' on page 7 undefined on input line 62.
-
-
-LaTeX Warning: Citation `adorno2017' on page 7 undefined on input line 62.
-
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
-LaTeX Warning: Reference `fig:na' on page 7 undefined on input line 67.
-
-
-LaTeX Warning: Citation `deeplearningbook2023' on page 7 undefined on input line 67.
 
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.7}) has been already used, duplicate ignored
@@ -1258,383 +1166,143 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.7}) has b
                    \relax 
 l.72     \item \textbf
                       {Combinador linear}: Operação aritmética envolvendo... [7]
-
-LaTeX Warning: Citation `haykin2001redes' on page 8 undefined on input line 80.
-
-
-LaTeX Warning: Citation `rauber2005redes' on page 8 undefined on input line 82.
-
-
-LaTeX Warning: Citation `rosenblatt1958perceptron' on page 8 undefined on input line 82.
-
-
-LaTeX Warning: Citation `widrow1960adaptive' on page 8 undefined on input line 82.
-
-
-LaTeX Warning: Citation `rumelhart1986learning' on page 8 undefined on input line 82.
-
-
 pdfTeX warning (ext4): destination with the same identifier (name{page.8}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.83 
       [8{C:/Program Files/MiKTeX/fonts/enc/dvips/lm/lm-mathit.enc}{C:/Program Files/MiKTeX/fonts/enc/dvips/lm/lm-mathsy.enc}{C:/Program Files/MiKTeX/fonts/enc/dvips/lm/lm-rm.enc} <./img/cap2/na-completo.png (PNG copy)>]
-
-LaTeX Warning: Reference `fig:topologia' on page 9 undefined on input line 84.
-
-
-LaTeX Warning: Citation `rauber2005redes' on page 9 undefined on input line 84.
-
-<img/cap2/topologia-rede.jpeg, id=121, 393.72093pt x 258.21469pt>
+<img/cap2/topologia-rede.jpeg, id=387, 393.72093pt x 258.21469pt>
 File: img/cap2/topologia-rede.jpeg Graphic file (type jpg)
 <use img/cap2/topologia-rede.jpeg>
 Package pdftex.def Info: img/cap2/topologia-rede.jpeg  used on input line 91.
 (pdftex.def)             Requested size: 286.6468pt x 187.99081pt.
 
-LaTeX Warning: Citation `fleck2016redes' on page 9 undefined on input line 92.
-
-
-LaTeX Warning: Citation `fleck2016redes' on page 9 undefined on input line 92.
-
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
-LaTeX Warning: Citation `haykin2001redes' on page 9 undefined on input line 97.
-
-<img/cap2/gato.png, id=122, 542.025pt x 378.41376pt>
-File: img/cap2/gato.png Graphic file (type png)
-<use img/cap2/gato.png>
-Package pdftex.def Info: img/cap2/gato.png  used on input line 104.
-(pdftex.def)             Requested size: 286.6468pt x 200.12527pt.
-
-LaTeX Warning: Citation `lima2020captcha' on page 9 undefined on input line 105.
-
-
-LaTeX Warning: Citation `lima2020captcha' on page 9 undefined on input line 105.
 
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.9}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.108 \end{figure}
-                   [9]
-
-LaTeX Warning: Reference `fig:gato' on page 10 undefined on input line 110.
-
-
-LaTeX Warning: Reference `fig:rnc' on page 10 undefined on input line 110.
-
-
-LaTeX Warning: Citation `vargas2016estudo' on page 10 undefined on input line 110.
-
+l.98 
+      [9]
+<img/cap2/gato.png, id=401, 542.025pt x 378.41376pt>
+File: img/cap2/gato.png Graphic file (type png)
+<use img/cap2/gato.png>
+Package pdftex.def Info: img/cap2/gato.png  used on input line 104.
+(pdftex.def)             Requested size: 286.6468pt x 200.12527pt.
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.10}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.111 
        [10 <./img/cap2/topologia-rede.jpeg> <./img/cap2/gato.png>]
-<img/cap2/cnn.jpeg, id=131, 657.45625pt x 258.9675pt>
+<img/cap2/cnn.jpeg, id=413, 657.45625pt x 258.9675pt>
 File: img/cap2/cnn.jpeg Graphic file (type jpg)
 <use img/cap2/cnn.jpeg>
 Package pdftex.def Info: img/cap2/cnn.jpeg  used on input line 117.
 (pdftex.def)             Requested size: 286.6468pt x 112.91074pt.
-
-
-LaTeX Warning: Citation `vargas2016estudo' on page 11 undefined on input line 118.
-
-
-LaTeX Warning: Citation `vargas2016estudo' on page 11 undefined on input line 118.
-
-
-LaTeX Warning: Reference `fig:kernel' on page 11 undefined on input line 123.
-
-
-LaTeX Warning: Citation `rodrigues2023visao' on page 11 undefined on input line 123.
-
-<img/cap2/filtro.png, id=132, 258.63292pt x 153.23917pt>
+<img/cap2/filtro.png, id=421, 258.63292pt x 153.23917pt>
 File: img/cap2/filtro.png Graphic file (type png)
 <use img/cap2/filtro.png>
 Package pdftex.def Info: img/cap2/filtro.png  used on input line 130.
 (pdftex.def)             Requested size: 286.6468pt x 169.84027pt.
-
-LaTeX Warning: Citation `shorthistory' on page 11 undefined on input line 131.
-
-
-LaTeX Warning: Citation `shorthistory' on page 11 undefined on input line 131.
-
-
-LaTeX Warning: Citation `lima2020captcha' on page 11 undefined on input line 136.
-
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.11}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.137 
        [11 <./img/cap2/cnn.jpeg> <./img/cap2/filtro.png>]
-
-LaTeX Warning: Citation `silva2018estudo' on page 12 undefined on input line 138.
-
-
-LaTeX Warning: Citation `carboni2021sistema' on page 12 undefined on input line 141.
-
-
-LaTeX Warning: Citation `redmon2016youlookonce' on page 12 undefined on input line 146.
-
-<img/cap2/RNC-YOLO.jpeg, id=140, 1098.1025pt x 469.755pt>
+<img/cap2/RNC-YOLO.jpeg, id=441, 1098.1025pt x 469.755pt>
 File: img/cap2/RNC-YOLO.jpeg Graphic file (type jpg)
 <use img/cap2/RNC-YOLO.jpeg>
 Package pdftex.def Info: img/cap2/RNC-YOLO.jpeg  used on input line 152.
 (pdftex.def)             Requested size: 286.6468pt x 122.62083pt.
 
-LaTeX Warning: Citation `redmon2016youlookonce' on page 12 undefined on input line 153.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-LaTeX Warning: Citation `redmon2016youlookonce' on page 12 undefined on input line 153.
-
-
-LaTeX Warning: Reference `fig:rnc-yolo' on page 12 undefined on input line 157.
-
-
-LaTeX Warning: Reference `fig:yolo' on page 12 undefined on input line 158.
-
-
-LaTeX Warning: Citation `jiang2022review' on page 12 undefined on input line 158.
-
-[12 <./img/cap2/RNC-YOLO.jpeg>]
-<img/cap2/processo-predicao-YOLO.jpeg, id=147, 645.41125pt x 430.60875pt>
+pdfTeX warning (ext4): destination with the same identifier (name{page.12}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.159 
+       [12]
+<img/cap2/processo-predicao-YOLO.jpeg, id=455, 645.41125pt x 430.60875pt>
 File: img/cap2/processo-predicao-YOLO.jpeg Graphic file (type jpg)
 <use img/cap2/processo-predicao-YOLO.jpeg>
 Package pdftex.def Info: img/cap2/processo-predicao-YOLO.jpeg  used on input line 165.
 (pdftex.def)             Requested size: 286.6468pt x 191.24248pt.
-
-
-LaTeX Warning: Citation `redmon2016youlookonce' on page 13 undefined on input line 166.
-
-
-LaTeX Warning: Citation `redmon2016youlookonce' on page 13 undefined on input line 166.
-
-
-LaTeX Warning: Citation `terven2023comprehensive' on page 13 undefined on input line 169.
-
-
-LaTeX Warning: Citation `ultralytics2024' on page 13 undefined on input line 170.
-
-
-LaTeX Warning: Citation `hussain2023yolo' on page 13 undefined on input line 170.
-
-[13 <./img/cap2/processo-predicao-YOLO.jpeg>]
-
-LaTeX Warning: Citation `goodfellow2016deep' on page 14 undefined on input line 176.
-
-
-LaTeX Warning: Citation `silva2018estudo' on page 14 undefined on input line 181.
-
-[14]
-
-LaTeX Warning: Citation `kingma2014adam' on page 15 undefined on input line 183.
-
-
-LaTeX Warning: Citation `zhou2024towards' on page 15 undefined on input line 184.
-
-
-LaTeX Warning: Citation `padilla2020survey' on page 15 undefined on input line 189.
-
-
-LaTeX Warning: Reference `fig:iou' on page 15 undefined on input line 189.
-
-[15]
-<img/cap2/iou.png, id=164, 602.25pt x 469.755pt>
+ [13 <./img/cap2/RNC-YOLO.jpeg> <./img/cap2/processo-predicao-YOLO.jpeg>] [14] [15]
+<img/cap2/iou.png, id=497, 602.25pt x 469.755pt>
 File: img/cap2/iou.png Graphic file (type png)
 <use img/cap2/iou.png>
 Package pdftex.def Info: img/cap2/iou.png  used on input line 206.
 (pdftex.def)             Requested size: 191.1011pt x 149.05595pt.
-
-
-LaTeX Warning: Citation `padilla2020survey' on page 16 undefined on input line 207.
-
-
-LaTeX Warning: Citation `padilla2020survey' on page 16 undefined on input line 207.
-
-
-LaTeX Warning: Reference `iou' on page 16 undefined on input line 211.
-
-
-LaTeX Warning: Citation `padilla2020survey' on page 16 undefined on input line 211.
-
-[16
+ [16
 pdfTeX warning (ext4): destination with the same identifier (name{equation.2.3.1}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.212 
+l.213 
        <./img/cap2/iou.png>]
-<img/cap2/precisao.png, id=174, 703.62875pt x 525.965pt>
+<img/cap2/precisao.png, id=513, 703.62875pt x 525.965pt>
 File: img/cap2/precisao.png Graphic file (type png)
 <use img/cap2/precisao.png>
-Package pdftex.def Info: img/cap2/precisao.png  used on input line 218.
+Package pdftex.def Info: img/cap2/precisao.png  used on input line 219.
 (pdftex.def)             Requested size: 286.6468pt x 214.26663pt.
-
-
-LaTeX Warning: Citation `ultralytics2023yolo' on page 17 undefined on input line 219.
-
-
-LaTeX Warning: Citation `ultralytics2023yolo' on page 17 undefined on input line 219.
-
 ) (chapters/cap3.tex [17 <./img/cap2/precisao.png>]
-
-LaTeX Warning: Citation `gonzaga2023identificaccao' on page 18 undefined on input line 12.
-
-
-LaTeX Warning: Reference `fig:mancha' on page 18 undefined on input line 14.
-
-<img/cap3/mancha-marcacao.jpeg, id=181, 645.41125pt x 400.49625pt>
+<img/cap3/mancha-marcacao.jpeg, id=525, 645.41125pt x 400.49625pt>
 File: img/cap3/mancha-marcacao.jpeg Graphic file (type jpg)
 <use img/cap3/mancha-marcacao.jpeg>
 Package pdftex.def Info: img/cap3/mancha-marcacao.jpeg  used on input line 21.
 (pdftex.def)             Requested size: 286.6468pt x 177.86888pt.
 
-LaTeX Warning: Citation `gonzaga2023identificaccao' on page 18 undefined on input line 22.
-
-
-LaTeX Warning: Citation `gonzaga2023identificaccao' on page 18 undefined on input line 22.
-
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
-LaTeX Warning: Citation `he2016deep' on page 18 undefined on input line 27.
-
-
-LaTeX Warning: Reference `fig:salto' on page 18 undefined on input line 27.
 
 [18
 
 ]
-<img/cap3/salto.png, id=190, 281.55188pt x 134.75343pt>
+<img/cap3/salto.png, id=537, 281.55188pt x 134.75343pt>
 File: img/cap3/salto.png Graphic file (type png)
 <use img/cap3/salto.png>
 Package pdftex.def Info: img/cap3/salto.png  used on input line 34.
 (pdftex.def)             Requested size: 286.6468pt x 137.19994pt.
-
-
-LaTeX Warning: Citation `he2016deep' on page 19 undefined on input line 35.
-
-
-LaTeX Warning: Citation `he2016deep' on page 19 undefined on input line 35.
-
-[19 <./img/cap3/mancha-marcacao.jpeg> <./img/cap3/salto.png>]
-
-LaTeX Warning: Reference `fig:tabela-macha' on page 20 undefined on input line 46.
-
-<img/cap3/tabela-mancha.jpeg, id=198, 762.85pt x 250.9375pt>
+ [19 <./img/cap3/mancha-marcacao.jpeg> <./img/cap3/salto.png>]
+<img/cap3/tabela-mancha.jpeg, id=549, 762.85pt x 250.9375pt>
 File: img/cap3/tabela-mancha.jpeg Graphic file (type jpg)
 <use img/cap3/tabela-mancha.jpeg>
 Package pdftex.def Info: img/cap3/tabela-mancha.jpeg  used on input line 53.
-(pdftex.def)             Requested size: 286.6468pt x 94.28894pt.
-
-LaTeX Warning: Citation `diascomparaccao' on page 20 undefined on input line 62.
-
-
-LaTeX Warning: Citation `afonso2023vehicle' on page 20 undefined on input line 64.
-
-[20 <./img/cap3/tabela-mancha.jpeg>]
-
-LaTeX Warning: Citation `silva2018detecccao' on page 21 undefined on input line 66.
-
-
-LaTeX Warning: Citation `gomes2022detecccao' on page 21 undefined on input line 68.
-
-
-LaTeX Warning: Citation `afonso2023vehicle' on page 21 undefined on input line 70.
-
-[21]
-
-LaTeX Warning: Reference `fig:yolov5' on page 22 undefined on input line 80.
-
-
-LaTeX Warning: Reference `fig:tabela-macha' on page 22 undefined on input line 80.
-
-<img/cap3/yolov5artigo.jpeg, id=211, 644.4075pt x 333.245pt>
+(pdftex.def)             Requested size: 455.0pt x 149.6715pt.
+ [20 <./img/cap3/tabela-mancha.jpeg>] [21]
+<img/cap3/yolov5artigo.jpeg, id=573, 644.4075pt x 333.245pt>
 File: img/cap3/yolov5artigo.jpeg Graphic file (type jpg)
 <use img/cap3/yolov5artigo.jpeg>
 Package pdftex.def Info: img/cap3/yolov5artigo.jpeg  used on input line 86.
 (pdftex.def)             Requested size: 286.6468pt x 148.24016pt.
-
-LaTeX Warning: Citation `diascomparaccao' on page 22 undefined on input line 87.
-
-
-LaTeX Warning: Citation `diascomparaccao' on page 22 undefined on input line 87.
-
-<img/cap3/yolov8artigo.jpeg, id=212, 412.54124pt x 203.76125pt>
+<img/cap3/yolov8artigo.jpeg, id=578, 412.54124pt x 203.76125pt>
 File: img/cap3/yolov8artigo.jpeg Graphic file (type jpg)
 <use img/cap3/yolov8artigo.jpeg>
 Package pdftex.def Info: img/cap3/yolov8artigo.jpeg  used on input line 97.
 (pdftex.def)             Requested size: 286.6468pt x 141.581pt.
-
-LaTeX Warning: Citation `diascomparaccao' on page 22 undefined on input line 98.
-
-
-LaTeX Warning: Citation `diascomparaccao' on page 22 undefined on input line 98.
-
-
-LaTeX Warning: Citation `wang2023uav' on page 22 undefined on input line 108.
-
-[22 <./img/cap3/yolov5artigo.jpeg> <./img/cap3/yolov8artigo.jpeg>]
-
-LaTeX Warning: Citation `girshick2015fast' on page 23 undefined on input line 110.
-
-
-LaTeX Warning: Citation `wang2023uav' on page 23 undefined on input line 114.
-
-
-LaTeX Warning: Citation `redmon2018yolov3' on page 23 undefined on input line 116.
-
-[23]
-
-LaTeX Warning: Reference `fig:chines' on page 24 undefined on input line 122.
-
-
-LaTeX Warning: Reference `fig:chines-tabela' on page 24 undefined on input line 122.
-
-<img/cap3/chines.jpeg, id=224, 843.15pt x 241.90375pt>
+ [22 <./img/cap3/yolov5artigo.jpeg> <./img/cap3/yolov8artigo.jpeg>] [23]
+<img/cap3/chines.jpeg, id=604, 843.15pt x 241.90375pt>
 File: img/cap3/chines.jpeg Graphic file (type jpg)
 <use img/cap3/chines.jpeg>
 Package pdftex.def Info: img/cap3/chines.jpeg  used on input line 129.
 (pdftex.def)             Requested size: 286.6468pt x 82.2425pt.
-<img/cap3/chines-tabela.jpeg, id=225, 1067.99pt x 324.21124pt>
+<img/cap3/chines-tabela.jpeg, id=605, 1067.99pt x 324.21124pt>
 File: img/cap3/chines-tabela.jpeg Graphic file (type jpg)
 <use img/cap3/chines-tabela.jpeg>
 Package pdftex.def Info: img/cap3/chines-tabela.jpeg  used on input line 140.
 (pdftex.def)             Requested size: 286.6468pt x 87.01875pt.
-
-LaTeX Warning: Reference `tab:relacionado1' on page 24 undefined on input line 148.
-
-[24 <./img/cap3/chines.jpeg> <./img/cap3/chines-tabela.jpeg>]
-
-LaTeX Warning: Citation `gonzaga2023identificaccao' on page 25 undefined on input line 170.
-
-
-LaTeX Warning: Citation `diascomparaccao' on page 25 undefined on input line 172.
-
-
-LaTeX Warning: Citation `wang2023uav' on page 25 undefined on input line 174.
-
-
+ [24 <./img/cap3/chines.jpeg> <./img/cap3/chines-tabela.jpeg>]
 Overfull \hbox (45.79126pt too wide) in paragraph at lines 161--179
  [][] 
  []
 
-
-LaTeX Warning: Reference `tab:relacionado1' on page 25 undefined on input line 181.
-
 [25]) (chapters/cap4.tex [26]
-
-LaTeX Warning: Reference `fig:reatores' on page 27 undefined on input line 17.
-
-
-LaTeX Warning: Reference `fig:reatores' on page 27 undefined on input line 17.
-
-<img/cap4/reator-porto-velho.jpeg, id=244, 962.59625pt x 641.39626pt>
+<img/cap4/reator-porto-velho.jpeg, id=631, 962.59625pt x 641.39626pt>
 File: img/cap4/reator-porto-velho.jpeg Graphic file (type jpg)
 <use img/cap4/reator-porto-velho.jpeg>
 Package pdftex.def Info: img/cap4/reator-porto-velho.jpeg  used on input line 23.
@@ -1644,7 +1312,7 @@ Overfull \hbox (8.7564pt too wide) in paragraph at lines 23--24
  [][] 
  []
 
-<img/cap4/reator-araraquara.jpg, id=245, 8030.0pt x 6022.5pt>
+<img/cap4/reator-araraquara.jpg, id=632, 8030.0pt x 6022.5pt>
 File: img/cap4/reator-araraquara.jpg Graphic file (type jpg)
 <use img/cap4/reator-araraquara.jpg>
 Package pdftex.def Info: img/cap4/reator-araraquara.jpg  used on input line 28.
@@ -1652,47 +1320,37 @@ Package pdftex.def Info: img/cap4/reator-araraquara.jpg  used on input line 28.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-
-LaTeX Warning: Citation `sa2024yolov8' on page 27 undefined on input line 37.
-
 [27
 
-]
-
-LaTeX Warning: Citation `goodfellow2016deep' on page 28 undefined on input line 45.
-
-[28 <./img/cap4/reator-porto-velho.jpeg> <./img/cap4/reator-araraquara.jpg>]
-
-LaTeX Warning: Citation `labelimg' on page 29 undefined on input line 51.
-
-
-LaTeX Warning: Citation `fig:reator-marcado' on page 29 undefined on input line 53.
-
-File: img/cap2/reator-ar.jpeg Graphic file (type jpg)
-<use img/cap2/reator-ar.jpeg>
-Package pdftex.def Info: img/cap2/reator-ar.jpeg  used on input line 60.
-(pdftex.def)             Requested size: 159.2493pt x 194.06033pt.
-
-LaTeX Warning: Citation `reatorNucleoDeAr' on page 29 undefined on input line 61.
+] [28 <./img/cap4/reator-porto-velho.jpeg> <./img/cap4/reator-araraquara.jpg>]
+<img/cap4/marcacao.jpeg, id=647, 1158.3275pt x 714.67pt>
+File: img/cap4/marcacao.jpeg Graphic file (type jpg)
+<use img/cap4/marcacao.jpeg>
+Package pdftex.def Info: img/cap4/marcacao.jpeg  used on input line 60.
+(pdftex.def)             Requested size: 455.0pt x 280.72668pt.
 
 
-LaTeX Warning: Citation `reatorNucleoDeAr' on page 29 undefined on input line 61.
+LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-) (chapters/cap5.tex [29] [30]) (chapters/cap6.tex [31
+[29]) (chapters/cap6.tex [30 <./img/cap4/marcacao.jpeg>] [31
 
-]) (chapters/cap7.tex [32
+] [32]) (thesis-leandrozuza.bbl (thesis-leandrozuza.brf)
+\tf@brf=\write6
+\openout6 = `thesis-leandrozuza.brf'.
 
-]) (thesis-leandrozuza.bbl) [33
+ [33]
+bibitemlist
+[34
 
-]
-\tf@toc=\write6
-\openout6 = `thesis-leandrozuza.toc'.
+] [35] [36]) [37]
+\tf@toc=\write7
+\openout7 = `thesis-leandrozuza.toc'.
 
-\tf@lof=\write7
-\openout7 = `thesis-leandrozuza.lof'.
+\tf@lof=\write8
+\openout8 = `thesis-leandrozuza.lof'.
 
-\tf@lot=\write8
-\openout8 = `thesis-leandrozuza.lot'.
+\tf@lot=\write9
+\openout9 = `thesis-leandrozuza.lot'.
 
  (thesis-leandrozuza.aux)
  ***********
@@ -1701,24 +1359,28 @@ L3 programming layer <2020/03/25>
  ***********
 
 
-LaTeX Warning: There were undefined references.
+LaTeX Warning: There were multiply-defined labels.
 
 
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+Package rerunfilecheck Warning: File `thesis-leandrozuza.brf' has changed.
+(rerunfilecheck)                Rerun to get bibliographical references right.
 
+Package rerunfilecheck Info: Checksums for `thesis-leandrozuza.brf':
+(rerunfilecheck)             Before: 5F3BA27CF8F03A0DAF50A02717399F6A;4474
+(rerunfilecheck)             After:  2BB5389767DCE8A2BF9A6CA821613F57;5344.
  ) 
 Here is how much of TeX's memory you used:
- 26308 strings out of 474313
- 433495 string characters out of 5749121
+ 26781 strings out of 474313
+ 443684 string characters out of 5749121
  1945907 words of memory out of 5000000
- 47934 multiletter control sequences out of 15000+600000
- 635256 words of font info for 185 fonts, out of 8000000 for 9000
+ 48331 multiletter control sequences out of 15000+600000
+ 636092 words of font info for 191 fonts, out of 8000000 for 9000
  1192 hyphenation exceptions out of 8191
- 110i,18n,107p,1827b,704s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<C:/Program Files/MiKTeX/fonts/type1/public/lm/lmbx10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmbx12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmmi12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmr10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmr12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmri10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmri12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmss12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmss17.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmssbx10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmsy10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on thesis-leandrozuza.pdf (44 pages, 19206083 bytes).
+ 110i,18n,107p,1821b,715s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<C:/Program Files/MiKTeX/fonts/type1/public/lm/lmbx12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmmi12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmr10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmr12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmri10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmri12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmss12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmss17.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmssbx10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmsy10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/symbols/msam10.pfb>
+Output written on thesis-leandrozuza.pdf (49 pages, 19539124 bytes).
 PDF statistics:
- 512 PDF objects out of 1000 (max. 8388607)
- 114 named destinations out of 1000 (max. 500000)
- 45498 words of extra memory for PDF output out of 51595 (max. 10000000)
+ 1008 PDF objects out of 1200 (max. 8388607)
+ 174 named destinations out of 1000 (max. 500000)
+ 45487 words of extra memory for PDF output out of 51595 (max. 10000000)
 

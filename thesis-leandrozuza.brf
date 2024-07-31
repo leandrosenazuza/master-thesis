@@ -13,7 +13,6 @@
 \backcite {he2016deep}{{10}{(document)}{Doc-Start}}
 \backcite {diascomparaccao}{{10}{(document)}{Doc-Start}}
 \backcite {diascomparaccao}{{10}{(document)}{Doc-Start}}
-\backcite {reatorNucleoDeAr}{{10}{(document)}{Doc-Start}}
 \backcite {randolph2013electric}{{1}{1.1}{section.1.1}}
 \backcite {lima2021precarizaccao}{{1}{1.1}{section.1.1}}
 \backcite {zhou2016big}{{2}{1.1}{section.1.1}}
@@ -87,6 +86,7 @@
 \backcite {wang2023uav}{{25}{1}{table.caption.33}}
 \backcite {sa2024yolov8}{{28}{4.2.2}{subsection.4.2.2}}
 \backcite {goodfellow2016deep}{{29}{4.2.2}{subsection.4.2.2}}
-\backcite {labelimg}{{29}{4.2.3}{subsection.4.2.3}}
-\backcite {fig:reator-marcado}{{29}{4.2.3}{subsection.4.2.3}}
-\backcite {reatorNucleoDeAr}{{29}{20}{figure.caption.35}}
+\backcite {pycharm}{{29}{4.3.1}{subsection.4.3.1}}
+\backcite {unity}{{29}{4.3.1}{subsection.4.3.1}}
+\backcite {ultralytics2023yolo}{{31}{5.2.1}{subsection.5.2.1}}
+\backcite {almeida2023batch}{{31}{5.2.1}{subsection.5.2.1}}

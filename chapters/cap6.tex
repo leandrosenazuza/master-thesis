@@ -2,35 +2,96 @@
 
 \section{Introdução} 
 
-Apresentar os resultados desse trabalho.
+Neste capítulo, será abordado a sequência de testes realizados para o treinamento da RNC, assim como os resultados obtidos. Além disso, será apresentado a eficiência da utilização dos pesos da configuração de treinamento da YOLO que obteve a melhor performance. 
 
 \section{Resultados do Treinamento} 
 
-\begin{table}[h!]
+\subsection{Resultados e comparação do treinamento com a YOLOv5 a YOLOv7}
+
+Foi discutido na Fundamentação Teórica deste trabalho que a YOLOv8 foi proposta como um modelo superior a suas três últimas versões. Em seu artigo de apresentação, foi comparado a taxa de sucesso da versão 8 contra a versão 5, 6 e 7, quando aplicado a um conjunto de imagens comuns \cite{ultralytics2023yolo}. Por isso, foi realizada a mesma experimentação, a fim de comparar, na configuração padrão de todos hiperparâmetros, se a escolha da oitava versão de fato mostra-se vantajosa. Apenas os parâmetros do batch foram alterados, a fim de verificar o efeito dos lotes no treinamento, conforme também realizado no estudo de \cite{almeida2023batch}.
+
+Por isso, por configuração padrão da rede neural YOLO, entende-se a utilização do otimizador AdamW; com a taxa de aprendizado de 0,01; e configuração padrão de entrada das imagens de 640x640. 
+
+Na tabela \ref{tab:yolov5-teste}, apresenta-se o resultado da aplicação da YOLOv5 ao dataset de reatores de núcleo de ar, alterando o valor de batch de 2 a 16.
+
+\begin{table}[!hbt]
     \centering
-    \resizebox{\textwidth}{!}{
-        \begin{tabular}{|c|c|c|c|c|c|c|}
-        \hline
-        \textbf{Otimizador} & \textbf{Batch Size} & \textbf{metrics/precision(B)} & \textbf{metrics/recall(B)} & \textbf{metrics/mAP50(B)} & \textbf{metrics/mAP50-95(B)} & \textbf{Tempo de Processamento} \\ \hline
-        Adam & 2 & 91.323 & 90.102 & 94.022 & 54.987 & 33.071h \\ \cline{2-7} 
-         & 4 & 92.983 & 91.857 & 95.4 & 57.704 & 36.548h \\ \cline{2-7} 
-         & 8 & 92.383 & 91.969 & 95.006 & 57.465 & 31.221h \\ \cline{2-7} 
-         & 16 & 93.654 & 92.964 & 96.148 & 60.269 & 29.135h \\ \hline
-        AdamW & 2 & 93.886 & 91.954 & 95.541 & 58.209 & 33.114h \\ \cline{2-7} 
-         & 4 & 93.701 & 92.102 & 95.426 & 57.508 & 32.744h \\ \cline{2-7} 
-         & 8 & 93.364 & 92.215 & 95.383 & 57.666 & 29.209h \\ \cline{2-7} 
-         & 16 & 95.784 & 95.379 & 97.858 & 68.393 & 28.013h \\ \hline
-        SGD & 2 & 94.466 & 93.062 & 96.421 & 61.710 & 35.448h \\ \cline{2-7} 
-         & 4 & 94.989 & 93.779 & 96.759 & 65.201 & 31.018h \\ \cline{2-7} 
-         & 8 & 95.618 & 94.621 & 97.123 & 66.451 & 29.787h \\ \cline{2-7} 
-         & 16 & 96.480 & 94.718 & 97.891 & 68.245 & 27.633h \\ \hline
-        \end{tabular}
-    }
-    \caption{Resultados dos testes com diferentes otimizadores e tamanhos de batch.}
-    \label{table:results}
+    \begin{tabular}{|c|c|c|c|c|c|}
+    \hline
+    \multicolumn{6}{|c|}{\textbf{Otimizador SGD}} \\ \hline
+    \textbf{Batch Size} & \textbf{Precisão} & \textbf{Recall} & \textbf{mAP50} & \textbf{mAP50-95} & \textbf{Tempo} \\ \hline
+    2                   & 0                 & 0               & 0              & 0                 & 0h             \\ \hline
+    4                   & 0                 & 0               & 0              & 0                 & 0h             \\ \hline
+    8                   & 0                 & 0               & 0              & 0                 & 0h             \\ \hline
+    16                  & 0                 & 0               & 0              & 0                 & 0h             \\ \hline
+    \end{tabular}
+    \caption{Resultados de diferentes tamanhos de batch aplicando YOLOv5}
+    \label{tab:yolov5-teste}
 \end{table}
+
+\subsection{Resultados do treinamento com YOLOv8}
+
+\subsection{Análise dos Resultados do Treinamento com YOLOv8}
+
+Os resultados obtidos ao aplicar a rede neural YOLOv8 em um dataset de reatores de núcleo de ar, variando o tamanho do batch e o otimizador, revelam diferenças significativas no desempenho do modelo. As Tabelas \ref{tab:yolov8-adm}, \ref{tab:yolov8-admw} e \ref{tab:yolov8-sgd} fornecem uma visão detalhada das métricas de desempenho, como precisão, recall, mAP50, mAP50-95 e o tempo de treinamento, para diferentes combinações de otimizadores e tamanhos de batch.
+
+Na Tabela \ref{tab:yolov8-adm}, que apresenta os resultados com o otimizador Adam, observa-se uma melhoria constante na precisão e no recall com o aumento do tamanho do batch. A precisão sobe de 91.323\% para 93.654\%, enquanto o recall aumenta de 90.102\% para 92.964\% com o incremento do batch size. O mAP50 e o mAP50-95 também aumentam, atingindo 96.148\% e 60.269\%, respectivamente, para o maior batch size. Apesar disso, o tempo de treinamento não apresenta uma redução linear, sendo que o batch size de 16 resulta no menor tempo de 29.135 horas.
+
+\begin{table}[!hbt]
+    \centering
+    \begin{tabular}{|c|c|c|c|c|c|}
+    \hline
+    \multicolumn{6}{|c|}{\textbf{Otimizador Adam}} \\ \hline
+    \textbf{Batch Size} & \textbf{Precisão} & \textbf{Recall} & \textbf{mAP50} & \textbf{mAP50-95} & \textbf{Tempo} \\ \hline
+    2                   & 91.323                       & 90.102                     & 94.022                     & 54.987                        & 33.071h                         \\ \hline
+    4                   & 92.983                       & 91.857                     & 95.4                       & 57.704                        & 36.548h                         \\ \hline
+    8                   & 92.383                       & 91.969                     & 95.006                     & 57.465                        & 31.221h                         \\ \hline
+    16                  & 93.654                       & 92.964                     & 96.148                     & 60.269                        & 29.135h                         \\ \hline
+    \end{tabular}
+    \caption{Resultados de diferentes tamanhos de batch aplicando YOLOv8 e otimizador Adam}
+    \label{tab:yolov8-adm}
+\end{table}
+
+A Tabela \ref{tab:yolov8-admw} mostra os resultados com o otimizador AdamW, onde a melhoria na precisão e no recall é ainda mais pronunciada. A precisão cresce de 93.886\% para 95.784\%, e o recall sobe de 91.954\% para 95.379\% com o aumento do tamanho do batch. As métricas de mAP50 e mAP50-95 atingem 97.858\% e 68.393\%, respectivamente, para o maior batch size. Embora o tempo de treinamento com AdamW seja consistente, o batch size de 16 proporciona o tempo mais reduzido de 28.013 horas, mostrando uma vantagem competitiva em relação ao Adam.
+
+\begin{table}[!hbt]
+    \centering
+    \begin{tabular}{|c|c|c|c|c|c|}
+    \hline
+    \multicolumn{6}{|c|}{\textbf{Otimizador AdamW}} \\ \hline
+    \textbf{Batch Size} & \textbf{Precisão} & \textbf{Recall} & \textbf{mAP50} & \textbf{mAP50-95} & \textbf{Tempo} \\ \hline
+    2                   & 93.886            & 91.954          & 95.541         & 58.209            & 33.114h        \\ \hline
+    4                   & 93.701            & 92.102          & 95.426         & 57.508            & 32.744h        \\ \hline
+    8                   & 93.364            & 92.215          & 95.383         & 57.666            & 29.209h        \\ \hline
+    16                  & 95.784            & 95.379          & 97.858         & 68.393            & 28.013h        \\ \hline
+    \end{tabular}
+    \caption{Resultados de diferentes tamanhos de batch aplicando YOLOv8 e otimizador AdamW}
+    \label{tab:yolov8-admw}
+\end{table}
+
+Por fim, a Tabela \ref{tab:yolov8-sgd} apresenta os resultados com o otimizador SGD, que não só mostra uma melhoria contínua na precisão e no recall, com valores de 96.480\% e 94.718\% para o maior batch size, como também possui os melhores tempos de treinamento. O mAP50 e o mAP50-95 atingem 97.891\% e 68.245\%, respectivamente. O SGD combina o melhor desempenho em termos de métricas com a eficiência de tempo de treinamento, atingindo 27.633 horas para o maior batch size.
+
+\begin{table}[!hbt]
+    \centering
+    \begin{tabular}{|c|c|c|c|c|c|}
+    \hline
+    \multicolumn{6}{|c|}{\textbf{Otimizador SGD}} \\ \hline
+    \textbf{Batch Size} & \textbf{Precisão} & \textbf{Recall} & \textbf{mAP50} & \textbf{mAP50-95} & \textbf{Tempo} \\ \hline
+    2                   & 94.466            & 93.062          & 96.421         & 61.710            & 35.448h        \\ \hline
+    4                   & 94.989            & 93.779          & 96.759         & 65.201            & 31.018h        \\ \hline
+    8                   & 95.618            & 94.621          & 97.123         & 66.451            & 29.787h        \\ \hline
+    16                  & 96.480            & 94.718          & 97.891         & 68.245            & 27.633h        \\ \hline
+    \end{tabular}
+    \caption{Resultados de diferentes tamanhos de batch aplicando YOLOv8 e otimizador SGD}
+    \label{tab:yolov8-sgd}
+\end{table}
+
+Em resumo, os dados indicam que aumentar o tamanho do batch geralmente melhora o desempenho do modelo em termos de precisão, recall e métricas de mAP, independentemente do otimizador utilizado. Entre os otimizadores testados, o SGD oferece o melhor equilíbrio entre desempenho e eficiência de tempo, seguido pelo AdamW, que proporciona alta precisão e recall, mas com um tempo de treinamento competitivo. O Adam, embora ainda eficaz, não alcança o mesmo nível de desempenho que os outros dois otimizadores. Esses resultados destacam a importância de escolher cuidadosamente o otimizador e o tamanho do batch para otimizar o treinamento e o desempenho do YOLOv8.
 
 \subsection{Variação de Parâmetros}
 
 Texto da subseção Variação de Parâmetros.
+
+
+
 

@@ -10,11 +10,11 @@ Neste capítulo, portanto, apresenta-se os materiais utilizados nesta pesquisa, 
 
 \subsection{Captura das Fotos}
 
-Para o treinamento da rede neural Yolov8, é necessário que sejam fornecidas imagens relevantes do objeto a ser identificado. Neste estudo, foram coletadas fotos aéreas por meio de VANT (modelo DJI Mavic 2, reconhecido por sua capacidade de captura de alta qualidade e manobrabilidade). Todas imagens capturadas foram obtidas no sobrevoo de duas subestações de energia, ambas no Brasil. A primeira subestação é localizada em Porto Velho, no estado de Rondônia, de coordenadas geográficas -8.914705, -63.957887. A segunda, em Araraquara; coordenadas: -21.832444, -48.347566. 
+Para o treinamento da rede neural YOLOv8, é necessário que sejam fornecidas imagens, ou seja, um \textit{dataset}, que relevantes do objeto a ser identificado. Neste estudo, foram coletadas fotos aéreas por meio de VANT de modelo DJI Mavic 2, que é reconhecido por sua capacidade de captura de alta qualidade e manobrabilidade. Todas imagens capturadas foram obtidas no sobrevoo de duas subestações de energia, ambas no Brasil. A primeira subestação é localizada em Porto Velho, no estado de Rondônia, de coordenadas geográficas: -8.914705, -63.957887. A segunda, em Araraquara; coordenadas: -21.832444, -48.347566. 
 
 No total, foram capturadas 1257 fotos, sendo  548 em Porto Velho e 709 em Araraquara. Todas as imagens foram capturadas em alta resolução e com dimensões variadas, variando entre 4000x3000 até 8000x6000 pixels. 
 
-As imagens são capturadas de modo a registrar o máximo de equipamentos possível, cobrindo toda a área das subestações. Todas as fotos são tiradas verticalmente em relação ao solo, garantindo uma visão abrangente e detalhada das instalações das subestações. Devido ao movimento do VANT, os objetos na foto são representados em com pequenas variações de angulação em relação ao solo. Em Porto Velho, as foram fotos capturadas no dia 28 de junho de 2023 (Figura \ref{fig:reatores}). Por sua vez, em Araraquara, as capturas foram realizadas dia 13 de junho de 2023 (Figura  \ref{fig:reatores}).
+As imagens são capturadas de modo a registrar o máximo de equipamentos possível, cobrindo toda a área das subestações. Todas as fotos são tiradas verticalmente em relação ao solo, garantindo uma visão abrangente e detalhada das instalações das subestações. Devido ao movimento do VANT, os objetos na foto são representados em com pequenas variações de angulação em relação ao solo. Em Porto Velho, as foram fotos capturadas no dia 28 de junho de 2023 (Figura \ref{fig:reatores}, à esquerda). Por sua vez, em Araraquara, as capturas foram realizadas dia 13 de junho de 2023 (Figura  \ref{fig:reatores}, à direita).
 
 \begin{figure}[!h]
     \centering
@@ -48,26 +48,33 @@ Portanto, a divisão dos dados em conjuntos de treinamento, validação e teste 
 
 \subsection{Seleção das fotos}
 
-Toda RNC necessita de dados rotulados para aprender a identificar e classificar corretamente os objetos em imagens. Utilizar um Software de marcação, como o LabelImg \cite{labelimg}, é essencial nesse processo, pois permite que seja rotulado imagens que irão alimentar a rede, definindo nelas regiões de interesse e associando essas regiões a classes específicas. Nesta dissertação, a classe de interesse trata-se do reator de núcleo de ar. Sem dados rotulados, a RNC não teria a orientação necessária para distinguir diferentes objetos, comprometendo a sua capacidade de realizar previsões.
+Toda RNC necessita de dados rotulados para aprender a identificar e classificar corretamente os objetos em imagens. Utilizar um Software de marcação, como o LabelImg, é essencial nesse processo, pois permite que seja rotulado imagens que irão alimentar a rede, definindo nelas regiões de interesse e associando essas regiões a classes específicas. Nesta dissertação, a classe de interesse trata-se do reator de núcleo de ar. Sem dados rotulados, a RNC não teria a orientação necessária para distinguir diferentes objetos, comprometendo a sua capacidade de realizar previsões.
 
-Para realizar as marcações das fotos selecionadas, foi utilizado o LabelImg, uma vez que trata-se de uma ferramenta de anotação gráfica de código aberto, de fácil instalação e manuseio. Sua interface é intuitiva, pode-se carregar imagens, desenhar caixas delimitadoras ao redor dos objetos de interesse e atribuir rótulos a esses objetos (Figura \cite{fig:reator-marcado}). As anotações geradas são salvas em um formato compatível, como XML ou TXT, já preparados para serem submetidos ao processamento da YOLO. É essencial que anotações feitas com o LabelImg sejam significativas, pois influenciam diretamente o desempenho do modelo treinado.
+Para realizar as marcações das fotos selecionadas, foi utilizado o LabelImg, uma vez que trata-se de uma ferramenta de anotação gráfica de código aberto, de fácil instalação e manuseio. Sua interface é intuitiva, pode-se carregar imagens, desenhar caixas delimitadoras ao redor dos objetos de interesse e atribuir rótulos a esses objetos (Figura \ref{fig:reator-marcado}). As anotações geradas são salvas em um formato compatível, como XML ou TXT, já preparados para serem submetidos ao processamento da YOLO. É essencial que anotações feitas com o LabelImg sejam significativas, pois influenciam diretamente o desempenho do modelo treinado.
 
 \begin{figure}[!h]
     \centering
-    \begin{minipage}{0.5\linewidth}
+    \begin{minipage}{1\linewidth}
     \centering
     \captionsetup{justification=centering,margin=0.5cm,font=small}
-    \includegraphics[width=0.7\linewidth]{img/cap2/reator-ar.jpeg}
-    \caption{Reatores de Núcleo de ar em uma subestação de energia \cite{reatorNucleoDeAr}}.
+    \includegraphics[width=1\linewidth]{img/cap4/marcacao.jpeg}
+    \caption{LabelImg realizando a marcação de reatores de núcleo de ar}.
     \label{fig:reator-marcado}
     \end{minipage}
 \end{figure}
 
 
 \section{Treinamento}
+
+\subsection{Materiais}
+
+Todo o treinamento foi realizado em um computador pessoal, portador do Sistema Operacional Windows 11 de 64 bits, equipado com um processador x64 com 24GB de memória RAM e um processador 11th Gen Intel(R) Core (TM) i7-1165G7@2.80GHz. Os scripts da YOLOv5, YOLOv6, YOLOv7 e YOLOv8, assim como o LabelImg, foram executados no ambiente de desenvolvimento PyCharm \cite{pycharm}.
+
+Para a implementação da automação, foi utilizado o software Unity \cite{unity}. O Unity é uma plataforma amplamente utilizada para o desenvolvimento de jogos e aplicações interativas 3D. Ele oferece um ambiente robusto e flexível, com uma vasta gama de ferramentas e recursos que facilitam a criação de experiências interativas. Além disso, o Unity permite integração com diversos outros softwares e sistemas, proporcionando um fluxo de trabalho eficiente para projetos de automação e simulação.
+
 \section{Considerações Finais}
 
-Escrever considerações finais
+Neste capítulo, foram descritas as especificações do sistema desenvolvido, com ênfase nos seus principais requisitos. O próximo capítulo trará informações detalhadas sobre a implementação, além de um aperfeiçoamento das especificações iniciais.
 
 
 

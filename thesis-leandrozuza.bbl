@@ -76,8 +76,14 @@ Dispon{\'\i}vel em:
 {GOMES, J. V.~E. Detec{\c{c}}{\~a}o de objetos com a arquitetura yolo.
 2022.}
 
+\bibitem[Gonzaga 2023]{almeida2023batch}
+\abntrefinfo{Gonzaga}{GONZAGA}{2023a}
+{GONZAGA, L.~G. Identifica{\c{c}}{\~a}o e medi{\c{c}}{\~a}o de defeitos em
+  produtos automotivos usando vis{\~a}o computacional.
+Serra, 2023.}
+
 \bibitem[Gonzaga 2023]{gonzaga2023identificaccao}
-\abntrefinfo{Gonzaga}{GONZAGA}{2023}
+\abntrefinfo{Gonzaga}{GONZAGA}{2023b}
 {GONZAGA, L.~M. Identifica{\c{c}}{\~a}o e medi{\c{c}}{\~a}o de defeitos em
   produtos automotivos usando vis{\~a}o computacional.
 Serra, 2023.}
@@ -160,11 +166,6 @@ Dispon{\'\i}vel em:
 \emph{Revista Brasileira de Sa{\'u}de Ocupacional}, SciELO Brasil, v.~46,
   p.~e6, 2021.}
 
-\bibitem[Lin 2017]{labelimg}
-\abntrefinfo{Lin}{LIN}{2017}
-{LIN, T. \emph{{labelImg}}. 2017. \url{https://pypi.org/project/labelImg/1}.
-Acesso em: 07 de mar. de 2024.}
-
 \bibitem[Lopes et al. 2012]{lopes2012smart}
 \abntrefinfo{Lopes et al.}{LOPES et al.}{2012}
 {LOPES, Y. et al. Smart grid e iec 61850: Novos desafios em redes e
@@ -207,6 +208,12 @@ Dispon{\'\i}vel em:
 \emph{Revista Ib{\'e}rica de Sistemas e Tecnologias de Informa{\c{c}}{\~a}o},
   Associa{\c{c}}{\~a}o Ib{\'e}rica de Sistemas e Tecnologias de Informacao,
   n.~E31, p. 497--512, 2020.}
+
+\bibitem[{PyCharm} 2023]{pycharm}
+\abntrefinfo{{PyCharm}}{{PyCharm}}{2023}
+{{PyCharm}. \emph{{PyCharm}}. 2023.
+  \url{https://www.jetbrains.com/pt-br/pycharm/}.
+Acesso em: 01 de nov. de 2023.}
 
 \bibitem[Randolph 2013]{randolph2013electric}
 \abntrefinfo{Randolph}{RANDOLPH}{2013}
@@ -298,6 +305,12 @@ p. 757--764, 1968.}
 {ULTRALYTICS. \emph{Ultralytics Repository}. 2024.
 Acessado em: 4 de junho de 2024.
 Dispon{\'\i}vel em: \url{https://github.com/ultralytics/ultralytics}.}
+
+\bibitem[{Unity Technologies} 2024]{unity}
+\abntrefinfo{{Unity Technologies}}{{Unity Technologies}}{2024}
+{{Unity Technologies}. \emph{{Unity: Desenvolvimento de jogos e aplicações
+  3D}}. 2024. \url{https://unity.com/}.
+[Acessado em: 30 de julho de 2024].}
 
 \bibitem[Vargas, Paes e Vasconcelos 2016]{vargas2016estudo}
 \abntrefinfo{Vargas, Paes e Vasconcelos}{VARGAS; PAES; VASCONCELOS}{2016}
