@@ -1,24 +1,12 @@
 \babel@toc {brazil}{}\relax 
 \babel@toc {brazil}{}\relax 
-\contentsline {figure}{\numberline {1}{\ignorespaces Representação dos componentes do sistema de geração e transmissão de energia \cite {lopes2012smart}}}{4}{figure.caption.13}%
-\contentsline {figure}{\numberline {2}{\ignorespaces Reatores de Núcleo de ar em uma subestação de energia \cite {reatorNucleoDeAr}}}{5}{figure.caption.14}%
-\contentsline {figure}{\numberline {3}{\ignorespaces Representação de um NA \cite {adorno2017}}}{8}{figure.caption.15}%
-\contentsline {figure}{\numberline {4}{\ignorespaces Topologia básica de uma rede neural \cite {fleck2016redes}}}{10}{figure.caption.16}%
-\contentsline {figure}{\numberline {5}{\ignorespaces Exemplificação de como uma imagem nada mais é que uma matriz, e como a filtragem busca padrões pré-estabelecidos dentro da imagem \cite {lima2020captcha}}}{10}{figure.caption.17}%
-\contentsline {figure}{\numberline {6}{\ignorespaces Esquema de funcionamento de uma RNC \cite {vargas2016estudo}}}{11}{figure.caption.18}%
-\contentsline {figure}{\numberline {7}{\ignorespaces Operação de filtragem na camada convolucional. Nota-se que o filtro é uma multiplicação de matrizes \cite {shorthistory}}}{11}{figure.caption.19}%
-\contentsline {figure}{\numberline {8}{\ignorespaces Disposição das 24 camadas convolucionais e das 2 camadas totalmente conectadas \cite {redmon2016youlookonce}}}{12}{figure.caption.20}%
-\contentsline {figure}{\numberline {9}{\ignorespaces Processo de predição da Yolo \cite {redmon2016youlookonce}}}{13}{figure.caption.21}%
-\contentsline {figure}{\numberline {10}{\ignorespaces Cálculo de IoU. \cite {padilla2020survey}}}{16}{figure.caption.24}%
-\contentsline {figure}{\numberline {11}{\ignorespaces Aumento de desempenho da precisão média, versão 5 para 8. \cite {ultralytics2023yolo}}}{17}{figure.caption.25}%
-\contentsline {figure}{\numberline {12}{\ignorespaces Exemplo de marcação de foto utilizando labelImg, de um defeito em um vidro \cite {gonzaga2023identificaccao}}}{19}{figure.caption.26}%
-\contentsline {figure}{\numberline {13}{\ignorespaces Bloco de aprendizado da ResNet \cite {he2016deep}}}{19}{figure.caption.27}%
-\contentsline {figure}{\numberline {14}{\ignorespaces Resultado do treinamento variando parâmetros}}{20}{figure.caption.28}%
-\contentsline {figure}{\numberline {15}{\ignorespaces YOLOv5 \cite {diascomparaccao}}}{22}{figure.caption.29}%
-\contentsline {figure}{\numberline {16}{\ignorespaces YOLOv8 \cite {diascomparaccao}}}{22}{figure.caption.30}%
-\contentsline {figure}{\numberline {17}{\ignorespaces Comparação da YOLOv8 com a rede modificada}}{24}{figure.caption.31}%
-\contentsline {figure}{\numberline {18}{\ignorespaces Comparação da YOLOv8 com a rede modificada}}{24}{figure.caption.32}%
-\contentsline {figure}{\numberline {19}{\ignorespaces Captura de foto em Porto Velho (à esquerda) e Araraquara (à direita), onde se notam quatro reatores de núcleo de ar na parte inferior.}}{28}{figure.caption.34}%
-\contentsline {figure}{\numberline {20}{\ignorespaces LabelImg realizando a marcação de reatores de núcleo de ar}}{29}{figure.caption.35}%
-\contentsline {figure}{\numberline {21}{\ignorespaces Gráficos gerados a partir do treinamento com a YOLOv5, utilizando \textit {batch} igual a 16. Nota-se a evolução repentina para uma precisão acima de 90\%}}{32}{figure.caption.37}%
-\contentsline {figure}{\numberline {22}{\ignorespaces Gráficos gerados a partir do treinamento com a YOLOv7, utilizando \textit {batch} igual a 16. O comportamento alternato sobressaltou-se nessa arquitetura}}{33}{figure.caption.39}%
+\contentsline {figure}{\numberline {1}{\ignorespaces Estrutura geral da Aplicação}}{2}{figure.caption.13}%
+\contentsline {figure}{\numberline {2}{\ignorespaces Interface para o usuário.}}{2}{figure.caption.14}%
+\contentsline {figure}{\numberline {3}{\ignorespaces Demonstração do Script de Treinamento da YOLOv8}}{3}{figure.caption.15}%
+\contentsline {figure}{\numberline {4}{\ignorespaces \textit {API} de identificação de imagem}}{3}{figure.caption.16}%
+\contentsline {figure}{\numberline {5}{\ignorespaces \textit {API} de identificação de imagem}}{4}{figure.caption.17}%
+\contentsline {figure}{\numberline {6}{\ignorespaces Método de processamento da imagem e inserção dos modelos conforme a resposta da API}}{5}{figure.caption.18}%
+\contentsline {figure}{\numberline {7}{\ignorespaces Método de processamento da imagem e inserção dos modelos conforme a resposta da API}}{5}{figure.caption.19}%
+\contentsline {figure}{\numberline {8}{\ignorespaces Gráficos gerados a partir do treinamento com a YOLOv5, utilizando \textit {batch} igual a 16. Nota-se a evolução repentina para uma precisão acima de 90\%}}{7}{figure.caption.21}%
+\contentsline {figure}{\numberline {9}{\ignorespaces Gráficos gerados a partir do treinamento com a YOLOv6.}}{8}{figure.caption.23}%
+\contentsline {figure}{\numberline {10}{\ignorespaces Gráficos gerados a partir do treinamento com a YOLOv7, utilizando \textit {batch} igual a 16. O comportamento alternato sobressaltou-se nessa arquitetura}}{8}{figure.caption.25}%

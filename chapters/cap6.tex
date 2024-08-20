@@ -4,7 +4,11 @@
 
 Neste capítulo, será abordado a sequência de testes realizados para o treinamento da RNC, assim como os resultados obtidos. Além disso, será apresentado a eficiência da utilização dos pesos da configuração de treinamento da YOLO que obteve a melhor performance. 
 
-\section{Resultados do Treinamento} 
+\section{Avaliação do Treinamento} 
+
+Os resultados de desempenho obtidos das RNC, foram estruturados da seguinte forma: realização de uma avaliação do mAP, mAP50, mAP50-95 e recall das versões YOLOv5, YOLOv6 e YOLOv7, com variação do batch de 2 a 16, utilizando o otimizador SGD. Seguido, será avaliado o desempenho da YOLOv8, também com alteração de batch de 2 a 16, e com variação do otimizador. Por fim, será avaliado a performance na identificação de equipamentos, a partir de um conjunto de fotos não treinadas, e avaliar na prática a precisão real de cada configuração dos modelos, aplicadas. 
+
+\subsection{Avaliação do Treinamento} 
 
 Foi discutido na Fundamentação Teórica deste trabalho que a YOLOv8 foi proposta como um modelo superior a suas três últimas versões. Em seu artigo de apresentação, foi comparado a taxa de sucesso da versão 8 contra a versão 5, 6 e 7, quando aplicado a um conjunto de imagens comuns \cite{ultralytics2023yolo}. Por isso, foi realizada a mesma experimentação, a fim de comparar, na configuração padrão de todos hiperparâmetros, se a escolha da oitava versão de fato mostra-se vantajosa. Apenas os parâmetros do batch foram alterados, a fim de verificar o efeito dos lotes no treinamento, conforme também realizado no estudo de \cite{almeida2023batch}.
 
@@ -20,18 +24,14 @@ Na tabela \ref{tab:yolov5-teste}, apresenta-se o resultado da aplicação da YOL
     \hline
     \multicolumn{6}{|c|}{\textbf{Otimizador SGD}} \\ \hline
     \textbf{Batch Size} & \textbf{Precisão} & \textbf{Recall} & \textbf{mAP50} & \textbf{mAP50-95} & \textbf{Tempo} \\ \hline
-    2                   & 0                 & 0               & 0              & 0                 & 0h             \\ \hline
-    4                   & 95.831                 & 89.707               & 95.044             & 55.908                & 35.67h             \\ \hline
-    8                   & 96.416                 & 91.922               & 96.197              & 60.488                 & 33.46h             \\ \hline
-    16                  & 96.34                 & 90.977               & 95.474              & 56.739                 & 29.53h             \\ \hline
+    2                   & 88.724                & 87.456               & 88.785              & 49.821                 & 48.75h             \\ \hline
+    4                   & 89.831                 & 89.707               & 95.044             & 55.908                & 37.67h             \\ \hline
+    8                   & 92.416                 & 91.922               & 96.197              & 60.488                 & 33.46h             \\ \hline
+    16                  & 93.340                 & 90.977               & 95.474              & 56.739                 & 29.53h             \\ \hline
     \end{tabular}
     \caption{Resultados de diferentes tamanhos de batch aplicando YOLOv5}
     \label{tab:yolov5-teste}
 \end{table}
-
-É interessante notar com esse primeiro resultado que a precisão de um modo geral, para a YOLOv5, mostrou-se muito elevada. Contudo, conforme nota-se no treinamento de \textit{batch} igual a 16, houve uma evolução muito rápida de precisão, o que leva a crer que os pesos gerados nesse treinamento podem ter sofrido com overfitting, e eventualmente podem não se mostrar representativos.
-
-%Os gráficos de perda (\textit{loss}) para treino e validação indicam uma diminuição constante na perda da caixa delimitadora (\textit{box_loss}) e na perda do objeto (\textit{obj_loss}), enquanto a perda de classificação (\textit{cls_loss}) permanece estável em zero, sugerindo que o modelo pode não estar sendo treinado para a classificação de classes ou que as classes são homogêneas. Os gráficos de métricas mostram melhorias contínuas na precisão, recall e mAP ao longo do tempo, com a mAP atingindo cerca de 0.9 em mAP0.5 e cerca de 0.55 em mAP0.5-0.95, indicando um bom desempenho do modelo em detecção de objetos.
 
 \begin{figure}[!h]
     \centering
@@ -44,13 +44,38 @@ Na tabela \ref{tab:yolov5-teste}, apresenta-se o resultado da aplicação da YOL
     \end{minipage}
 \end{figure}
 
+
 \subsection{Resultados e análise do treinamento com a YOLOv6}
 
-INSERIR YOLOV6
+\begin{table}[!hbt]
+    \centering
+    \begin{tabular}{|c|c|c|c|c|c|}
+    \hline
+    \multicolumn{6}{|c|}{\textbf{Otimizador SGD}} \\ \hline
+    \textbf{Batch Size} & \textbf{Precisão} & \textbf{Recall} & \textbf{mAP50} & \textbf{mAP50-95} & \textbf{Tempo} \\ \hline
+    2                   & 88.523                & 86.225               & 87.895              & 50.705                 & 50.78h             \\ \hline
+    4                   & 87.431                 & 90.505               & 94.124             & 54.108                & 39.85h             \\ \hline
+    8                   & 91.578                 & 90.592               & 95.298              & 53.128                 & 32.65h             \\ \hline
+    16                  & 92.775                & 92.332               & 94.548             & 56.739                 & 30.54h             \\ \hline
+    \end{tabular}
+    \caption{Resultados de diferentes tamanhos de batch aplicando YOLOv6}
+    \label{tab:yolov6-teste}
+\end{table}
+
+
+\begin{figure}[!h]
+    \centering
+    \begin{minipage}{1\linewidth}
+    \centering
+    \captionsetup{justification=centering,margin=0.5cm,font=small}
+    \includegraphics[width=1\linewidth]{img/cap6/results-yolov6-batch-16.png}
+    \caption{Gráficos gerados a partir do treinamento com a YOLOv6.}
+    \label{fig:yolov6batch16}
+    \end{minipage}
+\end{figure}
+
 
 \subsection{Resultados e análise do treinamento com a YOLOv7}
-
-
 
 \begin{table}[!hbt]
     \centering
@@ -68,14 +93,14 @@ INSERIR YOLOV6
 \end{table}
 
 
-O treinamento com a YOLOv7 \ref{tab:yolov7-teste}, apresentou um comportamento diferente das anteriores. Houve graden variação de precisão em pequenos intervalos de tempo
+O treinamento com a YOLOv7 \ref{tab:yolov7-teste}, apresentou um comportamento diferente das anteriores. Houve graden variação de precisão em pequenos intervalos de tempo...
 
 \begin{figure}[!h]
     \centering
     \begin{minipage}{1\linewidth}
     \centering
     \captionsetup{justification=centering,margin=0.5cm,font=small}
-    \includegraphics[width=1\linewidth]{img/cap6/results-yolov7.png}
+    \includegraphics[width=1\linewidth]{img/cap6/results-yolov7-batch-16.png}
     \caption{Gráficos gerados a partir do treinamento com a YOLOv7, utilizando \textit{batch} igual a 16. O comportamento alternato sobressaltou-se nessa arquitetura}.
     \label{fig:yolov5batch16}
     \end{minipage}
@@ -84,10 +109,6 @@ O treinamento com a YOLOv7 \ref{tab:yolov7-teste}, apresentou um comportamento d
 \subsection{Resultados do treinamento com YOLOv8}
 
 \subsection{Análise dos Resultados do Treinamento com YOLOv8}
-
-Os resultados obtidos ao aplicar a rede neural YOLOv8 em um dataset de reatores de núcleo de ar, variando o tamanho do batch e o otimizador, revelam diferenças significativas no desempenho do modelo. As Tabelas \ref{tab:yolov8-adm}, \ref{tab:yolov8-admw} e \ref{tab:yolov8-sgd} fornecem uma visão detalhada das métricas de desempenho, como precisão, recall, mAP50, mAP50-95 e o tempo de treinamento, para diferentes combinações de otimizadores e tamanhos de batch.
-
-Na Tabela \ref{tab:yolov8-adm}, que apresenta os resultados com o otimizador Adam, observa-se uma melhoria constante na precisão e no recall com o aumento do tamanho do batch. A precisão sobe de 91.323\% para 93.654\%, enquanto o recall aumenta de 90.102\% para 92.964\% com o incremento do batch size. O mAP50 e o mAP50-95 também aumentam, atingindo 96.148\% e 60.269\%, respectivamente, para o maior batch size. Apesar disso, o tempo de treinamento não apresenta uma redução linear, sendo que o batch size de 16 resulta no menor tempo de 29.135 horas.
 
 \begin{table}[!hbt]
     \centering
@@ -143,6 +164,8 @@ Em resumo, os dados indicam que aumentar o tamanho do batch geralmente melhora o
 \subsection{Variação de Parâmetros}
 
 Texto da subseção Variação de Parâmetros.
+
+
 
 
 
