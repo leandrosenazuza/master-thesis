@@ -41,20 +41,55 @@ Contudo, a ResNet, devido à sua grande quantidade de camadas e processamento, a
 
 Para o treinamento, foram analisadas 3.397 imagens com defeitos específicos da rotina da empresa. Destas, 70\% foram utilizadas para treinamento e 30\% para validação. Todas as imagens foram anotadas manualmente. Em cada uma delas, pelo menos um dos defeitos estudados deveria constar nela para que a imagem fosse colocada para treinamento. Essa parte do processo garantiu que o modelo gerado fosse significativo.
 
-Além disso, foram variados os tamanhos do valor do batch size (entre 2 e 32) e testados três otimizadores diferentes: SGD, Adam e AdamW. A YOLOv5 oferece variações da arquitetura para diferentes propósitos. Neste trabalho, foram testadas 10 variações da arquitetura, juntamente com a alteração de parâmetros. Todos os outros hiperparâmetros foram mantidos na configuração padrão. Cada treinamento foi realizado em 300 épocas.
+Além disso, foram variados os tamanhos do valor do \textit{batch size} (entre 2 e 32) e testados três otimizadores diferentes: SGD, Adam e AdamW. A YOLOv5 oferece variações da arquitetura para diferentes propósitos. Neste trabalho, foram testadas 10 variações da arquitetura, juntamente com a alteração de parâmetros. Todos os outros hiperparâmetros foram mantidos na configuração padrão. Cada treinamento foi realizado em 300 épocas.
 
-Na figura (Figura \ref{fig:tabela-macha}), é apresentado o resultado do treinamento, com os respectivos valores, com a variação de parâmetro. Nota-se, disso, que o otimizador SGD, na variação YOLOv5x, com batch size de 8, alcançou a melhor precisão média, com mAP de 0,72921, mostrando com isso a melhor configuração. Com esse treinamento aplicado na identificação de imagens, resultou-se em 83,33\% de precisão na precificação correta dos produtos defeituosos, mostrando com isso que a automação foi bem sucedida em seu propósito.
+Na Tabela \ref{tab:resultado-mancha}, é apresentado o resultado do treinamento, com os respectivos valores, com a variação de parâmetro. Nota-se, disso, que o otimizador SGD, na variação YOLOv5x, com batch size de 8, alcançou a melhor precisão média, com mAP de 0,72921, mostrando com isso a melhor configuração. Com esse treinamento aplicado na identificação de imagens, resultou-se em 83,33\% de precisão na precificação correta dos produtos defeituosos, mostrando com isso que a automação foi bem sucedida em seu propósito.
 
-\begin{figure}[!h]
-    \center
-    \begin{minipage}{1\linewidth}
-        \center
-        \captionsetup{justification=centering,margin=0.5cm,font=small}
-        \includegraphics[width=1\linewidth]{img/cap3/tabela-mancha.jpeg}
-        \caption{Resultado do treinamento variando parâmetros}
-        \label{fig:tabela-macha}
-    \end{minipage}
-\end{figure}
+\begin{table}[h!]
+    \label{tab:resultado-mancha}
+    \centering
+    \begin{tabular}{|c|c|c|c|c|}
+    \hline
+    \multicolumn{5}{|c|}{\textbf{Otimização Adam}} \\ \hline
+    \textbf{ARQUITETURA} & \textbf{Batch 2} & \textbf{Batch 4} & \textbf{Batch 8} & \textbf{Batch 16} \\ \hline
+    YOLOv6n  & 0.27538 & 0.34865 & 0.38961 & 0.41800 \\ \hline
+    YOLOv5n  & 0.34196 & 0.36812 & 0.34965 & 0.44277 \\ \hline
+    YOLOv6s  & 0.29176 & 0.29275 & 0.34995 & 0.39963 \\ \hline
+    YOLOv5s  & 0.22021 & 0.27696 & 0.30976 & 0.40907 \\ \hline
+    YOLOv6m  & 0.22398 & 0.29198 & 0.33198 & 0.42154 \\ \hline
+    YOLOv5m  & 0.26330 & 0.31970 & 0.38044 & 0.44705 \\ \hline
+    YOLOv6l  & 0.22940 & 0.30710 & 0.34329 & 0.44475 \\ \hline
+    YOLOv6n  & 0.30030 & 0.39497 & - & - \\ \hline
+    YOLOv5x  & 0.32160 & 0.38688 & - & - \\ \hline
+    
+    \multicolumn{5}{|c|}{\textbf{Otimização AdamW}} \\ \hline
+    \textbf{ARQUITETURA} & \textbf{Batch 2} & \textbf{Batch 4} & \textbf{Batch 8} & \textbf{Batch 16} \\ \hline
+    YOLOv6n  & 0.42883 & 0.43552 & 0.49657 & - \\ \hline
+    YOLOv5n  & 0.48022 & 0.48880 & 0.57565 & - \\ \hline
+    YOLOv6s  & 0.44942 & 0.49605 & 0.58261 & - \\ \hline
+    YOLOv5s  & 0.43433 & 0.52185 & 0.55821 & - \\ \hline
+    YOLOv6m  & 0.51829 & 0.53139 & 0.60474 & - \\ \hline
+    YOLOv5m  & 0.46789 & 0.50103 & 0.58947 & - \\ \hline
+    YOLOv6l  & 0.46769 & 0.50310 & 0.58947 & - \\ \hline
+    YOLOv6n  & - & - & - & - \\ \hline
+    YOLOv5x  & - & - & - & - \\ \hline
+    
+    \multicolumn{5}{|c|}{\textbf{Otimização SGD}} \\ \hline
+    \textbf{ARQUITETURA} & \textbf{Batch 2} & \textbf{Batch 4} & \textbf{Batch 8} & \textbf{Batch 16} \\ \hline
+    YOLOv6n  & 0.57286 & 0.55400 & 0.65654 & - \\ \hline
+    YOLOv5n  & 0.59021 & 0.60678 & 0.60235 & - \\ \hline
+    YOLOv6s  & 0.60723 & 0.61912 & 0.61684 & - \\ \hline
+    YOLOv5s  & 0.67145 & 0.70897 & 0.71185 & - \\ \hline
+    YOLOv6m  & 0.60228 & 0.71413 & 0.71037 & - \\ \hline
+    YOLOv5m  & 0.61179 & 0.71564 & 0.70514 & - \\ \hline
+    YOLOv6l  & 0.62377 & 0.71564 & 0.70514 & - \\ \hline
+    YOLOv6n  & 0.71112 & 0.71067 & - & - \\ \hline
+    YOLOv5x  & 0.70527 & 0.71120 & - & - \\ \hline
+    
+    \end{tabular}
+    \caption{Tabela comparativa de desempenho de modelos YOLO com diferentes otimizações e tamanhos de batch.}
+    \end{table}
+    
 
 \section{Aplicação YOLOv8}
 \subsection{Comparação de Modelos YOLOv5 e YOLOv8 para Detecção de Objetos em Áreas Rurais Usando Transferência de Aprendizado}
@@ -65,7 +100,7 @@ Como embasamento teórico, buscou-se um estudo similar ao apresentado, em que fo
 
 Já no trabalho citado de \cite{silva2018detecccao}, foi estudada a detecção e contagem de plantas usando inteligência artificial, aplicando modelos de visão computacional para detectar e contar eucaliptos em plantações. O modelo R-CNN Resnet 101 alcançou 95\% de precisão com um tempo de inferência de 578 milissegundos por imagem, destacando-se como o mais promissor para o desenvolvimento de software automatizado na silvicultura.
 
-Por fim, citando \cite{gomes2022detecccao}, foi explorada a detecção de objetos com a arquitetura YOLO, comparando várias versões do modelo usando o conjunto de dados COCO. O YOLOv5 se destacou, alcançando uma acurácia de 67,9\% na métrica mean-average Precision (mAP), superando significativamente as versões anteriores.
+Por fim, citando \cite{gomes2022detecccao}, foi explorada a detecção de objetos com a arquitetura YOLO, comparando várias versões do modelo usando o conjunto de dados COCO. O YOLOv5 se destacou, alcançando uma acurácia de 67,9\% na métrica \textit{Mean-average Precision} (mAP), superando significativamente as versões anteriores.
 
 A literatura indica que a detecção de objetos tem atraído muita atenção, com muitos estudos focando na identificação e avaliação dos melhores modelos conforme o cenário de aplicação. Este trabalho é similar ao estudo \cite{afonso2023vehicle} ao comparar YOLOv5 e YOLOv8, mas difere na área de aplicação.
 

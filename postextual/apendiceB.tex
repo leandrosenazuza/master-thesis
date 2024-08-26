@@ -1,143 +1,151 @@
-\lstdefinelanguage{CSharp}{
-  morekeywords={abstract,as,base,bool,break,byte,case,catch,char,class,const,continue,decimal,default,delegate,do,double,else,enum,event,explicit,extern,finally,fixed,float,for,foreach,goto,if,implicit,in,interface,internal,is,lock,long,namespace,new,null,object,operator,out,override,params,private,protected,public,readonly,ref,return,sbyte,seal,short,sizeof,static,string,struct,switch,this,throw,try,typeof,uint,ulong,unchecked,unsafe,using,virtual,void,volatile,while},
-  sensitive=true,
-  morecomment=[l]{//},
-  morecomment=[s]{/*}{*/},
-  morestring=[b]",
-  morestring=[b]',
-  commentstyle=\color{green},
-  stringstyle=\color{red},
-  keywordstyle=\color{blue},
-  moredelim=*[s][\bfseries\color{magenta}]{@}{@}
-}
+\UseRawInputEncoding
 
-\lstset{
-  backgroundcolor=\color{lightgray},
-  basicstyle=\ttfamily\footnotesize,
-  breaklines=true,
-  frame=single,
-  language=CSharp
-}
+\definecolor{lightgray}{gray}{0.9}
 
 \chapter{Apêndice B}
 \label{chap:ModelLoaderMenu}
 
 \section{ModelLoaderMenu.cs}
 
+\lstdefinelanguage{CSharp}{
+    morekeywords={abstract,as,base,bool,break,byte,case,catch,char,class,const,continue,decimal,default,delegate,do,double,else,enum,event,explicit,extern,finally,float,for,foreach,goto,if,implicit,in,int,interface,internal,is,lock,long,namespace,new,null,object,operator,out,override,params,private,protected,public,readonly,ref,return,sbyte,sealed,short,sizeof,stackalloc,static,string,struct,switch,this,uint,ulong,unchecked,unsafe,ushort,using,virtual,void,volatile,while},
+    sensitive=true,
+    morecomment=[l]{//},
+    morecomment=[s]{/*}{*/},
+    morestring=[b]",
+    morestring=[b]'
+}
+
+\lstset{
+    language=CSharp,  
+    backgroundcolor=\color{lightgray},
+    basicstyle=\ttfamily\footnotesize, 
+    breaklines=true,                   
+    frame=single                   
+}
+
 \begin{lstlisting}
-using UnityEditor;
-using UnityEngine;
-using System.Collections.Generic;
-using System.Net.Http;
-using System.Text;
-using System.Threading.Tasks;
 
-public class ModelLoaderMenu : EditorWindow
-{
-    private string imagePath = "";
-    private Texture2D loadedImage;
-
-    [MenuItem("Automação Ambiente/Processar Imagem")]
-    public static void ShowWindow()
+    using UnityEditor;
+    using UnityEngine;
+    using System.Collections.Generic;
+    using System.Net.Http;
+    using System.Text;
+    using System.Threading.Tasks;
+    
+    public class ModelLoaderMenu : EditorWindow
     {
-        ModelLoaderMenu window = GetWindow<ModelLoaderMenu>("Processar Imagem");
-        window.minSize = new Vector2(300, 300);
-        window.maxSize = new Vector2(300, 300);
-    }
-
-    void OnGUI()
-    {
-        GUILayout.Label("Carregar e Processar Imagem", EditorStyles.boldLabel);
-
-        if (GUILayout.Button("Selecionar Imagem"))
+        private string imagePath = "";
+        private Texture2D loadedImage;
+    
+        [MenuItem("Automação Ambiente/Processar Imagem")]
+        public static void ShowWindow()
         {
-            imagePath = EditorUtility.OpenFilePanel("Selecione uma imagem", "", "png,jpg,jpeg");
-            Debug.Log("imagePath: " + imagePath);
+            ModelLoaderMenu window = GetWindow<ModelLoaderMenu>("Processar Imagem");
+            window.minSize = new Vector2(300, 300);
+            window.maxSize = new Vector2(300, 300);
         }
-
-        imagePath = EditorGUILayout.TextField("Caminho da Imagem", imagePath);
-
-        if (GUILayout.Button("Processar"))
+    
+        void OnGUI()
         {
-            ProcessImage();
-        }
-    }   
-
-    async void ProcessImage()
-    {
-        if (string.IsNullOrEmpty(imagePath))
-        {
-            Debug.LogError("Nenhuma imagem carregada para processar.");
-            return;
-        }
-
-        Vector3 basePosition = Vector3.zero;
-        Vector3 spacing = new Vector3(10, 0, 0); 
-
-        List<DetectionResult> detectionResults = await SendImageForPrediction(imagePath);
-
-        if (detectionResults != null && detectionResults.Count >= 4)
-        {
-            string modelPath = "Assets/Model/FILTER_F10.fbx";
-            GameObject model = AssetDatabase.LoadAssetAtPath<GameObject>(modelPath);
-
-            if (model != null)
+            GUILayout.Label("Carregar e Processar Imagem", EditorStyles.boldLabel);
+    
+            if (GUILayout.Button("Selecionar Imagem"))
             {
-                for (int i = 0; i < detectionResults.Count; i++)
+                imagePath = EditorUtility.OpenFilePanel("Selecione uma imagem", "", "png,jpg,jpeg");
+                Debug.Log("imagePath: " + imagePath);
+            }
+    
+            imagePath = EditorGUILayout.TextField("Caminho da Imagem", imagePath);
+    
+            if (GUILayout.Button("Processar"))
+            {
+                ProcessImage();
+            }
+        }   
+    
+        async void ProcessImage()
+        {
+            if (string.IsNullOrEmpty(imagePath))
+            {
+                Debug.LogError("Nenhuma imagem carregada para processar.");
+                return;
+            }
+    
+            Vector3 basePosition = Vector3.zero;
+            Vector3 spacing = new Vector3(10, 0, 0); 
+    
+            List<DetectionResult> detectionResults = await SendImageForPrediction(imagePath);
+    
+            if (detectionResults != null && detectionResults.Count >= 4)
+            {
+                string modelPath = "Assets/Model/FILTER_F10.fbx";
+                GameObject model = AssetDatabase.LoadAssetAtPath<GameObject>(modelPath);
+    
+                if (model != null)
                 {
-                    GameObject modelInstance = (GameObject)PrefabUtility.InstantiatePrefab(model);
-                    if (modelInstance != null)
+                    for (int i = 0; i < detectionResults.Count; i++)
                     {
-                        modelInstance.transform.position = basePosition + spacing * i;
-                        modelInstance.transform.rotation = Quaternion.Euler(-90, 0, 0);
-                        Debug.Log("Reator inserido na posição: " + modelInstance.transform.position);
-                    }
-                    else
-                    {
-                        Debug.LogError("Erro ao instanciar o modelo virtual.");
+                        GameObject modelInstance = (GameObject)PrefabUtility.InstantiatePrefab(model);
+                        if (modelInstance != null)
+                        {
+                            modelInstance.transform.position = basePosition + spacing * i;
+                            modelInstance.transform.rotation = Quaternion.Euler(-90, 0, 0);
+                            Debug.Log("Reator inserido na posição: " + modelInstance.transform.position);
+                        }
+                        else
+                        {
+                            Debug.LogError("Erro ao instanciar o modelo virtual.");
+                        }
                     }
                 }
+                else
+                {
+                    Debug.LogError("Erro ao carregar o modelo virtual. Verifique o caminho.");
+                }
+            }
+        }
+    
+        async Task<List<DetectionResult>> SendImageForPrediction(string imagePath)
+        {
+            string url = "http://192.168.12.13:5000/predict";
+            var httpClient = new HttpClient();
+            var content = new StringContent($"{{\"image_path\":\"{imagePath}\"}}", Encoding.UTF8, "application/json");
+    
+            HttpResponseMessage response = await httpClient.PostAsync(url, content);
+    
+            if (response.IsSuccessStatusCode)
+            {
+                string jsonResponse = await response.Content.ReadAsStringAsync();
+                DetectionResultsWrapper wrapper = JsonUtility.FromJson<DetectionResultsWrapper>($"{{\"results\":{jsonResponse}}}");
+    
+                return wrapper.results;
             }
             else
             {
-                Debug.LogError("Erro ao carregar o modelo virtual. Verifique o caminho.");
+                Debug.LogError("Erro ao chamar o endpoint Flask: " + response.ReasonPhrase);
+                return null;
             }
         }
     }
-
-    async Task<List<DetectionResult>> SendImageForPrediction(string imagePath)
+    
+    [System.Serializable]
+    public class DetectionResult
     {
-        string url = "http://192.168.12.13:5000/predict";
-        var httpClient = new HttpClient();
-        var content = new StringContent($"{{\"image_path\":\"{imagePath}\"}}", Encoding.UTF8, "application/json");
-
-        HttpResponseMessage response = await httpClient.PostAsync(url, content);
-
-        if (response.IsSuccessStatusCode)
-        {
-            string jsonResponse = await response.Content.ReadAsStringAsync();
-            DetectionResultsWrapper wrapper = JsonUtility.FromJson<DetectionResultsWrapper>($"{{\"results\":{jsonResponse}}}");
-
-            return wrapper.results;
-        }
-        else
-        {
-            Debug.LogError("Erro ao chamar o endpoint Flask: " + response.ReasonPhrase);
-            return null;
-        }
+        public string ClassName;
+        public List<float> BoundingBox;
     }
-}
+    
+    [System.Serializable]
+    public class DetectionResultsWrapper
+    {
+        public List<DetectionResult> results;
+    }
 
-[System.Serializable]
-public class DetectionResult
-{
-    public string ClassName;
-    public List<float> BoundingBox;
-}
-
-[System.Serializable]
-public class DetectionResultsWrapper
-{
-    public List<DetectionResult> results;
-}
 \end{lstlisting}
+
+
+
+
+
+

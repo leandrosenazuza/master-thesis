@@ -18,11 +18,11 @@
 \contentsline {section}{\numberline {2.1}Subestações de Energia}{4}{section.2.1}%
 \contentsline {section}{\numberline {2.2}Realidade Virtual}{6}{section.2.2}%
 \contentsline {section}{\numberline {2.3}Redes Neurais Artificiais}{7}{section.2.3}%
-\contentsline {subsection}{\numberline {2.3.1}You Look Only Once}{12}{subsection.2.3.1}%
+\contentsline {subsection}{\numberline {2.3.1}You Look Only Once}{13}{subsection.2.3.1}%
 \contentsline {subsection}{\numberline {2.3.2}Batch}{15}{subsection.2.3.2}%
 \contentsline {subsection}{\numberline {2.3.3}Otimizadores}{15}{subsection.2.3.3}%
 \contentsline {subsection}{\numberline {2.3.4}Precisão e Recall}{16}{subsection.2.3.4}%
-\contentsline {section}{\numberline {2.4}Considerações finais}{18}{section.2.4}%
+\contentsline {section}{\numberline {2.4}Considerações finais}{17}{section.2.4}%
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
 \contentsline {chapter}{\chapternumberline {3}\MakeTextUppercase []{Trabalhos Relacionados}}{19}{chapter.3}%
 \contentsline {section}{\numberline {3.1}Introdução}{19}{section.3.1}%
@@ -31,7 +31,7 @@
 \contentsline {section}{\numberline {3.3}Aplicação YOLOv8}{21}{section.3.3}%
 \contentsline {subsection}{\numberline {3.3.1}Comparação de Modelos YOLOv5 e YOLOv8 para Detecção de Objetos em Áreas Rurais Usando Transferência de Aprendizado}{21}{subsection.3.3.1}%
 \contentsline {subsection}{\numberline {3.3.2}UAV-YOLOv8: A Small-Object-Detection Model Based on Improved YOLOv8 for UAV Aerial Photography Scenarios}{24}{subsection.3.3.2}%
-\contentsline {section}{\numberline {3.4}Considerações Finais}{25}{section.3.4}%
+\contentsline {section}{\numberline {3.4}Considerações Finais}{26}{section.3.4}%
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
 \contentsline {chapter}{\chapternumberline {4}\MakeTextUppercase []{Materiais e Métodos}}{28}{chapter.4}%
 \contentsline {section}{\numberline {4.1}Introdução}{28}{section.4.1}%
@@ -65,9 +65,11 @@
 \contentsline {section}{\numberline {7.1}Introdução}{45}{section.7.1}%
 \contentsline {section}{\numberline {7.2}Conclusão}{45}{section.7.2}%
 \contentsline {section}{\numberline {7.3}Trabalhos Futuros}{45}{section.7.3}%
+\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
+\contentsline {chapter}{\MakeTextUppercase []{Refer\^encias}}{47}{section*.54}%
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {appendix}{\chapternumberline {A}\MakeTextUppercase []{Apêndice A}}{47}{appendix.A}%
-\contentsline {section}{\numberline {A.1}api-rv.py}{47}{section.A.1}%
+\contentsline {appendix}{\chapternumberline {A}\MakeTextUppercase []{Apêndice A}}{51}{appendix.A}%
+\contentsline {section}{\numberline {A.1}api-rv.py}{51}{section.A.1}%
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {appendix}{\chapternumberline {B}\MakeTextUppercase []{Apêndice B}}{48}{appendix.B}%
-\contentsline {section}{\numberline {B.1}ModelLoaderMenu.cs}{48}{section.B.1}%
+\contentsline {appendix}{\chapternumberline {B}\MakeTextUppercase []{Apêndice B}}{52}{appendix.B}%
+\contentsline {section}{\numberline {B.1}ModelLoaderMenu.cs}{52}{section.B.1}%
