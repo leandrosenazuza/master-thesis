@@ -1,2 +1,10 @@
 \babel@toc {brazil}{}\relax 
 \babel@toc {brazil}{}\relax 
+\contentsline {table}{\numberline {1}{\ignorespaces Resumo comparativo dos trabalhos relacionados}}{26}{table.caption.33}%
+\contentsline {table}{\numberline {2}{\ignorespaces Resultados de diferentes tamanhos de batch aplicando YOLOv5}}{39}{table.caption.43}%
+\contentsline {table}{\numberline {3}{\ignorespaces Resultados de diferentes tamanhos de batch aplicando YOLOv6}}{40}{table.caption.45}%
+\contentsline {table}{\numberline {4}{\ignorespaces Resultados de diferentes tamanhos de batch aplicando YOLOv7}}{41}{table.caption.47}%
+\contentsline {table}{\numberline {5}{\ignorespaces Resultados de diferentes tamanhos de batch aplicando YOLOv8 e otimizador Adam}}{42}{table.caption.49}%
+\contentsline {table}{\numberline {6}{\ignorespaces Resultados de diferentes tamanhos de batch aplicando YOLOv8 e otimizador AdamW}}{42}{table.caption.50}%
+\contentsline {table}{\numberline {7}{\ignorespaces Resultados de diferentes tamanhos de batch aplicando YOLOv8 e otimizador SGD}}{42}{table.caption.51}%
+\contentsline {table}{\numberline {8}{\ignorespaces Resumo do desempenho na aplicação da YOLOv8 na melhor configuração encontrada}}{43}{table.caption.52}%
