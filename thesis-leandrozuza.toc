@@ -9,28 +9,20 @@
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {1}\MakeTextUppercase []{Detalhes da Implementação}}{1}{chapter.1}%
-\contentsline {section}{\numberline {1.1}Introdução}{1}{section.1.1}%
-\contentsline {subsection}{\numberline {1.1.1}Estrutura geral da aplicação}{1}{subsection.1.1.1}%
-\contentsline {subsection}{\numberline {1.1.2}Treinamento com a YOLO}{2}{subsection.1.1.2}%
-\contentsline {subsection}{\numberline {1.1.3}API de Identificação}{3}{subsection.1.1.3}%
-\contentsline {subsection}{\numberline {1.1.4}Implementação no Unity}{4}{subsection.1.1.4}%
-\contentsline {subsection}{\numberline {1.1.5}Conclusão}{4}{subsection.1.1.5}%
-\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {2}\MakeTextUppercase []{Resultados e Discussão}}{6}{chapter.2}%
-\contentsline {section}{\numberline {2.1}Introdução}{6}{section.2.1}%
-\contentsline {section}{\numberline {2.2}Avaliação do Treinamento}{6}{section.2.2}%
-\contentsline {subsection}{\numberline {2.2.1}Avaliação do Treinamento}{6}{subsection.2.2.1}%
-\contentsline {subsection}{\numberline {2.2.2}Resultados e análise do treinamento com a YOLOv5}{6}{subsection.2.2.2}%
-\contentsline {subsection}{\numberline {2.2.3}Resultados e análise do treinamento com a YOLOv6}{7}{subsection.2.2.3}%
-\contentsline {subsection}{\numberline {2.2.4}Resultados e análise do treinamento com a YOLOv7}{7}{subsection.2.2.4}%
-\contentsline {subsection}{\numberline {2.2.5}Resultados do treinamento com YOLOv8}{9}{subsection.2.2.5}%
-\contentsline {subsection}{\numberline {2.2.6}Análise dos Resultados do Treinamento com YOLOv8}{9}{subsection.2.2.6}%
-\contentsline {subsection}{\numberline {2.2.7}Variação de Parâmetros}{10}{subsection.2.2.7}%
-\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {3}\MakeTextUppercase []{Conclusão e Trabalhos Futuros}}{11}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Introdução}{11}{section.3.1}%
-\contentsline {section}{\numberline {3.2}Conclusão}{11}{section.3.2}%
-\contentsline {section}{\numberline {3.3}Trabalhos Futuros}{11}{section.3.3}%
+\contentsline {chapter}{\chapternumberline {1}\MakeTextUppercase []{Fundamentação Teórica}}{12}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Subestações de Energia}{12}{section.1.1}%
+\contentsline {section}{\numberline {1.2}Realidade Virtual}{14}{section.1.2}%
+\contentsline {section}{\numberline {1.3}Redes Neurais Artificiais}{15}{section.1.3}%
+\contentsline {subsection}{\numberline {1.3.1}You Look Only Once}{20}{subsection.1.3.1}%
+\contentsline {subsection}{\numberline {1.3.2}Batch}{23}{subsection.1.3.2}%
+\contentsline {subsection}{\numberline {1.3.3}Otimizadores}{23}{subsection.1.3.3}%
+\contentsline {subsection}{\numberline {1.3.4}Precisão e Recall}{24}{subsection.1.3.4}%
+\contentsline {section}{\numberline {1.4}Considerações finais}{26}{section.1.4}%
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
-\contentsline {chapter}{\MakeTextUppercase []{Refer\^encias}}{13}{section*.30}%
+\contentsline {chapter}{\MakeTextUppercase []{Refer\^encias}}{27}{section*.27}%
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\contentsline {appendix}{\chapternumberline {A}\MakeTextUppercase []{Apêndice A}}{28}{appendix.A}%
+\contentsline {section}{\numberline {A.1}api-rv.py}{28}{section.A.1}%
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\contentsline {appendix}{\chapternumberline {B}\MakeTextUppercase []{Apêndice B}}{29}{appendix.B}%
+\contentsline {section}{\numberline {B.1}ModelLoaderMenu.cs}{29}{section.B.1}%
