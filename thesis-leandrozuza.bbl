@@ -12,12 +12,26 @@ Medium.
 Dispon{\'\i}vel em:
   \url{https://medium.com/@avinicius.adorno/redes-neurais-artificiais-418a34ea1a39}.}
 
+\bibitem[Afonso et al. 2023]{afonso2023vehicle}
+\abntrefinfo{Afonso et al.}{AFONSO et al.}{2023}
+{AFONSO, M.~H. et al. Vehicle and plate detection for intelligent transport
+  systems: Performance evaluation of models yolov5 and yolov8. In:  IEEE.
+  \emph{2023 IEEE International Conference on Computing (ICOCO)}. [S.l.], 2023.
+  p. 328--333.}
+
 \bibitem[Andrade e Santos 2015]{de2015hydroelectric}
 \abntrefinfo{Andrade e Santos}{ANDRADE; SANTOS}{2015}
 {ANDRADE, A. de L.; SANTOS, M.~A. D. Hydroelectric plants environmental
   viability: Strategic environmental assessment application in brazil.
 \emph{Renewable and Sustainable Energy Reviews}, Elsevier, v.~52, p.
   1413--1423, 2015.}
+
+\bibitem[Barbado et al. 2022]{barbado2022aplicaccao}
+\abntrefinfo{Barbado et al.}{BARBADO et al.}{2022}
+{BARBADO, L. et al. Aplica{\c{c}}{\~a}o da rede convolucional yolo para
+  an{\'a}lise de fluxo de ve{\'\i}culos. In:  SBC. \emph{Congresso
+  Latino-Americano de Software Livre e Tecnologias Abertas (Latinoware)}.
+  [S.l.], 2022. p. 43--49.}
 
 \bibitem[Brasil 2023]{deeplearningbook2023}
 \abntrefinfo{Brasil}{BRASIL}{2023}
@@ -38,6 +52,20 @@ Dispon{\'\i}vel em:
   sistemas de realidade virtual e aumentada.
 \emph{Editora Universit{\'a}ria UFPE}, p. 1--19, 2007.}
 
+\bibitem[Computacional 2024]{yoloVisaoComputacional}
+\abntrefinfo{Computacional}{COMPUTACIONAL}{2024}
+{COMPUTACIONAL, V. \emph{YOLO para Detecção de Objetos: Visão Geral}. 2024.
+Acessado em: 4 de junho de 2024.
+Dispon{\'\i}vel em:
+  \url{https://visaocomputacional.com.br/yolo-para-deteccao-de-objetos-visao-geral}.}
+
+\bibitem[Dias, Figueiredo e Mafra 2021]{diascomparaccao}
+\abntrefinfo{Dias, Figueiredo e Mafra}{DIAS; FIGUEIREDO; MAFRA}{2021}
+{DIAS, R.~L.; FIGUEIREDO, F.~A. de; MAFRA, S.~B. Compara{\c{c}}{\~a}o de
+  modelos yolov5 e yolov8 para detec{\c{c}}{\~a}o de objetos em {\'a}reas
+  rurais usando transfer{\^e}ncia de aprendizado.
+2021.}
+
 \bibitem[Eletrônica 2024]{reatorNucleoDeAr}
 \abntrefinfo{Eletrônica}{ELETRôNICA}{2024}
 {ELETRôNICA, A.~E. \emph{Reator Núcleo de Ar – Jauru Eletronorte 230kV}.
@@ -52,6 +80,28 @@ Dispon{\'\i}vel em:
 \emph{Revista Eletr{\^o}nica Cient{\'\i}fica Inova{\c{c}}{\~a}o e Tecnologia},
   v.~1, n.~13, p. 47--57, 2016.}
 
+\bibitem[Girshick 2015]{girshick2015fast}
+\abntrefinfo{Girshick}{GIRSHICK}{2015}
+{GIRSHICK, R. Fast r-cnn. In:  \emph{Proceedings of the IEEE international
+  conference on computer vision}. [S.l.: s.n.], 2015. p. 1440--1448.}
+
+\bibitem[Gomes 2022]{gomes2022detecccao}
+\abntrefinfo{Gomes}{GOMES}{2022}
+{GOMES, J. V.~E. Detec{\c{c}}{\~a}o de objetos com a arquitetura yolo.
+2022.}
+
+\bibitem[Gonzaga 2023]{almeida2023batch}
+\abntrefinfo{Gonzaga}{GONZAGA}{2023a}
+{GONZAGA, L.~G. Identifica{\c{c}}{\~a}o e medi{\c{c}}{\~a}o de defeitos em
+  produtos automotivos usando vis{\~a}o computacional.
+Serra, 2023.}
+
+\bibitem[Gonzaga 2023]{gonzaga2023identificaccao}
+\abntrefinfo{Gonzaga}{GONZAGA}{2023b}
+{GONZAGA, L.~M. Identifica{\c{c}}{\~a}o e medi{\c{c}}{\~a}o de defeitos em
+  produtos automotivos usando vis{\~a}o computacional.
+Serra, 2023.}
+
 \bibitem[Goodfellow, Bengio e Courville 2016]{goodfellow2016deep}
 \abntrefinfo{Goodfellow, Bengio e Courville}{GOODFELLOW; BENGIO;
   COURVILLE}{2016}
@@ -62,6 +112,12 @@ Dispon{\'\i}vel em:
 \abntrefinfo{Haykin}{HAYKIN}{2001}
 {HAYKIN, S. \emph{Redes neurais: princ{\'\i}pios e pr{\'a}tica}. [S.l.]:
   Bookman Editora, 2001.}
+
+\bibitem[He et al. 2016]{he2016deep}
+\abntrefinfo{He et al.}{HE et al.}{2016}
+{HE, K. et al. Deep residual learning for image recognition. In:
+  \emph{Proceedings of the IEEE conference on computer vision and pattern
+  recognition}. [S.l.: s.n.], 2016. p. 770--778.}
 
 \bibitem[Hussain 2023]{hussain2023yolo}
 \abntrefinfo{Hussain}{HUSSAIN}{2023}
@@ -167,6 +223,12 @@ Dispon{\'\i}vel em:
   Associa{\c{c}}{\~a}o Ib{\'e}rica de Sistemas e Tecnologias de Informacao,
   n.~E31, p. 497--512, 2020.}
 
+\bibitem[{PyCharm} 2023]{pycharm}
+\abntrefinfo{{PyCharm}}{{PyCharm}}{2023}
+{{PyCharm}. \emph{{PyCharm}}. 2023.
+  \url{https://www.jetbrains.com/pt-br/pycharm/}.
+Acesso em: 01 de nov. de 2023.}
+
 \bibitem[Randolph 2013]{randolph2013electric}
 \abntrefinfo{Randolph}{RANDOLPH}{2013}
 {RANDOLPH, J. Electric power substations engineering [book reviews].
@@ -182,6 +244,11 @@ Dispon{\'\i}vel em:
 {REDMON, J. et al. You only look once: Unified, real-time object detection. In:
    \emph{Proceedings of the IEEE conference on computer vision and pattern
   recognition}. [S.l.: s.n.], 2016. p. 779--788.}
+
+\bibitem[Redmon e Farhadi 2018]{redmon2018yolov3}
+\abntrefinfo{Redmon e Farhadi}{REDMON; FARHADI}{2018}
+{REDMON, J.; FARHADI, A. Yolov3: An incremental improvement.
+\emph{arXiv preprint arXiv:1804.02767}, 2018.}
 
 \bibitem[Rodrigues 2023]{rodrigues2023visao}
 \abntrefinfo{Rodrigues}{RODRIGUES}{2023}
@@ -204,6 +271,20 @@ Dispon{\'\i}vel em:
   back-propagating errors.
 \emph{nature}, Nature Publishing Group UK London, v.~323, n.~6088, p. 533--536,
   1986.}
+
+\bibitem[S{\'a} et al. 2024]{sa2024yolov8}
+\abntrefinfo{S{\'a} et al.}{S{\'A} et al.}{2024}
+{S{\'A}, P. C.~A. et al. Yolov8 para controle de produ{\c{c}}{\~a}o
+  p{\'o}s-colheita e beneficiamento de frutos.
+\emph{Revista de Engenharia e Pesquisa Aplicada}, v.~9, n.~1, p. 115--122,
+  2024.}
+
+\bibitem[Silva et al. 2018]{silva2018detecccao}
+\abntrefinfo{Silva et al.}{SILVA et al.}{2018}
+{SILVA, G.~d. et al. Detec{\c{c}}{\~a}o e contagem de plantas utilizando
+  t{\'e}cnicas de intelig{\^e}ncia artificial e machine learning.
+\emph{Gradua{\c{c}}{\~a}o em Engenharia Eletr{\^o}nica, Centro Tecnol{\'o}gico,
+  Universidade Federal de Santa Catarina}, 2018.}
 
 \bibitem[Silva et al. 2012]{silva2012virtual}
 \abntrefinfo{Silva et al.}{SILVA et al.}{2012}
@@ -239,6 +320,12 @@ p. 757--764, 1968.}
 Acessado em: 4 de junho de 2024.
 Dispon{\'\i}vel em: \url{https://github.com/ultralytics/ultralytics}.}
 
+\bibitem[{Unity Technologies} 2024]{unity}
+\abntrefinfo{{Unity Technologies}}{{Unity Technologies}}{2024}
+{{Unity Technologies}. \emph{{Unity: Desenvolvimento de jogos e aplicações
+  3D}}. 2024. \url{https://unity.com/}.
+[Acessado em: 30 de julho de 2024].}
+
 \bibitem[Vargas, Paes e Vasconcelos 2016]{vargas2016estudo}
 \abntrefinfo{Vargas, Paes e Vasconcelos}{VARGAS; PAES; VASCONCELOS}{2016}
 {VARGAS, A. C.~G.; PAES, A.; VASCONCELOS, C.~N. Um estudo sobre redes neurais
@@ -246,11 +333,11 @@ Dispon{\'\i}vel em: \url{https://github.com/ultralytics/ultralytics}.}
   In:  SN. \emph{Proceedings of the xxix conference on graphics, patterns and
   images}. [S.l.], 2016. v.~1, n.~4.}
 
-\bibitem[Venkataramani 2018]{sgdMedium}
-\abntrefinfo{Venkataramani}{VENKATARAMANI}{2018}
-{VENKATARAMANI, D. Stochastic vs batch gradient descent.
-\emph{Medium}, 2018.
-Acesso em: 4 de junho de 2024.}
+\bibitem[Wang et al. 2023]{wang2023uav}
+\abntrefinfo{Wang et al.}{WANG et al.}{2023}
+{WANG, G. et al. Uav-yolov8: a small-object-detection model based on improved
+  yolov8 for uav aerial photography scenarios.
+\emph{Sensors}, MDPI, v.~23, n.~16, p.~7190, 2023.}
 
 \bibitem[Widrow, Hoff et al. 1960]{widrow1960adaptive}
 \abntrefinfo{Widrow, Hoff et al.}{WIDROW; HOFF et al.}{1960}

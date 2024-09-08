@@ -1,76 +1,151 @@
-\chapter{Apêndice - Formulário de Consentimento}
-\label{sec:consentFormPT}
+\UseRawInputEncoding
 
-\textbf{TERMO DE CONSENTIMENTO LIVRE E ESCLARECIDO}
+\definecolor{lightgray}{gray}{0.9}
+
+\chapter{Apêndice B}
+\label{chap:ModelLoaderMenu}
+
+\section{ModelLoaderMenu.cs}
+
+\lstdefinelanguage{CSharp}{
+    morekeywords={abstract,as,base,bool,break,byte,case,catch,char,class,const,continue,decimal,default,delegate,do,double,else,enum,event,explicit,extern,finally,float,for,foreach,goto,if,implicit,in,int,interface,internal,is,lock,long,namespace,new,null,object,operator,out,override,params,private,protected,public,readonly,ref,return,sbyte,sealed,short,sizeof,stackalloc,static,string,struct,switch,this,uint,ulong,unchecked,unsafe,ushort,using,virtual,void,volatile,while},
+    sensitive=true,
+    morecomment=[l]{//},
+    morecomment=[s]{/*}{*/},
+    morestring=[b]",
+    morestring=[b]'
+}
+
+\lstset{
+    language=CSharp,  
+    backgroundcolor=\color{lightgray},
+    basicstyle=\ttfamily\footnotesize, 
+    breaklines=true,                   
+    frame=single                   
+}
+
+\begin{lstlisting}
+
+    using UnityEditor;
+    using UnityEngine;
+    using System.Collections.Generic;
+    using System.Net.Http;
+    using System.Text;
+    using System.Threading.Tasks;
+    
+    public class ModelLoaderMenu : EditorWindow
+    {
+        private string imagePath = "";
+        private Texture2D loadedImage;
+    
+        [MenuItem("Automação Ambiente/Processar Imagem")]
+        public static void ShowWindow()
+        {
+            ModelLoaderMenu window = GetWindow<ModelLoaderMenu>("Processar Imagem");
+            window.minSize = new Vector2(300, 300);
+            window.maxSize = new Vector2(300, 300);
+        }
+    
+        void OnGUI()
+        {
+            GUILayout.Label("Carregar e Processar Imagem", EditorStyles.boldLabel);
+    
+            if (GUILayout.Button("Selecionar Imagem"))
+            {
+                imagePath = EditorUtility.OpenFilePanel("Selecione uma imagem", "", "png,jpg,jpeg");
+                Debug.Log("imagePath: " + imagePath);
+            }
+    
+            imagePath = EditorGUILayout.TextField("Caminho da Imagem", imagePath);
+    
+            if (GUILayout.Button("Processar"))
+            {
+                ProcessImage();
+            }
+        }   
+    
+        async void ProcessImage()
+        {
+            if (string.IsNullOrEmpty(imagePath))
+            {
+                Debug.LogError("Nenhuma imagem carregada para processar.");
+                return;
+            }
+    
+            Vector3 basePosition = Vector3.zero;
+            Vector3 spacing = new Vector3(10, 0, 0); 
+    
+            List<DetectionResult> detectionResults = await SendImageForPrediction(imagePath);
+    
+            if (detectionResults != null && detectionResults.Count >= 4)
+            {
+                string modelPath = "Assets/Model/FILTER_F10.fbx";
+                GameObject model = AssetDatabase.LoadAssetAtPath<GameObject>(modelPath);
+    
+                if (model != null)
+                {
+                    for (int i = 0; i < detectionResults.Count; i++)
+                    {
+                        GameObject modelInstance = (GameObject)PrefabUtility.InstantiatePrefab(model);
+                        if (modelInstance != null)
+                        {
+                            modelInstance.transform.position = basePosition + spacing * i;
+                            modelInstance.transform.rotation = Quaternion.Euler(-90, 0, 0);
+                            Debug.Log("Reator inserido na posição: " + modelInstance.transform.position);
+                        }
+                        else
+                        {
+                            Debug.LogError("Erro ao instanciar o modelo virtual.");
+                        }
+                    }
+                }
+                else
+                {
+                    Debug.LogError("Erro ao carregar o modelo virtual. Verifique o caminho.");
+                }
+            }
+        }
+    
+        async Task<List<DetectionResult>> SendImageForPrediction(string imagePath)
+        {
+            string url = "http://192.168.12.13:5000/predict";
+            var httpClient = new HttpClient();
+            var content = new StringContent($"{{\"image_path\":\"{imagePath}\"}}", Encoding.UTF8, "application/json");
+    
+            HttpResponseMessage response = await httpClient.PostAsync(url, content);
+    
+            if (response.IsSuccessStatusCode)
+            {
+                string jsonResponse = await response.Content.ReadAsStringAsync();
+                DetectionResultsWrapper wrapper = JsonUtility.FromJson<DetectionResultsWrapper>($"{{\"results\":{jsonResponse}}}");
+    
+                return wrapper.results;
+            }
+            else
+            {
+                Debug.LogError("Erro ao chamar o endpoint Flask: " + response.ReasonPhrase);
+                return null;
+            }
+        }
+    }
+    
+    [System.Serializable]
+    public class DetectionResult
+    {
+        public string ClassName;
+        public List<float> BoundingBox;
+    }
+    
+    [System.Serializable]
+    public class DetectionResultsWrapper
+    {
+        public List<DetectionResult> results;
+    }
+
+\end{lstlisting}
 
 
-\vspace{\baselineskip}
-Você está sendo convidado(a) para participar da pesquisa intitulada ``Arquitetura de Telereabilitação baseada em realidade aumentada para apoiar o treinamento de usuários de cadeiras de rodas motorizadas'' , sob a responsabilidade dos pesquisadores Eduardo Lázaro Martins, Edgard Afonso Lamounier Jr, Alexandre Cardoso e Daniel Stefany Duarte Caetano.
-
-Esta pesquisa pretende proporcionar a você condições de se reabilitar, ou seja, recuperar sua independência na realização das atividades diárias antes de sua mobilidade ser restringida. Acredita-se que por meio do ambiente de Telereabilitação aumentada desenvolvido, você possa com a intervenção e acompanhamento do terapeuta, executar tarefas personalizadas que atenda as suas necessidades, remotamente.  Com base em seus desafios diários, com segurança e o mais próximo possível da realidade.  Você e o terapeuta, serão capazes de interagir com este ambiente, cuja infraestrutura foi desenvolvida baseado em suas observações, e objetos virtuais que auxiliarão neste processo.
-
-A fusão das técnicas de Realidade Aumentada (RA) com as características advindas da Telereabilitação, te possibilitará a visualização aumentada, instantaneamente, dos comandos de controle enviados a CRM remota.  Utilizando as técnicas de RA, o terapeuta definirá o trajeto a ser executado por você, onde os virtuais poderão ser utilizados como guias, e outros deverão ser evitados. O terapeuta ainda avaliará, tomará notas e acompanhará o seu treinamento. Tudo para que você realize diversas manobras para desenvolverão suas habilidades de controle da CRM.  Você será instruído, sobre como utilizar e solicitar o treinamento no sistema, e por meio de um joystick adaptado, conectado ao computador,  enviará os comandos para controlar a CRM a distância sem ser necessário deslocar-se, com segurança e com mais realismo.
-
-O presente Termo de Consentimento Livre e Esclarecido será fornecido pelo pesquisador Daniel Stefany Duarte Caetano e deverá ser apresentado antes da realização do experimento no Núcleo de Tecnologias Assistivas da Universidade Federal de Uberlândia.
-
-Após a conclusão de cada protocolo você deverá preencher um questionário parcial, descrevendo suas percepções sobre o funcionamento do sistema e do treinamento realizado. E após o último protocolo de treinamento, você deverá preencher também um questionário com perguntas pontuais sobre alguns requisitos do sistema, usabilidade e avaliação de sua experiência.
-
-Em nenhum momento você será identificado, a não ser entre os responsáveis pelo estudo, sendo assegurado o sigilo sobre sua participação. Os resultados da pesquisa deverão ser publicados, porém ainda assim sua identidade será preservada.
-
-Você não terá nenhum gasto e ganho financeiro por participar na pesquisa.
-
-Os riscos envolvidos consistem na possível fadiga mental durante a realização dos protocolos de treinamento remoto.
-
-Os benefícios que se espera com este estudo são: ter uma avaliação da arquitetura de sistema desenvolvida, para aprimorá-lo a partir das sugestões coletadas de cada participante. Futuramente, traçar-se-á abordagens de melhorias futuras, para que nas próximas etapas do projeto sejam implantadas, objetivando uma melhor a experiência no treinamento na condução de CRM além deixar a arquitetura mais robusta para toda a comunidade, permitindo alcançar melhores contribuições científicas com os dados futuramente obtidos.
-
-Você é livre para deixar de participar da pesquisa a qualquer momento sem que haja qualquer prejuízo ou coação por parte dos envolvidos.
-
-Uma cópia deste Termo de Consentimento Livre e Esclarecido ficará com você, e a segunda cópia será arquivada pelos pesquisadores.
-
-Qualquer dúvida a respeito da pesquisa, você poderá entrar em contato com: Eduardo Lázaro Martins Naves (34) 3239-4769; Daniel Stefany Duarte Caetano (34) 99645-6207 (sdc.daniel@gmail.com) – Universidade Federal de Uberlândia: Av. João Naves de Ávila, nº 2121, bloco A, sala 220, Campus Santa Mônica – Uberlândia –MG. Poderá também entrar em contato com o Comitê de Ética na Pesquisa com Seres-Humanos – Universidade Federal de Uberlândia: Av. João Naves de Ávila, nº 2121, bloco A, sala 224, Campus Santa Mônica – Uberlândia –MG, CEP: 38408-100; fone: 34-32394131
 
 
-\vspace{\baselineskip}
-
-\vspace{\baselineskip}
-
-\begin{center}
-Uberlândia, 20 de Maio de 2019.
-\end{center}
-
-\vspace{\baselineskip}
-
-\vspace{\baselineskip}
-
-\vspace{\baselineskip}
-
-\vspace{\baselineskip}
-
-\begin{center}
-\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\par
-
-Assinatura do(s) pesquisador(es)\par
-\end{center}
-
-
-\vspace{\baselineskip}
-
-\vspace{\baselineskip}
-Eu aceito participar do projeto citado acima, voluntariamente, após ter sido devidamente esclarecido.
-
-\begin{center}
-\vspace{\baselineskip}
-\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\par
-
-Participante da pesquisa\par
-\end{center}
-
-
-\vspace{\baselineskip}
-Eu,\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
-responsável pelo \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_ autorizo e responsabilizo a participação do mesmo no projeto descrito acima.\par
-
-
-\vspace{\baselineskip}
 
 

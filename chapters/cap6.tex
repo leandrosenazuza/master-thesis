@@ -1,267 +1,200 @@
-\chapter{Results and Discussion}
+\chapter{Resultados e Discussão}
 
-\section{Introduction} 
+\section{Introdução} 
 
-This chapter presents obtained results. Through the experiments with eligible volunteers, a set of important quantitative metrics were collected, which allows an evaluation, based on PMRT. Qualitative data were obtained from the survey filled by the volunteers and therapist about the system acceptance and limitations during their trial experience.
+Neste capítulo, será abordado a sequência de testes realizados para o treinamento da RNC, assim como os resultados obtidos. Além disso, será apresentado a eficiência da utilização dos pesos da configuração de treinamento da YOLO que obteve a melhor performance. 
 
-\section{Trials performance evaluation information}
+\section{Avaliação do Treinamento} 
 
-Table \ref{tb:ResultsPMRT} present the performance evaluation realized by the therapist.
+Os resultados de desempenho obtidos das RNC, foram estruturados da seguinte forma: realização de uma avaliação do mAP, mAP50, mAP50-95 e recall das versões YOLOv5, YOLOv6 e YOLOv7, com variação do batch de 2 a 16, utilizando o otimizador SGD. Seguido, será avaliado o desempenho da YOLOv8, também com alteração de batch de 2 a 16, e com variação do otimizador. Por fim, será avaliado a performance na identificação de equipamentos, a partir de um conjunto de fotos não treinadas, e avaliar na prática a precisão real de cada configuração dos modelos, aplicadas. 
 
-\begin{table}[!htbt]
-\caption{PMRT Evaluation Summary} \label{tb:ResultsPMRT}
-\centering
-\begin{tabular}{cccccc}
-\toprule
-Participant & Protocol / Tasks & Command & Collision & Time(s) & Score(\%) \\ \midrule
-\multirow{4}{*}{1} & 1.1   & 38 & 2 & 199 & 50 \\
-                            			     & 2.1 & 37 & 1 & 328 & \multirow{2}{*}{50}\\
-                            			     & 2.2 &  7 & 0 & 57  & \\
-						     & 3.1   & 54 & 0 & 354 & 75 \\ \midrule
-\multirow{4}{*}{2} & 1.1   & 27 & 0 & 282 & 75 \\
-                            			     & 2.1 & 17 & 0 & 127 & \multirow{2}{*}{75}\\
-                            			     & 2.2 & 21 & 0 & 67  & \\
-						     & 3.1   & 66 & 0 & 178 & 75 \\ \midrule
-\multirow{4}{*}{3} & 1.1   & 14 & 0 & 227 & 75 \\
-                            			     & 2.1 & 9  & 0 & 98 & \multirow{2}{*}{50}\\
-                            			     & 2.2 & 13 & 0 & 51  & \\
-						     & 3.1   & 34 & 0 & 236 & 75 \\ 
-\bottomrule
-\end{tabular}
+Foi discutido na Fundamentação Teórica deste trabalho que a YOLOv8 foi proposta como um modelo superior a suas três últimas versões. Em seu artigo de apresentação, foi comparado a taxa de sucesso da versão 8 contra a versão 5, 6 e 7, quando aplicado a um conjunto de imagens comuns \cite{ultralytics2023yolo}. Por isso, foi realizada a mesma experimentação, a fim de comparar, na configuração padrão de todos hiperparâmetros, se a escolha da oitava versão de fato mostra-se vantajosa. Apenas os parâmetros do batch foram alterados, a fim de verificar o efeito dos lotes no treinamento, conforme também realizado no estudo de \cite{almeida2023batch}.
+
+Por isso, por configuração padrão da rede neural YOLO, entende-se a utilização do otimizador SGD; com a taxa de aprendizado de 0,01; e configuração padrão de entrada das imagens de 640x640. 
+
+\subsection{Resultados e análise do treinamento com a YOLOv5}
+
+Na tabela \ref{tab:yolov5-teste}, apresenta-se o resultado da aplicação da YOLOv5 ao dataset de reatores de núcleo de ar, alterando o valor de batch de 2 a 16. Nela, é evidente notar a primeira característica marcante de se diminuir o tamanho do batch: há um aumento no tempo de processamento da RNC, uma vez que lotes menores de imagens estão sendo analisados em cada iteração, demandam maior tempo para cobrir todo o escopo do dataset. No treinamento com a arquitetura YOLOv5, a mAP50 apresenta valores que podem ser considerados altos, inclusive maiores que aqueles apresentados no estudo de \cite{wang2023uav}, que também se dispôs a buscar modelos que identificassem objetos por meio de fotos obtidas de VANTs.
+
+De modo geral, nesse sugere que o aumento do tamanho do batch de 2 para 8 resulta em melhorias significativas na precisão, recall, mAP50 e mAP50-95, ao mesmo tempo em que reduz o tempo de treinamento. No entanto, ao aumentar o batch size para 16, embora a precisão atinja seu valor mais alto, o recall e mAP50-95 apresentam uma pequena queda. Portanto, um batch size de 8 parece ser o mais eficiente em termos de equilíbrio entre desempenho e tempo de treinamento para este dataset específico.
+
+\begin{table}[!hbt]
+    \centering
+    \begin{tabular}{|c|c|c|c|c|c|}
+    \hline
+    \multicolumn{6}{|c|}{\textbf{Otimizador SGD}} \\ \hline
+    \textbf{Batch Size} & \textbf{Precisão} & \textbf{Recall} & \textbf{mAP50} & \textbf{mAP50-95} & \textbf{Tempo} \\ \hline
+    2                   & 88.724                & 87.456               & 88.785              & 49.821                 & 48.75h             \\ \hline
+    4                   & 89.831                 & 89.707               & 95.044             & 55.908                & 37.67h             \\ \hline
+    8                   & 92.416                 & 91.922               & 96.197              & 60.488                 & 33.46h             \\ \hline
+    16                  & 93.340                 & 90.977               & 95.474              & 56.739                 & 29.53h             \\ \hline
+    \end{tabular}
+    \caption{Resultados de diferentes tamanhos de batch aplicando YOLOv5}
+    \label{tab:yolov5-teste}
 \end{table}
 
-
-\section{System requirements information}
-Figures \ref{fig:sGooExcel} and  \ref{fig:sLimExcel} represent  the average and standard deviation value of each participants’ evaluation based on survey questionnaire questions present by Tables \ref{table:tbSurvey01} and \ref{table:tbSurvey02} in Section \ref{sec:procedureProcess}.  Figures  \ref{fig:sGooWC} and \ref{fig:sLimWC} represents visual qualitative information about advantages, disadvantages and comments inputed of each training experiment performed by the user's. The questions applied were divided into two groups: good aspects or limiting aspects. Where, for questions where the average value was greater than or equal to three, it is considered good; otherwise, it was considered a limitation.
-
-\begin{figure}[!htbp]
-\center
-\begin{minipage}{0.495\linewidth}
-\center
-\captionsetup{justification=centering,margin=0.5cm,font=small}
-\includegraphics[width=1\linewidth]{img/cap6/sGoodAspExcel}
-\caption{System Good Aspects} \label{fig:sGooExcel}
-\end{minipage}
-\begin{minipage}{0.495\linewidth}
-\center
-\captionsetup{justification=centering,margin=0cm,font=small}
-\includegraphics[width=1\linewidth]{img/cap6/sGoodAspWordClouds}
-\caption{Good evaluations} \label{fig:sGooWC}
-\end{minipage}
+\begin{figure}[!h]
+    \centering
+    \begin{minipage}{1\linewidth}
+    \centering
+    \captionsetup{justification=centering,margin=0.5cm,font=small}
+    \includegraphics[width=1\linewidth]{img/cap6/results-yolov5-batch-16.png}
+    \caption{Gráficos gerados a partir do treinamento com a YOLOv5, utilizando \textit{batch} igual a 16. Nota-se a evolução repentina para uma precisão acima de 90\%}.
+    \label{fig:yolov5batch16}
+    \end{minipage}
 \end{figure}
 
 
-\begin{figure}[!htbp]
-\center
-\begin{minipage}{0.495\linewidth}
-\center
-\captionsetup{justification=centering,margin=0.5cm,font=small}
-\includegraphics[width=1\linewidth]{img/cap6/sLimitationAspExcel}
-\caption{System Limitations Aspects} \label{fig:sLimExcel}
-\end{minipage}
-\begin{minipage}{0.495\linewidth}
-\center
-\captionsetup{justification=centering,margin=0cm,font=small}
-\includegraphics[width=1\linewidth]{img/cap6/sLimitationAspWordClouds}
-\caption{System limitations evaluations} \label{fig:sLimWC}
-\end{minipage}
+\subsection{Resultados e análise do treinamento com a YOLOv6}
+
+Embora a YOLOv6 tenha oferecido um leve aumento no recall em comparação com a YOLOv5, ela não trouxe melhorias significativas no mAP50-95, que permaneceu na casa dos 50\%. A precisão geral foi similar à YOLOv5, mas com uma pequena vantagem no batch size 16. A maior diferença foi observada no tempo de treinamento, que foi reduzido em todas as configurações, tornando a YOLOv6 mais eficiente em termos de tempo (Tabela \ref{tab:yolov6-teste}).
+
+\begin{table}[!hbt]
+    \centering
+    \begin{tabular}{|c|c|c|c|c|c|}
+    \hline
+    \multicolumn{6}{|c|}{\textbf{Otimizador SGD}} \\ \hline
+    \textbf{Batch Size} & \textbf{Precisão} & \textbf{Recall} & \textbf{mAP50} & \textbf{mAP50-95} & \textbf{Tempo} \\ \hline
+    2                   & 88.523                & 86.225               & 87.895              & 50.705                 & 50.78h             \\ \hline
+    4                   & 87.431                 & 90.505               & 94.124             & 54.108                & 39.85h             \\ \hline
+    8                   & 91.578                 & 90.592               & 95.298              & 53.128                 & 32.65h             \\ \hline
+    16                  & 92.775                & 92.332               & 94.548             & 56.739                 & 30.54h             \\ \hline
+    \end{tabular}
+    \caption{Resultados de diferentes tamanhos de batch aplicando YOLOv6}
+    \label{tab:yolov6-teste}
+\end{table}
+
+
+\begin{figure}[!h]
+    \centering
+    \begin{minipage}{1\linewidth}
+    \centering
+    \captionsetup{justification=centering,margin=0.5cm,font=small}
+    \includegraphics[width=1\linewidth]{img/cap6/results-yolov6-batch-16.png}
+    \caption{Gráficos gerados a partir do treinamento com a YOLOv6.}
+    \label{fig:yolov6batch16}
+    \end{minipage}
 \end{figure}
 
 
-The discussion around the extracted graphic data that represents the users' evaluation will be carried out in Section \ref{sec:discussion}.
+\subsection{Resultados e análise do treinamento com a YOLOv7}
 
-\section{{Protocols evaluation}}
+A YOLOv7 apresentou variabilidade significativa nos resultados, com quedas notáveis na precisão e recall, especialmente para batch sizes menores. Embora tenha demonstrado estabilidade no tempo de treinamento, seu desempenho geral foi menos consistente em comparação com as versões anteriores. O mAP50-95, por exemplo, não superou os valores obtidos com a YOLOv5, sendo inclusive inferior em algumas configurações, como observado na Tabela \ref{tab:yolov7-teste}. Esta versão destacou-se pelo comportamento alternado, sugerindo um trade-off entre estabilidade temporal e eficácia.
 
-\subsection{{Electrodermal Activity  Analysis}}
-
-The ISCR (obtained after processing EDA) Descriptive Statistics is presented in Table \ref{table:tbISCR} \cite{braithwaite2015}. It is possible to observe that Skin Conductance Responses are skewed and can produce non-normal distributions \cite{braithwaite2015}, as observed in the difference between ISCR average and ISCR median.
-
-
-\begin{table}[!htb]
-\caption {ISCR Descriptive Statistics}\label{table:tbISCR}
-\centering
-\begin{tabular}{ccccc}
-\toprule
-Group & Count & Mean &SD & Median \\
-\midrule
-Protocol 01 &  83 & -4.65e-18 & 0.988 & -0.110 \\
-Protocol 02 & 111 & -9.01e-12 & 0.991 & -0.263 \\
-Protocol 03 & 123 & -2.44e-11 & 0.992 & -0.274 \\
-\bottomrule
-\end{tabular}
+\begin{table}[!hbt]
+    \centering
+    \begin{tabular}{|c|c|c|c|c|c|}
+    \hline
+    \multicolumn{6}{|c|}{\textbf{Otimizador SGD}} \\ \hline
+    \textbf{Batch Size} & \textbf{Precisão} & \textbf{Recall} & \textbf{mAP50} & \textbf{mAP50-95} & \textbf{Tempo} \\ \hline
+    2                   & 66.84                 & 59.45              & 62.42              & 53.45                 & 36.69h             \\ \hline
+    4                   & 65.74                & 58.45               & 65.45            & 56.807                & 37.47h             \\ \hline
+    8                   & 70.65                 & 59.582               & 68.57             & 54.71               & 38.46h             \\ \hline
+    16                  & 73.11                 & 60.882               & 71.35               & 52.53                & 36.14h            \\ \hline
+    \end{tabular}
+    \caption{Resultados de diferentes tamanhos de batch aplicando YOLOv7}
+    \label{tab:yolov7-teste}
 \end{table}
 
-Columns meaning:
-
-\begin{itemize}
-\item Count: number of observations;
-\item Mean: ISCR average on each protocol;
-\item SD: Standard Deviation of ISCR on each protocol; and
-\item Median: ISCR Median of each protocol.
-\end{itemize}
-
-Results of statistical analysis of ISCR as a variable in each protocol are: \textbf{Kruskal-Wallis chi-squared = 0.012995, df = 2, p-value = 0.9935}, showing no statistical significant differences between each protocol applied related to ISCR \cite{bodkin2019}.
-These results refer only to the sample utilized, to demonstrate system's capabilities. A higher number of volunteers in future studies will be necessary to draw broader and more general conclusions. Therefore, future studies should consider a higher number of participants.
-\newline
-
-
-\subsection{Stress Index Analysis}
-
-It is important to monitor subject conditions during training to be able to safely conduct activities and to objectively determine causes of failure during wheelchair driving in order to provide a course of action towards acquisition of good driving skills \cite{affanni2018,healey2005}. 
-
-Stress (both physical and psychological) affects subject abilities to safely drive vehicles, and driving PW is no different. Some studies were conducted aiming to provide stress measures using biosignal monitoring and processing \cite{healey2005}. 
-
-It is not an objective of this work to propose a new stress measure. Instead, was used a stress measure already discussed in the literature \cite{baevsky2008} that is easily obtainable through a free version software Kubios \cite{kubios2017}.
-
-Aiming obtain the stress index for each protocol and each participant, we used the IBI time series prepared for processing using Kubios.
-
-Table \ref{table:stZones} present the Stress Zone and corresponding SI (Stress Index) band values.
-
-
-\begin{table}[!htb]
-\caption{Stress zone boundaries  \cite{hrvKubios2018}} \label{table:stZones}
-\centering
-\begin{tabular}{cc}
-\toprule
-Stress Zones   & SI     \\
-\midrule
-Very High &  >30         \\
-High      &  22.4 - 30   \\
-Elevated  &  12.2 - 22.4 \\
-Normal    &  7.1 - 12.2  \\
-Low       &  <7.1        \\
-\bottomrule
-\end{tabular}
-\end{table}
-
-Participants comparison results are presented in Table \ref{table:uSResults}:
-
-\begin{table}[!htb]
-\caption{Stress zone participants comparison}\label{table:uSResults}
-\centering
-\begin{tabular}{cccc}
-\toprule
-User & SI & SI & SI\\
-& Protocol 1 & Protocol 2 & Protocol 3\\
-\midrule
-Participant  1 & 12.0769 & 11.4139 & 9.9194 \\
-Participant  2 & 17.5959 & 14.8135 & 16.9240 \\
-Participant  3 & 6.0430 & 5.2265  & 8.0705 \\
-\bottomrule
-\end{tabular}
-\end{table}
-
-Finally, data presented on Table \ref{table:uSResults} is translated to stress zones in Table \ref{table:trcSZ}:
-
-\begin{table}[!htb]
-\caption{Stress zone participants translation}\label{table:trcSZ}
-\centering
-\begin{tabular}{cccc}
-\toprule
-User & SI & SI & SI\\
-& Protocol 1 & Protocol 2 & Protocol 3\\
-\midrule
-Participant  1 & Normal & Normal & Normal \\
-Participant  2 & Elevated & Elevated & Elevated \\
-Participant  3 & Low & Low & Normal \\
-\bottomrule
-\end{tabular}
-\end{table}
-
-All participants did not have a significant change in their stress index between protocols, which supports the conclusion that the protocols might not have an impact on subject’s stress. A bigger sample can support more strongly this conclusion, which can be done in future studies.
-
-\section{Discussion}
-\label{sec:discussion}
-
-To better understand the participant's acceptance of the developed tool/architecture and its requirements, the following considerations are presented.
-
-Questions 1, 2  (Figure \ref{fig:sGooExcel}) and 3  (Figure \ref{fig:sLimExcel})  seek to evaluate usability. It is possible to note that the participants considered the GUI handy and that the system is easy to learn. According to participants, the two main faults in the system were the latency (response time - Q7 (Figure \ref{fig:sLimExcel})) and failure to render virtual objects  (Figure \ref{fig:sLimWC}) shown in Figures \ref{fig:errorRender01}, \ref{fig:errorRender02} and \ref{fig:errorRender03}.  
-In Figure \ref{fig:errorRender01}, the guidance arrow is rendered at a wrong place, in Figure \ref{fig:errorRender02} and \ref{fig:errorRender03} the guidance and final activity arrows were not rendered properly, due to image quality, marker size or illumination. Other facts can be considered, with less relevance such as the PW does not possess diagonal movements Q4  (Figure \ref{fig:sLimExcel})  and adjustments from the participant  (Figure \ref{fig:sLimWC}).
-
-On the other hand, questions 5, 6, 8, 10 and 11  (Figure \ref{fig:sGooExcel})  confirm that the application of telerehabilitation techniques fused with the AR techniques present  itself as a great tool to support the users driving skills improvement, without leaving their home, in agreement with participants evaluations in Figures \ref{fig:sGooExcel} and \ref{fig:sGooWC}. 
-
-\begin{figure}[!htbp]
-\center
-\begin{minipage}{0.495\linewidth}
-\center
-\captionsetup{justification=centering,margin=0.5cm,font=small}
-\includegraphics[width=1\linewidth]{img/cap6/errorRender01}
-\caption{Rendering failure-01} \label{fig:errorRender01}
-\end{minipage}
-\begin{minipage}{0.495\linewidth}
-\center
-\captionsetup{justification=centering,margin=0cm,font=small}
-\includegraphics[width=1\linewidth]{img/cap6/errorRender02}
-\caption{Rendering failure-02} \label{fig:errorRender02}
-\end{minipage}
-\begin{minipage}{0.495\linewidth}
-\center
-\captionsetup{justification=centering,margin=0cm,font=small}
-\includegraphics[width=1\linewidth]{img/cap6/errorRender03}
-\caption{Rendering failure-03} \label{fig:errorRender03}
-\end{minipage}
+\begin{figure}[!h]
+    \centering
+    \begin{minipage}{1\linewidth}
+    \centering
+    \captionsetup{justification=centering,margin=0.5cm,font=small}
+    \includegraphics[width=1\linewidth]{img/cap6/results-yolov7-batch-16.png}
+    \caption{Gráficos gerados a partir do treinamento com a YOLOv7, utilizando \textit{batch} igual a 16. O comportamento alternato sobressaltou-se nessa arquitetura}.
+    \label{fig:yolov5batch16}
+    \end{minipage}
 \end{figure}
 
-This is due to the realism, by controlling a real PW, through a real scenario, in addition to listening to the sounds of triggering and pausing the PW, during the training execution, as shown in Figures \ref{fig:endFirstAct} and \ref{fig:spingWAct}.
+Comparando as três versões, a YOLOv5 mostrou-se superior em termos de desempenho geral, com alta precisão e mAP50-95, aliada a um tempo de treinamento eficiente. A YOLOv6, embora menos precisa, destacou-se pela redução do tempo de treinamento, sendo uma escolha viável quando a eficiência temporal é prioritária. Já a YOLOv7, apesar de sua estabilidade no tempo de treinamento, apresentou maior variabilidade nos resultados e um desempenho inferior em relação às versões anteriores, sugerindo que sua aplicação deve ser cuidadosamente considerada dependendo do contexto e das necessidades do projeto.
 
-\begin{figure}[!htbp]
-\center
-\begin{minipage}{0.495\linewidth}
-\center
-\captionsetup{justification=centering,margin=0.5cm,font=small}
-\includegraphics[width=1\linewidth]{img/cap6/endFirstAct}
-\caption{End first activity} \label{fig:endFirstAct}
-\end{minipage}
-\begin{minipage}{0.495\linewidth}
-\center
-\captionsetup{justification=centering,margin=0cm,font=small}
-\includegraphics[width=1\linewidth]{img/cap6/spingWAct}
-\caption{Spin the PW} \label{fig:spingWAct}
-\end{minipage}
-\end{figure}
+\subsection{Resultados e análise do treinamento com a YOLOv7}
+
+\subsection{Análise dos Resultados do Treinamento com YOLOv8}
+
+Apresentou o melhor desempenho geral, destacando-se tanto em precisão quanto em recall, mAP50 e mAP50-95. A combinação com o otimizador AdamW se mostrou superior, oferecendo o melhor equilíbrio entre desempenho e tempo de treinamento, especialmente com batch size de 16
+
+\begin{table}[!hbt]
+    \centering
+    \begin{tabular}{|c|c|c|c|c|c|}
+    \hline
+    \multicolumn{6}{|c|}{\textbf{Otimizador Adam}} \\ \hline
+    \textbf{Batch Size} & \textbf{Precisão} & \textbf{Recall} & \textbf{mAP50} & \textbf{mAP50-95} & \textbf{Tempo} \\ \hline
+    2                   & 91.323                       & 90.102                     & 94.022                     & 54.987                        & 33.071h                         \\ \hline
+    4                   & 92.983                       & 91.857                     & 95.4                       & 57.704                        & 36.548h                         \\ \hline
+    8                   & 92.383                       & 91.969                     & 95.006                     & 57.465                        & 31.221h                         \\ \hline
+    16                  & 93.654                       & 92.964                     & 96.148                     & 60.269                        & 29.135h                         \\ \hline
+    \end{tabular}
+    \caption{Resultados de diferentes tamanhos de batch aplicando YOLOv8 e otimizador Adam}
+    \label{tab:yolov8-adm}
+\end{table}
+
+A Tabela \ref{tab:yolov8-admw} mostra os resultados com o otimizador AdamW, onde a melhoria na precisão e no recall é ainda mais pronunciada. A precisão cresce de 93.886\% para 95.784\%, e o recall sobe de 91.954\% para 95.379\% com o aumento do tamanho do batch. As métricas de mAP50 e mAP50-95 atingem 97.858\% e 68.393\%, respectivamente, para o maior batch size. Embora o tempo de treinamento com AdamW seja consistente, o batch size de 16 proporciona o tempo mais reduzido de 28.013 horas, mostrando uma vantagem competitiva em relação ao Adam.
+
+\begin{table}[!hbt]
+    \centering
+    \begin{tabular}{|c|c|c|c|c|c|}
+    \hline
+    \multicolumn{6}{|c|}{\textbf{Otimizador AdamW}} \\ \hline
+    \textbf{Batch Size} & \textbf{Precisão} & \textbf{Recall} & \textbf{mAP50} & \textbf{mAP50-95} & \textbf{Tempo} \\ \hline
+    2                   & 93.886            & 91.954          & 95.541         & 58.209            & 33.114h        \\ \hline
+    4                   & 93.701            & 92.102          & 95.426         & 57.508            & 32.744h        \\ \hline
+    8                   & 93.364            & 92.215          & 95.383         & 57.666            & 29.209h        \\ \hline
+    16                  & 95.784            & 95.379          & 97.858         & 68.393            & 28.013h        \\ \hline
+    \end{tabular}
+    \caption{Resultados de diferentes tamanhos de batch aplicando YOLOv8 e otimizador AdamW}
+    \label{tab:yolov8-admw}
+\end{table}
+
+Por fim, a Tabela \ref{tab:yolov8-sgd} apresenta os resultados com o otimizador SGD, que não só mostra uma melhoria contínua na precisão e no recall, com valores de 96.480\% e 94.718\% para o maior batch size, como também possui os melhores tempos de treinamento. O mAP50 e o mAP50-95 atingem 97.891\% e 68.245\%, respectivamente. O SGD combina o melhor desempenho em termos de métricas com a eficiência de tempo de treinamento, atingindo 27.633 horas para o maior batch size.
+
+\begin{table}[!hbt]
+    \centering
+    \begin{tabular}{|c|c|c|c|c|c|}
+    \hline
+    \multicolumn{6}{|c|}{\textbf{Otimizador SGD}} \\ \hline
+    \textbf{Batch Size} & \textbf{Precisão} & \textbf{Recall} & \textbf{mAP50} & \textbf{mAP50-95} & \textbf{Tempo} \\ \hline
+    2                   & 94.466            & 93.062          & 96.421         & 61.710            & 35.448h        \\ \hline
+    4                   & 94.989            & 93.779          & 96.759         & 65.201            & 31.018h        \\ \hline
+    8                   & 95.618            & 94.621          & 97.123         & 66.451            & 29.787h        \\ \hline
+    16                  & 96.480            & 94.718          & 97.891         & 68.245            & 27.633h        \\ \hline
+    \end{tabular}
+    \caption{Resultados de diferentes tamanhos de batch aplicando YOLOv8 e otimizador SGD}
+    \label{tab:yolov8-sgd}
+\end{table}
+
+Em resumo, os dados indicam que aumentar o tamanho do batch geralmente melhora o desempenho do modelo em termos de precisão, recall e métricas de mAP, independentemente do otimizador utilizado. Entre os otimizadores testados, o SGD oferece o melhor equilíbrio entre desempenho e eficiência de tempo, seguido pelo AdamW, que proporciona alta precisão e recall, mas com um tempo de treinamento competitivo. O Adam, embora ainda eficaz, não alcança o mesmo nível de desempenho que os outros dois otimizadores. Esses resultados destacam a importância de escolher cuidadosamente o otimizador e o tamanho do batch para otimizar o treinamento e o desempenho do YOLOv8.
+
+\subsection{Avaliação da Implementação}
+
+A implementação do YOLOv8 com diferentes configurações de otimizadores e tamanhos de batch apresentou no geral resultados promissores, evidenciando uma tendência de melhora nas métricas conforme o aumento do tamanho do batch. Dentre as configurações avaliadas, a combinação do otimizador SGD com batch size de 16 se destacou por oferecer o melhor equilíbrio entre precisão, recall, mAP50, mAP50-95 e tempo de treinamento razoavelmente curto. Portanto, essa configuração específica, foi naturalmente escolhida para os testes subsequentes com o peso treinado.
+
+Na separação do conjunto de imagens para treinamento, foi adotada a prática de reservar 20\% do total de imagens para testes manuais. No caso, foram utilizadas 80 fotos para avaliar o desempenho do modelo treinado. A precisão média foi calculada aplicando o modelo em cada uma das 80 fotos, aferindo a quantidade de reatores detectados. A RNC apresentou resultados variados, identificando a quantidade exata de reatores em algumas imagens, enquanto em outras identificou um número superior ou inferior ao real. Para avaliar o desempenho, foi calculada a média absoluta da diferença entre os valores identificados e os valores reais presentes nas fotos, conforme a Equação \eqref{eq:media-identificacao}, em que \( R_{\text{e}} \) trata-se dos valores de reatores estimados pela RNC; enquanto \( R_{\text{p}} \), trata-se dos valoes presentes de reatores em cada imagem.
+
+\begin{equation} \text{Média de Acertos da RNC} = \frac{1}{n} \sum_{i=1}^{n} \left(1 - \frac{|\text{R}{e_i} - \text{R}{p_i}|}{\text{R}_{p_i}}\right) \times 100\% \label{eq:media-identificacao} \end{equation}
+
+Para avaliar a eficácia do modelo na prática, foram realizados testes com um conjunto de 80 imagens não vistas anteriormente. A Tabela \ref{tab:yolov8-eval} resume o desempenho do modelo YOLOv8 com a configuração ideal (SGD e batch size 16), revelando que 72,34375\% das imagens foram corretamente identificadas, refletindo uma taxa de acerto considerável. Conforme trabalho de \cite{barbado2022aplicaccao}, essa uma taxa de acerto para uma RNC acima de 70\%, para uma aplicação em nível de protótipo, mostra-se demasiada satisfatória. Com isso, o propósito do trabalho, que se coloca como uma proposição de utilização de uma tecnologia em evidência para melhora de um processo, é dado como atingido. 
+
+\begin{table}[!hbt]
+    \centering
+    \begin{tabular}{|c|c|c|}
+        \hline
+        \textbf{Configuração} & \textbf{Número de Imagens Testadas} & \textbf{Taxa Média de Acerto} \\ \hline
+        SGD + Batch Size 16 & 80 & 72,34375\% \\ \hline
+    \end{tabular}
+    \caption{Resumo do desempenho na aplicação da YOLOv8 na melhor configuração encontrada}
+    \label{tab:yolov8-eval}
+\end{table}
+
+O YOLOv8, como evolução natural das versões anteriores da família YOLO, traz melhorias significativas tanto na arquitetura do modelo quanto na eficiência do treinamento. Suas inovações permitem uma melhor detecção de objetos pequenos e maior precisão global, mantendo a rapidez e eficiência características dos modelos YOLO. A combinação de ajustes no tamanho do batch e a escolha do otimizador demonstram a flexibilidade do YOLOv8, permitindo sua adaptação a diversos cenários de aplicação, desde ambientes de baixa capacidade computacional até sistemas de alta demanda.
+
+Dessa forma, a escolha do SGD como otimizador, aliada a um tamanho de batch adequado, como o de 16, provou ser a configuração mais robusta para obter o equilíbrio ideal entre desempenho e custo computacional, tornando o YOLOv8 uma escolha vantajosa para aplicações de detecção de objetos onde precisão e eficiência são prioridades.
 
 
-During the execution of each training protocol, the therapist is able to monitor the participants’ performance in the proposed activities. Upon completion of the training process, the therapist must fill the adapted PMRT assessment form. Information such as number of commands and elapsed-time are retrieved from the database. The therapist must still fill in the number of collisions and comment on the participant’s performance, before assigning a score (4, 3, 2, or 1) to the activity, following the criteria established in Section \ref{sec:trainingEvaluation}. After each activity scores are applied, the final score of the protocol is calculated as described in Equation (\ref{eq:pmrtFinalScore}).   
-
-\begin{equation}\label{eq:pmrtFinalScore}
-Y = \sum_{i}^{n}\left (  \frac{x_{i}}{n*4}\right )* 100\%
-\end{equation}
-
-Where:
-\begin{itemize}
-\item Y: final score obtained;
-\item n: tasks number defined for each training protocol;
-\item i: present task index; and
-\item $x_{i}$: present task value attributed;
-\end{itemize}
-
-The evaluation summary from the participants is presented by Table \ref{tb:ResultsPMRT} and as defined, a score greater the 95\% is needed to be considered approved \cite{massengale2005}. Nobody passed the experiments! Observing the criteria for grading and monitoring the participants training, it is understandable that this did not happen. Among them, some had severe collisions, or to complete the activity, they had to restart a maneuver several times. It reduces the task score value. But the objective was not to approve or not each participant but to demonstrate that the system also offers resources for user evaluation by the therapist. Also, the therapist can follow the evolution of the participant’s abilities through the comparative bar charts, shown in Figure \ref{fig:tGenerateChart}. Furthermore, he can define the design of future protocols that will prepare the user to drive a PW in their daily activities confidently.
-
-\begin{figure}[!hbt]
-\begin{center}
-\includegraphics[width=1\linewidth]{img/cap6/tGenerateChart02}
-\caption{User training protocol comparison} \label{fig:tGenerateChart}
-\end{center}
-\end{figure}
 
 
-Biosignals can provide important information related to participant’s performance connected to the emotional state, which can prove useful in future training applications and on strategies for improving safety during PW use. 
 
-The participant’s emotional state can constitute a barrier to good driving performance. Thus, it is important to understand, whenever these issues arise, whether the underlying cause is related to the participant’s motor skills or associated to their emotional state, looking to correctly address these issues. Additionally, in training protocols, it is desired that the user is not overwhelmed by the training difficulty level, which could be observed through his biosignals with appropriate methodology and detection algorithms. 
 
-As can be seen from question 9 evaluation, none of the users felt tired after completing the proposed protocols. What allows us to observe another benefit made possible by the architecture, which is the adaptation of the PMRT, allowing the adjustment in the number of activities of the protocols.
 
-This means that, in this specific case, there was no relevant difference on participants performance considering the three different protocols. However, this does not represent a final conclusion given that the sample was small and the protocol duration, considered as short - longer protocols, might present different results. The intention of this preliminary test is to show the system architecture capabilities. Having a different impact across individuals may emphasize the importance of having individualized or personalized protocols that could be based on therapist observations complemented by biosignal data.
 
-\section{Final considerations}
-
-First collaborations that the system brought to the participants are: increased well-being after each session, level of realism and immersion and still listening to the PW engines and collisions. All of this is due to the adaptation made in the PMRT merged with AR techniques, which allow the therapist to define a protocol that best suits the participant in real-time. Even though in this study, everyone used the same protocol. 
-
-In addition, the analysis of biosignals was presented as a good assessment alternative because it allows realizing how deeper and challenging a protocol can be for a user, allowing for another assessment, which is not based on the therapist's visual analysis.
-
-However, still talking about the system, a significant challenge encountered by all telerehabilitation systems was present: latency. It reduces the impression of real-time interaction with the increased environment. This is an Internet limitation, in general, some flaws, such as rendering objects, because the images have a reduced quality to maintain the connection.
-However, the architecture already presents its potential for both therapists and users, but it still requires some improvements like fiducial AR marker recognition avoiding failure on virtual objects rendering, to exchange the current PW by another one with diagonal movements and promote studies about how to reduce latency effects on the video stream.
-
-In the next section, general conclusions about the work and future improvement actions will be presented.
-
- 

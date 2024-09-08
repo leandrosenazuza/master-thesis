@@ -448,13 +448,6 @@ INPUT .\img\cap2\processo-predicao-YOLO.jpeg
 INPUT .\img\cap2\processo-predicao-YOLO.jpeg
 INPUT .\img\cap2\processo-predicao-YOLO.jpeg
 INPUT .\img\cap2\processo-predicao-YOLO.jpeg
-INPUT .\img\cap2\sgd.jpeg
-INPUT .\img\cap2\sgd.jpeg
-INPUT .\img\cap2\sgd.jpeg
-INPUT .\img\cap2\sgd.jpeg
-INPUT .\img\cap2\sgd.jpeg
-INPUT .\img\cap2\sgd.jpeg
-INPUT .\img\cap2\sgd.jpeg
 INPUT C:\Program Files\MiKTeX\fonts\tfm\public\lm\ec-lmr8.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\public\lm\ec-lmr6.tfm
 INPUT .\img\cap2\iou.png
@@ -471,6 +464,152 @@ INPUT .\img\cap2\precisao.png
 INPUT .\img\cap2\precisao.png
 INPUT .\img\cap2\precisao.png
 INPUT .\img\cap2\precisao.png
+INPUT chapters\cap3.tex
+INPUT .\img\cap3\mancha-marcacao.jpeg
+INPUT .\img\cap3\mancha-marcacao.jpeg
+INPUT .\img\cap3\mancha-marcacao.jpeg
+INPUT .\img\cap3\mancha-marcacao.jpeg
+INPUT .\img\cap3\mancha-marcacao.jpeg
+INPUT .\img\cap3\mancha-marcacao.jpeg
+INPUT .\img\cap3\mancha-marcacao.jpeg
+INPUT .\img\cap3\salto.png
+INPUT .\img\cap3\salto.png
+INPUT .\img\cap3\salto.png
+INPUT .\img\cap3\salto.png
+INPUT .\img\cap3\salto.png
+INPUT .\img\cap3\salto.png
+INPUT .\img\cap3\salto.png
+INPUT .\img\cap3\yolov5artigo.jpeg
+INPUT .\img\cap3\yolov5artigo.jpeg
+INPUT .\img\cap3\yolov5artigo.jpeg
+INPUT .\img\cap3\yolov5artigo.jpeg
+INPUT .\img\cap3\yolov5artigo.jpeg
+INPUT .\img\cap3\yolov5artigo.jpeg
+INPUT .\img\cap3\yolov5artigo.jpeg
+INPUT .\img\cap3\yolov8artigo.jpeg
+INPUT .\img\cap3\yolov8artigo.jpeg
+INPUT .\img\cap3\yolov8artigo.jpeg
+INPUT .\img\cap3\yolov8artigo.jpeg
+INPUT .\img\cap3\yolov8artigo.jpeg
+INPUT .\img\cap3\yolov8artigo.jpeg
+INPUT .\img\cap3\yolov8artigo.jpeg
+INPUT .\img\cap3\chines.jpeg
+INPUT .\img\cap3\chines.jpeg
+INPUT .\img\cap3\chines.jpeg
+INPUT .\img\cap3\chines.jpeg
+INPUT .\img\cap3\chines.jpeg
+INPUT .\img\cap3\chines.jpeg
+INPUT .\img\cap3\chines.jpeg
+INPUT .\img\cap3\chines-tabela.jpeg
+INPUT .\img\cap3\chines-tabela.jpeg
+INPUT .\img\cap3\chines-tabela.jpeg
+INPUT .\img\cap3\chines-tabela.jpeg
+INPUT .\img\cap3\chines-tabela.jpeg
+INPUT .\img\cap3\chines-tabela.jpeg
+INPUT .\img\cap3\chines-tabela.jpeg
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\lm\rm-lmr5.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\lm\lmmi5.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\lm\lmsy5.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\latex-fonts\lasy5.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\amsfonts\symbols\msam5.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm5.tfm
+INPUT chapters\cap4.tex
+INPUT .\img\cap4\reator-porto-velho.jpeg
+INPUT .\img\cap4\reator-porto-velho.jpeg
+INPUT .\img\cap4\reator-porto-velho.jpeg
+INPUT .\img\cap4\reator-porto-velho.jpeg
+INPUT .\img\cap4\reator-porto-velho.jpeg
+INPUT .\img\cap4\reator-porto-velho.jpeg
+INPUT .\img\cap4\reator-porto-velho.jpeg
+INPUT .\img\cap4\reator-araraquara.jpg
+INPUT .\img\cap4\reator-araraquara.jpg
+INPUT .\img\cap4\reator-araraquara.jpg
+INPUT .\img\cap4\reator-araraquara.jpg
+INPUT .\img\cap4\reator-araraquara.jpg
+INPUT .\img\cap4\reator-araraquara.jpg
+INPUT .\img\cap4\reator-araraquara.jpg
+INPUT .\img\cap4\marcacao.jpeg
+INPUT .\img\cap4\marcacao.jpeg
+INPUT .\img\cap4\marcacao.jpeg
+INPUT .\img\cap4\marcacao.jpeg
+INPUT .\img\cap4\marcacao.jpeg
+INPUT .\img\cap4\marcacao.jpeg
+INPUT .\img\cap4\marcacao.jpeg
+INPUT chapters\cap5.tex
+INPUT .\img\cap5\estrutura.jpg
+INPUT .\img\cap5\estrutura.jpg
+INPUT .\img\cap5\estrutura.jpg
+INPUT .\img\cap5\estrutura.jpg
+INPUT .\img\cap5\estrutura.jpg
+INPUT .\img\cap5\estrutura.jpg
+INPUT .\img\cap5\estrutura.jpg
+INPUT .\img\cap5\GUI-TOOL.jpeg
+INPUT .\img\cap5\GUI-TOOL.jpeg
+INPUT .\img\cap5\GUI-TOOL.jpeg
+INPUT .\img\cap5\GUI-TOOL.jpeg
+INPUT .\img\cap5\GUI-TOOL.jpeg
+INPUT .\img\cap5\GUI-TOOL.jpeg
+INPUT .\img\cap5\GUI-TOOL.jpeg
+INPUT .\img\cap5\treinamentoYOLOv8.jpeg
+INPUT .\img\cap5\treinamentoYOLOv8.jpeg
+INPUT .\img\cap5\treinamentoYOLOv8.jpeg
+INPUT .\img\cap5\treinamentoYOLOv8.jpeg
+INPUT .\img\cap5\treinamentoYOLOv8.jpeg
+INPUT .\img\cap5\treinamentoYOLOv8.jpeg
+INPUT .\img\cap5\treinamentoYOLOv8.jpeg
+INPUT .\img\cap5\API.jpeg
+INPUT .\img\cap5\API.jpeg
+INPUT .\img\cap5\API.jpeg
+INPUT .\img\cap5\API.jpeg
+INPUT .\img\cap5\API.jpeg
+INPUT .\img\cap5\API.jpeg
+INPUT .\img\cap5\API.jpeg
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\lm\ec-lmri10.tfm
+INPUT .\img\cap5\gui-codigo.jpeg
+INPUT .\img\cap5\gui-codigo.jpeg
+INPUT .\img\cap5\gui-codigo.jpeg
+INPUT .\img\cap5\gui-codigo.jpeg
+INPUT .\img\cap5\gui-codigo.jpeg
+INPUT .\img\cap5\gui-codigo.jpeg
+INPUT .\img\cap5\gui-codigo.jpeg
+INPUT .\img\cap5\process-image.jpeg
+INPUT .\img\cap5\process-image.jpeg
+INPUT .\img\cap5\process-image.jpeg
+INPUT .\img\cap5\process-image.jpeg
+INPUT .\img\cap5\process-image.jpeg
+INPUT .\img\cap5\process-image.jpeg
+INPUT .\img\cap5\process-image.jpeg
+INPUT .\img\cap5\predict.jpeg
+INPUT .\img\cap5\predict.jpeg
+INPUT .\img\cap5\predict.jpeg
+INPUT .\img\cap5\predict.jpeg
+INPUT .\img\cap5\predict.jpeg
+INPUT .\img\cap5\predict.jpeg
+INPUT .\img\cap5\predict.jpeg
+INPUT chapters\cap6.tex
+INPUT .\img\cap6\results-yolov5-batch-16.png
+INPUT .\img\cap6\results-yolov5-batch-16.png
+INPUT .\img\cap6\results-yolov5-batch-16.png
+INPUT .\img\cap6\results-yolov5-batch-16.png
+INPUT .\img\cap6\results-yolov5-batch-16.png
+INPUT .\img\cap6\results-yolov5-batch-16.png
+INPUT .\img\cap6\results-yolov5-batch-16.png
+INPUT .\img\cap6\results-yolov6-batch-16.png
+INPUT .\img\cap6\results-yolov6-batch-16.png
+INPUT .\img\cap6\results-yolov6-batch-16.png
+INPUT .\img\cap6\results-yolov6-batch-16.png
+INPUT .\img\cap6\results-yolov6-batch-16.png
+INPUT .\img\cap6\results-yolov6-batch-16.png
+INPUT .\img\cap6\results-yolov6-batch-16.png
+INPUT .\img\cap6\results-yolov7-batch-16.png
+INPUT .\img\cap6\results-yolov7-batch-16.png
+INPUT .\img\cap6\results-yolov7-batch-16.png
+INPUT .\img\cap6\results-yolov7-batch-16.png
+INPUT .\img\cap6\results-yolov7-batch-16.png
+INPUT .\img\cap6\results-yolov7-batch-16.png
+INPUT .\img\cap6\results-yolov7-batch-16.png
+INPUT C:\Program Files\MiKTeX\fonts\enc\dvips\lm\lm-mathex.enc
+INPUT chapters\cap7.tex
 INPUT .\thesis-leandrozuza.bbl
 INPUT .\thesis-leandrozuza.bbl
 INPUT thesis-leandrozuza.bbl
@@ -480,6 +619,17 @@ INPUT thesis-leandrozuza.brf
 INPUT .\thesis-leandrozuza.brf
 INPUT .\thesis-leandrozuza.brf
 OUTPUT thesis-leandrozuza.brf
+INPUT postextual\apendiceA.tex
+INPUT C:\Program Files\MiKTeX\tex\latex\listings\lstlang1.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\listings\lstlang1.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\listings\lstlang1.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\lm\t1lmtt.fd
+INPUT C:\Program Files\MiKTeX\tex\latex\lm\t1lmtt.fd
+INPUT C:\Program Files\MiKTeX\tex\latex\lm\t1lmtt.fd
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\lm\ec-lmtt12.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\lm\ec-lmtt10.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\lm\ec-lmtk10.tfm
+INPUT postextual\apendiceB.tex
 OUTPUT thesis-leandrozuza.toc
 OUTPUT thesis-leandrozuza.lof
 OUTPUT thesis-leandrozuza.lot
@@ -488,12 +638,20 @@ INPUT .\thesis-leandrozuza.brf
 INPUT .\thesis-leandrozuza.brf
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\lm\lmbx12.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\lm\lmbx12.pfb
+INPUT C:\Program Files\MiKTeX\fonts\type1\public\lm\lmex10.pfb
+INPUT C:\Program Files\MiKTeX\fonts\type1\public\lm\lmex10.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\lm\lmmi12.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\lm\lmmi12.pfb
+INPUT C:\Program Files\MiKTeX\fonts\type1\public\lm\lmmi6.pfb
+INPUT C:\Program Files\MiKTeX\fonts\type1\public\lm\lmmi6.pfb
+INPUT C:\Program Files\MiKTeX\fonts\type1\public\lm\lmmi8.pfb
+INPUT C:\Program Files\MiKTeX\fonts\type1\public\lm\lmmi8.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\lm\lmr10.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\lm\lmr10.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\lm\lmr12.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\lm\lmr12.pfb
+INPUT C:\Program Files\MiKTeX\fonts\type1\public\lm\lmr8.pfb
+INPUT C:\Program Files\MiKTeX\fonts\type1\public\lm\lmr8.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\lm\lmri10.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\lm\lmri10.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\lm\lmri12.pfb
@@ -506,3 +664,9 @@ INPUT C:\Program Files\MiKTeX\fonts\type1\public\lm\lmssbx10.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\lm\lmssbx10.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\lm\lmsy10.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\lm\lmsy10.pfb
+INPUT C:\Program Files\MiKTeX\fonts\type1\public\lm\lmtk10.pfb
+INPUT C:\Program Files\MiKTeX\fonts\type1\public\lm\lmtk10.pfb
+INPUT C:\Program Files\MiKTeX\fonts\type1\public\lm\lmtt10.pfb
+INPUT C:\Program Files\MiKTeX\fonts\type1\public\lm\lmtt10.pfb
+INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\symbols\msam10.pfb
+INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\symbols\msam10.pfb
