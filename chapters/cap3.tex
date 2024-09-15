@@ -2,7 +2,7 @@
 
 \section{Introdução}
 
-Este capítulo apresenta os trabalhos relacionados à utilização de RNC para treinamento de imagens, com e sem variação de parâmetros; a trabalhos que aplicam especificamente a versão 8 do YOLO; aqueles que utilizaram VANT e os que criaram automação para sistemas de Realidade Virtual. O objetivo é encontrar o estado da arte de cada trabalho, destacando as principais contribuições.
+Este capítulo apresenta os trabalhos relacionados à utilização de RNC para treinamento de imagens, com e sem variação de parâmetros; a trabalhos que aplicam especificamente a versão 8 do YOLO; aqueles que utilizaram VANT e os que criaram automação para sistemas de RV. O objetivo é encontrar o estado da arte de cada trabalho, destacando as principais contribuições.
 
 No final do capítulo, os estudos são comparados para justificar o sistema abordado neste trabalho.
 
@@ -11,7 +11,7 @@ No final do capítulo, os estudos são comparados para justificar o sistema abor
 
 A dissertação apresentada por \cite{gonzaga2023identificaccao} investigou a aplicabilidade e eficiência de um sistema de visão computacional para identificar defeitos visuais no controle de qualidade de peças automotivas reposição. O intuito do trabalho foi de avaliar a possibilidade de automatizar de modo confiável o processo de inspeção e precificação do reparo destas peças.
 
-Para este trabalho, foi utilizado um dataset composto por imagens de vidros automotivos, fornecidos por uma empresa do ramo. Os defeitos analisados incluíram bolhas, delaminação, irisação, ostra e grau em vidros, além de manchas em peças como faróis, lanternas e retrovisores. Todos esses defeitos foram identificados nas fotos fornecidas. Assim como na presente dissertação, foi utilizado o software LabelImg para realizar a marcação da ocorrência de cada uma dessas anomalias no conjunto de fotos, como se vê na Figura \ref{fig:mancha}.
+Para este trabalho, foi utilizado um \textit{dataset} composto por imagens de vidros automotivos, fornecidos por uma empresa do ramo. Os defeitos analisados incluíram bolhas, delaminação, irisação, ostra e grau em vidros, além de manchas em peças como faróis, lanternas e retrovisores. Todos esses defeitos foram identificados nas fotos fornecidas. Assim como na presente dissertação, foi utilizado o software LabelImg para realizar a marcação da ocorrência de cada uma dessas anomalias no conjunto de fotos, como se vê na Figura \ref{fig:mancha}.
 
 \begin{figure}[!h]
     \center
@@ -24,7 +24,7 @@ Para este trabalho, foi utilizado um dataset composto por imagens de vidros auto
     \end{minipage}
 \end{figure}
 
-Em sua fundamentação, foram entendidas as RNC como ferramentas eficazes para o processamento de imagens. Avaliou-se a rede ResNet \cite{he2016deep}, como uma possibilidade de arquitetura para processar as imagens, justamente por se mostrar uma ferramenta poderosa para a identificação de padrões. Para tanto, ela se vale de uma série de camadas residuais com conexões de salto, permitindo que os gradientes fluam mais facilmente através da rede durante o treinamento, mitigando o problema do desaparecimento do gradiente. Esse problema ocorre quando, em redes profundas, os gradientes se tornam extremamente pequenos ao retropropagar através das camadas, dificultando a atualização dos pesos nas camadas iniciais e, consequentemente, a aprendizagem adequada da rede. A ResNet supera essa dificuldade utilizando conexões que pulam uma ou mais camadas, somando a entrada diretamente à saída dessas camadas puladas, permitindo a construção de redes muito mais profundas sem a degradação do desempenho (Figura \ref{fig:salto}). Com isso, a ResNet consegue capturar e aprender padrões complexos presentes nas imagens, resultando em uma melhoria significativa na precisão das tarefas de classificação e reconhecimento de imagens.
+Em sua fundamentação, foram entendidas as RNC como ferramentas eficazes para o processamento de imagens. Avaliou-se a rede ResNet \cite{he2016deep}, como uma possibilidade de arquitetura para processar as imagens, justamente por se mostrar uma ferramenta poderosa para a identificação de padrões. Para tanto, ela se vale de uma série de camadas residuais com conexões de salto, permitindo que os gradientes fluam mais facilmente através da rede durante o treinamento, mitigando o problema do desaparecimento do gradiente. Esse problema ocorre quando, em redes profundas, os gradientes se tornam extremamente pequenos durante a retropropagação através das camadas, dificultando a atualização dos pesos nas camadas iniciais e, consequentemente, a aprendizagem adequada da rede. A ResNet supera essa dificuldade utilizando conexões que pulam uma ou mais camadas, somando a entrada diretamente à saída dessas camadas puladas, permitindo a construção de redes muito mais profundas sem a degradação do desempenho (Figura \ref{fig:salto}). Com isso, a ResNet consegue capturar e aprender padrões complexos presentes nas imagens, resultando em uma melhoria significativa na precisão das tarefas de classificação e reconhecimento de imagens.
 	
 \begin{figure}[!h]
     \center
@@ -37,16 +37,11 @@ Em sua fundamentação, foram entendidas as RNC como ferramentas eficazes para o
     \end{minipage}
 \end{figure}
 
-Contudo, a ResNet, devido à sua grande quantidade de camadas e processamento, acaba por ser morosa durante o treinamento. Além disso, sua utilização não é trivial e exige configurações específicas. Deste modo, o trabalho explora as vantagens da YOLO como alternativa. A YOLO é extremamente rápida, treinando em imagens completas com uma única passagem pelas imagens, o que reduz significativamente o tempo de processamento. Sua arquitetura simples e eficiente permite a detecção de múltiplos objetos em uma única passagem pela rede, tornando o treinamento mais direto e eficaz em termos de recursos computacionais. Além disso, a YOLO é altamente generalizável e menos propensa a erros de background, sendo uma solução mais prática e veloz para detecção de objetos.	
+Contudo, a ResNet, devido à sua grande quantidade de camadas e processamento, acaba por ser morosa durante o treinamento. Além disso, sua utilização não é trivial e exige configurações específicas. Deste modo, o trabalho explora as vantagens da YOLO como alternativa. A YOLO é extremamente rápida, treinando em imagens completas com uma única passagem pelas imagens, o que reduz significativamente o tempo de processamento. Sua arquitetura simples e eficiente permite a detecção de múltiplos objetos em uma única passagem pela rede, tornando o treinamento mais direto e eficaz em termos de recursos computacionais. Além disso, a YOLO é altamente generalizável e menos propensa a erros de \textit{background}, sendo uma solução mais prática e veloz para detecção de objetos.	
 
 Para o treinamento, foram analisadas 3.397 imagens com defeitos específicos da rotina da empresa. Destas, 70\% foram utilizadas para treinamento e 30\% para validação. Todas as imagens foram anotadas manualmente. Em cada uma delas, pelo menos um dos defeitos estudados deveria constar nela para que a imagem fosse colocada para treinamento. Essa parte do processo garantiu que o modelo gerado fosse significativo.
 
-Além disso, foram variados os tamanhos do valor do \textit{batch size} (entre 2 e 32) e testados três otimizadores diferentes: SGD, Adam e AdamW. A YOLOv5 oferece variações da arquitetura para diferentes propósitos. Neste trabalho, foram testadas 10 variações da arquitetura, juntamente com a alteração de parâmetros. Todos os outros hiperparâmetros foram mantidos na configuração padrão. Cada treinamento foi realizado em 300 épocas.
-
-Na Tabela \ref{tab:resultado-mancha}, é apresentado o resultado do treinamento, com os respectivos valores, com a variação de parâmetro. Nota-se, disso, que o otimizador SGD, na variação YOLOv5x, com batch size de 8, alcançou a melhor precisão média, com mAP de 0,72921, mostrando com isso a melhor configuração. Com esse treinamento aplicado na identificação de imagens, resultou-se em 83,33\% de precisão na precificação correta dos produtos defeituosos, mostrando com isso que a automação foi bem sucedida em seu propósito.
-
 \begin{table}[h!]
-    \label{tab:resultado-mancha}
     \centering
     \begin{tabular}{|c|c|c|c|c|}
     \hline
@@ -85,11 +80,16 @@ Na Tabela \ref{tab:resultado-mancha}, é apresentado o resultado do treinamento,
     YOLOv6l  & 0.62377 & 0.71564 & 0.70514 & - \\ \hline
     YOLOv6n  & 0.71112 & 0.71067 & - & - \\ \hline
     YOLOv5x  & 0.70527 & 0.71120 & - & - \\ \hline
-    
     \end{tabular}
     \caption{Tabela comparativa de desempenho de modelos YOLO com diferentes otimizações e tamanhos de batch.}
+    \label{tab:resultado-mancha}
     \end{table}
-    
+
+Além disso, foram variados os tamanhos do valor do \textit{batch size} (entre 2 e 32) e testados três otimizadores diferentes: SGD, Adam e AdamW. A YOLOv5 oferece variações da arquitetura para diferentes propósitos. Neste trabalho, foram testadas 10 variações da arquitetura, juntamente com a alteração de parâmetros. Todos os outros hiperparâmetros foram mantidos na configuração padrão. Cada treinamento foi realizado em 300 épocas.
+
+Na Tabela \ref{tab:resultado-mancha}, é apresentado o resultado do treinamento, com os respectivos valores, com a variação de parâmetro. Nota-se, disso, que o otimizador SGD, na variação YOLOv5x, com batch size de 8, alcançou a melhor precisão média, com mAP de 0,72921, mostrando com isso a melhor configuração. Com esse treinamento aplicado na identificação de imagens, resultou-se em 83,33\% de precisão na precificação correta dos produtos defeituosos, mostrando com isso que a automação foi bem sucedida em seu propósito.
+
+   
 
 \section{Aplicação YOLOv8}
 \subsection{Comparação de Modelos YOLOv5 e YOLOv8 para Detecção de Objetos em Áreas Rurais Usando Transferência de Aprendizado}
@@ -98,7 +98,7 @@ O artigo de \cite{diascomparaccao}, apresenta um estudo comparativo entre duas v
 
 Como embasamento teórico, buscou-se um estudo similar ao apresentado, em que foi realizada também uma comparação dos modelos YOLOv5 e YOLOv8 para detecção de veículos e placas em sistemas de transporte inteligentes, usando transferência de aprendizado com dados da plataforma Kaggle \cite{afonso2023vehicle}. Após uma avaliação abrangente, concluíram que o YOLOv8 superou ligeiramente o YOLOv5, além de ter um tempo de treinamento menor.
 
-Já no trabalho citado de \cite{silva2018detecccao}, foi estudada a detecção e contagem de plantas usando inteligência artificial, aplicando modelos de visão computacional para detectar e contar eucaliptos em plantações. O modelo R-CNN Resnet 101 alcançou 95\% de precisão com um tempo de inferência de 578 milissegundos por imagem, destacando-se como o mais promissor para o desenvolvimento de software automatizado na silvicultura.
+Já no trabalho citado de \cite{silva2018detecccao}, foi estudada a detecção e contagem de plantas usando Inteligência Artificial (IA), aplicando modelos de visão computacional para detectar e contar eucaliptos em plantações. O modelo R-CNN Resnet 101 alcançou 95\% de precisão com um tempo de inferência de 578 milissegundos por imagem, destacando-se como o mais promissor para o desenvolvimento de software automatizado na silvicultura.
 
 Por fim, citando \cite{gomes2022detecccao}, foi explorada a detecção de objetos com a arquitetura YOLO, comparando várias versões do modelo usando o conjunto de dados COCO. O YOLOv5 se destacou, alcançando uma acurácia de 67,9\% na métrica \textit{Mean-average Precision} (mAP), superando significativamente as versões anteriores.
 
@@ -106,13 +106,13 @@ A literatura indica que a detecção de objetos tem atraído muita atenção, co
 
 Em sua conceituação, reforça-se a definição de objeto, a entidade desejável de ser reconhecida pela RNC. É ele qualquer forma visual reconhecível em uma imagem, como carros, pessoas, animais, ou prédios. Cada objeto será representado por uma classe por sua vez é representado por uma classe. Assim, a principal tarefa da detecção de objetos de uma RNC é identificar e localizar a presença dessas classes em imagens ou vídeos.
 
-A metodologia deste trabalho envolveu a coleta de 452 imagens de 1800 pixels, utilizando um VANT. As classes definidas foram: cafezal, milharal, soja, estrada, casa, carro e pasto. As imagens foram anotadas usando a plataforma Roboflow para criar caixas delimitadoras. O pré-processamento incluiu orientação automática e redimensionamento das imagens para 640 x 640 pixels. O aumento de dados foi realizado com rotações aleatórias e adição de ruído, ampliando o conjunto para 1100 imagens. O dataset foi dividido em treinamento (960 imagens), validação (95 imagens) e teste (45 imagens), e exportado nos formatos \textit{YOLOv5 PyTorch} e \textit{YOLOv8}.
+A metodologia deste trabalho envolveu a coleta de 452 imagens de 1800 pixels, utilizando um VANT. As classes definidas foram: cafezal, milharal, soja, estrada, casa, carro e pasto. As imagens foram anotadas usando a plataforma Roboflow para criar caixas delimitadoras. O pré-processamento incluiu orientação automática e redimensionamento das imagens para 640 x 640 pixels. O aumento de dados foi realizado com rotações aleatórias e adição de ruído, ampliando o conjunto para 1100 imagens. O \textit{dataset} foi dividido em treinamento (960 imagens), validação (95 imagens) e teste (45 imagens), e exportado nos formatos \textit{YOLOv5 PyTorch} e \textit{YOLOv8}.
 
-No estudo, foi utilizado para complementar, pesos pré-treinados no conjunto MS COCO, com ajuste fino dos modelos para o novo conjunto de dados. A taxa de aprendizado foi de 0,0001 para YOLOv8x e 0,00001 para YOLOv5x, com um batch size igual a 128. Assim como nos demais trabalhos, foram adotadas as métricas de precisão, recall e mAP.
+No estudo, foi utilizado para complementar, pesos pré-treinados no conjunto MS COCO, com ajuste fino dos modelos para o novo conjunto de dados. A taxa de aprendizado foi de 0,0001 para YOLOv8x e 0,00001 para YOLOv5x, com um batch size igual a 128. Assim como nos demais trabalhos, foram adotadas as métricas de precisão, \textit{recall} e mAP.
 
 Os resultados deste estudo demonstraram que o modelo YOLOv8x superou o YOLOv5x em termos de precisão e eficiência na detecção de objetos em áreas rurais. Especificamente, o YOLOv8x alcançou maior acurácia nas predições e menor tempo total de inferência, apesar de necessitar de um tempo de treinamento ligeiramente superior.
 
-O YOLOv8x mostrou-se mais eficaz na detecção de objetos, atingindo um mAP de 0,767 (Figura \ref{fig:yolov5}). Além disso, apresentou maior confiança nas detecções, com um tempo médio de inferência de 15,9 ms. Já a YOLOv5x, por sua vez, atingiu um mAP de 0,735 (Figura \ref{fig:tabela-macha}), com um desempenho inferior em comparação ao YOLOv8x tanto em precisão quanto no tempo total de inferência. O tempo médio de inferência para o YOLOv5x foi de 17,2 ms.
+O YOLOv8x mostrou-se mais eficaz na detecção de objetos, atingindo um mAP de 0,767 (Figura \ref{fig:yolov5}). Além disso, apresentou maior confiança nas detecções, com um tempo médio de inferência de 15,9 ms. Já a YOLOv5x, por sua vez, atingiu um mAP de 0,735 (Figura \ref{fig:yolov8}), com um desempenho inferior em comparação ao YOLOv8x tanto em precisão quanto no tempo total de inferência. O tempo médio de inferência para o YOLOv5x foi de 17,2 ms.
 \begin{figure}[!h]
     \center
     \begin{minipage}{1\linewidth}
@@ -142,19 +142,19 @@ Este trabalho investigou a importância da detecção de objetos em imagens de �
 
 O artigo de \cite{wang2023uav} se inicia apresentando o crescente uso de VANTs para diversas aplicações da ciência e engenharia. Contudo, devido a altura do voo, o uso de suas imagens para captura de objetos específicos delas mostra-se um desafio, uma vez que a proporção existente entre objeto e a foto como um todo é muito pequena. Além disso, realizar o processamento dessas imagens em tempo real, de maneira embarcada em um VANT, dada as limitações de hardwares desses equipamentos, mostra-se outro desafio. Disto, entende-se que a primeira motivação do trabalho está em melhorar o desempenho da detecção de objetos considerando os recursos limitados da plataforma de hardware.
 
-Para a tarefa de detecção, como nos demais trabalhos citados nessa dissertação, recorre-se às RNC. Entre elas, a principal diferença está na quantidade de estágios de deteção dos algoritmos, que são aqueles que fazem a detecção em dois estágios, como a Fast R-CNN, e também aqueles que a realizam em apenas um, que é o caso da YOLO\cite{girshick2015fast}.
+Para a tarefa de detecção, como nos demais trabalhos citados nessa dissertação, recorre-se às RNC. Entre elas, a principal diferença está na quantidade de estágios de deteção dos algoritmos, que são aqueles que fazem a detecção em dois estágios, como a Fast R-CNN, e também aqueles que a realizam em apenas um, que é o caso da YOLO \cite{girshick2015fast}.
 
 A alteração da arquitetura da RNC influi diretamente no resultado desejado. Contudo, a simples troca de um algoritmo para outro não satisfaz completamente a necessidade de aumentar a acurácia desejada, levando à busca por alterações na estrutura da rede para obter mais interessantes
 
-Assim, o trabalho de \cite{wang2023uav} propõe um modelo de detecção de objetos baseado em fotografias obtidas por meio de VANTs, chamado UAV-YOLOv8, que se vale da  YOLOv8 como rede backbone. No geral, essa nova arquitetura melhora significativamente a precisão e a eficiência da detecção de objetos em imagens capturadas por UAVs, mantendo um baixo consumo de recursos, o que o torna adequado para plataformas de UAVs com capacidades limitadas. Ele é especialmente otimizado para enfrentar os desafios das imagens aéreas, como a detecção de pequenos objetos em fundos complexos.
+Assim, o trabalho de \cite{wang2023uav} propõe um modelo de detecção de objetos baseado em fotografias obtidas por meio de VANTs, chamado UAV-YOLOv8, que se vale da  YOLOv8 como rede \textit{backbone}. No geral, essa nova arquitetura melhora significativamente a precisão e a eficiência da detecção de objetos em imagens capturadas por UAVs, mantendo um baixo consumo de recursos, o que o torna adequado para plataformas de UAVs com capacidades limitadas. Ele é especialmente otimizado para enfrentar os desafios das imagens aéreas, como a detecção de pequenos objetos em fundos complexos.
 
-A oitava versão da YOLO notabiliza-se por ser o estado da arte na ciência de detecção de objetos. Sua estrutura utiliza a arquitetura modificada CSPDarknet53 como backbone, com módulos C2f e SPPF para otimizar a extração e processamento das características de imagem. O neck adota a estrutura PAN-FPN, que melhora a fusão de informações posicionais e semânticas, tornando o modelo mais leve e eficiente. Por fim a head desacoplada usa ramos separados para classificação e regressão de caixas, melhorando a precisão e a robustez da detecção, sem o uso de âncoras \cite{redmon2018yolov3}.
+A oitava versão da YOLO notabiliza-se por ser o estado da arte na ciência de detecção de objetos. Sua estrutura utiliza a arquitetura modificada CSPDarknet53 como \textit{backbone}, com módulos C2f e SPPF para otimizar a extração e processamento das características de imagem. O \textit{neck} adota a estrutura PAN-FPN, que melhora a fusão de informações posicionais e semânticas, tornando o modelo mais leve e eficiente. Por fim a head desacoplada usa ramos separados para classificação e regressão de caixas, melhorando a precisão e a robustez da detecção, sem o uso de âncoras \cite{redmon2018yolov3}.
 
-Neste artigo, então, para melhorar sua eficácia nesses cenários, o foi proposta uma otimização do modelo utilizando a função de perda WIoU v3, que aprimora a generalização; o mecanismo de atenção BiFormer, que foca em características de alta relevância; e o módulo de processamento de características FFNB, que melhora a fusão de características de diferentes escalas. Essas melhorias resultaram no UAV-YOLOv8, que expande a detecção de 3 para 5 escalas, aprimorando significativamente a detecção de pequenos objetos.
+Neste artigo, para melhorar sua eficácia nesses cenários, o foi proposta uma otimização do modelo utilizando a função de perda WIoU v3, que aprimora a generalização; o mecanismo de atenção BiFormer, que foca em características de alta relevância; e o módulo de processamento de características FFNB, que melhora a fusão de características de diferentes escalas. Essas melhorias resultaram no UAV-YOLOv8, que expande a detecção de 3 para 5 escalas, aprimorando significativamente a detecção de pequenos objetos.
 
-A experimentação do novo modelo foi proposta de forma a avaliar a precisão de detecção de objetos pequenos e a eficiência de recursos do modelo proposto, UAV-YOLOv8s. Como dataset, o estudo fez uso do dataset VisDrone2019, que inclui fotografias aéreas obtidas por UAVs em várias cidades da China, capturando diferentes cenários e condições de iluminação. Escolheu-se o VisDrone2019 devido à sua riqueza de informações e diversidade. Foi desenvolvido pela Universidade de Tianjin e inclui uma variedade de categorias de objetos de detecção e distribuições variadas de objetos, abrangendo tanto cenários com alta quanto baixa densidade de objetos, e fotos tiradas durante o dia e a noite.
+A experimentação do novo modelo foi proposta de forma a avaliar a precisão de detecção de objetos pequenos e a eficiência de recursos do modelo proposto, UAV-YOLOv8s. Como \textit{dataset}, o estudo fez uso do VisDrone2019, que inclui fotografias aéreas obtidas por UAVs em várias cidades da China, capturando diferentes cenários e condições de iluminação. Escolheu-se o VisDrone2019 devido à sua riqueza de informações e diversidade. Foi desenvolvido pela Universidade de Tianjin e inclui uma variedade de categorias de objetos de detecção e distribuições variadas de objetos, abrangendo tanto cenários com alta quanto baixa densidade de objetos, e fotos tiradas durante o dia e a noite.
 
-Assim, para a detecção de objetos em fotos capturadas por VANTs, em se tratando de objetos muitos, fundos complexos e recursos de hardware limitados, há um desafio em manter a alta a precisão dos modelos. O UAV-YOLOv8, baseado no YOLOv8, é proposto para otimizar a detecção, introduzindo a função de perda WIoU v3 e o mecanismo de atenção BiFormer, melhorando o foco do modelo e reduzindo a perda de detecção de objetos pequenos. O modelo aprimorado alcança um aumento médio de 7,7\% (Figura\ref{fig:chines}) na precisão sem aumentar seu tamanho, mas a adição de duas camadas de detecção aumenta a complexidade e o tempo de computação. Comparado com outros modelos mainstream, o UAV-YOLOv8 demonstrou desempenho superior, de modo geral (Figura \ref{fig:chines-tabela}). A precisão ainda é baixa para objetos muito pequenos, como bicicletas, e futuras pesquisas seriam necessárias na otimização dessa precisão, podendo elas ficarem na confecção do dataset para melhores resultados, alteração da arquitetura, entre outras abordagens.
+Assim, para a detecção de objetos em fotos capturadas por VANTs, em se tratando de objetos muitos, fundos complexos e recursos de hardware limitados, há um desafio em manter a alta a precisão dos modelos. O UAV-YOLOv8, baseado no YOLOv8, é proposto para otimizar a detecção, introduzindo a função de perda WIoU v3 e o mecanismo de atenção BiFormer, melhorando o foco do modelo e reduzindo a perda de detecção de objetos pequenos. O modelo aprimorado alcança um aumento médio de 7,7\% (Figura\ref{fig:chines}) na precisão sem aumentar seu tamanho, mas a adição de duas camadas de detecção aumenta a complexidade e o tempo de computação. Comparado com outros modelos mainstream, o UAV-YOLOv8 demonstrou desempenho superior, de modo geral (Figura \ref{fig:chines-tabela}). A precisão ainda é baixa para objetos muito pequenos, como bicicletas, e futuras pesquisas seriam necessárias na otimização dessa precisão, podendo elas ficarem na confecção do \textit{dataset} para melhores resultados, alteração da arquitetura, entre outras abordagens.
 
 \begin{figure}[!h]
     \center
@@ -207,8 +207,6 @@ A Tabela \ref{tab:relacionado1} apresenta um resumo de todos os trabalhos relaci
     \cite{diascomparaccao} & \textcolor{green}{\(\checkmark\)} & \textcolor{green}{\(\checkmark\)} & \textcolor{red}{\(\times\)} & \textcolor{red}{\(\times\)} & \textcolor{red}{\(\times\)} \\
     \hline
     \cite{wang2023uav} & \textcolor{green}{\(\checkmark\)} & \textcolor{green}{\(\checkmark\)} & \textcolor{green}{\(\checkmark\)} & \textcolor{red}{\(\times\)} & \textcolor{red}{\(\times\)} \\
-    \hline
-    (ZUZA, 2024) & \textcolor{green}{\(\checkmark\)} & \textcolor{green}{\(\checkmark\)} & \textcolor{green}{\(\checkmark\)} & \textcolor{green}{\(\checkmark\)} & \textcolor{green}{\(\checkmark\)} \\
     \end{tabular}
     \label{tab:relacionado1}
 \end{table}
@@ -216,6 +214,8 @@ A Tabela \ref{tab:relacionado1} apresenta um resumo de todos os trabalhos relaci
 Pela análise da Tabela \ref{tab:relacionado1}, entende-se que não há ainda um trabalho que reúna todos os tópicos apresentados. É fato que há diversos trabalhos que exploram a detecção de objetos em diversos cenários, utilizando diversas versões da YOLO, inclusive utilizando VANT, para obtenção de imagens. Contudo, no contexto de subestações de energia e identificação de seus equipamentos, há uma lacuna de contribuições. Naturalmente, isso mostra o quão prolífico esta dissertação se mostra, ao unir todas essas áreas de estudo num propósito ainda não explorado.
 
 No próximo capítulo, serão detalhados os materiais e métodos utilizados para a solução proposta.
+
+
 
 
 
