@@ -8,7 +8,7 @@ Neste capítulo, será abordado a sequência de testes realizados para o treinam
 
 Os resultados de desempenho obtidos das RNC, foram estruturados da seguinte forma: realização de uma avaliação do mAP, mAP50, mAP50-95 e recall das versões YOLOv5, YOLOv6 e YOLOv7, com variação do batch de 2 a 16, utilizando o otimizador SGD. Seguido, será avaliado o desempenho da YOLOv8, também com alteração de batch de 2 a 16, e com variação do otimizador. Por fim, será avaliado a performance na identificação de equipamentos, a partir de um conjunto de fotos não treinadas, e avaliar na prática a precisão real de cada configuração dos modelos, aplicadas. 
 
-Foi discutido na Fundamentação Teórica deste trabalho que a YOLOv8 foi proposta como um modelo superior a suas três últimas versões. Em seu artigo de apresentação, foi comparado a taxa de sucesso da versão 8 contra a versão 5, 6 e 7, quando aplicado a um conjunto de imagens comuns \cite{ultralytics2023yolo}. Por isso, foi realizada a mesma experimentação, a fim de comparar, na configuração padrão de todos hiperparâmetros, se a escolha da oitava versão de fato mostra-se vantajosa. Apenas os parâmetros do batch foram alterados, a fim de verificar o efeito dos lotes no treinamento, conforme também realizado no estudo de \cite{almeida2023batch}.
+Foi discutido na Fundamentação Teórica deste trabalho que a YOLOv8 foi proposta como um modelo superior a suas três últimas versões. Em seu artigo de apresentação, foi comparado a taxa de sucesso da versão 8 contra a versão 5, 6 e 7, quando aplicado a um conjunto de imagens comuns \cite{ultralytics2023yolo}. Por isso, foi realizada a mesma experimentação, a fim de comparar, na configuração padrão de todos hiperparâmetros, se a escolha da oitava versão de fato mostra-se vantajosa. Apenas os parâmetros do batch foram alterados, a fim de verificar o efeito dos lotes no treinamento, conforme também realizado no estudo de \cite{gonzaga2023identificaccao}.
 
 Por isso, por configuração padrão da rede neural YOLO, entende-se a utilização do otimizador SGD; com a taxa de aprendizado de 0,01; e configuração padrão de entrada das imagens de 640x640. 
 
@@ -102,14 +102,12 @@ A YOLOv7 apresentou variabilidade significativa nos resultados, com quedas notá
     \centering
     \captionsetup{justification=centering,margin=0.5cm,font=small}
     \includegraphics[width=1\linewidth]{img/cap6/results-yolov7-batch-16.png}
-    \caption{Gráficos gerados a partir do treinamento com a YOLOv7, utilizando \textit{batch} igual a 16. O comportamento alternato sobressaltou-se nessa arquitetura}.
+    \caption{Gráficos gerados a partir do treinamento com a YOLOv7, utilizando \textit{batch} igual a 16. O comportamento alternado sobressaltou-se nessa arquitetura}.
     \label{fig:yolov5batch16}
     \end{minipage}
 \end{figure}
 
 Comparando as três versões, a YOLOv5 mostrou-se superior em termos de desempenho geral, com alta precisão e mAP50-95, aliada a um tempo de treinamento eficiente. A YOLOv6, embora menos precisa, destacou-se pela redução do tempo de treinamento, sendo uma escolha viável quando a eficiência temporal é prioritária. Já a YOLOv7, apesar de sua estabilidade no tempo de treinamento, apresentou maior variabilidade nos resultados e um desempenho inferior em relação às versões anteriores, sugerindo que sua aplicação deve ser cuidadosamente considerada dependendo do contexto e das necessidades do projeto.
-
-\subsection{Resultados e análise do treinamento com a YOLOv7}
 
 \subsection{Análise dos Resultados do Treinamento com YOLOv8}
 

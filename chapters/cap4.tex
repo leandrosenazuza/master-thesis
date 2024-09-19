@@ -6,13 +6,15 @@ Pesquisas relevantes ao tema de treinamento de RNC com imagens aéreas, RV e tem
 
 Neste capítulo, portanto, apresenta-se os materiais utilizados nesta pesquisa, assim como os métodos executados para treinamento das imagens coletadas e a abordagem implementada na automação do sistema de RV.
 
-\section{Dataset}
+\section{Base de Dados}
 
 \subsection{Captura das Fotos}
 
-Para o treinamento da rede neural YOLOv8, é necessário que sejam fornecidas imagens, ou seja, um \textit{dataset}, que relevantes do objeto a ser identificado. Neste estudo, foram coletadas fotos aéreas por meio de VANT de modelo DJI Mavic 2, que é reconhecido por sua capacidade de captura de alta qualidade e manobrabilidade. Todas imagens capturadas foram obtidas no sobrevoo de duas subestações de energia, ambas no Brasil. A primeira subestação é localizada em Porto Velho, no estado de Rondônia, de coordenadas geográficas: -8.914705, -63.957887. A segunda, em Araraquara; coordenadas: -21.832444, -48.347566. 
+Para o treinamento da rede neural YOLOv8, é necessário que sejam fornecidas imagens, ou seja, uma base de dados relevantes com objetos a serem identificados. Neste estudo, foram coletadas fotos aéreas por meio de VANT de modelo DJI Mavic 2, que é reconhecido por sua capacidade de captura de alta qualidade e manobrabilidade. Todas imagens capturadas foram obtidas no sobrevoo de duas subestações de energia, ambas no Brasil. A primeira subestação é localizada em Porto Velho, no estado de Rondônia, de coordenadas geográficas: -8.914705, -63.957887. A segunda, em Araraquara; coordenadas: -21.832444, -48.347566. No total, foram capturadas 1257 fotos, sendo  548 em Porto Velho e 709 em Araraquara. Todas as imagens foram capturadas em alta resolução e com dimensões variadas, variando entre 4000x3000 até 8000x6000 pixels. 
 
-No total, foram capturadas 1257 fotos, sendo  548 em Porto Velho e 709 em Araraquara. Todas as imagens foram capturadas em alta resolução e com dimensões variadas, variando entre 4000x3000 até 8000x6000 pixels. 
+De todo o conjunto de fotos coletadas, apenas 411 fotos foram selecionadas para serem processadas na RNC. Além disso, destas, 60\% foram alocadas para o conjunto de treinamento, enquanto 20\% para os conjuntos de teste e 20\% de validação. De acordo com \cite{itsmeSamrat2024}, esta forma de divisão do conjunto de imagens produzirá resultados mais parciais do que uma divisão que preconiza um conjunto de validação e de teste menor.
+
+Todo procedimento de coleta de imagens foi realizado por integrantes do GRVA, Grupo de Pesquisa em Realidade Virtual e Aumentada \cite{grva}, ligado à Faculdade de Engenharia Elétrica, pertencente à Universidade Federal de Uberlândia (UFU). Esta base de fotos, além de servir para esse trabalho, também foram subsídio para diversos outros projetos do laboratório, como \cite{neto2024estrategias} e \cite{junior2024soluccao}.
 
 As imagens são capturadas de modo a registrar o máximo de equipamentos possível, cobrindo toda a área das subestações. Todas as fotos são tiradas verticalmente em relação ao solo, garantindo uma visão abrangente e detalhada das instalações das subestações. Devido ao movimento do VANT, os objetos na foto são representados em com pequenas variações de angulação em relação ao solo. Em Porto Velho, as foram fotos capturadas no dia 28 de junho de 2023 (Figura \ref{fig:reatores}, à esquerda). Por sua vez, em Araraquara, as capturas foram realizadas dia 13 de junho de 2023 (Figura  \ref{fig:reatores}, à direita).
 
@@ -36,17 +38,15 @@ As imagens são capturadas de modo a registrar o máximo de equipamentos possív
 
 Conforme o trabalho de \cite{sa2024yolov8}, o treinamento eficiente com a RNC envolve o fornecimento de imagens relevantes da rede para que haja consistência no caminho desenvolvimento pelo processamento do algoritmo, de forma a conseguir o melhor resultado. Desta forma, foi realizada a seleção das imagens para o treinamento, selecionando apenas aquelas que contém ao menos um objeto de interesse, que neste trabalho, seria o reator de núcleo de ar.
 
-De todo o conjunto de fotos coletadas, apenas 411 fotos foram selecionadas para serem processadas na RNC. Além disso, destas, 60\% foram alocadas para o conjunto de treinamento, enquanto 20\% para os conjuntos de teste e 20\% de validação.
-
 O conjunto de treinamento é utilizado para ajustar os parâmetros internos do modelo. Durante essa fase, a RNC aprende a identificar padrões e características específicas das imagens que correspondem aos objetos de interesse. Naturalmente, objetivando minimizar a função de perda, que mede o quão bem o modelo está se saindo na tarefa de detecção de objetos.
 
-As fotos usadas para validação, por outro lado, são empregadas para monitorar o desempenho do modelo durante o treinamento. Elas permitem a realização de ajustes nos hiperparâmetros do modelo, como a taxa de aprendizado e o número de camadas. A validação contínua ajuda a prevenir o overfitting, que ocorre quando o modelo se ajusta demasiadamente aos dados de treinamento e perde a capacidade de generalizar para novos dados. Um desempenho consistente no conjunto de validação indica que o modelo está aprendendo de maneira robusta e equilibrada.
+As fotos usadas para validação, por outro lado, são empregadas para monitorar o desempenho do modelo durante o treinamento. Elas permitem a realização de ajustes nos hiperparâmetros do modelo, como a taxa de aprendizado e o número de camadas. A validação contínua ajuda a prevenir o \textit{overfitting}, que ocorre quando o modelo se ajusta demasiadamente aos dados de treinamento e perde a capacidade de generalizar para novos dados. Um desempenho consistente no conjunto de validação indica que o modelo está aprendendo de maneira robusta e equilibrada.
 
 Finalmente, o conjunto de teste é utilizado após o treinamento e a validação para avaliar a capacidade de generalização do modelo em dados nunca antes vistos. Este conjunto não influencia o processo de treinamento, mas fornece uma estimativa imparcial do desempenho real do modelo. Um bom desempenho no conjunto de teste sugere que o modelo pode ser confiável para identificar objetos de interesse em situações práticas \cite{goodfellow2016deep}.
 
 Portanto, a divisão dos dados em conjuntos de treinamento, validação e teste é uma prática fundamental em aprendizado profundo, garantindo que o modelo YOLO, ou qualquer outro modelo de detecção de objetos, seja eficiente, robusto e generalizável.
 
-\subsection{Seleção das fotos}
+\subsection{Rotulação das fotos}
 
 Toda RNC necessita de dados rotulados para aprender a identificar e classificar corretamente os objetos em imagens. Utilizar um Software de marcação, como o LabelImg, é essencial nesse processo, pois permite que seja rotulado imagens que irão alimentar a rede, definindo nelas regiões de interesse e associando essas regiões a classes específicas. Nesta dissertação, a classe de interesse trata-se do reator de núcleo de ar. Sem dados rotulados, a RNC não teria a orientação necessária para distinguir diferentes objetos, comprometendo a sua capacidade de realizar previsões.
 
@@ -71,9 +71,24 @@ Todo o treinamento foi realizado em um computador pessoal, portador do Sistema O
 
 Para a implementação da automação, foi utilizado o software Unity \cite{unity}. O Unity é uma plataforma amplamente utilizada para o desenvolvimento de jogos e aplicações interativas 3D. Ele oferece um ambiente robusto e flexível, com uma vasta gama de ferramentas e recursos que facilitam a criação de experiências interativas. Além disso, o Unity permite integração com diversos outros softwares e sistemas, proporcionando um fluxo de trabalho eficiente para projetos de automação e simulação.
 
+\subsection{Variação dos Parâmetros}
+
+\section{Avaliação do Treinamento} 
+
+Os resultados de desempenho obtidos das RNCs foram estruturados da seguinte forma: compararam-se as métricas de mAP, mAP50, mAP50-95 e \textit{recall} das versões YOLOv5, YOLOv6, YOLOv7 e YOLOv8, com variação do batch size de 2 a 16, utilizando o otimizador SGD. Esta primeira parte da experimentação teve como objetivo comparar todas as versões mais recentes e anteriores à YOLOv8, conforme realizado em seu artigo de apresentação \cite{ultralytics2023yolo}, com a finalidade de demonstrar a superioridade desta arquitetura.
+
+Conforme discutido na Fundamentação Teórica deste trabalho, a YOLOv8 foi proposta como um modelo superior às suas três versões anteriores. No artigo de apresentação, comparou-se a taxa de sucesso da versão 8 em relação às versões 5, 6 e 7, utilizando um conjunto de imagens comuns \cite{ultralytics2023yolo}. Para validar essa afirmação, foi realizada uma experimentação similar, mantendo a configuração padrão de todos os hiperparâmetros, com exceção do batch size, que foi ajustado para verificar seu efeito no treinamento, seguindo o estudo de \cite{gonzaga2023identificaccao}.
+
+Por configuração padrão da rede neural YOLO, entende-se a utilização do otimizador SGD, uma taxa de aprendizado de 0,01 e a entrada de imagens no formato 640x640 pixels.
+
+Na segunda etapa, os mesmos parâmetros de desempenho foram avaliados, desta vez apenas para a YOLOv8, também com variação do \textit{batch} de 2 a 16, mas com diferentes otimizadores: Adam, AdamW e SGD, conforme abordado no trabalho \cite{gonzaga2023identificaccao}. O objetivo dessa experimentação foi encontrar a configuração de melhor desempenho para a tarefa de identificação de reatores.
+
+Por fim, a performance dos modelos foi avaliada na identificação de equipamentos utilizando um conjunto de fotos não presentes no treinamento, ou seja, o conjunto de teste. Esse procedimento visou verificar, na prática, a precisão real de cada configuração testada. A avaliação foi inspirada no trabalho de \cite{gonzaga2023identificaccao}, que aplicou o modelo com o maior mAP no conjunto de teste, comparando o número de detecções realizadas com o número esperado, para assim medir a efetividade do modelo em cenários reais.
+
 \section{Considerações Finais}
 
 Neste capítulo, foram descritas as especificações do sistema desenvolvido, com ênfase nos seus principais requisitos. O próximo capítulo trará informações detalhadas sobre a implementação, além de um aperfeiçoamento das especificações iniciais.
+
 
 
 
