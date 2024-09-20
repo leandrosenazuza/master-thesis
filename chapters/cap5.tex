@@ -39,18 +39,71 @@ Conforme ilustrado no diagrama, a \textit{API} recebe o caminho da imagem, aplic
 
 \subsection{Treinamento com a YOLO}
 
-O treinamento com o YOLO segue um padrão comum entre suas diferentes versões, mas cada versão possui características específicas em termos de pacotes necessários e processos de instalação. A estrutura básica do script de treinamento da YOLOv8 inclui a importação dos pacotes necessários para o funcionamento do modelo, geralmente nas primeiras linhas do arquivo. Em seguida, a escolha da arquitetura de treinamento, neste caso ‘yolov8n.pt’, e por fim, a linha responsável pela execução do treinamento, que recebe como parâmetros as características da rede neural, como a quantidade de épocas, o tipo de otimizador, entre outros (Figura \ref{fig:script-yolov8}). A flexibilidade do treinamento permite ajustar o modelo para obter o melhor desempenho possível de acordo com as necessidades específicas do usuário, sendo possível a customização de diversos parâmetros.
+O treinamento com o YOLO segue um padrão comum entre suas diferentes versões, mas cada versão possui características específicas em termos de pacotes necessários e processos de instalação. 
+
+\subsubsection{Treinamento com a YOLOv5, YOLOv6 e YOLOv8}
+
+A YOLOv5\footnote{\url{https://github.com/ultralytics/yolov5}}, assim como a YOLOv6\footnote{\url{https://github.com/meituan/YOLOv6}} e a YOLOv8\footnote{\url{https://github.com/ultralytics/ultralytics}}, foram desenvolvidas pela empresa \textit{Ultralytics}, que também dá nome à biblioteca utilizada para a configuração do projeto. Para utilizar essa versão da arquitetura, foi necessário clonar o projeto para a máquina onde o treinamento foi executado. Além disso, foi utilizada a versão 3.1 do \textit{Python}.
+
+Em aplicações desenvolvidas em \textit{Python}, é altamente recomendada a criação de um ambiente virtual para garantir que as bibliotecas sejam instaladas corretamente e que o ambiente não entre em conflito com outras dependências do sistema. Esse ambiente virtual isola o projeto e suas dependências de outros projetos e bibliotecas instaladas globalmente. As dependências necessárias para o projeto estão especificadas no arquivo \textit{requirements.txt}.
+
+Para configurar o ambiente virtual e instalar as dependências, foram executados no terminal dentro da pasta do projeto os seguintes comandos:
+
+\begin{lstlisting}
+python -m venv ambiente_virtual
+.\ambiente_virtual\Scripts\activate
+pip install -r requirements.txt
+\end{lstlisting}
+
+Após isso, foi desenvolvido a estrutura básica do script de treinamento de todas essas versões da YOLO. A Figura \ref{fig:script-yolov5-6} apresenta os scripts para o treinamento da YOLOv5, na imagem superior, e YOLOv6 na imagem inferior. Basicamente, a primeira linha designa a importação da biblioteca da \textit{Ultralytics}. Logo em seguida, é especificado a arquitetura que será utilizada. Para a quinta versão, foi designado \textit{‘YOLOv5n.pt’}; para sexta versão, foi especificado \textit{‘YOLOv5n.pt’}. A última linha por fim, determina a modelagem do treinamento, que será especificada na função \textit{train()}, do objeto \textit{model}, do tipo \textit{YOLO()}. Foram especificados três parâmetros diferentes. O primeiro, \textit{data} recebe o arquivo de configuração \textit{"config.yaml"}, em que é especificado a quantidade de classes a serem treinadas (neste caso, apenas uma, que é a classe "reator"), e a localização dos diretórios contendo as imagens e marcações para treinamento, validação e teste. Em seguida, há o parâmetro \textit{epochs}, que configura a quantidade de iterações que a RNC irá realizar. Neste caso, foi configurado para 300 iterações. O parâmetro \textit{batch}, naturalmente, configura o valor de \textit{batch}, que foi variado de 2 a 16. Por fim, \textit{optimizer} determina o otimizador, que na comparação inicial foi utilizado no valor de ‘SGD’, aplicando o otimizador homônimo. 
+
+\begin{figure}[!h]
+    \centering
+    \begin{minipage}[b]{0.49\linewidth}
+        \centering
+        \includegraphics[width=1\linewidth]{img/cap5/script-yolov5.png}
+    \end{minipage}
+    \hspace{0.05\linewidth}
+    \begin{minipage}[b]{0.49\linewidth}
+        \centering
+        \includegraphics[width=1\linewidth]{img/cap5/script-yolov6.png}
+    \end{minipage}
+    \captionsetup{justification=centering,margin=0.5cm,font=small}
+    \caption{Demonstração dos Scripts de Treinamento das versões YOLOv5, em cima, e YOLOv6, em baixo.}
+    \label{fig:script-yolov5-6}
+\end{figure}
+
+\subsubsection{Treinamento com a YOLOv7}
+
+De todas as versões da YOLO, apenas a YOLOv7\footnote{\url{https://github.com/WongKinYiu/yolov7}} foi executada via terminal. Todo o preparo do ambiente foi igual às demais versões. Fez-se a cópia do repositório remoto no computador que a executou, utilizou-se a mesma versão do \textit{Pyhton}, e foi gerado um ambiente virtual para aquisição das dependências. Dentro do diretório da YOLOv7, ao contrário de executar um \textit{script} por meio de um ambiente de desenvolvimento, fez a execução do comando demonstrado na Figura \ref{fig:script-yolov7}, diretamente via terminal. O início da instrução se inicia com \textit{python}, para indicar qual o tipo de aplicação executada. Em seguida, é especificado o arquivo da classe \textit{train.py}, que é a responsável por toda estruturação do treinamento da RNC.  A parametrização é semelhante às demais, com \textit{batch-size} determinando o valor de \textit{batch}; \textit{epochs}, épocas; e \textit{data}, a configuração das classes e diretórios das imagens; \textit{weights}, indicando a arquitetura utilizada que seria \textit{‘yolov7.pt’}. Diferindo das outras, há a especificação do tipo de processador por meio de \textit{device}, que no caso foi escolhido CPU.
 
 \begin{figure}[!h]
     \centering
     \begin{minipage}{0.7\linewidth}
     \centering
     \captionsetup{justification=centering,margin=0.5cm,font=small}
-    \includegraphics[width=1\linewidth]{img/cap5/treinamentoYOLOv8.jpeg}
-    \caption{Demonstração do Script de Treinamento da YOLOv8}.
+    \includegraphics[width=1\linewidth]{img/cap5/script-yolov7.jpg}
+    \caption{Comando de Execução da YOLOv7}.
+    \label{fig:script-yolov7}
+    \end{minipage}
+\end{figure}
+
+\subsubsection{Variação dos otimizadores com a YOLOv8}
+
+Seguindo a mesma metodologia empregada no trabalho de \ref{gonzaga2023identificaccao}, foi variado o parâmetro referente ao otimizador. A estrutura do treinamento é igual à anteriormente referida para essa versão, apenas o valor do parâmetro do otimizador que será alterado. Os testes com o otimizador Adam, receberam a configuração \textit{optimizer=’Adam’}, para Adam; \textit{optimizer=’AdamW’}, para AdamW; e \textit{optimizer=’SGD’} para SGD. Na Figura \ref{fig:script-yolov8} é demonstrado a configuração desse treinamento.
+
+\begin{figure}[!h]
+    \centering
+    \begin{minipage}{0.7\linewidth}
+    \centering
+    \captionsetup{justification=centering,margin=0.5cm,font=small}
+    \includegraphics[width=1\linewidth]{img/cap5/yolov8-adam.png}
+    \caption{Demonstração do Script de Treinamento da YOLOv8, com aplicação do otimizador Adam e com \textit{batch} configurado para 8}.
     \label{fig:script-yolov8}
     \end{minipage}
 \end{figure}
+
+Diferentemente dos demais, a fim de avaliar a melhor configuração da YOLOv8, para cada variação do otimizador foi realizado a variação do \textit{batch}, nos valores de 2, 4, 8 e 16. Com isso, pode-se comparar o efeito dos otimizadores e tamanho de lote nas diversas configurações dessa arquitetura.
 
 \subsection{API de Identificação}
 
@@ -84,7 +137,7 @@ O script desenvolvido no Unity é dividido em alguns métodos. Inicialmente, há
     \end{minipage}
 \end{figure}
 
-Ao pressionar o botão de processamento, o método correspondente é ativado, conforme ilustrado na Figura \ref{fig:metodo-disposicao}. Este método chama outro, que é responsável por enviar a requisição \textit{HTT} para a \textit{API} processar a resposta recebida. Com as informações retornadas pela \textit{API}, o \textit{script} percorre cada objeto identificado e o insere na cena do Unity, posicionando-os de acordo com uma disposição pré-definida. Embora o sistema ainda não implemente uma disposição espacial precisa dos objetos, ele serve como uma base sólida para futuras melhorias.
+Ao pressionar o botão de processamento, o método correspondente é ativado, conforme ilustrado na Figura \ref{fig:metodo-disposicao}. Este método chama outro, que é responsável por enviar a requisição \textit{HTTP} para a \textit{API} processar a resposta recebida. Com as informações retornadas pela \textit{API}, o \textit{script} percorre cada objeto identificado e o insere na cena do Unity, posicionando-os de acordo com uma disposição pré-definida. Embora o sistema ainda não implemente uma disposição espacial precisa dos objetos, ele serve como uma base sólida para futuras melhorias.
 
 \begin{figure}[!h]
     \centering
@@ -116,6 +169,11 @@ A implementação desenvolvida é altamente intuitiva e de fácil utilização. 
 
 
 	
+
+
+
+
+
 
 
 
