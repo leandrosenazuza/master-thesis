@@ -27,7 +27,7 @@ De modo geral, nesse sugere que o aumento do tamanho do batch de 2 para 8 result
     2                   & 88.724                & 87.456               & 88.785              & 49.821                 & 48.75h             \\ \hline
     4                   & 89.831                 & 89.707               & 95.044             & 55.908                & 37.67h             \\ \hline
     8                   & 92.416                 & 91.922               & 96.197              & 60.488                 & 33.46h             \\ \hline
-    16                  & 93.340                 & 90.977               & 95.474              & 56.739                 & 29.53h             \\ \hline
+    16                  & 93.340                 & 90.977               & 95.474              & 54.689                 & 29.53h             \\ \hline
     \end{tabular}
     \caption{Resultados de diferentes tamanhos de batch aplicando YOLOv5}
     \label{tab:yolov5-teste}
@@ -164,9 +164,26 @@ Por fim, a Tabela \ref{tab:yolov8-sgd} apresenta os resultados com o otimizador 
 
 Em resumo, os dados indicam que aumentar o tamanho do batch geralmente melhora o desempenho do modelo em termos de precisão, recall e métricas de mAP, independentemente do otimizador utilizado. Entre os otimizadores testados, o SGD oferece o melhor equilíbrio entre desempenho e eficiência de tempo, seguido pelo AdamW, que proporciona alta precisão e recall, mas com um tempo de treinamento competitivo. O Adam, embora ainda eficaz, não alcança o mesmo nível de desempenho que os outros dois otimizadores. Esses resultados destacam a importância de escolher cuidadosamente o otimizador e o tamanho do batch para otimizar o treinamento e o desempenho do YOLOv8.
 
-\subsection{Avaliação da Implementação}
+\subsection{Comparação de todas as versões}
 
-A implementação do YOLOv8 com diferentes configurações de otimizadores e tamanhos de batch apresentou no geral resultados promissores, evidenciando uma tendência de melhora nas métricas conforme o aumento do tamanho do batch. Dentre as configurações avaliadas, a combinação do otimizador SGD com batch size de 16 se destacou por oferecer o melhor equilíbrio entre precisão, recall, mAP50, mAP50-95 e tempo de treinamento razoavelmente curto. Portanto, essa configuração específica, foi naturalmente escolhida para os testes subsequentes com o peso treinado.
+Semelhante ao estudo de \cite{ultralytics2023yolo}, foi gerado um gráfico comparativo entre todas as versões da YOLO que aqui foram trabalhadas, tomando por base os resultados obtidos de mAP50-95 de cada, variando o tamanho de \textit{batch} nos valores de 2, 4, 8 e 16. Na Figura \ref{fig:compara-todas-yolo}, é apresentado o gráfico resultado da comparação. Nele, percebe-se visualmente que a YOLOv8, quando aplicada ao \textit{dataset} deste trabalho, se destaca com uma superioridade na precisão, em comparação com as três últimas versões, ratificando a proposta de seu uso. 
+
+\begin{figure}[!h]
+    \centering
+    \begin{minipage}{0.7\linewidth}
+    \centering
+    \captionsetup{justification=centering,margin=0.5cm,font=small}
+    \includegraphics[width=1\linewidth]{img/cap6/comparacao-yolos-grafico.png}
+    \caption{Comparação da YOLOv5 à YOLOv8, com otimizador SGD e variação de \textit{batch} de 2, 4, 8 e 16}.
+    \label{fig:compara-todas-yolo}
+    \end{minipage}
+\end{figure}
+
+As versões da YOLO não apresentaram um padrão claro de superioridade nem mostraram um crescimento consistente na precisão conforme o tamanho do \textit{batch} aumentava. Isso ocorre porque, ao serem expostas a diferentes tamanhos de \textit{batch}, as RNC podem não convergir de maneira previsível. A oscilação na precisão se deve às variações nos caminhos de aprendizado, que impactam os gradientes e tornam a otimização menos eficiente. Neste caso, tamanhos de \textit{batch} como 16, resultaram em um desempenho inferior para os modelos YOLOv5 e YOLOv7. Esse fenômeno pode ser atribuído à estagnação do aprendizado em regiões conhecidas como "planícies" ou \textit{plateaus}. Essas regiões são caracterizadas por uma diminuição na inclinação dos gradientes, levando a uma desaceleração no crescimento do aprendizado da RNC. Nessas situações, a rede pode se encontrar em um mínimo local, onde os ajustes dos pesos se tornam pouco eficazes, resultando em uma otimização subideal \cite{theorangeduck_minima_saddle}. Essa variabilidade no desempenho é uma característica comum em modelos de aprendizado profundo, especialmente em tarefas complexas como a detecção de objetos. A presença de planícies pode dificultar a exploração do espaço de parâmetros da rede, fazendo com que ela perca oportunidades de melhorar sua precisão \cite{goodfellow2016deep}.
+
+A implementação do YOLOv8 com diferentes configurações de otimizadores e tamanhos de batch apresentou, no geral, resultados promissores, evidenciando uma tendência de melhora nas métricas conforme o aumento do tamanho do batch. Dentre as configurações avaliadas, a combinação do otimizador SGD com batch size de 16 se destacou por oferecer o melhor equilíbrio entre precisão, recall, mAP50, mAP50-95 e tempo de treinamento razoavelmente curto. Portanto, essa configuração específica, foi naturalmente escolhida para os testes subsequentes com o peso treinado.
+
+\subsection{Avaliação da Implementação}
 
 Na separação do conjunto de imagens para treinamento, foi adotada a prática de reservar 20\% do total de imagens para testes manuais. No caso, foram utilizadas 80 fotos para avaliar o desempenho do modelo treinado. A precisão média foi calculada aplicando o modelo em cada uma das 80 fotos, aferindo a quantidade de reatores detectados. A RNC apresentou resultados variados, identificando a quantidade exata de reatores em algumas imagens, enquanto em outras identificou um número superior ou inferior ao real. Para avaliar o desempenho, foi calculada a média absoluta da diferença entre os valores identificados e os valores reais presentes nas fotos, conforme a Equação \eqref{eq:media-identificacao}, em que \( R_{\text{e}} \) trata-se dos valores de reatores estimados pela RNC; enquanto \( R_{\text{p}} \), trata-se dos valoes presentes de reatores em cada imagem.
 
@@ -188,6 +205,7 @@ Para avaliar a eficácia do modelo na prática, foram realizados testes com um c
 O YOLOv8, como evolução natural das versões anteriores da família YOLO, traz melhorias significativas tanto na arquitetura do modelo quanto na eficiência do treinamento. Suas inovações permitem uma melhor detecção de objetos pequenos e maior precisão global, mantendo a rapidez e eficiência características dos modelos YOLO. A combinação de ajustes no tamanho do batch e a escolha do otimizador demonstram a flexibilidade do YOLOv8, permitindo sua adaptação a diversos cenários de aplicação, desde ambientes de baixa capacidade computacional até sistemas de alta demanda.
 
 Dessa forma, a escolha do SGD como otimizador, aliada a um tamanho de batch adequado, como o de 16, provou ser a configuração mais robusta para obter o equilíbrio ideal entre desempenho e custo computacional, tornando o YOLOv8 uma escolha vantajosa para aplicações de detecção de objetos onde precisão e eficiência são prioridades.
+
 
 
 
