@@ -6,16 +6,20 @@ Neste trabalho, foi proposto um sistema de inserção automática de um equipame
 
 \section{Conclusão} 
 
-Neste estudo, foi desenvolvido um sistema inovador que permite a inserção automática de equipamentos específicos de subestações de energia em ambientes de RV. Por meio da captura de imagens aéreas e do treinamento da RNC YOLOv8, conseguimos identificar e posicionar automaticamente os equipamentos em um ambiente virtual. Além disso, a implementação de uma automação com o software Unity permitiu integrar de forma eficiente os modelos digitalizados dos equipamentos ao ambiente de RV, garantindo uma representação consideravelmente precisa, assim como ituitiva.
+Neste estudo, foi desenvolvido um sistema inovador que permite a inserção automática de equipamentos específicos de subestações de energia em ambientes de RV. Por meio da captura de imagens aéreas e do treinamento da RNC YOLOv8, conseguiu-se identificar e posicionar automaticamente os equipamentos em um ambiente virtual. Além disso, a implementação de uma automação com o software Unity permitiu integrar de forma eficiente os modelos digitalizados dos equipamentos ao ambiente de RV, garantindo uma representação consideravelmente precisa, assim como intuitiva.
+
+Além disso, com esta dissertação foi possível validar a superioridade de precisão no uso da YOLOv8 para o conjunto de imagens coletadas em subestações de energia por meio de VANTs, em relação a suas últimas versões. Isso confirma a extrapolação feita a partir do trabalho de \cite{ultralytics2023yolo}, para o conjunto de dados aqui apresentado. 
+
+Também neste trabalho, conclui-se que o estudo apresentado por \cite{gonzaga2023identificaccao} mostrou-se substrato essencial para chegar à melhor configuração dos parâmetros da YOLO para obter a melhor precisão em sua oitava versão.
 
 Os resultados abrem espaço para uma grande variedade de trabalhos que busquem utilizar de imagens aéreas combinadas com RNC, aplicadas à construção de ambientes de RV. Essa abordagem, se explorada ainda mais a fundo para outros equipamentos presentes em toda extensão da subestação, poderá elevar o nível da automação da criação de ambientes virtuais, poupando esforço manual e, com os devidos ajustes, aumentando a precisão da criação.
 
 \section{Trabalhos Futuros} 
 
-Este trabalho propõe-se como o ponto de partida para uma série de futuras implementações e estudos. Primeiramente, a precisão e a eficiência do sistema podem ser aprimoradas com o uso de datasets mais extensos e variados para o treinamento da YOLOv8. Além disso, a utilização de drones com câmeras de maior resolução e a captura de imagens em épocas variadas do ano podem potencializar ainda os resultados entregues de aplicações semelhantes.
+Este trabalho propõe-se como o ponto de partida para uma série de futuras implementações e estudos. Primeiramente, a precisão e a eficiência do sistema podem ser aprimoradas com o uso de datasets mais extensos e variados para o treinamento da YOLOv8. 
 
-Naturalmente, uma melhora considerável na aplicabilidade desse sistema consistiria na implementação na \textit{API}, para que haja um esforço de geolocalização de cada equipamento, a fim de que, além da detecção da quantidade de objetos presentes na foto, seja também posicionado corretamente cada um deles, conforme sua configuraçõa real na subestação de energia. 
+Naturalmente, uma melhora considerável na aplicabilidade desse sistema consistiria na implementação na \textit{API}, para que haja um esforço de geolocalização de cada equipamento, a fim de que, além da detecção da quantidade de objetos presentes na foto, seja também posicionado corretamente cada um deles, conforme sua configuração real na subestação de energia. 
 
-A identificação em tempo real de todo o ambiente da subestação com certeza seria um trabalho futuro interessante de ser explorado. Contudo, seria necessário um sistema de processamento embarcado dentro do VANT muito robusto, o que talvez, no presente estado da tecnologia ainda não seria viável.
- 
 Finalmente, espera-se que este trabalho sirva como base para novas pesquisas na área de realidade virtual e inteligência artificial aplicada, contribuindo para o avanço tecnológico e oferecendo novas ferramentas e metodologias para a comunidade científica e industrial.
+
+
