@@ -107,7 +107,7 @@ Diferentemente dos demais, a fim de avaliar a melhor configuração da YOLOv8, p
 
 \subsection{API de Identificação}
 
-A construção da aplicação responsável pelo processamento das imagens enviadas pelo Unity envolveu a criação de um \textit{endpoint} que permite a solicitação do serviço de processamento por aplicações externas. O Unity envia uma requisição \textit{HTTP} para o endereço \textit{"localhost:5000/predict"}, incluindo o caminho da imagem no corpo da requisição. Ao receber a requisição, o \textit{endpoint} aplica a função de predição, existente dentro dos pacotes da YOLO, e processa a imagem. Em seguida, o sistema percorre os resultados da predição e extrai as informações relevantes, como a quantidade de reatores identificados.
+A construção da aplicação responsável pelo processamento das imagens enviadas pela Unity envolveu a criação de um \textit{endpoint} que permite a solicitação do serviço de processamento por aplicações externas. Sua estrutura é demonstrada na \ref{fig:api-identificacao}. O Unity envia uma requisição \textit{HTTP} para o endereço \textit{"localhost:5000/predict"}, incluindo o caminho da imagem no corpo da requisição. Ao receber a requisição, o \textit{endpoint} decodifica seu corpo para extrair o endereço da localização da imagem a ser processada, que será armazenado na variável \textit{imagePath}. Na linha seguinte, tem-se a atribuição \textit{model = YOLO(‘best.pt’)}. O O arquivo \textit{best.pt} carrega as informações relativas ao melhor treinamento da experimentação para ser aplicado no processo de predição. Na linha seguinte, aplica-se os pesos responsáveis pela predição à imagem especificada no caminho. Realizado esse processo, a iteração que é feita logo após, trata de extrair do arquivo resultante a localização de cada reator identificado. Passa-se essa informação por coordenadas de \textit{bounding box}, idênticas ao processo de marcação. Além de poder contabilizar a quantidade de reatores detectados, é possível localizar visualmente os objetos detectados na foto processada.
 
 \begin{figure}[!h]
     \centering
@@ -116,11 +116,11 @@ A construção da aplicação responsável pelo processamento das imagens enviad
     \captionsetup{justification=centering,margin=0.5cm,font=small}
     \includegraphics[width=1\linewidth]{img/cap5/API.jpeg}
     \caption{\textit{API} de identificação de imagem}.
-    \label{fig:script-yolov8}
+    \label{fig:api-identificacao}
     \end{minipage}
 \end{figure}
 
-Para executar esta aplicação, você precisará do Python 3.5 ou superior instalado em seu sistema. Pode-se instalar as dependências manualmente usando o comando \textit{pip install}, especificando os pacotes necessários. Neste caso, como o script utiliza Flask e o YOLO da biblioteca Ultralytics, pode-se instalar essas bibliotecas com o seguinte comando: \textit{pip install flask ultralytics}. Após instalar as dependências, supondo que o script seja salvo em um arquivo chamado \textit{api-rv.py}, abra um terminal no diretório onde o script está localizado e execute o comando: \textit{python api-rv.py}. Isso iniciará o servidor Flask e tornará o endpoint \textit{"/predict"} acessível para aplicações externas, como o Unity. O código completo do script \textit{api-rv.py} está localizado no Apêndice A.
+Para executar esta aplicação, você precisará do Python 3.5 ou superior instalado em seu sistema. Pode-se instalar as dependências manualmente usando o comando \textit{pip install}, especificando os pacotes necessários. Neste caso, como o script utiliza Flask e o YOLO da biblioteca \textit{Ultralytics}, pode-se instalar essas bibliotecas com o seguinte comando: \textit{pip install flask ultralytics}. Após instalar as dependências, supondo que o script seja salvo em um arquivo chamado \textit{api-rv.py}, abra um terminal no diretório onde o script está localizado e execute o comando: \textit{python api-rv.py}. Isso iniciará o servidor Flask e tornará o endpoint \textit{"/predict"} acessível para aplicações externas, como o Unity. O código completo do script \textit{api-rv.py} está localizado no Apêndice A.
 
 \subsection{Implementação no Unity}
 
@@ -137,7 +137,15 @@ O script desenvolvido no Unity é dividido em alguns métodos. Inicialmente, há
     \end{minipage}
 \end{figure}
 
-Ao pressionar o botão de processamento, o método correspondente é ativado, conforme ilustrado na Figura \ref{fig:metodo-disposicao}. Este método chama outro, que é responsável por enviar a requisição \textit{HTTP} para a \textit{API} processar a resposta recebida. Com as informações retornadas pela \textit{API}, o \textit{script} percorre cada objeto identificado e o insere na cena do Unity, posicionando-os de acordo com uma disposição pré-definida. Embora o sistema ainda não implemente uma disposição espacial precisa dos objetos, ele serve como uma base sólida para futuras melhorias.
+Ao pressionar o botão de processamento, o método correspondente é ativado, conforme ilustrado na Figura \ref{fig:metodo-disposicao}. Este método chama outro, que é responsável por enviar a requisição \textit{HTTP} para a \textit{API} processar a resposta recebida. Com as informações retornadas pela \textit{API}, o \textit{script} percorre cada objeto identificado e o insere na cena do Unity, posicionando-os de acordo com uma disposição pré-definida. 
+
+É importante destacar que o modelo tridimensionald o reator, nesta aplicação, foi armazenado dentro do próprio diretório do projeto, e é armazenado e uma variável \textit{modelPath} conforme a linha:
+
+\begin{lstlisting}
+string modelPath = "Assets/Model/FILTER_F10.fbx";
+\end{lstlisting}
+
+Naturalmente, em uma expansão deste protótipo, seria possível uma integração da aplicação com um sistema de armazenamento remoto, haja visto que a coleção da modelagem de diversos equipamentos pode ser custosa em termos de armazenamento, assim como possibilitaria um desacoplamento da API com seus componentes. A computação em nuvem, que é entendida como um modelo de entrega de serviços que permite o acesso sob demanda a recursos computacionais compartilhados, como servidores, armazenamento e redes, pode ser uma solução viável para esse tipo de expansão \cite{mell2011nist}. Este modelo permitiria o armazenamento e a gestão eficiente de modelos tridimensionais, ao mesmo tempo que possibilitaria escalabilidade e flexibilidade à medida que a coleção de modelos cresce, sem sobrecarregar os recursos locais.
 
 \begin{figure}[!h]
     \centering
@@ -150,7 +158,7 @@ Ao pressionar o botão de processamento, o método correspondente é ativado, co
     \end{minipage}
 \end{figure}
 
-Após o processamento da imagem, o número de reatores identificados pelo modelo é automaticamente renderizado na cena do Unity. Essa etapa garante que os objetos reconhecidos sejam visualmente representados no ambiente virtual, facilitando a interação e análise do usuário. A Figura \ref{fig:predict} ilustra um exemplo de imagem processada, na qual foram corretamente identificados e inseridos quatro reatores na cena. A quantidade de reatores e outros objetos detectados e inseridos na cena depende diretamente da precisão do modelo de reconhecimento utilizado, bem como da qualidade e clareza dos elementos presentes na imagem original. Dessa forma, um modelo bem treinado, aliado a uma imagem nítida e bem enquadrada, resulta em uma identificação mais precisa e uma correspondência fiel entre os objetos detectados e os inseridos no ambiente virtual. Esse processo automatizado não apenas melhora a eficiência da criação de cenas no Unity, mas também minimiza a necessidade de ajustes manuais, proporcionando uma experiência mais fluida e prática para o usuário.
+Após o processamento da imagem, o número de reatores identificados pelo modelo é automaticamente renderizado na cena do Unity. Essa etapa garante que os objetos reconhecidos sejam visualmente representados no ambiente virtual, facilitando a interação e análise do usuário. Neste protótipo, os reatores identificados são posicionados com espaçamento padrão entre um e outro. Não há um posicionamento correto dos equipamentos, sendo esta uma demanda para implementações futuras. A Figura \ref{fig:predict} ilustra um exemplo de imagem processada, na qual foram corretamente identificados e inseridos quatro reatores na cena. A quantidade de reatores e outros objetos detectados e inseridos na cena depende diretamente da precisão do modelo de reconhecimento utilizado, bem como da qualidade e clareza dos elementos presentes na imagem original. Dessa forma, um modelo bem treinado, aliado a uma imagem nítida e bem enquadrada, resulta em uma identificação mais precisa e uma correspondência fiel entre os objetos detectados e os inseridos no ambiente virtual. Esse processo automatizado não apenas melhora a eficiência da criação de cenas no Unity, mas também minimiza a necessidade de ajustes manuais, proporcionando uma experiência mais fluida e prática para o usuário.
 
 \begin{figure}[!h]
     \centering
