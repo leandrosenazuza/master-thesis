@@ -1,13 +1,14 @@
 \chapter{Detalhes da Implementação}
 
 \section{Introdução}
+\label{sec:Detalhes da Implementação}
 
 Este capítulo detalha a implementação do sistema de treinamento e inserção automática desenvolvido para a geração de ambientes virtuais a partir de imagens. A aplicação foi concebida para automatizar o processo de geração de modelos tridimensionais a partir das imagens processadas. O objetivo principal da implementação é oferecer uma solução eficiente para qualquer usuário que deseja criar ambientes virtuais, possa fazê-lo de maneira rápida e intuitiva, com base em imagens fornecidas.
 
 A aplicação, desenvolvida dentro da plataforma Unity, permite ao usuário carregar imagens através de um menu gráfico e, a partir delas, o sistema realiza automaticamente o reconhecimento dos objetos presentes dentro da foto fornecida e os insere no ambiente virtual. Essa abordagem reduz significativamente a necessidade de intervenção manual, tornando o processo de criação de ambientes 3D mais eficiente. A automação deste processo é particularmente útil para usuários com pouca experiência técnica na geração de ambientes virtuais, permitindo-lhes focar na interatividade do ambiente ambiente sem se preocupar com os detalhes gráficos.
 
 
-\subsection{Estrutura geral da aplicação}
+\section{Estrutura geral da aplicação}
 
 A estrutura da aplicação desenvolvida neste trabalho está representada na Figura \ref{fig:estrutura}. A arquitetura do sistema é composta por quatro elementos principais que operam em conjunto para realizar a tarefa de criação de ambientes virtuais. O fluxo do processo inicia-se com o treinamento do modelo YOLO, que gera os pesos da RNC utilizados no reconhecimento de objetos nas imagens fornecidas.
 
@@ -37,11 +38,11 @@ Conforme ilustrado no diagrama, a \textit{API} recebe o caminho da imagem, aplic
     \end{minipage}
 \end{figure}
 
-\subsection{Treinamento com a YOLO}
+\section{Treinamento com a YOLO}
 
 O treinamento com o YOLO segue um padrão comum entre suas diferentes versões, mas cada versão possui características específicas em termos de pacotes necessários e processos de instalação. 
 
-\subsubsection{Treinamento com a YOLOv5, YOLOv6 e YOLOv8}
+\subsection{Treinamento com a YOLOv5, YOLOv6 e YOLOv8}
 
 A YOLOv5\footnote{\url{https://github.com/ultralytics/yolov5}}, assim como a YOLOv6\footnote{\url{https://github.com/meituan/YOLOv6}} e a YOLOv8\footnote{\url{https://github.com/ultralytics/ultralytics}}, foram desenvolvidas pela empresa \textit{Ultralytics}, que também dá nome à biblioteca utilizada para a configuração do projeto. Para utilizar essa versão da arquitetura, foi necessário clonar o projeto para a máquina onde o treinamento foi executado. Além disso, foi utilizada a versão 3.1 do \textit{Python}.
 
@@ -73,7 +74,7 @@ Após isso, foi desenvolvido a estrutura básica do script de treinamento de tod
     \label{fig:script-yolov5-6}
 \end{figure}
 
-\subsubsection{Treinamento com a YOLOv7}
+\subsection{Treinamento com a YOLOv7}
 
 De todas as versões da YOLO, apenas a YOLOv7\footnote{\url{https://github.com/WongKinYiu/yolov7}} foi executada via terminal. Todo o preparo do ambiente foi igual às demais versões. Fez-se a cópia do repositório remoto no computador que a executou, utilizou-se a mesma versão do \textit{Pyhton}, e foi gerado um ambiente virtual para aquisição das dependências. Dentro do diretório da YOLOv7, ao contrário de executar um \textit{script} por meio de um ambiente de desenvolvimento, fez a execução do comando demonstrado na Figura \ref{fig:script-yolov7}, diretamente via terminal. O início da instrução se inicia com \textit{python}, para indicar qual o tipo de aplicação executada. Em seguida, é especificado o arquivo da classe \textit{train.py}, que é a responsável por toda estruturação do treinamento da RNC.  A parametrização é semelhante às demais, com \textit{batch-size} determinando o valor de \textit{batch}; \textit{epochs}, épocas; e \textit{data}, a configuração das classes e diretórios das imagens; \textit{weights}, indicando a arquitetura utilizada que seria \textit{‘yolov7.pt’}. Diferindo das outras, há a especificação do tipo de processador por meio de \textit{device}, que no caso foi escolhido CPU.
 
@@ -88,7 +89,7 @@ De todas as versões da YOLO, apenas a YOLOv7\footnote{\url{https://github.com/W
     \end{minipage}
 \end{figure}
 
-\subsubsection{Variação dos otimizadores com a YOLOv8}
+\subsection{Variação dos otimizadores com a YOLOv8}
 
 Seguindo a mesma metodologia empregada no trabalho de \cite{gonzaga2023identificaccao}, foi variado o parâmetro referente ao otimizador. A estrutura do treinamento é igual à anteriormente referida para essa versão, apenas o valor do parâmetro do otimizador que será alterado. Os testes com o otimizador Adam, receberam a configuração \textit{optimizer=’Adam’}, para Adam; \textit{optimizer=’AdamW’}, para AdamW; e \textit{optimizer=’SGD’} para SGD. Na Figura \ref{fig:script-yolov8} é demonstrado a configuração desse treinamento.
 
@@ -105,7 +106,7 @@ Seguindo a mesma metodologia empregada no trabalho de \cite{gonzaga2023identific
 
 Diferentemente dos demais, a fim de avaliar a melhor configuração da YOLOv8, para cada variação do otimizador foi realizado a variação do \textit{batch}, nos valores de 2, 4, 8 e 16. Com isso, pode-se comparar o efeito dos otimizadores e tamanho de lote nas diversas configurações dessa arquitetura.
 
-\subsection{API de Identificação}
+\section{API de Identificação}
 
 A construção da aplicação responsável pelo processamento das imagens enviadas pela Unity envolveu a criação de um \textit{endpoint} que permite a solicitação do serviço de processamento por aplicações externas. Sua estrutura é demonstrada na \ref{fig:api-identificacao}. O Unity envia uma requisição \textit{HTTP} para o endereço \textit{"localhost:5000/predict"}, incluindo o caminho da imagem no corpo da requisição. Ao receber a requisição, o \textit{endpoint} decodifica seu corpo para extrair o endereço da localização da imagem a ser processada, que será armazenado na variável \textit{imagePath}. Na linha seguinte, tem-se a atribuição \textit{model = YOLO(‘best.pt’)}. O O arquivo \textit{best.pt} carrega as informações relativas ao melhor treinamento da experimentação para ser aplicado no processo de predição. Na linha seguinte, aplica-se os pesos responsáveis pela predição à imagem especificada no caminho. Realizado esse processo, a iteração que é feita logo após, trata de extrair do arquivo resultante a localização de cada reator identificado. Passa-se essa informação por coordenadas de \textit{bounding box}, idênticas ao processo de marcação. Além de poder contabilizar a quantidade de reatores detectados, é possível localizar visualmente os objetos detectados na foto processada.
 
@@ -122,7 +123,7 @@ A construção da aplicação responsável pelo processamento das imagens enviad
 
 Para executar esta aplicação, você precisará do Python 3.5 ou superior instalado em seu sistema. Pode-se instalar as dependências manualmente usando o comando \textit{pip install}, especificando os pacotes necessários. Neste caso, como o script utiliza Flask e o YOLO da biblioteca \textit{Ultralytics}, pode-se instalar essas bibliotecas com o seguinte comando: \textit{pip install flask ultralytics}. Após instalar as dependências, supondo que o script seja salvo em um arquivo chamado \textit{api-rv.py}, abra um terminal no diretório onde o script está localizado e execute o comando: \textit{python api-rv.py}. Isso iniciará o servidor Flask e tornará o endpoint \textit{"/predict"} acessível para aplicações externas, como o Unity. O código completo do script \textit{api-rv.py} está localizado no Apêndice A.
 
-\subsection{Implementação no Unity}
+\subsection{Implementação na Unity}
 
 O script desenvolvido no Unity é dividido em alguns métodos. Inicialmente, há a disposição na tela da interface gráfica, representada na Figura \ref{fig:metodo-gui}. Este código define o nome da janela, suas dimensões e os tipos de interações que o usuário pode realizar, como selecionar uma imagem e iniciar o processamento. A GUI foi desenvolvida com foco na usabilidade, garantindo que até mesmo usuários com pouca experiência em Unity possam operar a implementação com facilidade. O código completo que habilita esta implementação dentro do Unity, entitulado \textit{ModelLoaderMenu.cs}, está localizado no Apêndice B. Copiá-lo em um arquivo homônimo e colocá-lo dentro do projeto Unity é suficiente para poder utilizá-lo.
 
@@ -171,12 +172,13 @@ Após o processamento da imagem, o número de reatores identificados pelo modelo
     \end{minipage}
 \end{figure}
 
-\subsection{Conclusão}
+\section{Conclusão}
 
 A implementação desenvolvida é altamente intuitiva e de fácil utilização. Para executá-la em um computador pessoal, basta inserir o script direcionado para o Unity dentro do projeto e, em paralelo, rodar o código da \textit{API} em um arquivo separado. Essa aplicação se destaca como uma solução prática e eficiente, oferecendo um método simplificado que pode gerar um impacto significativo no desenvolvimento de ambientes de RV.
 
 
 	
+
 
 
 
