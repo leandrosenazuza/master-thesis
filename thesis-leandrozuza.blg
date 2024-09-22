@@ -17,7 +17,9 @@ Reallocating 'wiz_functions' (item size: 4) to 9000 items.
 Database file #1: abntex2-options.bib
 Database file #2: postextual/bibliography.bib
 Warning--entry type for "reatorNucleoDeAr" isn't style-file defined
---line 845 of file postextual/bibliography.bib
+--line 831 of file postextual/bibliography.bib
+Warning--entry type for "grva" isn't style-file defined
+--line 1279 of file postextual/bibliography.bib
 Reallocating 'singl_function' (item size: 4) to 100 items.
 Reallocating 'glb_str_end' (item size: 4) to 20 items.
 Reallocating 'glb_str_ptr' (item size: 4) to 20 items.
@@ -27,45 +29,45 @@ Reallocating 'global_strs' (item size: 1) to 4000000 items.
 | Em caso de dúvidas ou problemas com este estilo procure |
 | http://www.abntex.net.br/                               |
 +---------------------------------------------------------+
-You've used 57 entries,
+You've used 62 entries,
             6714 wiz_defined-function locations,
-            1491 strings with 20081 characters,
-and the built_in function-call counts, 58626 in all, are:
-= -- 5497
-> -- 1699
-< -- 813
-+ -- 1421
-- -- 514
-* -- 3973
-:= -- 7568
-add.period$ -- 206
-call.type$ -- 57
-change.case$ -- 601
-chr.to.int$ -- 107
-cite$ -- 56
-duplicate$ -- 4362
-empty$ -- 3312
-format.name$ -- 2454
-if$ -- 12715
-int.to.chr$ -- 1
+            1521 strings with 21603 characters,
+and the built_in function-call counts, 65609 in all, are:
+= -- 6279
+> -- 1826
+< -- 977
++ -- 1627
+- -- 553
+* -- 4412
+:= -- 8425
+add.period$ -- 227
+call.type$ -- 62
+change.case$ -- 651
+chr.to.int$ -- 113
+cite$ -- 61
+duplicate$ -- 5028
+empty$ -- 3624
+format.name$ -- 2645
+if$ -- 14139
+int.to.chr$ -- 0
 int.to.str$ -- 0
-missing$ -- 995
-newline$ -- 285
-num.names$ -- 280
-pop$ -- 1369
+missing$ -- 1084
+newline$ -- 312
+num.names$ -- 305
+pop$ -- 1477
 preamble$ -- 1
-purify$ -- 225
+purify$ -- 244
 quote$ -- 0
-skip$ -- 4561
+skip$ -- 5247
 stack$ -- 1
-substring$ -- 2488
-swap$ -- 1719
-text.length$ -- 60
+substring$ -- 2839
+swap$ -- 1976
+text.length$ -- 67
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 3
 warning$ -- 0
-while$ -- 413
+while$ -- 454
 width$ -- 0
-write$ -- 870
-(There was 1 warning)
+write$ -- 950
+(There were 2 warnings)
