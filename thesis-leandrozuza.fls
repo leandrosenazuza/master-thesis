@@ -369,7 +369,6 @@ INPUT .\thesis-leandrozuza.toc
 INPUT .\thesis-leandrozuza.toc
 INPUT thesis-leandrozuza.toc
 INPUT C:\Program Files\MiKTeX\fonts\tfm\public\lm\ec-lmssbx10.tfm
-INPUT C:\Program Files\MiKTeX\fonts\tfm\public\lm\ec-lmss10.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\public\lm\ec-lmssbo10.tfm
 INPUT .\thesis-leandrozuza.lof
 INPUT .\thesis-leandrozuza.lof
@@ -702,8 +701,6 @@ INPUT C:\Program Files\MiKTeX\fonts\type1\public\lm\lmri10.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\lm\lmri10.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\lm\lmri12.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\lm\lmri12.pfb
-INPUT C:\Program Files\MiKTeX\fonts\type1\public\lm\lmss10.pfb
-INPUT C:\Program Files\MiKTeX\fonts\type1\public\lm\lmss10.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\lm\lmss12.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\lm\lmss12.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\lm\lmss17.pfb

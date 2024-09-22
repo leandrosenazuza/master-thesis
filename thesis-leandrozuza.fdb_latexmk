@@ -1,14 +1,14 @@
 # Fdb version 4
-["bibtex thesis-leandrozuza"] 1726966750.6508 "thesis-leandrozuza.aux" "thesis-leandrozuza.bbl" "thesis-leandrozuza" 1726969186.02351 0
+["bibtex thesis-leandrozuza"] 1726969833.6643 "thesis-leandrozuza.aux" "thesis-leandrozuza.bbl" "thesis-leandrozuza" 1726969840.39428 0
   "./postextual/bibliography.bib" 1726955630 25496 a46e6f7a629049de4c34ce56c202daf2 ""
   "C:/Users/leand/AppData/Roaming/MiKTeX/bibtex/bib/abntex2/abntex2-options.bib" 1543103229 5396 4eb260dac60f150ae608d45252853090 ""
   "C:/Users/leand/AppData/Roaming/MiKTeX/bibtex/bst/abntex2/abntex2-alf.bst" 1543103230 60064 0819ac8568f9a482510a46e3a8a6f605 ""
-  "thesis-leandrozuza.aux" 1726969184 70790 5c34ffbe5a9741497aa145817c78edfd "pdflatex"
+  "thesis-leandrozuza.aux" 1726969838 70726 7eccef5be2be879b6ccde42734c9a97a "pdflatex"
   (generated)
   "thesis-leandrozuza.bbl"
   "thesis-leandrozuza.blg"
   (rewritten before read)
-["pdflatex"] 1726969179.32227 "z:/Mestrado/master-thesis/thesis-leandrozuza.tex" "thesis-leandrozuza.pdf" "thesis-leandrozuza" 1726969186.02416 0
+["pdflatex"] 1726969833.9693 "z:/Mestrado/master-thesis/thesis-leandrozuza.tex" "thesis-leandrozuza.pdf" "thesis-leandrozuza" 1726969840.39543 0
   "C:/Program Files/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc" 1256929440 2375 baa924870cfb487815765f9094cf3728 ""
   "C:/Program Files/MiKTeX/fonts/enc/dvips/lm/lm-mathex.enc" 1256929440 3486 c7eadf5dcc57b3b2d11736679f6636ba ""
   "C:/Program Files/MiKTeX/fonts/enc/dvips/lm/lm-mathit.enc" 1256929440 2405 5dcf2c1b967ee25cc46c58cd52244aed ""
@@ -36,7 +36,6 @@
   "C:/Program Files/MiKTeX/fonts/tfm/public/lm/ec-lmr8.tfm" 1256929440 12064 9b9ade9f64cb32ce1d9a88d21fbd5c2d ""
   "C:/Program Files/MiKTeX/fonts/tfm/public/lm/ec-lmri10.tfm" 1256929440 17148 9556e1b5f936b77a796f68d2d559ba99 ""
   "C:/Program Files/MiKTeX/fonts/tfm/public/lm/ec-lmri12.tfm" 1256929440 17144 271aaf9ebb339934b04110dc5211fba4 ""
-  "C:/Program Files/MiKTeX/fonts/tfm/public/lm/ec-lmss10.tfm" 1256929440 11176 53ebf7a171df1f9447b387b178768bb5 ""
   "C:/Program Files/MiKTeX/fonts/tfm/public/lm/ec-lmss12.tfm" 1256929440 11232 955a7245396175d9219648eadc654ac9 ""
   "C:/Program Files/MiKTeX/fonts/tfm/public/lm/ec-lmss17.tfm" 1256929440 11252 57c8b53a3aeebba8c17658d4221d47ec ""
   "C:/Program Files/MiKTeX/fonts/tfm/public/lm/ec-lmssbo10.tfm" 1256929440 11304 1bf3f99c327bf3c434fc66d6737a89a2 ""
@@ -77,7 +76,6 @@
   "C:/Program Files/MiKTeX/fonts/type1/public/lm/lmr8.pfb" 1256929440 122174 a2d5e73f396ddbeb3bdf5c79aea0993d ""
   "C:/Program Files/MiKTeX/fonts/type1/public/lm/lmri10.pfb" 1256929440 112593 fda2373ba4420af33949610de4c28fe8 ""
   "C:/Program Files/MiKTeX/fonts/type1/public/lm/lmri12.pfb" 1256929440 109265 e6c7d377db6dfccd4a123fb26da8cffb ""
-  "C:/Program Files/MiKTeX/fonts/type1/public/lm/lmss10.pfb" 1256929440 97408 f595704ec2a07246c2d6f7b602587452 ""
   "C:/Program Files/MiKTeX/fonts/type1/public/lm/lmss12.pfb" 1256929440 96107 daf52840b555e3b38f9679b629b5e2df ""
   "C:/Program Files/MiKTeX/fonts/type1/public/lm/lmss17.pfb" 1256929440 97155 ffb6880a68751002f414154d64548ca3 ""
   "C:/Program Files/MiKTeX/fonts/type1/public/lm/lmssbo10.pfb" 1256929440 137678 8726d3e67382c572603fb5c7f1cac23a ""
@@ -232,7 +230,7 @@
   "chapters/cap2.tex" 1726424426 37302 33f79f2d8bcdf7d2038e6efb7e1ec042 ""
   "chapters/cap3.tex" 1726429539 22937 a7e47122cc6d32106b35ecb7b7f15517 ""
   "chapters/cap4.tex" 1726768835 11063 14e06f2451a88a85d78e90d6a6c52e9e ""
-  "chapters/cap5.tex" 1726966419 18370 097df85be54e603fbe5c6d1fd2c1ab3d ""
+  "chapters/cap5.tex" 1726969826 18392 4e2ad38b9242422472064c462dd2cd54 ""
   "chapters/cap6.tex" 1726968818 22803 3ca06b11b96089faaa7eb68f711c0679 ""
   "chapters/cap7.tex" 1726958400 3465 5bfe65eea11dff700ffa808d34fddb88 ""
   "img/cap2/RNC-YOLO.jpeg" 1725836147 72742 d4f7de6846aff419ccc0a7351a6b7c26 ""
@@ -280,13 +278,13 @@
   "pretextual/pensamento.tex" 1725836148 316 a65ac089220eace272981a7e90cc6518 ""
   "pretextual/publicacoes.tex" 1725836148 584 55383ccf54e9cdc4fe42f2402d672092 ""
   "pretextual/resumo.tex" 1726969015 1890 fdbca55a565ed1cea2b1bbf8a18a5abe ""
-  "thesis-leandrozuza.aux" 1726969184 70790 5c34ffbe5a9741497aa145817c78edfd "pdflatex"
-  "thesis-leandrozuza.bbl" 1726966750 18102 db056bc3e6e450aea48a06a578c522ac "bibtex thesis-leandrozuza"
-  "thesis-leandrozuza.brf" 1726969184 6852 d23ed0ef2396d914290b59e8b64facf0 "pdflatex"
-  "thesis-leandrozuza.lof" 1726969184 5120 d96f25250a7520c2296d68f6fa057df8 "pdflatex"
-  "thesis-leandrozuza.lot" 1726969184 1516 23b56dda32ed32507c848c0785a988e9 "pdflatex"
+  "thesis-leandrozuza.aux" 1726969838 70726 7eccef5be2be879b6ccde42734c9a97a "pdflatex"
+  "thesis-leandrozuza.bbl" 1726969833 18102 db056bc3e6e450aea48a06a578c522ac "bibtex thesis-leandrozuza"
+  "thesis-leandrozuza.brf" 1726969838 6845 d8696539e0ce6d6bd50a72d94efeaca3 "pdflatex"
+  "thesis-leandrozuza.lof" 1726969838 5120 d96f25250a7520c2296d68f6fa057df8 "pdflatex"
+  "thesis-leandrozuza.lot" 1726969838 1516 23b56dda32ed32507c848c0785a988e9 "pdflatex"
   "thesis-leandrozuza.tex" 1726958649 10783 3345399be983d3387966a1cf01421688 ""
-  "thesis-leandrozuza.toc" 1726969184 7379 1d5774eb5cad920f31e2e7114133d87a "pdflatex"
+  "thesis-leandrozuza.toc" 1726969838 7309 7f959b5aa8ce94bf9f61c6a3666139ef "pdflatex"
   "z:/Mestrado/master-thesis/thesis-leandrozuza.tex" 1726958649 10783 3345399be983d3387966a1cf01421688 ""
   (generated)
   "thesis-leandrozuza.aux"
