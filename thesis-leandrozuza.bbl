@@ -66,6 +66,13 @@ Dispon{\'\i}vel em:
   rurais usando transfer{\^e}ncia de aprendizado.
 2021.}
 
+\bibitem[Duck n.d.]{theorangeduck_minima_saddle}
+\abntrefinfo{Duck}{DUCK}{n.d.}
+{DUCK, T.~O. \emph{Local Minima, Saddle Points, and Plateaus}. n.d.
+Accessed: 2024-09-21.
+Dispon{\'\i}vel em:
+  \url{https://theorangeduck.com/page/local-minima-saddle-points-plateaus}.}
+
 \bibitem[Eletrônica 2024]{reatorNucleoDeAr}
 \abntrefinfo{Eletrônica}{ELETRôNICA}{2024}
 {ELETRôNICA, A.~E. \emph{Reator Núcleo de Ar – Jauru Eletronorte 230kV}.
@@ -90,15 +97,9 @@ Dispon{\'\i}vel em:
 {GOMES, J. V.~E. Detec{\c{c}}{\~a}o de objetos com a arquitetura yolo.
 2022.}
 
-\bibitem[Gonzaga 2023]{almeida2023batch}
-\abntrefinfo{Gonzaga}{GONZAGA}{2023a}
-{GONZAGA, L.~G. Identifica{\c{c}}{\~a}o e medi{\c{c}}{\~a}o de defeitos em
-  produtos automotivos usando vis{\~a}o computacional.
-Serra, 2023.}
-
 \bibitem[Gonzaga 2023]{gonzaga2023identificaccao}
-\abntrefinfo{Gonzaga}{GONZAGA}{2023b}
-{GONZAGA, L.~M. Identifica{\c{c}}{\~a}o e medi{\c{c}}{\~a}o de defeitos em
+\abntrefinfo{Gonzaga}{GONZAGA}{2023}
+{GONZAGA, L. Identifica{\c{c}}{\~a}o e medi{\c{c}}{\~a}o de defeitos em
   produtos automotivos usando vis{\~a}o computacional.
 Serra, 2023.}
 
@@ -107,6 +108,13 @@ Serra, 2023.}
   COURVILLE}{2016}
 {GOODFELLOW, I.; BENGIO, Y.; COURVILLE, A. \emph{Deep learning}. [S.l.]: MIT
   press, 2016.}
+
+\bibitem[GRVA 2024]{grva}
+\abntrefinfo{GRVA}{GRVA}{2024}
+{GRVA. \emph{Grupo de Realidade Virtual e Aumentada (GRVA)}. 2024.
+Acesso em 16 de setembro de 2024.
+Dispon{\'\i}vel em:
+  \url{https://ppgeelt.feelt.ufu.br/grupos-de-pesquisa/grupo-de-realidade-virtual-e-aumentada-grva}.}
 
 \bibitem[Haykin 2001]{haykin2001redes}
 \abntrefinfo{Haykin}{HAYKIN}{2001}
@@ -147,6 +155,15 @@ Universidade Federal de Uberl{\^a}ndia, 2022.}
 {JUNIOR, J.~V. de O. Reatores para controle do fluxo de pot{\^e}ncia e suas
   consequ{\^e}ncias para a qualidade de energia.
 Universidade Federal de Minas Gerais, 2012.}
+
+\bibitem[J{\'u}nior et al. 2024]{junior2024soluccao}
+\abntrefinfo{J{\'u}nior et al.}{J{\'U}NIOR et al.}{2024}
+{J{\'U}NIOR, M. J.~A. et al. Uma solu{\c{c}}{\~a}o de realidade aumentada para
+  manuten{\c{c}}{\~a}o assistida em subesta{\c{c}}{\~o}es de energia
+  el{\'e}trica em hvdc.
+\emph{Revista Ib{\'e}rica de Sistemas e Tecnologias de Informa{\c{c}}{\~a}o},
+  Associa{\c{c}}{\~a}o Ib{\'e}rica de Sistemas e Tecnologias de Informacao,
+  n.~E70, p. 547--560, 2024.}
 
 \bibitem[Kalawsky 1993]{kalawsky1993science}
 \abntrefinfo{Kalawsky}{KALAWSKY}{1993}
@@ -193,12 +210,27 @@ Dispon{\'\i}vel em:
 \emph{The bulletin of mathematical biophysics}, Springer, v.~5, p. 115--133,
   1943.}
 
+\bibitem[Mell 2011]{mell2011nist}
+\abntrefinfo{Mell}{MELL}{2011}
+{MELL, P. The nist definition of cloud computing.
+\emph{NIST Special Publication}, p. 800--145, 2011.}
+
 \bibitem[Music 2024]{shorthistory}
 \abntrefinfo{Music}{MUSIC}{2024}
 {MUSIC, R. N.~C. of. \emph{A Short History of Neural Synthesis}. 2024.
 Acessado em: 2 de junho de 2024.
 Dispon{\'\i}vel em:
   \url{https://www.rncm.ac.uk/research/research-activity/research-centres-rncm/prism/prism-blog/a-short-history-of-neural-synthesis/}.}
+
+\bibitem[Neto et al. 2024]{neto2024estrategias}
+\abntrefinfo{Neto et al.}{NETO et al.}{2024}
+{NETO, M.~M. et al. Estrat{\'e}gias para concep{\c{c}}{\~a}o e
+  digitaliza{\c{c}}{\~a}o de usinas e subesta{\c{c}}{\~o}es de energia
+  el{\'e}trica por captura da realidade: Fotogrametria associada ao
+  escaneamento a laser versus modelagem param{\'e}trica manual.
+\emph{Revista Ib{\'e}rica de Sistemas e Tecnologias de Informa{\c{c}}{\~a}o},
+  Associa{\c{c}}{\~a}o Ib{\'e}rica de Sistemas e Tecnologias de Informacao,
+  n.~E66, p. 216--230, 2024.}
 
 \bibitem[O{\u{g}}cu, Demirel e Zaim 2012]{ougcu2012forecasting}
 \abntrefinfo{O{\u{g}}cu, Demirel e Zaim}{O{\u{G}}CU; DEMIREL; ZAIM}{2012}
@@ -278,6 +310,13 @@ Dispon{\'\i}vel em:
   p{\'o}s-colheita e beneficiamento de frutos.
 \emph{Revista de Engenharia e Pesquisa Aplicada}, v.~9, n.~1, p. 115--122,
   2024.}
+
+\bibitem[Samrat 2024]{itsmeSamrat2024}
+\abntrefinfo{Samrat}{SAMRAT}{2024}
+{SAMRAT. \emph{Splitting the Data to 60–20–20 Ratio vs. 80–10–10. Which
+  One is Better?} 2024.
+  \url{https://medium.com/@itsmeSamrat/splitting-the-data-to-60-20-20-ratio-vs-80-10-10-which-one-is-better-bbc3503830d8}.
+Accessed: 2024-09-18.}
 
 \bibitem[Silva et al. 2018]{silva2018detecccao}
 \abntrefinfo{Silva et al.}{SILVA et al.}{2018}
