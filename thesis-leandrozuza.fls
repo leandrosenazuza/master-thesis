@@ -643,6 +643,7 @@ INPUT .\img\cap6\results-yolov7-batch-16.png
 INPUT .\img\cap6\results-yolov7-batch-16.png
 INPUT .\img\cap6\results-yolov7-batch-16.png
 INPUT .\img\cap6\results-yolov7-batch-16.png
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\lm\ec-lmbxi10.tfm
 INPUT .\img\cap6\comparacao-yolos-grafico.png
 INPUT .\img\cap6\comparacao-yolos-grafico.png
 INPUT .\img\cap6\comparacao-yolos-grafico.png
@@ -681,6 +682,8 @@ INPUT .\thesis-leandrozuza.brf
 INPUT .\thesis-leandrozuza.brf
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\lm\lmbx12.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\lm\lmbx12.pfb
+INPUT C:\Program Files\MiKTeX\fonts\type1\public\lm\lmbxi10.pfb
+INPUT C:\Program Files\MiKTeX\fonts\type1\public\lm\lmbxi10.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\lm\lmex10.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\lm\lmex10.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\lm\lmmi12.pfb

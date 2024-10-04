@@ -6,7 +6,7 @@ Neste trabalho, foi proposto um sistema de inserção automática de um equipame
 
 \section{Conclusão} 
 
-Neste estudo, foi desenvolvido um sistema inovador que permite a inserção automática de equipamentos específicos de subestações de energia em ambientes de RV. Por meio da captura de imagens aéreas e do treinamento da RNC YOLOv8, conseguiu-se identificar e posicionar automaticamente os equipamentos em um ambiente virtual. Além disso, a implementação de uma automação com o software Unity permitiu integrar de forma eficiente os modelos digitalizados dos equipamentos ao ambiente de RV, garantindo uma representação consideravelmente precisa, assim como intuitiva.
+Neste estudo, foi desenvolvido um sistema que permite a inserção automática de equipamentos específicos de subestações de energia em ambientes de RV. Por meio da captura de imagens aéreas e do treinamento da RNC YOLOv8, conseguiu-se identificar e posicionar automaticamente os equipamentos em um ambiente virtual devido a sua boa eficiência no reconhecimento dos diferentes componentes nas imagens. Isso permitiu a implementação de uma automação com o software Unity permitiu integrar de forma eficiente os modelos digitalizados dos equipamentos ao ambiente de RV, garantindo uma representação consideravelmente precisa, assim como intuitiva.
 
 Além disso, com esta dissertação foi possível validar a superioridade de precisão no uso da YOLOv8 para o conjunto de imagens coletadas em subestações de energia por meio de VANTs, em relação a suas últimas versões. Isso confirma a extrapolação feita a partir do trabalho de \cite{ultralytics2023yolo}, para o conjunto de dados aqui apresentado. 
 
@@ -16,10 +16,11 @@ Os resultados abrem espaço para uma grande variedade de trabalhos que busquem u
 
 \section{Trabalhos Futuros} 
 
-Este trabalho propõe-se como o ponto de partida para uma série de futuras implementações e estudos. Primeiramente, a precisão e a eficiência do sistema podem ser aprimoradas com o uso de datasets mais extensos e variados para o treinamento da YOLOv8. 
+Este trabalho se propõe a ser um ponto de partida para uma série de futuras implementações e estudos. Primeiramente, a precisão e a eficiência do sistema podem ser aprimoradas com o uso de \textit{datasets} mais amplos e variados para o treinamento do YOLOv8. Além disso, a inclusão de outros equipamentos presentes nas subestações de energia no processo de treinamento abriria oportunidades para novos estudos.
 
-Naturalmente, uma melhora considerável na aplicabilidade desse sistema consistiria na implementação na \textit{API}, para que haja um esforço de geolocalização de cada equipamento, a fim de que, além da detecção da quantidade de objetos presentes na foto, seja também posicionado corretamente cada um deles, conforme sua configuração real na subestação de energia. 
+Naturalmente, uma melhoria significativa na aplicabilidade deste sistema envolveria a implementação de uma \textit{API} com funcionalidades de geolocalização de cada equipamento. Dessa forma, além da detecção da quantidade de objetos na imagem, seria possível posicioná-los corretamente conforme sua disposição real na subestação. Em outras palavras, o objetivo seria desenvolver um sistema de detecção que posicione os objetos no ambiente virtual de acordo com a configuração apresentada na imagem usada para identificação. Para isso, seriam necessárias análises mais detalhadas ou o uso de dados complementares que viabilizassem tal inserção.
 
 Finalmente, espera-se que este trabalho sirva como base para novas pesquisas na área de realidade virtual e inteligência artificial aplicada, contribuindo para o avanço tecnológico e oferecendo novas ferramentas e metodologias para a comunidade científica e industrial.
+
 
 

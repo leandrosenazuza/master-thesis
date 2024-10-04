@@ -7,7 +7,7 @@
 \contentsline {figure}{\numberline {5}{\ignorespaces Exemplificação de como uma imagem nada mais é que uma matriz, e como a filtragem busca padrões pré-estabelecidos dentro da imagem \cite {lima2020captcha}}}{12}{figure.caption.17}%
 \contentsline {figure}{\numberline {6}{\ignorespaces Esquema de funcionamento de uma RNC \cite {vargas2016estudo}}}{13}{figure.caption.18}%
 \contentsline {figure}{\numberline {7}{\ignorespaces Operação de filtragem na camada convolucional. Nota-se que o filtro é uma multiplicação de matrizes \cite {shorthistory}}}{13}{figure.caption.19}%
-\contentsline {figure}{\numberline {8}{\ignorespaces Disposição das 24 camadas convolucionais e das 2 camadas totalmente conectadas \cite {redmon2016youlookonce}}}{14}{figure.caption.20}%
+\contentsline {figure}{\numberline {8}{\ignorespaces Disposição das 24 camadas convolucionais e das 2 camadas totalmente conectadas \cite {redmon2016youlookonce}}}{15}{figure.caption.20}%
 \contentsline {figure}{\numberline {9}{\ignorespaces Processo de predição da Yolo \cite {redmon2016youlookonce}}}{15}{figure.caption.21}%
 \contentsline {figure}{\numberline {10}{\ignorespaces Cálculo de IoU. \cite {padilla2020survey}}}{18}{figure.caption.24}%
 \contentsline {figure}{\numberline {11}{\ignorespaces Aumento de desempenho da precisão média, versão 5 para 8. \cite {ultralytics2023yolo}}}{19}{figure.caption.25}%
@@ -23,7 +23,7 @@
 \contentsline {figure}{\numberline {21}{\ignorespaces Interface para o usuário.}}{35}{figure.caption.37}%
 \contentsline {figure}{\numberline {22}{\ignorespaces Demonstração dos Scripts de Treinamento das versões YOLOv5, em cima, e YOLOv6, em baixo.}}{37}{figure.caption.38}%
 \contentsline {figure}{\numberline {23}{\ignorespaces Comando de Execução da YOLOv7}}{38}{figure.caption.39}%
-\contentsline {figure}{\numberline {24}{\ignorespaces Demonstração do Script de Treinamento da YOLOv8, com aplicação do otimizador Adam e com \textit {batch} configurado para 8}}{38}{figure.caption.40}%
+\contentsline {figure}{\numberline {24}{\ignorespaces Demonstração do Script de Treinamento da YOLOv8, com aplicação do otimizador \textit {Adam} e com \textit {batch} configurado para 8}}{38}{figure.caption.40}%
 \contentsline {figure}{\numberline {25}{\ignorespaces \textit {API} de identificação de imagem}}{39}{figure.caption.41}%
 \contentsline {figure}{\numberline {26}{\ignorespaces \textit {API} de identificação de imagem}}{40}{figure.caption.42}%
 \contentsline {figure}{\numberline {27}{\ignorespaces Método de processamento da imagem e inserção dos modelos conforme a resposta da \textit {API}}}{41}{figure.caption.43}%
@@ -31,4 +31,4 @@
 \contentsline {figure}{\numberline {29}{\ignorespaces Gráficos gerados a partir do treinamento com a YOLOv5, utilizando \textit {batch} igual a 16. Nota-se a evolução repentina para uma precisão acima de 90\%}}{44}{figure.caption.46}%
 \contentsline {figure}{\numberline {30}{\ignorespaces Gráficos gerados a partir do treinamento com a YOLOv6.}}{45}{figure.caption.48}%
 \contentsline {figure}{\numberline {31}{\ignorespaces Gráficos gerados a partir do treinamento com a YOLOv7, utilizando \textit {batch} igual a 16. O comportamento alternado sobressaltou-se nessa arquitetura}}{46}{figure.caption.50}%
-\contentsline {figure}{\numberline {32}{\ignorespaces Comparação da YOLOv5 à YOLOv8, com otimizador SGD e variação de \textit {batch} de 2, 4, 8 e 16}}{48}{figure.caption.54}%
+\contentsline {figure}{\numberline {32}{\ignorespaces Comparação da YOLOv5 à YOLOv8, com otimizador \textit {SGD} e variação de \textit {batch} de 2, 4, 8 e 16}}{48}{figure.caption.54}%

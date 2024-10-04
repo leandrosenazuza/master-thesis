@@ -81,7 +81,7 @@ Conforme discutido na Fundamentação Teórica deste trabalho, a YOLOv8 foi prop
 
 Por configuração padrão da rede neural YOLO, entende-se a utilização do otimizador SGD, uma taxa de aprendizado de 0,01 e a entrada de imagens no formato 640x640 pixels.
 
-Na segunda etapa, os mesmos parâmetros de desempenho foram avaliados, desta vez apenas para a YOLOv8, também com variação do \textit{batch} de 2 a 16, mas com diferentes otimizadores: Adam, AdamW e SGD, conforme abordado no trabalho \cite{gonzaga2023identificaccao}. O objetivo dessa experimentação foi encontrar a configuração de melhor desempenho para a tarefa de identificação de reatores.
+Na segunda etapa, os mesmos parâmetros de desempenho foram avaliados, desta vez apenas para a YOLOv8, também com variação do \textit{batch} de 2 a 16, mas com diferentes otimizadores: \textit{Adam}, \textit{AdamW} e \textit{SGD}, conforme abordado no trabalho \cite{gonzaga2023identificaccao}. O objetivo dessa experimentação foi encontrar a configuração de melhor desempenho para a tarefa de identificação de reatores.
 
 Por fim, a performance dos modelos foi avaliada na identificação de equipamentos utilizando um conjunto de fotos não presentes no treinamento, ou seja, o conjunto de teste. Esse procedimento visou verificar, na prática, a precisão real de cada configuração testada. A avaliação foi inspirada no trabalho de \cite{gonzaga2023identificaccao}, que aplicou o modelo com o maior mAP no conjunto de teste, comparando o número de detecções realizadas com o número esperado, para assim medir a efetividade do modelo em cenários reais.
 
