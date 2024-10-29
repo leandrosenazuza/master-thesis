@@ -17,9 +17,9 @@ Reallocating 'wiz_functions' (item size: 4) to 9000 items.
 Database file #1: abntex2-options.bib
 Database file #2: postextual/bibliography.bib
 Warning--entry type for "reatorNucleoDeAr" isn't style-file defined
---line 831 of file postextual/bibliography.bib
+--line 833 of file postextual/bibliography.bib
 Warning--entry type for "grva" isn't style-file defined
---line 1279 of file postextual/bibliography.bib
+--line 1281 of file postextual/bibliography.bib
 Reallocating 'singl_function' (item size: 4) to 100 items.
 Reallocating 'glb_str_end' (item size: 4) to 20 items.
 Reallocating 'glb_str_ptr' (item size: 4) to 20 items.
