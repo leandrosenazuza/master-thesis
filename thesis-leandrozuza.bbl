@@ -222,6 +222,12 @@ Acessado em: 2 de junho de 2024.
 Dispon{\'\i}vel em:
   \url{https://www.rncm.ac.uk/research/research-activity/research-centres-rncm/prism/prism-blog/a-short-history-of-neural-synthesis/}.}
 
+\bibitem[Neto et al. 2023]{neto2023enhancing}
+\abntrefinfo{Neto et al.}{NETO et al.}{2023}
+{NETO, J. et al. Enhancing electrical substation training through multi-user
+  virtual reality techniques. In:  \emph{Proceedings of the 25th Symposium on
+  Virtual and Augmented Reality}. [S.l.: s.n.], 2023. p. 105--111.}
+
 \bibitem[Neto et al. 2024]{neto2024estrategias}
 \abntrefinfo{Neto et al.}{NETO et al.}{2024}
 {NETO, M.~M. et al. Estrat{\'e}gias para concep{\c{c}}{\~a}o e
@@ -382,6 +388,12 @@ Dispon{\'\i}vel em: \url{https://github.com/ultralytics/ultralytics}.}
 \abntrefinfo{Widrow, Hoff et al.}{WIDROW; HOFF et al.}{1960}
 {WIDROW, B.; HOFF, M.~E. et al. Adaptive switching circuits.
 v.~4, n.~1, p. 96--104, 1960.}
+
+\bibitem[YOLOv8 2025]{yolov8_box_loss}
+\abntrefinfo{YOLOv8}{YOLOV8}{2025}
+{YOLOV8. \emph{What is Box Loss in YOLOv8?} 2025.
+Accessed: 2025-01-11.
+Dispon{\'\i}vel em: \url{https://yolov8.org/what-is-box-loss-in-yolov8/}.}
 
 \bibitem[Zhou, Fu e Yang 2016]{zhou2016big}
 \abntrefinfo{Zhou, Fu e Yang}{ZHOU; FU; YANG}{2016}

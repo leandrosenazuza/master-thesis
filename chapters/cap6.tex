@@ -2,7 +2,7 @@
 
 \section{Introdução} 
 
-Neste capítulo, será abordado a sequência de testes realizados para o treinamento da RNC, assim como os resultados obtidos. Além disso, será apresentado a eficiência da utilização dos pesos da configuração de treinamento da YOLO que obteve a melhor performance. 
+Neste capítulo, será abordada a sequência de testes realizados para o treinamento da RNC, assim como os resultados obtidos. Além disso, será apresentado a eficiência da utilização dos pesos da configuração de treinamento da YOLO que obteve a melhor performance. 
 
 \section{Resultados} 
 
@@ -27,6 +27,7 @@ De modo geral, nesse sugere que o aumento do tamanho do batch de 2 para 8 result
     \label{tab:yolov5-teste}
 \end{table}
 
+
 \begin{figure}[!h]
     \centering
     \begin{minipage}{1\linewidth}
@@ -34,10 +35,11 @@ De modo geral, nesse sugere que o aumento do tamanho do batch de 2 para 8 result
     \captionsetup{justification=centering,margin=0.5cm,font=small}
     \includegraphics[width=1\linewidth]{img/cap6/results-yolov5-batch-16.png}
     \caption{Gráficos gerados a partir do treinamento com a YOLOv5, utilizando \textit{batch} igual a 16. Nota-se a evolução repentina para uma precisão acima de 90\%}.
-    \label{fig:yolov5batch16}
+    \label{fig:yolov5_box_loss}
     \end{minipage}
 \end{figure}
 
+Na Figura \ref{fig:yolov5_box_loss}, há apresentação dos resultados gerados automaticamente a partir do treinamento com a YOLOv5. No geral, todas as versões aqui apresentadas geram as mesmas dez métricas apresentadas. Aquelas com \textit{train} em seu nome, indicam que foram aferidas durante o processo de treinamento. Dentre elas, foi apresentada a \textit{train\textunderscore{}boxloss}, que calcula o erro médio associado a predição dos objetos com relação às marcações realizadas nas fotos. No geral, quanto maior o decréscimo, melhor a precisão da rede. De maneira semelhante, \textit{train obj\textunderscore{}loss} avalia o erro  na capacidade da rede em detectar o que é de fato um objeto a ser encontrado, e o que é apenas \textit{background}, ou seja, tudo aquilo que não é relevante para a detectação. Nesse caso, a redução desse valor ao longo do treinamento, indica uma boa precisão. A métrica \textit{train cls\textunderscore{}loss}, avalia quão bem a rede consegue diferenciar classes diferentes treinadas em conjunto. No caso, como foi treinado apenas uma classe, esse valor ou é constante ou nulo. Tanto \textit{metrics precision}, \textit{metrics recall}, \textit{metrics mAP\textunderscore{}0.5} e \textit{metrics mAP\textunderscore{}0.5\textemdash 0.95} foram explicadas anteriormente. O acréscimo suave dessas métricas, indicam boa capacidade de detecção da rede, fato evidenciado já neste primeiro treinamento. Da mesma forma, mAP\textunderscore{}0.5 Por fim, as métricas com \textit{val} em seu nome foram aferidas durante o processo de validação, que ocorre ao fim de cada época. O comportamento desejado é o mesmo para as outras métricas: buscando redução do erro sempre, fato que também é evidenciado neste treinamento \cite{yolov8_box_loss}.
 
 \subsection{Resultados e análise do treinamento com a YOLOv6}
 
@@ -58,7 +60,6 @@ Embora a YOLOv6 tenha oferecido um leve aumento no recall em comparação com a 
     \label{tab:yolov6-teste}
 \end{table}
 
-
 \begin{figure}[!h]
     \centering
     \begin{minipage}{1\linewidth}
@@ -70,11 +71,11 @@ Embora a YOLOv6 tenha oferecido um leve aumento no recall em comparação com a 
     \end{minipage}
 \end{figure}
 
+Na Figura \ref{fig:yolov6batch16}, nota-se que todas as curvas foram semelhantes à YOLOv5, contudo, todas as curvas tiveram os respectivos decréscimo e acréscimos menos abruptos. 
 
 \subsection{Resultados e análise do treinamento com a YOLOv7}
 
-A YOLOv7 apresentou variabilidade significativa nos resultados, com quedas notáveis na precisão e recall, especialmente para batch sizes menores. Embora tenha demonstrado estabilidade no tempo de treinamento, seu desempenho geral foi menos consistente em comparação com as versões anteriores. O mAP50-95, por exemplo, não superou os valores obtidos com a YOLOv5, sendo inclusive inferior em algumas configurações, como observado na Tabela \ref{tab:yolov7-teste}. Esta versão destacou-se pelo comportamento alternado, sugerindo um trade-off entre estabilidade temporal e eficácia.
-
+A YOLOv7 apresentou variabilidade significativa nos resultados, com quedas notáveis na precisão e recall, especialmente para batch sizes menores. Embora tenha demonstrado estabilidade no tempo de treinamento, seu desempenho geral foi menos consistente em comparação com as versões anteriores. O mAP50-95, por exemplo, não superou os valores obtidos com a YOLOv5, sendo inclusive inferior em algumas configurações, como observado na Tabela \ref{tab:yolov7-teste}. Esta versão destacou-se pelo comportamento alternado, como se vê na Figura \ref{fig:yolov7batch16}.
 \begin{table}[!hbt]
     \centering
     \begin{tabular}{|c|c|c|c|c|c|}
@@ -97,7 +98,7 @@ A YOLOv7 apresentou variabilidade significativa nos resultados, com quedas notá
     \captionsetup{justification=centering,margin=0.5cm,font=small}
     \includegraphics[width=1\linewidth]{img/cap6/results-yolov7-batch-16.png}
     \caption{Gráficos gerados a partir do treinamento com a YOLOv7, utilizando \textit{batch} igual a 16. O comportamento alternado sobressaltou-se nessa arquitetura}.
-    \label{fig:yolov5batch16}
+    \label{fig:yolov7batch16}
     \end{minipage}
 \end{figure}
 
@@ -156,7 +157,7 @@ Por fim, a Tabela \ref{tab:yolov8-sgd} apresenta os resultados com o otimizador 
     \label{tab:yolov8-sgd}
 \end{table}
 
-Em resumo, os dados indicam que aumentar o tamanho do batch geralmente melhora o desempenho do modelo em termos de precisão, recall e métricas de mAP, independentemente do otimizador utilizado. Entre os otimizadores testados, o \textit{SGD} oferece o melhor equilíbrio entre desempenho e eficiência de tempo, seguido pelo \textit{AdamW}, que proporciona alta precisão e recall, mas com um tempo de treinamento competitivo. O \textit{Adam}, embora ainda eficaz, não alcança o mesmo nível de desempenho que os outros dois otimizadores. Esses resultados destacam a importância de escolher cuidadosamente o otimizador e o tamanho do batch para otimizar o treinamento e o desempenho do YOLOv8.
+Em resumo, os dados indicam que aumentar o tamanho do batch melhora o desempenho do modelo em termos de precisão, recall e métricas de mAP, independentemente do otimizador utilizado. Entre os otimizadores testados, o \textit{SGD} oferece o melhor equilíbrio entre desempenho e eficiência de tempo, seguido pelo \textit{AdamW}, que proporciona alta precisão e recall, mas com um tempo de treinamento competitivo. O \textit{Adam}, embora ainda eficaz, não alcança o mesmo nível de desempenho que os outros dois otimizadores. Esses resultados destacam a importância de escolher cuidadosamente o otimizador e o tamanho do batch para otimizar o treinamento e o desempenho do YOLOv8.
 
 \subsection{Comparação de todas as versões}
 
@@ -226,6 +227,8 @@ O YOLOv8, como evolução natural das versões anteriores da família YOLO, traz
 \end{table}
 
 Dessa forma, a escolha do \textit{SGD} como otimizador, aliada a um tamanho de batch adequado, como o de 16, provou ser a configuração mais robusta para obter o equilíbrio ideal entre desempenho e custo computacional, tornando o YOLOv8 uma escolha vantajosa para aplicações de detecção de objetos, como os reatores de núcleo de ar, visando precisão e eficiência. Comparativamente, a Tabela \ref{tab:relacionadoZuza} faz o paralelo desta dissertação com os trabalhos correlatos apresentados no Capítulo 3, ressaltando os principais objetivos e motivos aqui trabalhados, confirmando que a proposta se mostrou bem sucedida.
+
+
 
 
 
