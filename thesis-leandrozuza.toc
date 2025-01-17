@@ -11,72 +11,64 @@
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
 \contentsline {chapter}{\chapternumberline {1}\MakeTextUppercase []{Introdução}}{1}{chapter.1}%
 \contentsline {section}{\numberline {1.1}Motivação}{1}{section.1.1}%
-\contentsline {section}{\numberline {1.2}Introdução}{1}{section.1.2}%
-\contentsline {section}{\numberline {1.3}Objetivos e Metas}{3}{section.1.3}%
-\contentsline {section}{\numberline {1.4}Estrutura da Dissertação}{4}{section.1.4}%
+\contentsline {section}{\numberline {1.2}Objetivos e Metas}{3}{section.1.2}%
+\contentsline {section}{\numberline {1.3}Estrutura da Dissertação}{4}{section.1.3}%
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
 \contentsline {chapter}{\chapternumberline {2}\MakeTextUppercase []{Fundamentação Teórica}}{5}{chapter.2}%
 \contentsline {section}{\numberline {2.1}Subestações de Energia}{5}{section.2.1}%
 \contentsline {section}{\numberline {2.2}Realidade Virtual}{7}{section.2.2}%
 \contentsline {section}{\numberline {2.3}Redes Neurais Artificiais}{8}{section.2.3}%
-\contentsline {subsection}{\numberline {2.3.1}YOLO}{14}{subsection.2.3.1}%
-\contentsline {subsection}{\numberline {2.3.2}Batch}{16}{subsection.2.3.2}%
-\contentsline {subsection}{\numberline {2.3.3}Otimizadores}{17}{subsection.2.3.3}%
-\contentsline {subsection}{\numberline {2.3.4}Precisão e Recall}{18}{subsection.2.3.4}%
-\contentsline {section}{\numberline {2.4}Considerações finais}{19}{section.2.4}%
+\contentsline {subsection}{\numberline {2.3.1}YOLO}{13}{subsection.2.3.1}%
+\contentsline {subsection}{\numberline {2.3.2}Batch}{15}{subsection.2.3.2}%
+\contentsline {subsection}{\numberline {2.3.3}Otimizadores}{16}{subsection.2.3.3}%
+\contentsline {subsection}{\numberline {2.3.4}Precisão e Recall}{17}{subsection.2.3.4}%
+\contentsline {section}{\numberline {2.4}Considerações finais}{18}{section.2.4}%
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {3}\MakeTextUppercase []{Trabalhos Relacionados}}{21}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Introdução}{21}{section.3.1}%
-\contentsline {section}{\numberline {3.2}Alteração de Parâmetros da RNC}{21}{section.3.2}%
-\contentsline {subsection}{\numberline {3.2.1}Identificação e Medição de Defeitos em Produtos Automotivos Usando Visão Computacional}{21}{subsection.3.2.1}%
-\contentsline {section}{\numberline {3.3}Aplicação YOLOv8}{23}{section.3.3}%
-\contentsline {subsection}{\numberline {3.3.1}Comparação de Modelos YOLOv5 e YOLOv8 para Detecção de Objetos em Áreas Rurais Usando Transferência de Aprendizado}{23}{subsection.3.3.1}%
-\contentsline {subsection}{\numberline {3.3.2}UAV-YOLOv8: A Small-Object-Detection Model Based on Improved YOLOv8 for UAV Aerial Photography Scenarios}{26}{subsection.3.3.2}%
-\contentsline {section}{\numberline {3.4}Considerações Finais}{28}{section.3.4}%
+\contentsline {chapter}{\chapternumberline {3}\MakeTextUppercase []{Trabalhos Relacionados}}{20}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Alteração de Parâmetros da RNC}{20}{section.3.1}%
+\contentsline {subsection}{\numberline {3.1.1}Identificação e Medição de Defeitos em Produtos Automotivos Usando Visão Computacional}{20}{subsection.3.1.1}%
+\contentsline {section}{\numberline {3.2}Aplicação YOLOv8}{23}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}Comparação de Modelos YOLOv5 e YOLOv8 para Detecção de Objetos em Áreas Rurais Usando Transferência de Aprendizado}{23}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.2.2}UAV-YOLOv8: A Small-Object-Detection Model Based on Improved YOLOv8 for UAV Aerial Photography Scenarios}{25}{subsection.3.2.2}%
+\contentsline {section}{\numberline {3.3}Considerações Finais}{27}{section.3.3}%
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {4}\MakeTextUppercase []{Materiais e Métodos}}{30}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Introdução}{30}{section.4.1}%
-\contentsline {section}{\numberline {4.2}Base de Dados}{30}{section.4.2}%
-\contentsline {subsection}{\numberline {4.2.1}Captura das Fotos}{30}{subsection.4.2.1}%
-\contentsline {subsection}{\numberline {4.2.2}Seleção das fotos}{31}{subsection.4.2.2}%
-\contentsline {subsection}{\numberline {4.2.3}Rotulação das fotos}{32}{subsection.4.2.3}%
-\contentsline {section}{\numberline {4.3}Treinamento}{32}{section.4.3}%
-\contentsline {subsection}{\numberline {4.3.1}Materiais}{32}{subsection.4.3.1}%
-\contentsline {subsection}{\numberline {4.3.2}Variação dos Parâmetros}{33}{subsection.4.3.2}%
-\contentsline {section}{\numberline {4.4}Avaliação do Treinamento}{33}{section.4.4}%
-\contentsline {section}{\numberline {4.5}Considerações Finais}{34}{section.4.5}%
+\contentsline {chapter}{\chapternumberline {4}\MakeTextUppercase []{Materiais e Métodos}}{29}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Base de Dados}{29}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Seleção das fotos}{30}{section.4.2}%
+\contentsline {section}{\numberline {4.3}Rotulação das fotos}{31}{section.4.3}%
+\contentsline {section}{\numberline {4.4}Treinamento}{31}{section.4.4}%
+\contentsline {section}{\numberline {4.5}Avaliação do Treinamento}{32}{section.4.5}%
+\contentsline {section}{\numberline {4.6}Considerações Finais}{33}{section.4.6}%
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {5}\MakeTextUppercase []{Detalhes da Implementação}}{35}{chapter.5}%
-\contentsline {section}{\numberline {5.1}Introdução}{35}{section.5.1}%
-\contentsline {section}{\numberline {5.2}Estrutura geral da aplicação}{35}{section.5.2}%
-\contentsline {section}{\numberline {5.3}Treinamento com a YOLO}{36}{section.5.3}%
-\contentsline {subsection}{\numberline {5.3.1}Treinamento com a YOLOv5, YOLOv6 e YOLOv8}{37}{subsection.5.3.1}%
-\contentsline {subsection}{\numberline {5.3.2}Treinamento com a YOLOv7}{38}{subsection.5.3.2}%
-\contentsline {subsection}{\numberline {5.3.3}Variação dos otimizadores com a YOLOv8}{39}{subsection.5.3.3}%
-\contentsline {section}{\numberline {5.4}API de Identificação}{40}{section.5.4}%
-\contentsline {subsection}{\numberline {5.4.1}Implementação na Unity}{41}{subsection.5.4.1}%
-\contentsline {section}{\numberline {5.5}Considerações Finais}{43}{section.5.5}%
+\contentsline {chapter}{\chapternumberline {5}\MakeTextUppercase []{Detalhes da Implementação}}{34}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Estrutura geral da aplicação}{34}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Treinamento com a YOLO}{35}{section.5.2}%
+\contentsline {subsection}{\numberline {5.2.1}Treinamento com a YOLOv5, YOLOv6 e YOLOv8}{36}{subsection.5.2.1}%
+\contentsline {subsection}{\numberline {5.2.2}Treinamento com a YOLOv7}{37}{subsection.5.2.2}%
+\contentsline {subsection}{\numberline {5.2.3}Variação dos otimizadores com a YOLOv8}{38}{subsection.5.2.3}%
+\contentsline {section}{\numberline {5.3}API de Identificação}{39}{section.5.3}%
+\contentsline {subsection}{\numberline {5.3.1}Implementação na Unity}{40}{subsection.5.3.1}%
+\contentsline {section}{\numberline {5.4}Considerações Finais}{42}{section.5.4}%
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {6}\MakeTextUppercase []{Resultados e Discussão}}{44}{chapter.6}%
-\contentsline {section}{\numberline {6.1}Introdução}{44}{section.6.1}%
-\contentsline {section}{\numberline {6.2}Resultados}{44}{section.6.2}%
-\contentsline {subsection}{\numberline {6.2.1}Resultados e análise do treinamento com a YOLOv5}{44}{subsection.6.2.1}%
-\contentsline {subsection}{\numberline {6.2.2}Resultados e análise do treinamento com a YOLOv6}{45}{subsection.6.2.2}%
-\contentsline {subsection}{\numberline {6.2.3}Resultados e análise do treinamento com a YOLOv7}{46}{subsection.6.2.3}%
-\contentsline {subsection}{\numberline {6.2.4}Análise dos Resultados do Treinamento com YOLOv8}{47}{subsection.6.2.4}%
-\contentsline {subsection}{\numberline {6.2.5}Comparação de todas as versões}{49}{subsection.6.2.5}%
-\contentsline {subsection}{\numberline {6.2.6}Avaliação da Implementação}{50}{subsection.6.2.6}%
-\contentsline {section}{\numberline {6.3}Considerações Finais}{51}{section.6.3}%
+\contentsline {chapter}{\chapternumberline {6}\MakeTextUppercase []{Resultados e Discussão}}{43}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Resultados}{43}{section.6.1}%
+\contentsline {subsection}{\numberline {6.1.1}Resultados e análise do treinamento com a YOLOv5}{43}{subsection.6.1.1}%
+\contentsline {subsection}{\numberline {6.1.2}Resultados e análise do treinamento com a YOLOv6}{44}{subsection.6.1.2}%
+\contentsline {subsection}{\numberline {6.1.3}Resultados e análise do treinamento com a YOLOv7}{45}{subsection.6.1.3}%
+\contentsline {subsection}{\numberline {6.1.4}Análise dos Resultados do Treinamento com YOLOv8}{46}{subsection.6.1.4}%
+\contentsline {subsection}{\numberline {6.1.5}Comparação de todas as versões}{48}{subsection.6.1.5}%
+\contentsline {subsection}{\numberline {6.1.6}Avaliação da Implementação}{49}{subsection.6.1.6}%
+\contentsline {section}{\numberline {6.2}Considerações Finais}{50}{section.6.2}%
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {7}\MakeTextUppercase []{Conclusão e Trabalhos Futuros}}{53}{chapter.7}%
-\contentsline {section}{\numberline {7.1}Introdução}{53}{section.7.1}%
-\contentsline {section}{\numberline {7.2}Conclusão}{53}{section.7.2}%
-\contentsline {section}{\numberline {7.3}Trabalhos Futuros}{54}{section.7.3}%
+\contentsline {chapter}{\chapternumberline {7}\MakeTextUppercase []{Conclusão e Trabalhos Futuros}}{52}{chapter.7}%
+\contentsline {section}{\numberline {7.1}Introdução}{52}{section.7.1}%
+\contentsline {section}{\numberline {7.2}Conclusão}{52}{section.7.2}%
+\contentsline {section}{\numberline {7.3}Trabalhos Futuros}{53}{section.7.3}%
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
-\contentsline {chapter}{\MakeTextUppercase []{Refer\^encias}}{55}{section*.58}%
+\contentsline {chapter}{\MakeTextUppercase []{Refer\^encias}}{54}{section*.58}%
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {appendix}{\chapternumberline {A}\MakeTextUppercase []{\textit {Script} API}}{60}{appendix.A}%
-\contentsline {section}{\numberline {A.1}api-rv.py}{60}{section.A.1}%
+\contentsline {appendix}{\chapternumberline {A}\MakeTextUppercase []{\textit {Script} API}}{59}{appendix.A}%
+\contentsline {section}{\numberline {A.1}api-rv.py}{59}{section.A.1}%
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {appendix}{\chapternumberline {B}\MakeTextUppercase []{\textit {Script} do \textit {Unity}}}{61}{appendix.B}%
-\contentsline {section}{\numberline {B.1}ModelLoaderMenu.cs}{61}{section.B.1}%
+\contentsline {appendix}{\chapternumberline {B}\MakeTextUppercase []{\textit {Script} do \textit {Unity}}}{60}{appendix.B}%
+\contentsline {section}{\numberline {B.1}ModelLoaderMenu.cs}{60}{section.B.1}%
