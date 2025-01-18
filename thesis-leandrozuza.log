@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.5.31)  17 JAN 2025 18:23
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.5.31)  17 JAN 2025 21:22
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1372,12 +1372,16 @@ File: img/cap5/script-yolov6.png Graphic file (type png)
 <use img/cap5/script-yolov6.png>
 Package pdftex.def Info: img/cap5/script-yolov6.png  used on input line 69.
 (pdftex.def)             Requested size: 222.9525pt x 125.52695pt.
- [37 <./img/cap5/script-yolov5.png> <./img/cap5/script-yolov6.png>]
-<img/cap5/script-yolov7.jpg, id=836, 372.64218pt x 86.57344pt>
+<img/cap5/script-yolov7.jpg, id=829, 372.64218pt x 86.57344pt>
 File: img/cap5/script-yolov7.jpg Graphic file (type jpg)
 <use img/cap5/script-yolov7.jpg>
 Package pdftex.def Info: img/cap5/script-yolov7.jpg  used on input line 85.
 (pdftex.def)             Requested size: 318.49861pt x 73.99727pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[37 <./img/cap5/script-yolov5.png> <./img/cap5/script-yolov6.png>]
 <img/cap5/yolov8-adam.png, id=840, 308.352pt x 166.82326pt>
 File: img/cap5/yolov8-adam.png Graphic file (type png)
 <use img/cap5/yolov8-adam.png>
@@ -1435,11 +1439,7 @@ File: img/cap6/results-yolov7-batch-16.png Graphic file (type png)
 <use img/cap6/results-yolov7-batch-16.png>
 Package pdftex.def Info: img/cap6/results-yolov7-batch-16.png  used on input line 98.
 (pdftex.def)             Requested size: 455.0pt x 227.50172pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[45 <./img/cap6/results-yolov6-batch-16.png>] [46 <./img/cap6/results-yolov7-batch-16.png>] [47]
+ [45 <./img/cap6/results-yolov6-batch-16.png>] [46 <./img/cap6/results-yolov7-batch-16.png>] [47]
 <img/cap6/comparacao-yolos-grafico.png, id=925, 578.16pt x 433.62pt>
 File: img/cap6/comparacao-yolos-grafico.png Graphic file (type png)
 <use img/cap6/comparacao-yolos-grafico.png>
@@ -1508,15 +1508,15 @@ Package rerunfilecheck Info: File `thesis-leandrozuza.brf' has not changed.
 (rerunfilecheck)             Checksum: F5304C87688B21F23FCECC272C188DBA;6848.
  ) 
 Here is how much of TeX's memory you used:
- 27967 strings out of 474313
- 460818 string characters out of 5749121
+ 27969 strings out of 474313
+ 460842 string characters out of 5749121
  2137907 words of memory out of 5000000
  49210 multiletter control sequences out of 15000+600000
- 665547 words of font info for 236 fonts, out of 8000000 for 9000
+ 665676 words of font info for 237 fonts, out of 8000000 for 9000
  1192 hyphenation exceptions out of 8191
  110i,18n,107p,1907b,2135s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Program Files/MiKTeX/fonts/type1/public/lm/lmbx12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmbxi10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmex10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmmi12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmmi6.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmmi8.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmr10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmr12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmr7.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmr8.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmri10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmri12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmss12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmss17.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmssbo10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmssbx10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmsso17.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmsy10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmtk10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmtt10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on thesis-leandrozuza.pdf (76 pages, 21835002 bytes).
+Output written on thesis-leandrozuza.pdf (76 pages, 21834901 bytes).
 PDF statistics:
  1660 PDF objects out of 1728 (max. 8388607)
  397 named destinations out of 1000 (max. 500000)
