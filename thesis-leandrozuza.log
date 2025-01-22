@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.5.31)  17 JAN 2025 21:25
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.5.31)  22 JAN 2025 15:34
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1173,8 +1173,8 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.9}) has b
 <to be read again> 
                    \relax 
 l.84   D
-        e acordo com  \cite{rauber2005redes}, em 1958, após à concepção ... [9{C:/Program Files/MiKTeX/fonts/enc/dvips/lm/lm-mathit.enc}{C:/Program Files/MiKTeX/fonts/enc/dvips/lm/lm-mathsy.enc}{C:/Program Files/MiKTeX/fonts/enc/dvips/lm/lm-rm.enc} <./img/cap2/na-completo.png>]
-<img/cap2/topologia-rede.jpeg, id=481, 393.72093pt x 258.21469pt>
+        e acordo com \citeonline{rauber2005redes}, em 1958, após à concep�... [9{C:/Program Files/MiKTeX/fonts/enc/dvips/lm/lm-mathit.enc}{C:/Program Files/MiKTeX/fonts/enc/dvips/lm/lm-mathsy.enc}{C:/Program Files/MiKTeX/fonts/enc/dvips/lm/lm-rm.enc} <./img/cap2/na-completo.png>]
+<img/cap2/topologia-rede.jpeg, id=480, 393.72093pt x 258.21469pt>
 File: img/cap2/topologia-rede.jpeg Graphic file (type jpg)
 <use img/cap2/topologia-rede.jpeg>
 Package pdftex.def Info: img/cap2/topologia-rede.jpeg  used on input line 93.
@@ -1241,12 +1241,12 @@ pdfTeX warning (ext4): destination with the same identifier (name{equation.2.3.1
                                                   \__shipout_drop_firstpage_...
 l.205 
       ]
-<img/cap2/iou.png, id=601, 292.6935pt x 236.68425pt>
+<img/cap2/iou.png, id=600, 292.6935pt x 236.68425pt>
 File: img/cap2/iou.png Graphic file (type png)
 <use img/cap2/iou.png>
 Package pdftex.def Info: img/cap2/iou.png  used on input line 211.
 (pdftex.def)             Requested size: 191.1011pt x 154.53273pt.
-<img/cap2/precisao.png, id=609, 703.62875pt x 525.965pt>
+<img/cap2/precisao.png, id=608, 703.62875pt x 525.965pt>
 File: img/cap2/precisao.png Graphic file (type png)
 <use img/cap2/precisao.png>
 Package pdftex.def Info: img/cap2/precisao.png  used on input line 224.
@@ -1256,7 +1256,7 @@ Package pdftex.def Info: img/cap2/precisao.png  used on input line 224.
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 ) (chapters/cap3.tex [18 <./img/cap2/iou.png>] [19 <./img/cap2/precisao.png>]
-<img/cap3/mancha-marcacao.jpeg, id=627, 645.41125pt x 400.49625pt>
+<img/cap3/mancha-marcacao.jpeg, id=626, 645.41125pt x 400.49625pt>
 File: img/cap3/mancha-marcacao.jpeg Graphic file (type jpg)
 <use img/cap3/mancha-marcacao.jpeg>
 Package pdftex.def Info: img/cap3/mancha-marcacao.jpeg  used on input line 20.
@@ -1424,7 +1424,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 [43
 
 ]
-<img/cap6/results-yolov6-batch-16.png, id=889, 867.24pt x 433.62pt>
+<img/cap6/results-yolov6-batch-16.png, id=888, 867.24pt x 433.62pt>
 File: img/cap6/results-yolov6-batch-16.png Graphic file (type png)
 <use img/cap6/results-yolov6-batch-16.png>
 Package pdftex.def Info: img/cap6/results-yolov6-batch-16.png  used on input line 67.
@@ -1434,13 +1434,13 @@ Package pdftex.def Info: img/cap6/results-yolov6-batch-16.png  used on input lin
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [44 <./img/cap6/results-yolov5-batch-16.png>]
-<img/cap6/results-yolov7-batch-16.png, id=899, 867.24pt x 433.62pt>
+<img/cap6/results-yolov7-batch-16.png, id=898, 867.24pt x 433.62pt>
 File: img/cap6/results-yolov7-batch-16.png Graphic file (type png)
 <use img/cap6/results-yolov7-batch-16.png>
 Package pdftex.def Info: img/cap6/results-yolov7-batch-16.png  used on input line 98.
 (pdftex.def)             Requested size: 455.0pt x 227.50172pt.
  [45 <./img/cap6/results-yolov6-batch-16.png>] [46 <./img/cap6/results-yolov7-batch-16.png>] [47]
-<img/cap6/comparacao-yolos-grafico.png, id=925, 578.16pt x 433.62pt>
+<img/cap6/comparacao-yolos-grafico.png, id=922, 578.16pt x 433.62pt>
 File: img/cap6/comparacao-yolos-grafico.png Graphic file (type png)
 <use img/cap6/comparacao-yolos-grafico.png>
 Package pdftex.def Info: img/cap6/comparacao-yolos-grafico.png  used on input line 172.
@@ -1455,17 +1455,17 @@ Overfull \hbox (45.79126pt too wide) in paragraph at lines 208--226
  [][] 
  []
 
-[50]) (chapters/cap7.tex [51] [52
+) (chapters/cap7.tex [50] [51
 
 ]) (thesis-leandrozuza.bbl (thesis-leandrozuza.brf)
 \tf@brf=\write6
 \openout6 = `thesis-leandrozuza.brf'.
 
- [53]
+ [52]
 bibitemlist
-[54
+[53
 
-] [55] [56] [57]) (postextual/apendiceA.tex [58]
+] [54] [55] [56]) (postextual/apendiceA.tex [57]
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <24.88> not available
 (Font)              Font shape `T1/lmss/m/sl' tried instead on input line 3.
  (C:\Program Files\MiKTeX\tex/latex/listings\lstlang1.sty
@@ -1481,11 +1481,11 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             See the microtype manual for details.
 LaTeX Font Info:    Font shape `T1/lmtt/bx/n' in size <10> not available
 (Font)              Font shape `T1/lmtt/b/n' tried instead on input line 17.
-) (postextual/apendiceB.tex [59
+) (postextual/apendiceB.tex [58
 
-] [60
+] [59
 
-] [61] [62]) [63]
+] [60] [61]) [62]
 \tf@toc=\write7
 \openout7 = `thesis-leandrozuza.toc'.
 
@@ -1505,20 +1505,20 @@ L3 programming layer <2020/03/25>
 LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `thesis-leandrozuza.brf' has not changed.
-(rerunfilecheck)             Checksum: F5304C87688B21F23FCECC272C188DBA;6848.
+(rerunfilecheck)             Checksum: F7156D29B1187D99BCAA3AA87CFC6570;6787.
  ) 
 Here is how much of TeX's memory you used:
- 27969 strings out of 474313
- 460842 string characters out of 5749121
+ 27951 strings out of 474313
+ 460576 string characters out of 5749121
  2137907 words of memory out of 5000000
- 49210 multiletter control sequences out of 15000+600000
- 665676 words of font info for 237 fonts, out of 8000000 for 9000
+ 49195 multiletter control sequences out of 15000+600000
+ 665547 words of font info for 236 fonts, out of 8000000 for 9000
  1192 hyphenation exceptions out of 8191
  110i,18n,107p,1907b,2135s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Program Files/MiKTeX/fonts/type1/public/lm/lmbx12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmbxi10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmex10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmmi12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmmi6.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmmi8.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmr10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmr12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmr7.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmr8.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmri10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmri12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmss12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmss17.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmssbo10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmssbx10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmsso17.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmsy10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmtk10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmtt10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on thesis-leandrozuza.pdf (76 pages, 21834887 bytes).
+Output written on thesis-leandrozuza.pdf (75 pages, 21833090 bytes).
 PDF statistics:
- 1660 PDF objects out of 1728 (max. 8388607)
- 397 named destinations out of 1000 (max. 500000)
+ 1649 PDF objects out of 1728 (max. 8388607)
+ 396 named destinations out of 1000 (max. 500000)
  61552 words of extra memory for PDF output out of 61914 (max. 10000000)
 
