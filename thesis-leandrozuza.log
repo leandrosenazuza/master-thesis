@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.5.31)  22 JAN 2025 15:34
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.5.31)  24 JAN 2025 15:10
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1508,17 +1508,17 @@ Package rerunfilecheck Info: File `thesis-leandrozuza.brf' has not changed.
 (rerunfilecheck)             Checksum: F7156D29B1187D99BCAA3AA87CFC6570;6787.
  ) 
 Here is how much of TeX's memory you used:
- 27951 strings out of 474313
- 460576 string characters out of 5749121
- 2137907 words of memory out of 5000000
+ 27947 strings out of 474313
+ 460530 string characters out of 5749121
+ 2138907 words of memory out of 5000000
  49195 multiletter control sequences out of 15000+600000
- 665547 words of font info for 236 fonts, out of 8000000 for 9000
+ 665289 words of font info for 234 fonts, out of 8000000 for 9000
  1192 hyphenation exceptions out of 8191
  110i,18n,107p,1907b,2135s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Program Files/MiKTeX/fonts/type1/public/lm/lmbx12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmbxi10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmex10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmmi12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmmi6.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmmi8.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmr10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmr12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmr7.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmr8.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmri10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmri12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmss12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmss17.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmssbo10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmssbx10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmsso17.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmsy10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmtk10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/lm/lmtt10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on thesis-leandrozuza.pdf (75 pages, 21833090 bytes).
+Output written on thesis-leandrozuza.pdf (75 pages, 21840253 bytes).
 PDF statistics:
- 1649 PDF objects out of 1728 (max. 8388607)
+ 1677 PDF objects out of 1728 (max. 8388607)
  396 named destinations out of 1000 (max. 500000)
  61552 words of extra memory for PDF output out of 61914 (max. 10000000)
 

@@ -17,9 +17,9 @@ Reallocating 'wiz_functions' (item size: 4) to 9000 items.
 Database file #1: abntex2-options.bib
 Database file #2: postextual/bibliography.bib
 Warning--entry type for "reatorNucleoDeAr" isn't style-file defined
---line 831 of file postextual/bibliography.bib
+--line 879 of file postextual/bibliography.bib
 Warning--entry type for "grva" isn't style-file defined
---line 1279 of file postextual/bibliography.bib
+--line 1341 of file postextual/bibliography.bib
 Reallocating 'singl_function' (item size: 4) to 100 items.
 Reallocating 'glb_str_end' (item size: 4) to 20 items.
 Reallocating 'glb_str_ptr' (item size: 4) to 20 items.
@@ -31,43 +31,43 @@ Reallocating 'global_strs' (item size: 1) to 4000000 items.
 +---------------------------------------------------------+
 You've used 64 entries,
             6714 wiz_defined-function locations,
-            1532 strings with 22036 characters,
-and the built_in function-call counts, 68157 in all, are:
-= -- 6551
+            1555 strings with 23342 characters,
+and the built_in function-call counts, 68733 in all, are:
+= -- 6643
 > -- 1882
 < -- 1025
 + -- 1695
 - -- 570
-* -- 4574
-:= -- 8743
-add.period$ -- 237
+* -- 4602
+:= -- 8785
+add.period$ -- 259
 call.type$ -- 64
-change.case$ -- 672
+change.case$ -- 694
 chr.to.int$ -- 115
 cite$ -- 63
-duplicate$ -- 5242
-empty$ -- 3762
+duplicate$ -- 5310
+empty$ -- 3779
 format.name$ -- 2729
-if$ -- 14687
+if$ -- 14819
 int.to.chr$ -- 0
 int.to.str$ -- 0
-missing$ -- 1119
-newline$ -- 322
+missing$ -- 1142
+newline$ -- 339
 num.names$ -- 315
-pop$ -- 1522
+pop$ -- 1519
 preamble$ -- 1
 purify$ -- 252
 quote$ -- 0
-skip$ -- 5476
+skip$ -- 5477
 stack$ -- 1
-substring$ -- 2955
-swap$ -- 2059
+substring$ -- 3001
+swap$ -- 2105
 text.length$ -- 69
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 4
+type$ -- 5
 warning$ -- 0
 while$ -- 470
 width$ -- 0
-write$ -- 981
+write$ -- 1003
 (There were 2 warnings)

@@ -15,23 +15,26 @@ Dispon{\'\i}vel em:
 \bibitem[Afonso et al. 2023]{afonso2023vehicle}
 \abntrefinfo{Afonso et al.}{AFONSO et al.}{2023}
 {AFONSO, M.~H. et al. Vehicle and plate detection for intelligent transport
-  systems: Performance evaluation of models yolov5 and yolov8. In:  IEEE.
-  \emph{2023 IEEE International Conference on Computing (ICOCO)}. [S.l.], 2023.
-  p. 328--333.}
+  systems: Performance evaluation of models yolov5 and yolov8. In:  \emph{2023
+  IEEE International Conference on Computing (ICOCO)}. [S.l.: s.n.], 2023. p.
+  328--333. \mbox{doi:
+  }\url{https://doi.org/10.1109/ICOCO59262.2023.10397996}.}
 
 \bibitem[Andrade e Santos 2015]{de2015hydroelectric}
 \abntrefinfo{Andrade e Santos}{ANDRADE; SANTOS}{2015}
 {ANDRADE, A. de L.; SANTOS, M.~A. D. Hydroelectric plants environmental
   viability: Strategic environmental assessment application in brazil.
 \emph{Renewable and Sustainable Energy Reviews}, Elsevier, v.~52, p.
-  1413--1423, 2015.}
+  1413--1423, 2015.
+\mbox{doi: }\url{https://doi.org/10.1016/j.rser.2015.07.152}.}
 
 \bibitem[Barbado et al. 2022]{barbado2022aplicaccao}
 \abntrefinfo{Barbado et al.}{BARBADO et al.}{2022}
 {BARBADO, L. et al. Aplica{\c{c}}{\~a}o da rede convolucional yolo para
   an{\'a}lise de fluxo de ve{\'\i}culos. In:  SBC. \emph{Congresso
   Latino-Americano de Software Livre e Tecnologias Abertas (Latinoware)}.
-  [S.l.], 2022. p. 43--49.}
+  [S.l.], 2022. p. 43--49. \mbox{doi:
+  }\url{https://doi.org/10.5753/latinoware.2022.228034}.}
 
 \bibitem[Brasil 2023]{deeplearningbook2023}
 \abntrefinfo{Brasil}{BRASIL}{2023}
@@ -90,7 +93,8 @@ Dispon{\'\i}vel em:
 \bibitem[Girshick 2015]{girshick2015fast}
 \abntrefinfo{Girshick}{GIRSHICK}{2015}
 {GIRSHICK, R. Fast r-cnn. In:  \emph{Proceedings of the IEEE international
-  conference on computer vision}. [S.l.: s.n.], 2015. p. 1440--1448.}
+  conference on computer vision}. [S.l.: s.n.], 2015. p. 1440--1448. \mbox{doi:
+  }\url{https://doi.org/10.1109/ICCV.2015.169}.}
 
 \bibitem[Gomes 2022]{gomes2022detecccao}
 \abntrefinfo{Gomes}{GOMES}{2022}
@@ -131,12 +135,14 @@ Dispon{\'\i}vel em:
 \abntrefinfo{Hussain}{HUSSAIN}{2023}
 {HUSSAIN, M. Yolo-v1 to yolo-v8, the rise of yolo and its complementary nature
   toward digital manufacturing and industrial defect detection.
-\emph{Machines}, MDPI, v.~11, n.~7, p.~677, 2023.}
+\emph{Machines}, MDPI, v.~11, n.~7, p.~677, 2023.
+\mbox{doi: }\url{https://doi.org/10.3390/machines11070677}.}
 
 \bibitem[Jiang et al. 2022]{jiang2022review}
 \abntrefinfo{Jiang et al.}{JIANG et al.}{2022}
 {JIANG, P. et al. A review of yolo algorithm developments.
-\emph{Procedia computer science}, Elsevier, v.~199, p. 1066--1073, 2022.}
+\emph{Procedia computer science}, Elsevier, v.~199, p. 1066--1073, 2022.
+\mbox{doi: }\url{https://doi.org/10.1016/j.procs.2022.01.135}.}
 
 \bibitem[Jocher, Chaurasia e Qiu 2023]{ultralytics2023yolo}
 \abntrefinfo{Jocher, Chaurasia e Qiu}{JOCHER; CHAURASIA; QIU}{2023}
@@ -195,25 +201,29 @@ Dispon{\'\i}vel em:
 {LIMA, M. E.~A.; OLIVEIRA, R.~C. Precariza{\c{c}}{\~a}o e acidentes de
   trabalho: os riscos da terceiriza{\c{c}}{\~a}o no setor el{\'e}trico.
 \emph{Revista Brasileira de Sa{\'u}de Ocupacional}, SciELO Brasil, v.~46,
-  p.~e6, 2021.}
+  p.~e6, 2021.
+\mbox{doi: }\url{https://doi.org/10.1590/2317-6369000024019}.}
 
 \bibitem[Lopes et al. 2012]{lopes2012smart}
 \abntrefinfo{Lopes et al.}{LOPES et al.}{2012}
 {LOPES, Y. et al. Smart grid e iec 61850: Novos desafios em redes e
   telecomunica{\c{c}}oes para o sistema el{\'e}trico.
-\emph{XXX Simp{\'o}sio Brasileiro de Telecomunica{\c{c}}{\~o}es}, 2012.}
+\emph{XXX Simp{\'o}sio Brasileiro de Telecomunica{\c{c}}{\~o}es}, 2012.
+\mbox{doi: }\url{https://doi.org/10.14209/sbrt.2012.188}.}
 
 \bibitem[McCulloch e Pitts 1943]{mcculloch1943logical}
 \abntrefinfo{McCulloch e Pitts}{MCCULLOCH; PITTS}{1943}
 {MCCULLOCH, W.~S.; PITTS, W. A logical calculus of the ideas immanent in
   nervous activity.
 \emph{The bulletin of mathematical biophysics}, Springer, v.~5, p. 115--133,
-  1943.}
+  1943.
+\mbox{doi: }\url{https://doi.org/10.1007/BF02478259}.}
 
 \bibitem[Mell 2011]{mell2011nist}
 \abntrefinfo{Mell}{MELL}{2011}
 {MELL, P. The nist definition of cloud computing.
-\emph{NIST Special Publication}, p. 800--145, 2011.}
+\emph{NIST Special Publication}, p. 800--145, 2011.
+Https://doi.org/10.6028/NIST.SP.800-145.}
 
 \bibitem[Music 2024]{shorthistory}
 \abntrefinfo{Music}{MUSIC}{2024}
@@ -226,7 +236,8 @@ Dispon{\'\i}vel em:
 \abntrefinfo{Neto et al.}{NETO et al.}{2023}
 {NETO, J. et al. Enhancing electrical substation training through multi-user
   virtual reality techniques. In:  \emph{Proceedings of the 25th Symposium on
-  Virtual and Augmented Reality}. [S.l.: s.n.], 2023. p. 105--111.}
+  Virtual and Augmented Reality}. [S.l.: s.n.], 2023. p. 105--111. \mbox{doi:
+  }\url{https://doi.org/10.1145/3625008.3625025}.}
 
 \bibitem[Neto et al. 2024]{neto2024estrategias}
 \abntrefinfo{Neto et al.}{NETO et al.}{2024}
@@ -243,14 +254,16 @@ Dispon{\'\i}vel em:
 {O{\u{G}}CU, G.; DEMIREL, O.~F.; ZAIM, S. Forecasting electricity consumption
   with neural networks and support vector regression.
 \emph{Procedia-Social and Behavioral Sciences}, Elsevier, v.~58, p. 1576--1585,
-  2012.}
+  2012.
+\mbox{doi: }\url{https://doi.org/10.1016/j.sbspro.2012.09.1144}.}
 
 \bibitem[Padilla, Netto e Silva 2020]{padilla2020survey}
 \abntrefinfo{Padilla, Netto e Silva}{PADILLA; NETTO; SILVA}{2020}
 {PADILLA, R.; NETTO, S.~L.; SILVA, E.~A. D. A survey on performance metrics for
   object-detection algorithms. In:  IEEE. \emph{2020 international conference
   on systems, signals and image processing (IWSSIP)}. [S.l.], 2020. p.
-  237--242.}
+  237--242. \mbox{doi:
+  }\url{https://doi.org/10.1109/IWSSIP48289.2020.9145130}.}
 
 \bibitem[Palmeira et al. 2020]{palmeira2020uncanny}
 \abntrefinfo{Palmeira et al.}{PALMEIRA et al.}{2020}
@@ -270,7 +283,8 @@ Acesso em: 01 de nov. de 2023.}
 \bibitem[Randolph 2013]{randolph2013electric}
 \abntrefinfo{Randolph}{RANDOLPH}{2013}
 {RANDOLPH, J. Electric power substations engineering [book reviews].
-\emph{IEEE Power and Energy Magazine}, IEEE, v.~11, n.~3, p. 103--105, 2013.}
+\emph{IEEE Power and Energy Magazine}, IEEE, v.~11, n.~3, p. 103--105, 2013.
+\mbox{doi: }\url{https://doi.org/10.1109/MPE.2013.2246935}.}
 
 \bibitem[Rauber 2005]{rauber2005redes}
 \abntrefinfo{Rauber}{RAUBER}{2005}
@@ -281,7 +295,8 @@ Acesso em: 01 de nov. de 2023.}
 \abntrefinfo{Redmon et al.}{REDMON et al.}{2016}
 {REDMON, J. et al. You only look once: Unified, real-time object detection. In:
    \emph{Proceedings of the IEEE conference on computer vision and pattern
-  recognition}. [S.l.: s.n.], 2016. p. 779--788.}
+  recognition}. [S.l.: s.n.], 2016. p. 779--788. \mbox{doi:
+  }\url{https://doi.org/10.1109/CVPR.2016.91}.}
 
 \bibitem[Redmon e Farhadi 2018]{redmon2018yolov3}
 \abntrefinfo{Redmon e Farhadi}{REDMON; FARHADI}{2018}
@@ -301,21 +316,24 @@ Dispon{\'\i}vel em:
 {ROSENBLATT, F. The perceptron: a probabilistic model for information storage
   and organization in the brain.
 \emph{Psychological review}, American Psychological Association, v.~65, n.~6,
-  p.~386, 1958.}
+  p.~386, 1958.
+\mbox{doi: }\url{https://doi.org/10.1037/h0042519}.}
 
 \bibitem[Rumelhart, Hinton e Williams 1986]{rumelhart1986learning}
 \abntrefinfo{Rumelhart, Hinton e Williams}{RUMELHART; HINTON; WILLIAMS}{1986}
 {RUMELHART, D.~E.; HINTON, G.~E.; WILLIAMS, R.~J. Learning representations by
   back-propagating errors.
 \emph{nature}, Nature Publishing Group UK London, v.~323, n.~6088, p. 533--536,
-  1986.}
+  1986.
+\mbox{doi: }\url{https://doi.org/10.1038/323533a0}.}
 
 \bibitem[S{\'a} et al. 2024]{sa2024yolov8}
 \abntrefinfo{S{\'a} et al.}{S{\'A} et al.}{2024}
 {S{\'A}, P. C.~A. et al. Yolov8 para controle de produ{\c{c}}{\~a}o
   p{\'o}s-colheita e beneficiamento de frutos.
 \emph{Revista de Engenharia e Pesquisa Aplicada}, v.~9, n.~1, p. 115--122,
-  2024.}
+  2024.
+\mbox{doi: }\url{https://doi.org/10.25286/repa.v9i1.2788}.}
 
 \bibitem[Samrat 2024]{itsmeSamrat2024}
 \abntrefinfo{Samrat}{SAMRAT}{2024}
@@ -351,7 +369,8 @@ p. 329--346, 1963.}
 \bibitem[Sutherland 1968]{sutherland1968head}
 \abntrefinfo{Sutherland}{SUTHERLAND}{1968}
 {SUTHERLAND, I.~E. A head-mounted three dimensional display.
-p. 757--764, 1968.}
+p. 757--764, 1968.
+\mbox{doi: }\url{https://doi.org/10.1145/1476589.1476686}.}
 
 \bibitem[Terven e Cordova-Esparza 2023]{terven2023comprehensive}
 \abntrefinfo{Terven e Cordova-Esparza}{TERVEN; CORDOVA-ESPARZA}{2023}
@@ -382,12 +401,14 @@ Dispon{\'\i}vel em: \url{https://github.com/ultralytics/ultralytics}.}
 \abntrefinfo{Wang et al.}{WANG et al.}{2023}
 {WANG, G. et al. Uav-yolov8: a small-object-detection model based on improved
   yolov8 for uav aerial photography scenarios.
-\emph{Sensors}, MDPI, v.~23, n.~16, p.~7190, 2023.}
+\emph{Sensors}, MDPI, v.~23, n.~16, p.~7190, 2023.
+\mbox{doi: }\url{https://doi.org/10.3390/s23167190}.}
 
 \bibitem[Widrow, Hoff et al. 1960]{widrow1960adaptive}
 \abntrefinfo{Widrow, Hoff et al.}{WIDROW; HOFF et al.}{1960}
 {WIDROW, B.; HOFF, M.~E. et al. Adaptive switching circuits.
-v.~4, n.~1, p. 96--104, 1960.}
+v.~4, n.~1, p. 96--104, 1960.
+\mbox{doi: }\url{https://doi.org/10.21236/AD0241531}.}
 
 \bibitem[YOLOv8 2025]{yolov8_box_loss}
 \abntrefinfo{YOLOv8}{YOLOV8}{2025}
@@ -400,12 +421,14 @@ Dispon{\'\i}vel em: \url{https://yolov8.org/what-is-box-loss-in-yolov8/}.}
 {ZHOU, K.; FU, C.; YANG, S. Big data driven smart energy management: From big
   data to big insights.
 \emph{Renewable and sustainable energy reviews}, Elsevier, v.~56, p. 215--225,
-  2016.}
+  2016.
+\mbox{doi: }\url{https://doi.org/10.1016/j.rser.2015.11.050}.}
 
 \bibitem[Zhou et al. 2024]{zhou2024towards}
 \abntrefinfo{Zhou et al.}{ZHOU et al.}{2024}
 {ZHOU, P. et al. Towards understanding convergence and generalization of adamw.
 \emph{IEEE Transactions on Pattern Analysis and Machine Intelligence}, IEEE,
-  2024.}
+  2024.
+\mbox{doi: }\url{https://doi.org/10.1109/TPAMI.2024.3382294}.}
 
 \end{thebibliography}
